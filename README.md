@@ -80,6 +80,12 @@ Launch the interactive Streamlit UI:
 ```bash
 streamlit run app.py
 ```
+The dashboard has two independent tabs:
+
+- **History & Timing** uses the existing historical analyst and price-history tables.
+- **Market Investigator** loads stored market offers or explicitly fetches live
+  SerpAPI/Apify results. Merely opening the tab does not consume provider credits.
+
 *Note: If the `GEMINI_API_KEY` is missing, the LangGraph engine will gracefully fail via a strict production security fault, preventing silent LLM hallucinations.*
 
 ### 5. Run the Market Investigator data pipeline

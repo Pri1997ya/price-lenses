@@ -1,169 +1,433 @@
-import streamlit as st
+"""PriceLens Streamlit application with history and live-market workspaces."""
+from __future__ import annotations
+
+from dataclasses import asdict, replace
+
 import pandas as pd
 import plotly.express as px
-from orchestrator import graph
-from tools.analytics import get_db_connection
+import streamlit as st
 
-# Streamlit Page Config
+from orchestrator import graph
+from tools import market_ui
+from tools.analytics import get_db_connection
+from tools.market_config import ConfigurationError, MarketSettings
+from tools.market_db import MarketDatabase, MarketSchemaError
+from tools.market_service import MarketInvestigatorService, build_providers
+
+
 st.set_page_config(page_title="PriceLens Advisor", page_icon="🔍", layout="wide")
 
-def fetch_price_history(canonical_id):
-    """Fetches the raw time-series data for the Plotly chart."""
-    conn = get_db_connection()
+
+def fetch_price_history(canonical_id: str) -> pd.DataFrame:
+    """Fetch the existing historical time series used by the History Agent."""
+    connection = get_db_connection()
     try:
-        query = "SELECT recorded_date, price FROM price_history WHERE canonical_id = %s ORDER BY recorded_date ASC"
-        df = pd.read_sql_query(query, conn, params=(canonical_id,))
-        return df
-    except Exception as e:
-        st.error(f"Database error: {e}")
-        return pd.DataFrame()
+        return pd.read_sql_query(
+            """
+            SELECT recorded_date, price
+            FROM price_history
+            WHERE canonical_id = %s
+            ORDER BY recorded_date ASC
+            """,
+            connection,
+            params=(canonical_id,),
+        )
     finally:
-        conn.close()
+        connection.close()
 
-# ---------------------------------------------------------
-# UI Layout
-# ---------------------------------------------------------
-st.title("🔍 PriceLens: Autonomous Deal Advisor")
-st.markdown("Enter an Amazon URL, ASIN, or product name below. The LangGraph Multi-Agent system will evaluate the historical trends and market conditions to give you a definitive **BUY NOW** or **WAIT** recommendation.")
 
-# Sidebar Input
-st.sidebar.header("Product Search")
-user_input = st.sidebar.text_input(
-    "Amazon URL, ASIN, or Name:", 
-    value="B0CS5XW6TN",
-    help="Try 'B0CS5XW6TN', 'iPhone 15', or paste an Amazon /dp/ link."
-)
-analyze_btn = st.sidebar.button("Analyze Deal", type="primary")
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("**Agent Status**")
-st.sidebar.markdown("✅ **Input Resolver:** Active")
-st.sidebar.markdown("✅ **History Agent:** Active")
-st.sidebar.markdown("⏳ **Market Agent:** Stubbed")
-st.sidebar.markdown("⏳ **Eligibility Agent:** Stubbed")
-
-# Execution Block
-if analyze_btn and user_input:
-    with st.status("🚀 Executing Multi-Agent DAG...", expanded=True) as status:
-        # 1. Trigger the DAG with Streaming
-        initial_state = {"query": user_input}
-        result_state = initial_state.copy()
-        
+def run_history_analysis(query: str) -> dict | None:
+    initial_state = {"query": query}
+    result_state = initial_state.copy()
+    with st.status("🚀 Executing History Agent workflow...", expanded=True) as status:
         try:
             for event in graph.stream(initial_state, {"recursion_limit": 15}):
                 for node_name, node_state in event.items():
-                    # Format node name (e.g. "history_agent" -> "History Agent")
-                    formatted_name = node_name.replace("_", " ").title()
-                    st.write(f"✅ **{formatted_name}** node completed.")
-                    
-                    # Merge state updates
+                    st.write(f"✅ **{node_name.replace('_', ' ').title()}** completed")
                     result_state.update(node_state)
-                    
                     if result_state.get("errors"):
                         break
-                        
             errors = result_state.get("errors", [])
             if errors:
-                status.update(label="Execution Failed", state="error", expanded=True)
-                st.error(f"Error during input resolution: {errors[0]}")
-                st.stop()
-                
-            status.update(label="Analysis Complete!", state="complete", expanded=False)
-            
-        except Exception as e:
-            status.update(label="System Error Encountered", state="error", expanded=True)
-            st.error(f"FATAL ERROR: {str(e)}")
-            st.stop()
-            
+                status.update(label="Analysis failed", state="error", expanded=True)
+                st.error(errors[0])
+                return None
+            status.update(label="History analysis complete", state="complete", expanded=False)
+            return result_state
+        except Exception as exc:
+            status.update(label="History analysis failed", state="error", expanded=True)
+            st.error(f"History Agent error: {exc}")
+            return None
+
+
+def render_history_results(result_state: dict) -> None:
     canonical_id = result_state.get("canonical_id")
-    product_title = result_state.get("product_title")
-    
-    # 2. Extract Agent Reports
+    product_title = result_state.get("product_title") or canonical_id or "Product"
     history_report = result_state.get("history_report", {})
     trend = history_report.get("trend", {})
     drops = history_report.get("drops", {})
-    
-    # --- Main Dashboard ---
+
     st.header(product_title)
-    st.caption(f"ASIN: {canonical_id}")
-    
-    # Top Metrics Row
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Current Price", f"₹{trend.get('current_price', 0):,.0f}")
-    c2.metric("All-Time Low", f"₹{trend.get('true_atl', 0):,.0f}")
-    c3.metric("30-Day Average", f"₹{trend.get('avg_30d', 0):,.0f}")
-    c4.metric("DHI Score (0-100)", f"{trend.get('s_history', 0)} / 100")
+    st.caption(f"Product ID: {canonical_id}")
 
-    st.divider()
+    metric_columns = st.columns(4)
+    metric_columns[0].metric("Current Price", f"₹{trend.get('current_price', 0):,.0f}")
+    metric_columns[1].metric("All-Time Low", f"₹{trend.get('true_atl', 0):,.0f}")
+    metric_columns[2].metric("30-Day Average", f"₹{trend.get('avg_30d', 0):,.0f}")
+    metric_columns[3].metric("DHI Score", f"{trend.get('s_history', 0)} / 100")
 
-    # 4-Card Layout
-    col1, col2 = st.columns([1, 1])
-    
-    # CARD 1: Final Verdict & Timing
-    with col1:
-        st.subheader("Card 1: Final Verdict & Timing")
-        stance = trend.get("historical_stance", "UNKNOWN")
-        
+    verdict_column, chart_column = st.columns(2)
+    with verdict_column:
+        st.subheader("Verdict & Timing")
         with st.container(border=True):
+            stance = trend.get("historical_stance", "UNKNOWN")
             if stance == "BUY_NOW":
-                st.success("### 🟢 BUY NOW (Steal Deal)")
-                st.write("This product is near its all-time low. The History Agent has mathematically verified that this is an optimal time to purchase.")
+                st.success("### 🟢 BUY NOW")
+                st.write("The price is near its verified historical low.")
             else:
-                st.warning("### 🟡 WAIT (Price Inflated)")
-                st.write(drops.get("rationale", "Price is currently inflated."))
-                
-                if "safe_target_price" in drops:
-                    st.markdown(f"#### 🎯 Target Wait Price: **₹{drops['safe_target_price']:,.0f}**")
-                    st.info(f"Expect a **{drops.get('expected_discount_pct', 0)}%** drop during the {drops.get('upcoming_sale')}.")
-                    
-        # Show the LLM's natural language analysis
-        if "llm_analysis" in history_report:
-            st.write("**🤖 History Agent Analysis (Gemini):**")
+                st.warning("### 🟡 WAIT")
+                st.write(drops.get("rationale", "The current price is elevated."))
+                if drops.get("safe_target_price") is not None:
+                    st.markdown(f"#### Target price: ₹{drops['safe_target_price']:,.0f}")
+                    st.info(
+                        f"Expected {drops.get('expected_discount_pct', 0)}% reduction "
+                        f"during {drops.get('upcoming_sale', 'an upcoming sale')}."
+                    )
+        if history_report.get("llm_analysis"):
+            st.write("**History Agent analysis**")
             st.info(history_report["llm_analysis"])
-            
-        # Log the minute details (Thought Process)
-        if "agent_trace" in history_report:
-            with st.expander("🔍 View LLM Thought Process & Tool Calls"):
-                for log in history_report["agent_trace"]:
-                    st.code(log, language="text")
+        if history_report.get("agent_trace"):
+            with st.expander("View LLM tool trace"):
+                for log_entry in history_report["agent_trace"]:
+                    st.code(log_entry, language="text")
 
-    # CARD 2: Price Trajectory
-    with col2:
-        st.subheader("Card 2: Price Trajectory")
+    with chart_column:
+        st.subheader("Price Trajectory")
         with st.container(border=True):
-            df = fetch_price_history(canonical_id)
-            if not df.empty:
-                fig = px.line(df, x="recorded_date", y="price")
-                fig.update_layout(
+            try:
+                history = fetch_price_history(canonical_id)
+            except Exception as exc:
+                st.error(f"Unable to load price history: {exc}")
+                history = pd.DataFrame()
+            if history.empty:
+                st.info("No time-series data is available for this product.")
+            else:
+                figure = px.line(history, x="recorded_date", y="price")
+                figure.update_layout(
                     margin=dict(l=20, r=20, t=20, b=20),
                     xaxis_title=None,
                     yaxis_title="Price (₹)",
-                    showlegend=False
+                    showlegend=False,
                 )
-                
-                # Add current price and ATL lines
-                curr_val = trend.get('current_price', 0)
-                atl_val = trend.get('true_atl', 0)
-                
-                fig.add_hline(y=curr_val, line_dash="dot", line_color="red", annotation_text="Today")
-                fig.add_hline(y=atl_val, line_dash="dash", line_color="green", annotation_text="ATL")
-                
-                st.plotly_chart(fig, use_container_width=True)
-            else:
-                st.write("No time-series data available to plot.")
+                figure.add_hline(
+                    y=trend.get("current_price", 0),
+                    line_dash="dot",
+                    line_color="red",
+                    annotation_text="Today",
+                )
+                figure.add_hline(
+                    y=trend.get("true_atl", 0),
+                    line_dash="dash",
+                    line_color="green",
+                    annotation_text="ATL",
+                )
+                st.plotly_chart(figure, use_container_width=True)
 
-    # Lower Cards (Stubs for future agents)
-    st.divider()
-    col3, col4 = st.columns([1, 1])
-    
-    with col3:
-        st.subheader("Card 3: Smart Arbitrage")
-        with st.container(border=True):
-            st.info("⏳ Market & Arbitrage Agent (Pending)")
-            st.write("Will display live Flipkart vs Croma vs Amazon prices, plus Dubai/US travel arbitrage.")
-        
-    with col4:
-        st.subheader("Card 4: Review Intelligence")
-        with st.container(border=True):
-            st.info("⏳ Eligibility Agent (Pending)")
-            st.write("Will display ChromaDB warranty policies and AI defect summaries (e.g., heating, battery life, screen lines).")
+    with st.container(border=True):
+        st.info("⏳ Review Intelligence Agent is pending implementation.")
+
+
+def render_history_tab() -> None:
+    st.subheader("History & Purchase Timing")
+    st.caption(
+        "Analyze stored PostgreSQL price history and receive a BUY NOW or WAIT recommendation."
+    )
+    with st.form("history_search_form"):
+        input_column, button_column = st.columns([5, 1])
+        query = input_column.text_input(
+            "Amazon URL, ASIN, or product name",
+            value=st.session_state.get("history_query", "B0CS5XW6TN"),
+            help="Try an ASIN, a product name, or an Amazon /dp/ link.",
+        )
+        submitted = button_column.form_submit_button(
+            "Analyze", type="primary", use_container_width=True
+        )
+
+    if submitted:
+        if not query.strip():
+            st.warning("Enter a product to analyze.")
+        else:
+            st.session_state["history_query"] = query.strip()
+            result = run_history_analysis(query.strip())
+            if result:
+                st.session_state["history_result"] = result
+
+    result = st.session_state.get("history_result")
+    if result:
+        render_history_results(result)
+    else:
+        st.info("Enter a product above to inspect its historical price behavior.")
+
+
+def market_database(settings: MarketSettings) -> MarketDatabase | None:
+    try:
+        return MarketDatabase(settings.database_url)
+    except MarketSchemaError as exc:
+        st.error(str(exc))
+    except Exception as exc:
+        st.error(f"Could not connect to the Market Investigator database: {exc}")
+    return None
+
+
+def fetch_market_results(query: str, settings: MarketSettings) -> tuple[list[dict], list[dict]]:
+    database = market_database(settings)
+    if database is None:
+        return [], []
+    try:
+        return database.offers_for_query(query), database.promotions_for_query(query)
+    finally:
+        database.close()
+
+
+def render_market_results(
+    query: str, offer_rows: list[dict], promotion_rows: list[dict]
+) -> None:
+    rows = market_ui.enrich_rows(offer_rows)
+    st.subheader(f"Results for “{query}”")
+    if not rows:
+        st.info("No stored offers were found for this exact query.")
+        return
+
+    products = market_ui.group_products(rows)
+    product_labels = {
+        product["canonical_id"]: (
+            f"{(product['title'] or product['canonical_id'])[:70]} "
+            f"({product['offers']} offers)"
+        )
+        for product in products
+    }
+    marketplaces = sorted({row["marketplace"] for row in rows})
+    product_column, market_column, rating_column = st.columns([3, 2, 1])
+    chosen_product = product_column.selectbox(
+        "Product",
+        [""] + list(product_labels),
+        format_func=lambda value: "All matched products" if not value else product_labels[value],
+        key=f"market_product_{query}",
+    )
+    chosen_markets = market_column.multiselect(
+        "Marketplace",
+        marketplaces,
+        default=marketplaces,
+        key=f"market_marketplaces_{query}",
+    )
+    minimum_rating = rating_column.slider(
+        "Min rating", 0.0, 5.0, 0.0, 0.5, key=f"market_rating_{query}"
+    )
+    filtered = market_ui.filter_rows(
+        rows, chosen_markets, minimum_rating, chosen_product or None
+    )
+    if not filtered:
+        st.warning("No offers match the selected filters.")
+        return
+
+    summary = market_ui.summarize(filtered)
+    metric_columns = st.columns(4)
+    cheapest = summary["cheapest"]
+    metric_columns[0].metric(
+        "Lowest effective price",
+        market_ui.format_money(
+            cheapest["effective_price"] if cheapest else None, summary["currency"]
+        ),
+    )
+    metric_columns[1].metric(
+        "Average effective price",
+        market_ui.format_money(summary["average"], summary["currency"]),
+    )
+    metric_columns[2].metric(
+        "Offers · Marketplaces", f"{summary['offers']} · {summary['marketplaces']}"
+    )
+    best_rated = summary["best_rated"]
+    metric_columns[3].metric(
+        "Best rated", f"{best_rated['rating']:.1f} ★" if best_rated else "-"
+    )
+
+    table = pd.DataFrame(market_ui.offers_table(filtered))
+    st.dataframe(
+        table,
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "Price": st.column_config.NumberColumn(format="₹ %.0f"),
+            "Effective price": st.column_config.NumberColumn(format="₹ %.0f"),
+            "Was": st.column_config.NumberColumn(format="₹ %.0f"),
+            "Discount %": st.column_config.NumberColumn(format="%.1f%%"),
+            "Rating": st.column_config.NumberColumn(format="%.1f ★"),
+            "Link": st.column_config.LinkColumn("Link", display_text="Open"),
+        },
+    )
+
+    visible_offer_ids = {row["offer_id"] for row in filtered if row.get("offer_id")}
+    promotions = market_ui.promotions_table(promotion_rows, visible_offer_ids)
+    st.markdown("**Product-specific offers and promotions**")
+    if promotions:
+        counts = market_ui.promotion_summary(promotion_rows, visible_offer_ids)
+        st.caption(" · ".join(f"{name}: {count}" for name, count in sorted(counts.items())))
+        st.dataframe(
+            pd.DataFrame(promotions),
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Amount": st.column_config.NumberColumn(format="₹ %.0f"),
+                "Percent": st.column_config.NumberColumn(format="%.1f%%"),
+                "Product link": st.column_config.LinkColumn(
+                    "Product link", display_text="Open"
+                ),
+            },
+        )
+    else:
+        st.caption(
+            "No structured product-specific promotions are stored for these offers. "
+            "Enable provider enrichment and fetch again."
+        )
+
+    st.download_button(
+        "Download offers CSV",
+        table.to_csv(index=False).encode("utf-8"),
+        "market-offers.csv",
+        "text/csv",
+    )
+
+    currency = summary["currency"]
+    chart_rows = [
+        row
+        for row in filtered
+        if row.get("effective_price") is not None and row.get("currency") == currency
+    ]
+    if chart_rows:
+        chart = pd.DataFrame(
+            {
+                "Seller": [market_ui.offer_label(row) for row in chart_rows],
+                "Effective price": [row["effective_price"] for row in chart_rows],
+            }
+        ).sort_values("Effective price")
+        st.bar_chart(chart.set_index("Seller"))
+
+
+def render_market_tab() -> None:
+    st.subheader("Live Market Investigator")
+    st.caption(
+        "Compare India prices, sellers, availability, and product-specific promotions "
+        "from SerpAPI and Apify."
+    )
+    st.warning(
+        "Live fetches may consume SerpAPI or Apify credits. Loading stored results does not call providers."
+    )
+
+    try:
+        settings = MarketSettings.from_env()
+    except ConfigurationError as exc:
+        st.error(f"Market configuration error: {exc}")
+        st.code("DATABASE_URL=<postgresql connection string>", language="bash")
+        return
+
+    with st.form("market_search_form"):
+        query = st.text_input(
+            "Amazon/Flipkart URL, ASIN, or product name",
+            value=st.session_state.get("market_query", ""),
+            placeholder="e.g. Apple iPhone 16 128GB",
+        )
+        option_columns = st.columns(4)
+        use_serpapi = option_columns[0].checkbox("SerpAPI", value=True)
+        use_apify = option_columns[1].checkbox("Apify", value=True)
+        enrich_amazon = option_columns[2].checkbox(
+            "Amazon details",
+            value=settings.serpapi_enrich_amazon,
+            help="Uses extra SerpAPI Product API credits. Amazon Search remains the discovery API.",
+        )
+        enrich_apify = option_columns[3].checkbox(
+            "Seller/promotion enrichment",
+            value=bool(settings.apify_enrichers),
+            help="Runs product-detail actors and may consume additional Apify credits.",
+        )
+        limit = st.slider("Results per provider", 5, 50, 20, step=5)
+        fetch_button, load_button = st.columns(2)
+        fetch_live = fetch_button.form_submit_button(
+            "Fetch live offers", type="primary", use_container_width=True
+        )
+        load_stored = load_button.form_submit_button(
+            "Load stored results", use_container_width=True
+        )
+
+    normalized_query = query.strip()
+    if fetch_live or load_stored:
+        if not normalized_query:
+            st.warning("Enter a product name or product URL.")
+        else:
+            st.session_state["market_query"] = normalized_query
+            st.session_state["market_active_query"] = normalized_query
+
+    if fetch_live and normalized_query:
+        provider_names = [
+            name
+            for name, enabled in (("serpapi", use_serpapi), ("apify", use_apify))
+            if enabled
+        ]
+        if not provider_names:
+            st.warning("Select at least one provider.")
+        else:
+            runtime_settings = replace(
+                settings,
+                serpapi_enrich_amazon=enrich_amazon,
+                apify_enrichers=settings.apify_enrichers if enrich_apify else (),
+            )
+            providers = []
+            for provider_name in provider_names:
+                try:
+                    providers.extend(build_providers(runtime_settings, (provider_name,)))
+                except ConfigurationError as exc:
+                    st.error(f"{provider_name}: {exc}")
+            if providers:
+                database = market_database(runtime_settings)
+                if database is not None:
+                    try:
+                        with st.spinner(
+                            f"Fetching from {', '.join(provider.name for provider in providers)}..."
+                        ):
+                            results = MarketInvestigatorService(database, providers).search(
+                                normalized_query, limit
+                            )
+                        st.session_state["market_run_results"] = [
+                            asdict(result) for result in results
+                        ]
+                    finally:
+                        database.close()
+
+    for result in st.session_state.get("market_run_results", []):
+        if result["status"] == "error":
+            st.error(f"{result['provider']}: {result['error']}")
+        else:
+            st.success(
+                f"{result['provider']}: {result['count']} offers stored "
+                f"({result['status']})"
+            )
+            for warning in result.get("warnings", []):
+                st.warning(f"{result['provider']}: {warning}")
+
+    active_query = st.session_state.get("market_active_query")
+    if active_query:
+        offers, promotions = fetch_market_results(active_query, settings)
+        render_market_results(active_query, offers, promotions)
+    else:
+        st.info("Fetch live offers or load an exact query already stored in PostgreSQL.")
+
+
+st.title("🔍 PriceLens: Autonomous Deal Advisor")
+st.caption(
+    "Use historical pricing to decide when to buy, then compare live Indian-market offers."
+)
+
+history_tab, market_tab = st.tabs(["📈 History & Timing", "🛒 Market Investigator"])
+with history_tab:
+    render_history_tab()
+with market_tab:
+    render_market_tab()
