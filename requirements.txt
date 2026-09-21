@@ -150,6 +150,7 @@ propcache==0.5.2
 protobuf==6.33.6
 psutil==7.2.2
 psycopg2-binary==2.9.13
+pytest==9.1.1
 ptyprocess==0.7.0
 pure_eval==0.2.4
 pyarrow==25.0.1

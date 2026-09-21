@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: pricelens-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: pricelens
+      POSTGRES_USER: pricelens
+      POSTGRES_PASSWORD: pricelens_local
+    ports:
+      - "5433:5432"
+    volumes:
+      - pricelens_main_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pricelens -d pricelens"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  # A distinct volume name preserves any older Agent 2 local database volume.
+  pricelens_main_pgdata:

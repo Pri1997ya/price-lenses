@@ -2,7 +2,7 @@
 """
 PriceLens PostgreSQL Database Initializer
 =========================================
-Initializes all relational and time-series tables in Neon PostgreSQL,
+Initializes all relational and time-series tables in PostgreSQL,
 and seeds the reference tables (sales_calendar, authorized_sellers).
 """
 
@@ -113,7 +113,7 @@ ON CONFLICT (brand, retailer, seller_name) DO NOTHING;
 """
 
 def main():
-    print("🔌 Connecting to Neon PostgreSQL...")
+    print("🔌 Connecting to PostgreSQL...")
     try:
         conn = psycopg2.connect(DATABASE_URL)
         with conn.cursor() as cur:
@@ -129,7 +129,7 @@ def main():
                 ORDER BY table_name;
             """)
             tables = [row[0] for row in cur.fetchall()]
-            print(f"✅ Successfully initialized Neon Database! Active tables:")
+            print("✅ Successfully initialized PostgreSQL. Active tables:")
             for t in tables:
                 print(f"   • {t}")
 
