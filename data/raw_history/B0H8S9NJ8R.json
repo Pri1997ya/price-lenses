@@ -1,0 +1,144 @@
+{
+  "price_overview": {
+    "current_price": 42990,
+    "all_time_low": 39890,
+    "all_time_high": 42990,
+    "avg_30_days": 41857.13,
+    "overall_average": 40979.1,
+    "low_6_months": 39890,
+    "trend_percentage": 7.48
+  },
+  "deal_evaluation": {
+    "score": 28,
+    "verdict": "Weak deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 29999,
+      "is_current": false,
+      "url": "https://www.flipkart.com/oppo-k13-turbo-pro-5g-silver-knight-256-gb/p/itmeefeb718f01fe?pid=MOBHEP9WEM5ZXDMZ&lid=LSTMOBHEP9WEM5ZXDMZYP34IG"
+    },
+    "Reliance Digital": {
+      "price": 34999,
+      "is_current": false,
+      "url": "https://www.reliancedigital.in/product/oppo-k13-turbo-pro-256-gb-8-gb-ram-sliver-knight-mobile-phone-megv7m-9343148"
+    },
+    "JioMart": {
+      "price": 34999,
+      "is_current": false,
+      "url": "https://www.jiomart.com/p/electronics/oppo-k13-turbo-pro-256-gb-8-gb-ram-sliver-knight-mobile-phone/612196783"
+    },
+    "Amazon": {
+      "price": 42990,
+      "is_current": true,
+      "url": "https://www.amazon.in/OPPO-K13-Turbo-Pro-Silver/dp/B0H8S9NJ8R/ref=mp_s_a_1_8?psc=1"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-07-25",
+      "price": 39999
+    },
+    {
+      "date": "2026-07-26",
+      "price": 39999
+    },
+    {
+      "date": "2026-07-27",
+      "price": 39999
+    },
+    {
+      "date": "2026-07-28",
+      "price": 39999
+    },
+    {
+      "date": "2026-07-29",
+      "price": 39890
+    },
+    {
+      "date": "2026-07-30",
+      "price": 39890
+    },
+    {
+      "date": "2026-08-01",
+      "price": 39890
+    },
+    {
+      "date": "2026-08-07",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-09",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-10",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-11",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-12",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-13",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-14",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-28",
+      "price": 40900
+    },
+    {
+      "date": "2026-08-29",
+      "price": 40900
+    },
+    {
+      "date": "2026-08-31",
+      "price": 41999
+    },
+    {
+      "date": "2026-09-01",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-02",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-03",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-06",
+      "price": 42990
+    },
+    {
+      "date": "2026-09-07",
+      "price": 42990
+    },
+    {
+      "date": "2026-09-09",
+      "price": 42990
+    },
+    {
+      "date": "2026-09-11",
+      "price": 42990
+    },
+    {
+      "date": "2026-09-12",
+      "price": 42990
+    },
+    {
+      "date": "2026-09-13",
+      "price": 42990
+    }
+  ],
+  "historical_data_points": 26
+}

@@ -1,0 +1,190 @@
+{
+  "price_overview": {
+    "current_price": 22499,
+    "all_time_low": 19066,
+    "all_time_high": 22499,
+    "avg_30_days": 22105.96,
+    "overall_average": 21792.06,
+    "low_6_months": 19066,
+    "trend_percentage": 4.65
+  },
+  "deal_evaluation": {
+    "score": 35,
+    "verdict": "Fair deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 20668,
+      "is_current": false,
+      "url": "https://www.flipkart.com/iqoo-z11-lite-5g-solar-flame-128-gb/p/itmaa919fae95e49?pid=MOBHPMVMYDW6VGFV&lid=LSTMOBHPMVMYDW6VGFVY5CDYZ"
+    },
+    "Amazon": {
+      "price": 22499,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0H1WX51F1"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-07-29",
+      "price": 21499
+    },
+    {
+      "date": "2026-07-30",
+      "price": 21499
+    },
+    {
+      "date": "2026-07-31",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-01",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-02",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-03",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-04",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-05",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-07",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-08",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-10",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-11",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-13",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-14",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-15",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-16",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-17",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-19",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-20",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-21",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-23",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-27",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-28",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-29",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-30",
+      "price": 21499
+    },
+    {
+      "date": "2026-08-31",
+      "price": 21499
+    },
+    {
+      "date": "2026-09-01",
+      "price": 19066
+    },
+    {
+      "date": "2026-09-03",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-04",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-06",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-07",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-08",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-10",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-11",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-12",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-13",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-14",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-15",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-18",
+      "price": 22499
+    },
+    {
+      "date": "2026-09-20",
+      "price": 22499
+    }
+  ],
+  "historical_data_points": 40
+}

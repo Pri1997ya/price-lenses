@@ -1,0 +1,757 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0HGM9VH47",
+    "name": "iQOO Z11x 5G (Eclipse Black, 6GB RAM, 128GB Storage)",
+    "offers": {
+      "price": 27999,
+      "priceCurrency": "\u20b9"
+    },
+    "brand": {
+      "slogan": "iQOO"
+    },
+    "image": "https://m.media-amazon.com/images/I/41tmpdWa-XL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": "The Z11x is powered by the MediaTek 7400-Turbo processor, with an AnTuTu score of 1Mn+, and features UFS 3.1 and 256GB storage. It comes with a 7200mAh battery rated for 1600 full charging cycles and designed to maintain battery health for up to 6 years, delivering 15.4 hours of gaming, 18.7 hours of social media use, and 40 hours of video playback, supported by 44W Smart FlashCharge and Bypass Charging. The device runs Origin OS 6 with 2 years of Android updates and 4 years of security patches, and includes AI Captions, AI Creation, AI Transcript Assist, and Origin Island with Drag & Go and Copy & Go. It also features IP68 and IP69+ dust and water resistance with Military Grade Durability, along with a 50MP Sony AI main camera and 32MP front camera supporting 4K video recording on both front and rear cameras, Dual-View Video, EIS, Live Photo, and 4K Video-to-Live Photo conversion.",
+    "reviewCount": 809,
+    "rating": null,
+    "aiSummary": "Key business insights across offers, brand, description, additionalProperties, and url:\n\n- Value proposition and positioning: The Z11x is framed as a battery-centric, rugged gaming smartphone with long-term software support (OriginOS 6, 2 years Android updates, 4 years security patches), strong durability (IP68/IP69+, Military Grade), and AI features. It touts a massive 7200 mAh battery, 44W charging, and gaming-specific features (Dual 10x touch, Monster Mode, 4D vibration, Game Voice Changer). This combination targets power users, gamers, and users who value long-term reliability.\n\n- Price signaling and promos: Current price is 27999 INR with a list price of 45999 INR, implying a steep discount to drive volume and awareness. This suggests a velocity-driven strategy but risks shaping price expectations and potential erosion of perceived value if promotions become the norm.\n\n- Data quality and consistency risk: There are inconsistencies across fields (description references 256GB storage, while attributes show 128GB; OS field lists \u201cOriginOS 6.0 based on Android 16,\u201d which is unlikely and inconsistent). These data gaps undermine buyer trust and could trigger returns or negative sentiment. Immediate data governance and feed alignment are warranted.\n\n- Channel and assortment signals: Listed on Amazon.in with in-stock status and multiple variants (Matrix Green and Eclipse Black) at 6GB+128GB, plus access to store branding and a dedicated \u201cVisit the iQOO Store\u201d link. Best Sellers ranks (Electronics #1447; Smartphones #80) indicate solid visibility but not market-leading momentum, suggesting room to grow share with stronger positioning.\n\n- Customer sentiment and risk indicators: AI-reported reviews depict strong battery praise but persistent concerns about performance, stability (hangs, slowdowns), heating, and mixed display/camera quality. The dichotomy between battery/value messaging and real-world performance risk indicates a potential misalignment between marketed strengths and user experience, threatening satisfaction and repeat purchases.\n\n- Product lifecycle and support optics: Emphasizing 2 years of Android updates and 4 years security patches is a strong differentiator in mid-range segments, appealing to value-minded buyers who want longer-term software support. The warranty (1 year device, 6 months accessories) aligns with common industry practice but should be highlighted alongside reliability efforts.\n\n- Marketing and upsell opportunities: Leverage gaming-centric features and AI capabilities in campaigns to justify premium-feel features at this price point. Bundling with fast chargers or rugged accessories (case, screen protector) could reinforce durability and value. The long-tail AI features (AI Captions, AI Creation, AI Transcript Assist) offer content-driven marketing angles.\n\n- Pricing psychology and competition: The steep list-to-sale delta signals aggressive discounting; monitor competitor pricing and consumer expectations in this tier to avoid value perception pitfalls. Consider clear communication around what is genuinely upgrade-worthy (battery endurance, durability, update cadence) to justify price positioning.\n\n- Data gaps and operational actions: Several fields are null or vague (monthlyPurchaseVolume, importantInformation, sustainabilityFeatures), and some spec data conflicts exist. Actionable steps include: reconcile specifications across feeds, validate OS version and storage claims, enrich sustainability and after-sales information, and tighten data governance to maintain trust.\n\n- Strategic recommendations:\n  - Align and verify data: Fix storage (256GB vs 128GB), OS version, and any other conflicting specs in all fields to prevent misleading listings and reviews.\n  - Sharpen value storytelling: Focus marketing on battery life, durability, and long-term software support; temper expectations around performance if benchmarks show lag.\n  - Address performance concerns: Invest in firmware optimization and thermal management; consider a targeted update release and communicate it clearly to reduce negative sentiment.\n  - Optimize pricing strategy: Maintain value-led promotions but ensure pricing is sustainable; test tiered offers (e.g., 6GB/128GB at 28k with bundled charger) to balance volume and margin.\n  - Expand channel insights: Leverage the iQOO Store branding to cross-sell accessories and future-proofing services; monitor reviews to quickly adapt messaging and product claims.\n  - Mitigate risk with transparency: Include clear disclaimers about performance expectations, and highlight warranty/after-sales support to reduce post-purchase dissonance.\n\nIn short, the listing markets a battery-focused, rugged gaming phone with strong update promises at a heavy promotional discount, but data integrity gaps and mixed user experiences around performance and heat pose significant brand and conversion risks that should be addressed with data fixes, software optimization, and targeted, value-aligned marketing.",
+    "additionalProperties": {
+      "asin": "B0HGM9VH47",
+      "originalAsin": "B0GP8XTH7K",
+      "inStock": true,
+      "inStockText": "In stock",
+      "listPrice": {
+        "value": 45999,
+        "currency": "\u20b9"
+      },
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.1,
+      "starsBreakdown": {
+        "5star": 0.56,
+        "4star": 0.21,
+        "3star": 0.09,
+        "2star": 0.04,
+        "1star": 0.1
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 5,
+      "visitStoreLink": {
+        "text": "Visit the iQOO Store",
+        "url": "https://www.amazon.in/stores/iQOO/page/291C27A4-502A-463E-A273-D2C362AF312A?lp_asin=B0HGM9VH47&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/41tmpdWa-XL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41Trmlt83PL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41WhwXQxIhL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41w1zDe+j1L._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/415x1VmvGkL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41f4yvt2OGL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/61Ab+wE97gL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61QO6Rni1pL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61F1YByagKL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61FZm5QDYcL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61KWcMmRJnL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61u0jT4-djL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71-rK4lcdgL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/51X6n1g1+fL._SL1200_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "PERFORMANCE: Segment\u2019s Fastest Smartphone, powered by Dimensity 7400 Turbo chipset with an AnTuTu score of 1Mn+, paired with UFS 3.1 and 256GB storage. Gaming features include Dual 10x Super Touch Control, Monster Mode, in-game overlay notifications, 4D game vibration, and Game Voice Changer for an immersive gaming experience.",
+        "BATTERY: Segment\u2019s Biggest Battery, Z11x packs a massive 7200mAh battery. Supports 1600 complete charging cycles maintaining battery health for up to 6 years. 44W FlashCharge, battery temperature control, and overnight charging protection ensure fast and safe charging. Supports Bypass charging, with 25-Dimension Security Protection and PPS support.",
+        "OPERATING SYSTEM: Running on OriginOS 6, the Z11x offers 2 years of Android updates and 4 years of security patches. Key features include AI Captions, AI Creation, AI Transcript Assist, Circle to Search, and Screen Translation. It also includes Private Space for added privacy, Origin Island with Drag & Go, Copy & Go, and lock screen customisation.",
+        "IP & DURABILITY: Industry\u2019s Leading IP68 & IP69+ dust and water resistance. It also comes with Military Grade Durability, designed to withstand drops, shocks, and tough daily use.",
+        "CAMERA: The Z11x includes a 50MP Sony IMX 852 Ultra-HD AI-powered main camera with a 32MP front camera. It supports 4K video recording on both front and rear cameras, 4K Video-to-Live Photo conversion, Dual-View Video Recording, Video Electronic Image Stabilisation (EIS), and Live Photo."
+      ],
+      "attributes": [
+        {
+          "key": "Replacement Reason  Replacement Period  Replacement Policy",
+          "value": ""
+        },
+        {
+          "key": "Operating System",
+          "value": "OriginOS 6.0 based on Android 16"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "6 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Mediatek Dimensity 7400"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "2.6 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Eclipse Black"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Product Features",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Flash Memory Supported Size Maximum",
+          "value": "128 GB"
+        },
+        {
+          "key": "Front Photo Sensor Resolution",
+          "value": "32 MP"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "2"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "7200"
+        },
+        {
+          "key": "Battery Description",
+          "value": "Lithium-Ion"
+        },
+        {
+          "key": "Battery Power",
+          "value": "7200"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "219 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "16.7 x 7.8 x 0.8 Centimeters"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "3840 x 2160"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "True"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "17.17 Centimetres"
+        },
+        {
+          "key": "Resolution",
+          "value": "2344 x 1080"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120"
+        },
+        {
+          "key": "Display Type",
+          "value": "LCD"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2344 x 1080 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "382 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked for All Carriers"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth 5.4, Infrared, USB, Wi-Fi"
+        },
+        {
+          "key": "Brand Name",
+          "value": "iQOO"
+        },
+        {
+          "key": "Model Year",
+          "value": "2026"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Cell phone, Eject Tool, Warranty card, Quick Start Guide, Phone case, Charger, USB cable, Protective Film (applied)"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 year manufacturer warranty for device & 6 months for In-box accessories from the date of purchase"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "iQOO, vivo Mobile India Pvt Ltd, Plot No 08, Sector 24, Yamuna Expressway Area, Gautam Buddha Nagar, Uttar Pradesh, 201310"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Count"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "vivo Mobile India Pvt Ltd, Plot No 08, Sector 24, Yamuna Expressway Area, Gautam Buddha Nagar, Uttar Pradesh, 201310"
+        },
+        {
+          "key": "Item Length",
+          "value": "16.66 Centimetres"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smartphone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "vivo Mobile India Pvt Ltd, Plot No 08, Sector 24, Yamuna Expressway Area, Gautam Buddha Nagar, Uttar Pradesh, 201310"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "vivo Mobile India Pvt Ltd, Plot No 08, Sector 24, Yamuna Expressway Area, Gautam Buddha Nagar, Uttar Pradesh, 201310"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#1,447 in Electronics (See Top 100 in Electronics)#80 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0HGM9VH47"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.1 4.1 out of 5 stars (809) 4.1 out of 5 stars"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [
+        "B0HGM8PBNL",
+        "B0HGM9VH47"
+      ],
+      "variantDetails": [
+        {
+          "name": "Matrix Green 6GB+128GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41T18TA-1JL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61HBOs7MdQL._SL1200_.jpg"
+          ],
+          "asin": "B0HGM8PBNL",
+          "price": null
+        },
+        {
+          "name": "Eclipse Black 6GB+128GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41tmpdWa-XL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61Ab+wE97gL._SL1200_.jpg"
+          ],
+          "asin": "B0HGM9VH47",
+          "price": null
+        }
+      ],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0HGM9VH47",
+      "hasReviews": true,
+      "delivery": "Wednesday, 23 September",
+      "fastestDelivery": "Tomorrow, 22 September",
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [
+        {
+          "key": "Colour",
+          "value": "Eclipse Black"
+        }
+      ],
+      "manufacturerAttributes": [],
+      "seller": {
+        "name": "Dawntech Etel!",
+        "id": "AQUYM0O99MFUT",
+        "url": "https://www.amazon.in/sp?seller=AQUYM0O99MFUT",
+        "reviewsCount": null,
+        "averageRating": null
+      },
+      "bestsellerRanks": [
+        {
+          "rank": 1447,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 80,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": null,
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers find the phone's battery life positive, with one noting its 7200 mAh capacity. However, the performance receives mixed feedback, with customers reporting very slow operation and lag in call log updates. Moreover, the phone's stability is concerning, with multiple customers reporting it stops working within 20 days. Additionally, customers disagree on the display quality and camera performance, with some finding it good while others consider it poor. The phone's value for money and build quality also receive mixed reviews, with some finding it worth the price while others say it's not worth it.",
+        "keywords": [
+          {
+            "name": "Battery life",
+            "sentiment": "positive",
+            "text": "Customers are satisfied with the phone's battery life, with one customer noting its 7200 mAh capacity and another mentioning its fast charging capability.",
+            "customersMentionedCount": {
+              "total": 22,
+              "positive": 19,
+              "negative": 3
+            },
+            "partialReviews": [
+              {
+                "text": "Good battery backup don't expect more from this device",
+                "highlightedPart": "Good battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3ADV70UXHXT2A"
+              },
+              {
+                "text": "Good battery and Gaming. Looks good and feels premium.",
+                "highlightedPart": "Good battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1U6OSFTQC0NKI"
+              },
+              {
+                "text": "Battery is too good",
+                "highlightedPart": "Battery is too good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RJ9VV8QJ6T69J"
+              },
+              {
+                "text": "Battery is awesome Performance is also good Camera is good at this price range",
+                "highlightedPart": "Battery is awesome",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2UBYIDYIW88JB"
+              }
+            ]
+          },
+          {
+            "name": "Quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's quality, with some finding it very nice while others report bad experiences.",
+            "customersMentionedCount": {
+              "total": 116,
+              "positive": 80,
+              "negative": 36
+            },
+            "partialReviews": [
+              {
+                "text": "Good and satisfied",
+                "highlightedPart": "Good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1U3DP4GJ0T7I6"
+              },
+              {
+                "text": "Good phone \ud83d\udc4d",
+                "highlightedPart": "Good phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3I9IGE1SG20CM"
+              },
+              {
+                "text": "Not good. Came is very poor. Apps open take time 30 second and more",
+                "highlightedPart": "Not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1VPHEHJC4UWE8"
+              },
+              {
+                "text": "Good product in reasonable budget",
+                "highlightedPart": "Good product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1I9HPN777UY1D"
+              }
+            ]
+          },
+          {
+            "name": "Value for money",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's value for money, with some finding it a good buy while others consider it overpriced.",
+            "customersMentionedCount": {
+              "total": 39,
+              "positive": 19,
+              "negative": 20
+            },
+            "partialReviews": [
+              {
+                "text": "Don't buy this mobile Worst display Worst camera Worst sound quality Hang mobile Waste money Good battery only",
+                "highlightedPart": "Don't buy this mobile",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2YGTXEMGP9Y2G"
+              },
+              {
+                "text": "Best phone at this price. My uses normal so battery last long more than 2 days....",
+                "highlightedPart": "Best phone at this price",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3DP04YULRL305"
+              },
+              {
+                "text": "Not worth for money 22000 purchase under 18000 is more than enough for this phone",
+                "highlightedPart": "Not worth for money",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R20BJLCT3PY2WW"
+              },
+              {
+                "text": "Fine. Value for money",
+                "highlightedPart": "Value for money",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2K0U6T5HBJA7I"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's camera quality, with some finding it good while others report the worst quality.",
+            "customersMentionedCount": {
+              "total": 22,
+              "positive": 10,
+              "negative": 12
+            },
+            "partialReviews": [
+              {
+                "text": "Worst camera quality",
+                "highlightedPart": "Worst camera quality",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R31WHH13BF34PE"
+              },
+              {
+                "text": "Very Good Phone, Fast, Camera Quality Good, Selfi Very Good",
+                "highlightedPart": "Camera Quality Good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R249QDZAZDMHVX"
+              },
+              {
+                "text": "All things good except camera, camera is worst . If you paying 25k you expect good camera quality but it has a camera like a 8k phone.",
+                "highlightedPart": "camera is worst",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1ONOJYE19DDDA"
+              },
+              {
+                "text": "Front camera good but back camera is bad sound quality is not good when u full your sound sound become noisy, phone is slow and hanging all the time...",
+                "highlightedPart": "Front camera good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R8UAAZ8VXZ3KC"
+              }
+            ]
+          },
+          {
+            "name": "Display quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's display quality.",
+            "customersMentionedCount": {
+              "total": 12,
+              "positive": 7,
+              "negative": 5
+            },
+            "partialReviews": [
+              {
+                "text": "Met the expectations. Phone is super smooth, decent camera, good display. i liked it. overall good purchase",
+                "highlightedPart": "good display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1FKVA19XKX9JG"
+              },
+              {
+                "text": "Worst mobile in the segment. Continuously hanging and bad quality of display. Don't waste your money buying this product.",
+                "highlightedPart": "bad quality of display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2CZAUMWO95TXP"
+              },
+              {
+                "text": "...Despite so many features, Camera quality is not that good. Display is good enough. But for that price...",
+                "highlightedPart": "Display is good enough",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3BMZJFR089B84"
+              },
+              {
+                "text": "The phone is good, but the display doesn't live up to expectations; at this price point of \u20b925,000, it should have had an AMOLED screen.",
+                "highlightedPart": "display doesn't live up to expectations",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1OOLZ54D24GC2"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "negative",
+            "text": "Customers report that the phone is very slow and performs poorly.",
+            "customersMentionedCount": {
+              "total": 33,
+              "positive": 8,
+              "negative": 25
+            },
+            "partialReviews": [
+              {
+                "text": "Battery best hai lekin mobile fast nahin Hai",
+                "highlightedPart": "mobile fast nahin Hai",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3SDJWQN9XAN5F"
+              },
+              {
+                "text": "...quality is not good when u full your sound sound become noisy, phone is slow and hanging all the time in sun phone get hit easily only battery is...",
+                "highlightedPart": "phone is slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R8UAAZ8VXZ3KC"
+              },
+              {
+                "text": "...Sound quality issue, Slow processing, Really hate this one. Amd I couldn't find an option to return this phone. Don't buy. Not Worth the money....",
+                "highlightedPart": "Slow processing",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RFUQ6CSJ1CLJL"
+              },
+              {
+                "text": "...Speed and battery life is good.",
+                "highlightedPart": "Speed",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RZ57974BIDD1M"
+              }
+            ]
+          },
+          {
+            "name": "Stability",
+            "sentiment": "negative",
+            "text": "Customers report issues with the phone's stability, mentioning that it hangs and stops working within 20 days of use.",
+            "customersMentionedCount": {
+              "total": 14,
+              "positive": 2,
+              "negative": 12
+            },
+            "partialReviews": [
+              {
+                "text": "Very slow and hanging problem",
+                "highlightedPart": "hanging problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1GCBRSF5EP092"
+              },
+              {
+                "text": "It's been only 3 months of using .it is hanging like hell. Within 1 month it started to hang I don't what to do with it",
+                "highlightedPart": "hanging like hell",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1GU96HJYCMGJC"
+              },
+              {
+                "text": "Don't buy this. Useless and hangs",
+                "highlightedPart": "hangs",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1EIJASTESXGR"
+              },
+              {
+                "text": "Worst mobile in the segment. Continuously hanging and bad quality of display. Don't waste your money buying this product.",
+                "highlightedPart": "Continuously hanging",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2CZAUMWO95TXP"
+              }
+            ]
+          },
+          {
+            "name": "Heat",
+            "sentiment": "negative",
+            "text": "Customers report significant heating issues with the phone.",
+            "customersMentionedCount": {
+              "total": 9,
+              "positive": 2,
+              "negative": 7
+            },
+            "partialReviews": [
+              {
+                "text": "Bad in performance, poor quality of camera, heating issue",
+                "highlightedPart": "heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RO66NBBLAL4BK"
+              },
+              {
+                "text": "...Obviously it got heating problem on continuous usage. Despite so many features, Camera quality is not that good. Display is good enough....",
+                "highlightedPart": "got heating problem on continuous usage",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3BMZJFR089B84"
+              },
+              {
+                "text": "...not expect this from amazon, no support item is very worste , abnormal heat from phone and charger very worste phone i have ever seen",
+                "highlightedPart": "abnormal heat from phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RPRG0EEHWADIR"
+              },
+              {
+                "text": "...ok ok camera, good sound, bit heavy, good display for an LCD, no major heating, one can also go for one plus ce6lite for better interface...",
+                "highlightedPart": "no major heating",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2GM9EH66HGXLS"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "Akshay gupta",
+          "userId": "amzn1.account.AF3Q23XLQ3DIPUC3HVM3FVG7I4RA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AF3Q23XLQ3DIPUC3HVM3FVG7I4RA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Good phone",
+          "reviewDescription": "Sound kafi loud and unpleasing hai ...Camera thik thak haiBaki phone bawal hai .... Is daam mai lelo ... Accha phone hai ... Battery smoothness speed features AI sab acch hai",
+          "date": "2026-08-11",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 11 August 2026",
+          "reviewId": "R3OM197QSH7QQE",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3OM197QSH7QQE/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "2 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Waqar",
+          "userId": "amzn1.account.AE6RJGE5M2DRJEAMNUO7PLSS5KHA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AE6RJGE5M2DRJEAMNUO7PLSS5KHA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Overall good \ud83d\udc4d",
+          "reviewDescription": "Build quality is good but sometimes the phone lags while multitasking, 5g works well, superb battery life, ok ok camera, good sound, bit heavy, good display for an LCD, no major heating, one can also go for one plus ce6lite for better interface experience.",
+          "date": "2026-05-31",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 31 May 2026",
+          "reviewId": "R2GM9EH66HGXLS",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2GM9EH66HGXLS/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "93 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Chandan Kumar Dangi",
+          "userId": "amzn1.account.AEMR5JWWG52OROSAPBYQ23HC3HBQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEMR5JWWG52OROSAPBYQ23HC3HBQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Good",
+          "reviewDescription": "Value of money",
+          "date": "2026-09-10",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 10 September 2026",
+          "reviewId": "R3PDLKVDE0FCTV",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3PDLKVDE0FCTV/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "utsav kumar",
+          "userId": "amzn1.account.AFDTY6YRS5ZEB6MKHTBMA2DNJDWA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFDTY6YRS5ZEB6MKHTBMA2DNJDWA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Overall good product",
+          "reviewDescription": "Battery is awesomePerformance is also goodCamera is good at this price range",
+          "date": "2026-09-11",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 11 September 2026",
+          "reviewId": "R2UBYIDYIW88JB",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2UBYIDYIW88JB/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "SANTOSH KUMAR VERMA",
+          "userId": "amzn1.account.AFDHQHZ4C3RYI37MF2UNSU4XYNSA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFDHQHZ4C3RYI37MF2UNSU4XYNSA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 1,
+          "reviewTitle": "Extremely Disappointed \u2013 Severe Hanging Within 15 Days",
+          "reviewDescription": "I bought the *iQOO Z11x 5G (6GB RAM, 128GB)* about 15 days ago, expecting good performance because of the Dimensity 7400-Turbo processor. Unfortunately, my experience has been the complete opposite.Within just a few days, the phone became extremely slow and started hanging frequently. I even reset the device *twice*, thinking it was a software issue, but the problem still hasn't been fixed.The biggest disappointment is gaming performance. Even *Free Fire*, which should run smoothly on this hardware, lags badly with frequent frame drops and stuttering. The entire phone feels sluggish, apps take longer to open, and multitasking is frustrating.The return window has already closed, so now I'm stuck with a phone that doesn't perform as advertised. I genuinely regret buying this device.I would not recommend this phone to anyone looking for smooth performance or gaming. I expected much better from iQOO, but this has been a very disappointing experience.",
+          "date": "2026-07-10",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 10 July 2026",
+          "reviewId": "RL63EH15CMJ5K",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RL63EH15CMJ5K/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "19 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/7d461acd-fb61-487d-b73f-86052036e6f0._CR83%2C0%2C333%2C333_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Pinninti santosh",
+          "userId": "amzn1.account.AH4NC4GN2IZK6KI5DL62V7FX5MLQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH4NC4GN2IZK6KI5DL62V7FX5MLQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 3,
+          "reviewTitle": "Decent ok gd preset market priceDecent ok gd preset market price",
+          "reviewDescription": "Godd at 24k market senerio not better than previous models ok",
+          "date": "2026-08-29",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 29 August 2026Reviewed in India on 29 August 2026",
+          "reviewId": "R28N7U9XNC8BPW",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R28N7U9XNC8BPW/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71teRAsCNOL._SY500_.jpg"
+          ],
+          "reviewReaction": null,
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Rohan G.",
+          "userId": "amzn1.account.AHN5EF2ZCRZDFDJS7WJWHSWYAUYQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHN5EF2ZCRZDFDJS7WJWHSWYAUYQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Noice \ud83d\udc4c\ud83c\udffbNoice \ud83d\udc4c\ud83c\udffb",
+          "reviewDescription": "Under 20k this phone is good but I was got this at 22800 for 6/128 verient that's was not good, price hike disappointing, overall Quality, Display was good sound quality ok not so loud",
+          "date": "2026-08-05",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 5 August 2026Reviewed in India on 5 August 2026",
+          "reviewId": "R3ENNJG3GGDAS3",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3ENNJG3GGDAS3/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71ubxtAk0IL._SY500_.jpg"
+          ],
+          "reviewReaction": null,
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Maneendra Stark",
+          "userId": "amzn1.account.AGOHCIIO4U246BCXEFHUWZH4LOYA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGOHCIIO4U246BCXEFHUWZH4LOYA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Best phone in budget, yet not perfect.",
+          "reviewDescription": "There mobile had great endurance to physical shock. Battery life is also good but the fast charging doesn't seem that fast. You can feel a bit lag in updation of call log. Obviously it got heating problem on continuous usage. Despite so many features, Camera quality is not that good. Display is good enough. But for that price (Rs. 17000 after applying offers), it's worth to have it.",
+          "date": "2026-08-30",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 30 August 2026",
+          "reviewId": "R3BMZJFR089B84",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3BMZJFR089B84/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/05d78034-61ff-4444-8e11-bf2cea46db25._CR0%2C0%2C500%2C500_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        }
+      ],
+      "productPageReviewsFromOtherCountries": []
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0GP8XTH7K"
+  }
+]

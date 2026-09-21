@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "asin": "B0CS5XW6TN",
+    "name": "Samsung Galaxy S24 Ultra 5G (Titanium Gray, 12GB RAM, 256GB Storage)",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "url": "https://www.amazon.in/dp/B0CS5XW6TN",
+    "slug": "samsung-galaxy-s24-ultra-5g-titanium-gray-12gb-256gb-storage"
+  },
+  {
+    "id": 2,
+    "asin": "B0CHX1W1XY",
+    "name": "Apple iPhone 15 (128 GB) - Black",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "url": "https://www.amazon.in/dp/B0CHX1W1XY"
+  },
+  {
+    "id": 3,
+    "asin": "B0CHWV2WYK",
+    "name": "Apple iPhone 15 Pro Max (256 GB) - Black Titanium",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "url": "https://www.amazon.in/dp/B0CHWV2WYK"
+  },
+  {
+    "id": 4,
+    "asin": "B0GP8XTH7K",
+    "name": "iQOO Z11x 5G",
+    "category": "Smartphones",
+    "brand": "iQOO",
+    "model": "Z11x 5G",
+    "url": "https://www.amazon.in/dp/B0GP8XTH7K"
+  },
+  {
+    "id": 5,
+    "asin": "B0H1WX51F1",
+    "name": "iQOO Z11 5G",
+    "category": "Smartphones",
+    "brand": "iQOO",
+    "model": "Z11 5G",
+    "url": "https://www.amazon.in/dp/B0H1WX51F1",
+    "slug": "iqoo-z11-lite-44w-5g-solar-flame-6gb-ram-128gb-sto-957785"
+},
+{
+    "id": 6,
+    "asin": "B0GS24Y7XB",
+    "name": "Motorola Edge 70 Fusion",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "model": "Edge 70 Fusion",
+    "url": "https://www.amazon.in/dp/B0GS24Y7XB",
+    "slug": "motorola-edge-70-fusion-5g-pantone-blue-surf-8gb-r-80e9dd"
+},
+{
+    "id": 7,
+    "asin": "B0DZTMZL4X",
+    "name": "Nothing Phone 3a",
+    "category": "Smartphones",
+    "brand": "Nothing",
+    "model": "Phone 3a",
+    "slug": "nothing-phone-3a-5g-blue-8gb-ram-128gb-storage-snapdragon-7s-gen-3-50mp-50mp-8mp-cameras-32mp-front-6-77-120hz-amoled-5000mah-battery",
+    "url": "https://www.amazon.in/dp/B0DZTMZL4X"
+  },
+  {
+    "id": 8,
+    "asin": "B0FQFLQ2CQ",
+    "name": "Apple iPhone 17",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "slug": "iphone-17-256-gb-15-93-cm-6-3-display-with-promotion-a19-chip-center-stage-front-camera-for-smarter-group-selfies-improved-scratch-resistance-all-day-battery-life-mist-blue",
+    "url": "https://www.amazon.in/dp/B0FQFLQ2CQ"
+  },
+  {
+    "id": 9,
+    "asin": "B0H99SS8B2",
+    "name": "OPPO Reno 14 5G",
+    "category": "Smartphones",
+    "brand": "OPPO",
+    "model": "Reno 14 5G",
+    "slug": "vivo-s2-5g-silk-white-8gb-ram-128gb-storage-50mp-s-a3b38e",
+    "url": "https://www.amazon.in/dp/B0H99SS8B2"
+  },
+  {
+    "id": 10,
+    "asin": "B0FCTS8CVJ",
+    "name": "Motorola Edge 60 Pro",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "model": "Edge 60 Pro",
+    "slug": "oppo-reno14-5g-pearl-white-8gb-ram-256gb-storage",
+    "url": "https://www.amazon.in/dp/B0FCTS8CVJ"
+},
+{
+    "id": 11,
+    "asin": "B0F83HD8SQ",
+    "name": "Motorola Edge 70 Pro",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "model": "Edge 70 Pro",
+    "slug": "motorola-edge-60-pro-5g-pantone-shadow-8gb-ram-256gb-storage-6-7-display-50mp-50mp-10mp-50mp-selfie-dimensity-8350-6000mah-90w-fast",
+    "url": "https://www.amazon.in/dp/B0F83HD8SQ"
+},
+{
+    "id": 12,
+    "asin": "B0GZGSZ3S9",
+    "name": "Samsung Galaxy S25 Ultra",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "slug": "motorola-edge-70-pro-satin-luxe-pantone-tea-green-4a14eb",
+    "url": "https://www.amazon.in/dp/B0GZGSZ3S9"
+},
+{
+    "id": 13,
+    "asin": "B0HDYYYY13",
+    "name": "Samsung Galaxy F70 Pro 5G",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy F70 Pro 5G",
+    "slug": "samsung-galaxy-f70-pro-5g-alpha-black-128-gb-6-gb-63b781",
+    "url": "https://www.amazon.in/dp/B0HDYYYY13"
+},
+{
+    "id": 14,
+    "asin": "B0H8S9NJ8R",
+    "name": "OPPO K13 Turbo Pro",
+    "category": "Smartphones",
+    "brand": "OPPO",
+    "model": "K13 Turbo Pro",
+    "slug": "oppo-k13-turbo-pro-5g-silver-knight-8gb-256gb-snap-65f9aa",
+    "url": "https://www.amazon.in/dp/B0H8S9NJ8R"
+},
+{
+    "id": 15,
+    "asin": "B0G76Y98T4",
+    "name": "Motorola Edge 70 5G",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "model": "Edge 70 5G",
+    "slug": "motorola-edge-70-green-8gb-ram-256gb-storage-45715f",
+    "url": "https://www.amazon.in/dp/B0G76Y98T4"
+  },
+  {
+    "id": 16,
+    "asin": "B0GM1K41NJ",
+    "name": "realme P4 Power 5G",
+    "category": "Smartphones",
+    "brand": "realme",
+    "model": "P4 Power 5G",
+    "url": "https://www.amazon.in/dp/B0GM1K41NJ"
+  },
+  {
+    "id": 17,
+    "asin": "B0H4LBXQDC",
+    "name": "Samsung Galaxy M47 5G",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy M47 5G",
+    "url": "https://www.amazon.in/dp/B0H4LBXQDC"
+  },
+  {
+    "id": 18,
+    "asin": "B0GRB3FBBB",
+    "name": "OnePlus Nord 6",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord 6",
+    "url": "https://www.amazon.in/dp/B0GRB3FBBB"
+  },
+  {
+    "id": 19,
+    "asin": "B0GWLHVJRH",
+    "name": "OnePlus Nord CE6",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord CE6",
+    "url": "https://www.amazon.in/dp/B0GWLHVJRH"
+  },
+  {
+    "id": 20,
+    "asin": "B0GVYDLJJQ",
+    "name": "OnePlus Nord CE6 Lite",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord CE6 Lite",
+    "url": "https://www.amazon.in/dp/B0GVYDLJJQ"
+  },
+  {
+    "id": 21,
+    "asin": "B0H3LKPC2K",
+    "name": "OnePlus N6",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "N6",
+    "url": "https://www.amazon.in/dp/B0H3LKPC2K"
+  },
+  {
+    "id": 22,
+    "asin": "B0DPS7FB4J",
+    "name": "OnePlus 13",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "13",
+    "url": "https://www.amazon.in/dp/B0DPS7FB4J"
+  },
+  {
+    "id": 23,
+    "asin": "B0FCMRVJKH",
+    "name": "OnePlus Buds 4",
+    "category": "Earbuds",
+    "brand": "OnePlus",
+    "model": "Buds 4",
+    "url": "https://www.amazon.in/dp/B0FCMRVJKH"
+  },
+  {
+    "id": 24,
+    "asin": "B0F8BGW9Y3",
+    "name": "realme Buds Air 7 Pro",
+    "category": "Earbuds",
+    "brand": "realme",
+    "model": "Buds Air 7 Pro",
+    "url": "https://www.amazon.in/dp/B0F8BGW9Y3"
+  },
+  {
+    "id": 25,
+    "asin": "B0CF5PNVZH",
+    "name": "boAt Nirvana Ion ANC",
+    "category": "Earbuds",
+    "brand": "boAt",
+    "model": "Nirvana Ion ANC",
+    "url": "https://www.amazon.in/dp/B0CF5PNVZH"
+  },
+  {
+    "id": 26,
+    "asin": "B0H3Q5DPP9",
+    "name": "OnePlus Nord Buds 4",
+    "category": "Earbuds",
+    "brand": "OnePlus",
+    "model": "Nord Buds 4",
+    "url": "https://www.amazon.in/dp/B0H3Q5DPP9"
+  },
+  {
+    "id": 27,
+    "asin": "B0GQTSHLLR",
+    "name": "OnePlus Nord Buds 4 Pro",
+    "category": "Earbuds",
+    "brand": "OnePlus",
+    "model": "Nord Buds 4 Pro",
+    "url": "https://www.amazon.in/dp/B0GQTSHLLR"
+  },
+  {
+    "id": 28,
+    "asin": "B0DNPZFSV4",
+    "name": "realme Buds Wireless 5 ANC",
+    "category": "Neckbands",
+    "brand": "realme",
+    "model": "Buds Wireless 5 ANC",
+    "url": "https://www.amazon.in/dp/B0DNPZFSV4"
+  },
+  {
+    "id": 29,
+    "asin": "B0CRH561RC",
+    "name": "OnePlus Buds 3",
+    "category": "Earbuds",
+    "brand": "OnePlus",
+    "model": "Buds 3",
+    "url": "https://www.amazon.in/dp/B0CRH561RC"
+  },
+  {
+    "id": 30,
+    "asin": "B0DBGP48NW",
+    "name": "realme Buds T310",
+    "category": "Earbuds",
+    "brand": "realme",
+    "model": "Buds T310",
+    "url": "https://www.amazon.in/dp/B0DBGP48NW"
+  },
+  {
+    "id": 31,
+    "asin": "B0C411BWXD",
+    "name": "boAt Airdopes Joy",
+    "category": "Earbuds",
+    "brand": "boAt",
+    "model": "Airdopes Joy",
+    "url": "https://www.amazon.in/dp/B0C411BWXD"
+  },
+  {
+    "id": 32,
+    "asin": "B0FBRGKXHG",
+    "name": "OnePlus Bullets Wireless Z3",
+    "category": "Neckbands",
+    "brand": "OnePlus",
+    "model": "Bullets Wireless Z3",
+    "url": "https://www.amazon.in/dp/B0FBRGKXHG"
+  },
+  {
+    "id": 33,
+    "asin": "B08TV2P1N8",
+    "name": "boAt Rockerz 255 Pro+",
+    "category": "Neckbands",
+    "brand": "boAt",
+    "model": "Rockerz 255 Pro+",
+    "url": "https://www.amazon.in/dp/B08TV2P1N8"
+  },
+  {
+    "id": 34,
+    "asin": "B0FM38916Y",
+    "name": "boAt Bassheads 300C",
+    "category": "Wired Earphones",
+    "brand": "boAt",
+    "model": "Bassheads 300C",
+    "url": "https://www.amazon.in/dp/B0FM38916Y"
+  },
+  {
+    "id": 35,
+    "asin": "B098NS6PVG",
+    "name": "Ambrane Unbreakable Type-C Cable",
+    "category": "Cables",
+    "brand": "Ambrane",
+    "model": "Unbreakable Type-C Cable",
+    "url": "https://www.amazon.in/dp/B098NS6PVG"
+  },
+  {
+    "id": 36,
+    "asin": "B0D2R2MXXJ",
+    "name": "Samsung 25W USB Type-C Travel Adapter",
+    "category": "Chargers",
+    "brand": "Samsung",
+    "model": "25W USB Type-C Travel Adapter",
+    "url": "https://www.amazon.in/dp/B0D2R2MXXJ"
+  },
+  {
+    "id": 37,
+    "asin": "B0CF1M3PF9",
+    "name": "Pikkme Leather Flip Cover",
+    "category": "Mobile Accessories",
+    "brand": "Pikkme",
+    "model": "Leather Flip Cover",
+    "url": "https://www.amazon.in/dp/B0CF1M3PF9"
+  },
+  {
+    "id": 38,
+    "asin": "B0CJ17HHHD",
+    "name": "OpenTech Gorilla Tempered Glass",
+    "category": "Mobile Accessories",
+    "brand": "OpenTech",
+    "model": "Gorilla Tempered Glass",
+    "url": "https://www.amazon.in/dp/B0CJ17HHHD"
+  },
+  {
+    "id": 39,
+    "asin": "B0FBRS76BR",
+    "name": "Redmi Pad 2",
+    "category": "Tablets",
+    "brand": "Redmi",
+    "model": "Pad 2",
+    "url": "https://www.amazon.in/dp/B0FBRS76BR"
+  },
+  {
+    "id": 40,
+    "asin": "B0CP7TH3YB",
+    "name": "Samsung Galaxy A15 5G",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy A15 5G",
+    "url": "https://www.amazon.in/dp/B0CP7TH3YB"
+  },
+  {
+    "id": 41,
+    "asin": "B0BT9DVZLZ",
+    "name": "Samsung Galaxy S23 5G",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23 5G",
+    "url": "https://www.amazon.in/dp/B0BT9DVZLZ"
+  },
+  {
+    "id": 42,
+    "asin": "B0B6BLTGTT",
+    "name": "Noise Pulse 2 Max Smartwatch",
+    "category": "Smartwatches",
+    "brand": "Noise",
+    "model": "Pulse 2 Max",
+    "url": "https://www.amazon.in/dp/B0B6BLTGTT"
+  },
+  {
+    "id": 43,
+    "asin": "B0CF1NTL6M",
+    "name": "boAt Lunar Vista Smartwatch",
+    "category": "Smartwatches",
+    "brand": "boAt",
+    "model": "Lunar Vista",
+    "url": "https://www.amazon.in/dp/B0CF1NTL6M"
+  },
+  {
+    "id": 44,
+    "asin": "B0DPS62DYH",
+    "name": "OnePlus 13R 12GB/256GB",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "13R",
+    "url": "https://www.amazon.in/dp/B0DPS62DYH"
+  },
+  {
+    "id": 45,
+    "asin": "B0D812G7FL",
+    "name": "Samsung Galaxy M35 5G 8GB/256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy M35 5G",
+    "url": "https://www.amazon.in/dp/B0D812G7FL"
+  },
+  {
+    "id": 46,
+    "asin": "B07WHQHNZC",
+    "name": "iQOO Z9x 5G 6GB/128GB",
+    "category": "Smartphones",
+    "brand": "iQOO",
+    "model": "Z9x 5G",
+    "url": "https://www.amazon.in/dp/B07WHQHNZC"
+  },
+  {
+    "id": 47,
+    "asin": "B07WDKKJ45",
+    "name": "iQOO Z9x 5G 4GB/128GB",
+    "category": "Smartphones",
+    "brand": "iQOO",
+    "model": "Z9x 5G",
+    "url": "https://www.amazon.in/dp/B07WDKKJ45"
+  },
+  {
+    "id": 48,
+    "asin": "B0D5YCYS1G",
+    "name": "OnePlus Nord CE4 Lite 8GB/128GB",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord CE4 Lite",
+    "url": "https://www.amazon.in/dp/B0D5YCYS1G"
+  },
+  {
+    "id": 49,
+    "asin": "B0D5YD7QSS",
+    "name": "OnePlus Nord CE4 Lite 8GB/256GB",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord CE4 Lite",
+    "url": "https://www.amazon.in/dp/B0D5YD7QSS"
+  },
+  {
+    "id": 50,
+    "asin": "B0CX59H5W7",
+    "name": "OnePlus Nord CE4 8GB/128GB",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "model": "Nord CE4",
+    "url": "https://www.amazon.in/dp/B0CX59H5W7"
+  }
+]

@@ -1,0 +1,19 @@
+# Secrets / Environments
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS / Logs
+.DS_Store
+*.log
+
+# Streamlit
+.streamlit/

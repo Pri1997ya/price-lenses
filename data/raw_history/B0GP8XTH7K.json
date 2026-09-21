@@ -1,0 +1,55 @@
+{
+  "price_overview": {
+    "current_price": 27999,
+    "all_time_low": 27999,
+    "all_time_high": 27999,
+    "avg_30_days": 27999,
+    "overall_average": 27999,
+    "low_6_months": 27999,
+    "trend_percentage": 0
+  },
+  "deal_evaluation": {
+    "score": 87,
+    "verdict": "Great deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 27750,
+      "is_current": false,
+      "url": "https://www.flipkart.com/iqoo-z11x-5g-titan-black-128-gb/p/itm8278ba39f21e3?pid=MOBHHHHKGVHDGFNG&lid=LSTMOBHHHHKGVHDGFNGSPUAW7"
+    },
+    "Amazon": {
+      "price": 27999,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0HGM9VH47"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-09-14",
+      "price": 27999
+    },
+    {
+      "date": "2026-09-15",
+      "price": 27999
+    },
+    {
+      "date": "2026-09-16",
+      "price": 27999
+    },
+    {
+      "date": "2026-09-17",
+      "price": 27999
+    },
+    {
+      "date": "2026-09-19",
+      "price": 27999
+    },
+    {
+      "date": "2026-09-20",
+      "price": 27999
+    }
+  ],
+  "historical_data_points": 6,
+  "historical_data_points_last_1yr": 6
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0H8S9NJ8R",
+    "name": "OPPO K13 Turbo Pro 5G, Silver Knight (8GB, 256GB)",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "OPPO"
+    },
+    "image": "https://m.media-amazon.com/images/I/41r0QQFDEnL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": "The OPPO K13 Turbo Pro 5G in Silver Knight is a high-performance smartphone built for those who demand the very best. Powered by the flagship-grade Snapdragon 8s Gen 4 processor, it handles intense multitasking and demanding gaming sessions with remarkable ease. This variant comes equipped with 8GB of RAM and 256GB of internal storage, ensuring swift app launches and ample space for all your files, photos, and media. Gamers will particularly appreciate the built-in active cooling fan system that keeps overheating at bay, complemented by a stunning 120Hz 1.5K AMOLED flat display that delivers buttery-smooth, lag-free visuals. The massive 7,000mAh battery offers multi-day endurance, and when you do need to recharge, the 80W SUPERVOOC fast charging gets you back up swiftly. Wrapped in a sleek, futuristic Silver Knight chassis, the device carries an IP66/68/69 rating, providing robust protection against dust and water ingress. The OPPO K13 Turbo Pro 5G is the ideal companion for power users who refuse to compromise on performance or style.",
+    "reviewCount": null,
+    "rating": null,
+    "aiSummary": "- Data quality risk: The storage specification is inconsistent (description cites 256GB while the Memory Storage Capacity attribute lists 128GB). This undermines trust and can drive post-purchase dissatisfaction; fix the catalog to show a single, accurate spec across all fields.\n\n- Availability risk and demand leakage: The item is marked inStock as false with \u201cCurrently unavailable,\u201d which suppresses conversions and signals supply issues. Mitigate with back-in-stock alerts, ETA transparency, and a plan to stabilize supply or offer a credible alternative SKU.\n\n- Pricing information gap: Offers.price and priceCurrency are null, and priceRange is null. Without price data, pricing strategy, promo planning, and competitive positioning are blocked. Action: populate current price, currency, and any promotions, and test value-based pricing aligned with premium positioning.\n\n- Premium, gaming-focused positioning with potential market risk: The feature set (flagship-grade chipset, 120Hz 1.5K display, 7000mAh battery, 80W charging, advanced cooling) targets power users, yet bestseller ranks are modest (Electronics #91456; Smartphones #981). This suggests a narrow unless well-supported by demand, price positioning, and distinctive marketing. Action: validate unit economics and run targeted campaigns (gamers, power users) in India with clear ROI targets.\n\n- Media and content gaps hurting conversion: Limited imagery (one thumbnail) and 0 high-resolution images/videos impede trust and engagement. Strategy: enrich the listing with multiple high-res images, lifestyle/usage videos, and 360\u00b0 views to lift CTR and conversion.\n\n- Data consistency and governance opportunity: Multiple fields (RAM 8GB, storage, OS, etc.) are present but not uniformly aligned; inconsistent attribute data can hinder search, filtering, and customer confidence. Implement data governance to ensure consistency across description, attributes, and specs.\n\n- Stock visibility impact on trust and branding: \u201cVisit OPPO Store\u201d link exists, but stock status and in-stock text undermine reliability. Strengthen brand perception by ensuring stock levels are current, with clear communication about delays or ETA.\n\n- Competitive positioning and discoverability: Strong feature language is present, but overall bestseller ranking is low for the category, indicating competitive pressure or suboptimal discoverability. Invest in SEO, A+ content, and keyword optimization around gaming, performance, cooling, and battery life.\n\n- Market-specific optimization for India: Listing is on Amazon.in with 2025 model year, 5G capabilities, and 80W charging\u2014worth tailoring price, tax/shipping calculations, warranty messaging, and carrier support to Indian consumers. Ensure 5G band compatibility and messaging resonates with local buyers.\n\n- Trust signals and risk mitigation: Reviews exist but product reviews data isn\u2019t surfaced; absence of visible social proof can deter purchases. Proactively surface top reviews, ratings, and respond to feedback to build trust, especially given stock and spec inconsistencies.\n\n- Upsell and bundle opportunities: Box contents include charger and case, suggesting potential accessories-based bundles (extra cases, screen protectors, cooling accessories) to raise AOV. Align marketing copy and promotions to promote these bundles.\n\n- Operational and measurement priorities: Track out-of-stock rate, price accuracy, and listing completeness as key KPIs; set SLA for data correction (storage spec alignment), and monitor impact of improved media and back-in-stock communications on conversion.",
+    "additionalProperties": {
+      "asin": "B0H8S9NJ8R",
+      "originalAsin": "B0H8S9NJ8R",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": null,
+      "starsBreakdown": {
+        "5star": 0,
+        "4star": 0,
+        "3star": 0,
+        "2star": 0,
+        "1star": 0
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 0,
+      "visitStoreLink": {
+        "text": "Visit the OPPO Store",
+        "url": "https://www.amazon.in/stores/OPPOBRAND/page/DA7C0308-4E33-4EC0-8B95-AB851D49CB76?lp_asin=B0H8S9NJ8R&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/41r0QQFDEnL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "SNAPDRAGON 8s Gen 4 PROCESSOR: Flagship-grade chipset ensures seamless multitasking and smooth, high-performance gaming.",
+        "8GB RAM & 256GB STORAGE: Rapid app loading and ample space for all your files, photos, and games on the OPPO K13 Turbo Pro 5G Silver Knight.",
+        "ACTIVE COOLING FAN & 120Hz 1.5K AMOLED DISPLAY: Built-in cooling fan prevents overheating, paired with a stunning flat screen for lag-free visuals.",
+        "7,000mAh BATTERY WITH 80W SUPERVOOC CHARGING: Multi-day endurance backed by blazing-fast charging to keep you powered through the day.",
+        "IP66/68/69 RATED SILVER KNIGHT DESIGN: Robust dust and water resistance wrapped in a futuristic, speed-inspired chassis for lasting protection."
+      ],
+      "attributes": [
+        {
+          "key": "Operating System",
+          "value": "Android 15, Coloros 15"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "8 GB"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Silver Knight"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "In-display Fingerprint Sensor, Face Unlock"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Buttons, Microphone, Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Waterproof"
+        },
+        {
+          "key": "Headphones Jack",
+          "value": "Usb Type-c"
+        },
+        {
+          "key": "Compatible Devices",
+          "value": "5g Networks, Android Devices, Smartphones"
+        },
+        {
+          "key": "EU Spare Part Availability Duration",
+          "value": "2 Years"
+        },
+        {
+          "key": "Specific Absorption Rate",
+          "value": "1.6 Watts per Kilogram"
+        },
+        {
+          "key": "Product Features",
+          "value": "120hz Refresh Rate, 7000mah Battery, 80w Supervooc Fast Charging, Active Cooling Fan, Ip66/68/69 Rating"
+        },
+        {
+          "key": "Flash Memory Supported Size Maximum",
+          "value": "1024 GB"
+        },
+        {
+          "key": "Camera Description",
+          "value": "50mp Primary Sensor, Triple Rear Camera Setup"
+        },
+        {
+          "key": "Camera Flash Type",
+          "value": "LED"
+        },
+        {
+          "key": "Shooting Modes",
+          "value": "Portrait, Night, Pro, Panorama, Slow Motion, Time-lapse, Ultra Steady, Ai Scene Recognition, Hdr"
+        },
+        {
+          "key": "Optical Sensor Resolution",
+          "value": "108 MP"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "3"
+        },
+        {
+          "key": "Digital Zoom",
+          "value": "10 x"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Description",
+          "value": "7000mah Non-removable Li-po Battery With 80w Supervooc Fast Charging"
+        },
+        {
+          "key": "Battery Charge Time",
+          "value": "1.1 Hours"
+        },
+        {
+          "key": "Battery Power",
+          "value": "5160"
+        },
+        {
+          "key": "Phone Talk Time",
+          "value": "30 Hours"
+        },
+        {
+          "key": "Battery Average Life Talk Time",
+          "value": "30 Hours"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "True"
+        },
+        {
+          "key": "Supported Satellite Navigation System",
+          "value": "BeiDou, GLONASS, GPS, Galileo"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "6.7 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.5k Amoled (2400 X 1600 Pixels)"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120"
+        },
+        {
+          "key": "Display Type",
+          "value": "AMOLED"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2944 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "400 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "3"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "4g Lte, 5g, Bluetooth, Gps, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "GSM, LTE, UMTS"
+        },
+        {
+          "key": "Brand Name",
+          "value": "OPPO"
+        },
+        {
+          "key": "Model Year",
+          "value": "2025"
+        },
+        {
+          "key": "Box Contents",
+          "value": "80w Supervooc Charger, Handset, Phone Case, SIM Tray Ejector, Usb-c Charging Cable"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 YEAR"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "Oppo"
+        },
+        {
+          "key": "Model Series",
+          "value": "K13 Turbo Pro, Oppo K Series"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Gaming, Multitasking, Photography"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Count"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smartphone"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "Oppo Electronics Corp., Dongguan, Guangdong, China"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#91,456 in Electronics (See Top 100 in Electronics)#981 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0H8S9NJ8R"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "210 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "13 x 7.5 x 16.3 Centimeters"
+        },
+        {
+          "key": "Effective Video Resolution",
+          "value": "2.07 MP"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "1920x1080, 3840x2160"
+        },
+        {
+          "key": "Frame Rate",
+          "value": "120 Fps"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [],
+      "variantDetails": [],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0H8S9NJ8R",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": [
+        {
+          "rank": 91456,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 981,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": null,
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": null,
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [],
+      "productPageReviewsFromOtherCountries": []
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0H8S9NJ8R"
+  }
+]

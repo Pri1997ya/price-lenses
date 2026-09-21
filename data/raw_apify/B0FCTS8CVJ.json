@@ -1,0 +1,1278 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0FCTS8CVJ",
+    "name": "Oppo Reno14 5G (Pearl White, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+    "offers": {
+      "price": 39499,
+      "priceCurrency": "\u20b9"
+    },
+    "brand": {
+      "slogan": "OPPO"
+    },
+    "image": "https://m.media-amazon.com/images/I/41smz+ajm2L._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 560,
+    "rating": null,
+    "aiSummary": "Key business insights from offers, brand, description, additionalProperties, and url:\n\n- Price positioning and value signal: The listing shows a sale price of 39,499 INR vs a listed MSRP of 42,999 INR, signaling a modest value push for price-conscious buyers. With 200+ units sold in the past month, this price point appears to be delivering steady demand, but there is room to optimize promotions (EMI/exchange offers) to lift conversion further without eroding margins.\n\n- Brand trust and storefront leverage: OPPO branding is strong and supported by a dedicated OPPO Store link, which can drive brand loyalty, cross-sell accessories, and foster repeat purchases when featured prominently in marketing and cross-sell flows.\n\n- Content gaps and SEO/convertibility risk: The description field is null, creating a gap for SEO optimization and persuasive messaging. This undermines conversion, especially in a mid-range segment where feature-led selling matters (camera, battery, charging, durability). The url points to the product page, but without robust long-form copy, potential customers may have fewer reasons to choose this listing over competitors.\n\n- Quality signals and customer sentiment: The additionalProperties field shows an average rating of 4.3 with a favorable 5-star share (0.62). This supports a positive perception but the breakdown hints at some detractors (smaller share of 3\u20131 stars) that could correspond to issues like heat or battery life raised in broader reviews. Monitoring and addressing these pain points in messaging and post-purchase support is prudent.\n\n- Inventory and reliability: InStock is true with \u201cIn stock\u201d text, which pairs well with the solid demand signal and helps avoid lost sales due to stockouts. However, no shipping price is listed, which could hide optional-cost friction for some buyers; clarity here could improve trust and convert.\n\n- Media-rich listing and optimization opportunities: The presence of multiple gallery thumbnails and high-resolution images, plus a video count of 1, indicates strong visual assets but underutilization of video content. Increasing video (unboxing, camera samples, battery/charging demos) could lift engagement and conversion in a market where specs alone often don\u2019t close the sale.\n\n- SKU breadth and upsell potential: VariantAsins indicate multiple SKUs and color variants (e.g., Pearl White, Forest Green) with EMI/exchange offers as style names. This presents an opportunity to optimize cross-sell and upsell flows (e.g., accessories, protection plans) and to test price/promotions across variants for margin optimization.\n\n- Market and product fit cues: Model Year 2025 and Country of Origin India align with local consumer expectations and support a localized marketing narrative. The url confirms this is an India-focused listing, suggesting campaigns should emphasize region-specific capabilities and after-sales support.\n\n- Content and category alignment: The listing sits in a relevant electronics category path (Smartphones). Ensuring the description and title keywords align with this breadcrumb and consumer search terms can improve discoverability and click-through.\n\nActionable recommendations:\n- Fill in a compelling, keyword-optimized description highlighting core differentiators (50 MP camera specs, 6000 mAh battery with 80W charging, 6.59\" 120 Hz OLED, 5G, IP-rated durability) to boost SEO and conversions.\n- Expand media\u2014add more videos (camera samples, battery life demos, performance benchmarks, and unbox/installation guides) and enrich image set with lifestyle shots to boost engagement.\n- Fine-tune pricing strategy with limited-time promos or EMI/exchange incentives to accelerate conversion while preserving margins; test price elasticities across variants.\n- Proactively address potential heat and battery-life concerns in listing copy and in the Q&A section; consider software/firmware notes or warranty messaging that reassures buyers.\n- Leverage the OPPO Store for cross-sell opportunities (bundles with accessories, protection plans) and highlight these in banners on the product page.\n- Monitor inventory closely to sustain the \u201cIn stock\u201d status; align procurement with the observed 200+ monthly volume to reduce stockouts and stock aging.\n- Optimize variant messaging to clearly differentiate colors and EMI/exchange options; ensure price and value parity across variants to avoid shopper confusion.\n- Ensure the product page clearly communicates warranty and after-sales support details to mitigate risk perceptions in this price tier.",
+    "additionalProperties": {
+      "asin": "B0FCTS8CVJ",
+      "originalAsin": "B0FCTS8CVJ",
+      "inStock": true,
+      "inStockText": "In stock",
+      "listPrice": {
+        "value": 42999,
+        "currency": "\u20b9"
+      },
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.3,
+      "starsBreakdown": {
+        "5star": 0.62,
+        "4star": 0.22,
+        "3star": 0.07,
+        "2star": 0.01,
+        "1star": 0.08
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 1,
+      "visitStoreLink": {
+        "text": "Visit the OPPO Store",
+        "url": "https://www.amazon.in/stores/OPPOBRAND/page/DA7C0308-4E33-4EC0-8B95-AB851D49CB76?lp_asin=B0FCTS8CVJ&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/41smz+ajm2L._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/410+Nv3OrQL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41x4-ZvYjZL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41i6AkP92yL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41DMR-psP9L._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41WAF3kKLIL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/71qZESVTslL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71aUaN8BP1L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71-i3nIjyML._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71YtLL3kvfL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71rMyR8-MDL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/7197S2WYkjL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81v0yl-ygTL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71SXGJOxyJL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71hrXk5lzUL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81lJqyke7aL._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "\u3010CAMERA-Clarity Meets Creativity\u3011 :Unlock pro-level photography with the OPPO Reno 14 having 50MP IMX882 Main Camera,8MP Ultra Wide Camera ,50MP 3.5x Telephoto Camera and 50MP Front Ultra Clear Camera .Featuring a 50MP Main Camera System with a flagship Sony Sensor, 3.5x Optical Zoom, and up to 120x Super Digital Zoom, every shot is sharp and stunning.Shoot cinematic 4K HDR videos at 60fps across main camera and the telephoto camera lenses, while AI Editor 2.0 brings creative tools like AI Composition, Perfect Shot, Style Transfer, and Flash LivePhoto.From underwater photography to ultra-clear telephoto, Reno14 Series is built to capture brilliance\u2014anywhere, anytime.",
+        "\u3010Iconic Design Meets Extreme Durability\u3011:Crafted for elegance and endurance, the OPPO Reno14 Series features an Aerospace-Grade Aluminium Frame and One-Piece Sculpted Glass for a seamless, premium feel. The Gradiant Aura Design and Industry\u2019s First Silky Velvet Texture create a unique visual and tactile experience, enhanced by the eye-catching Luminous Loop. Enjoy immersive visuals on 6.59 Inches 120Hz Smart Adaptive OLED flexible display with an Ultra-thin Screen Bezel, offering fluid performance and edge-to-edge clarity. Built to withstand the elements, it boasts IP68 & IP69 Water and Dust Resistance\u2014ready for any adventure.",
+        "\u3010Unstoppable Performance, Backed by Innovation\u3011:OPPO Reno14 is powered by the MediaTek 8350 Chipset, achieving Lag-free gaming under heavy loads, even at full frame rate. Its Dual-Engine Performance and AI Nano Dual-Drive Cooling System ensure smooth, sustained power during heavy usage.",
+        "\u3010Smart OS Powered by AI\u3011:OPPO Reno 14 Series runs on a smart, AI-enhanced OS, seamlessly integrated with Google Gemini for a more intuitive and connected experience.Stay globally connected with AI Call Translator, enabling real-time voice translation\u2014breaking language barriers effortlessly.Google Gemini is a versatile and intelligent chat application that answer all your questions with Intelligent Chat,Integration with Google services and Multimodal Interaction.",
+        "\u3010Ultra-large Battery, Full-mark Endurance\u3011:Stay powered through the day with a massive 6000mAh 5-Year Durable Battery, built for long-term performance. Refuel in minutes with 80W SUPERVOOC Flash Charge . Also, stay connected in any environment with the OPPO SignalBoost X1 Chip, delivering stronger, more stable network performance wherever life takes you."
+      ],
+      "attributes": [
+        {
+          "key": "Replacement Reason  Replacement Period  Replacement Policy",
+          "value": ""
+        },
+        {
+          "key": "Operating System",
+          "value": "Android 15"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "8 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Others"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "3.35 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "256 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Pearl White"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Slate"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "Fingerprint Recognition"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Product Features",
+          "value": "Fast Charging Support, Water Resistant"
+        },
+        {
+          "key": "Front Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Camera Description",
+          "value": "Front, Rear"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "3"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "6000"
+        },
+        {
+          "key": "Battery Power",
+          "value": "6000"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "187 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "15.8 x 7.5 x 0.7 Centimeters"
+        },
+        {
+          "key": "Effective Video Resolution",
+          "value": "2160 Pixels"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "4k"
+        },
+        {
+          "key": "Frame Rate",
+          "value": "60"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "6.59 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "1256x2760"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120 Hz"
+        },
+        {
+          "key": "Display Type",
+          "value": "AMOLED"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "1256 x 2760 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "397 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked for All Carriers"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth, USB, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "GSM, LTE"
+        },
+        {
+          "key": "Brand Name",
+          "value": "OPPO"
+        },
+        {
+          "key": "Model Year",
+          "value": "2025"
+        },
+        {
+          "key": "Country of Origin",
+          "value": "India"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Phone Case, Power Adapter, SIM Tray Ejector, USB Cable"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "12 Months on Handset and 6 Months on Adapter & Cable."
+        },
+        {
+          "key": "Manufacturer",
+          "value": "OPPO, OPPO Mobiles India Pvt Ltd, 5th FLOOR, Tower B, BUILDING, N-8, DLF Cyber City, DLF Phase 2,Gurugram, Haryana 122002 Tel - 18001032777"
+        },
+        {
+          "key": "Model Series",
+          "value": "RENO"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Business, Photography"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1.0 Count"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "OPPO Mobiles India Pvt Ltd, 5th FLOOR, Tower B, BUILDING, N-8, DLF Cyber City, DLF Phase 2,Gurugram, Haryana 122002 Tel - 18001032777"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "SmartPhone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "OPPO Mobiles India Pvt Ltd, 5th FLOOR, Tower B, BUILDING, N-8, DLF Cyber City, DLF Phase 2,Gurugram, Haryana 122002 Tel - 18001032777"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "OPPO Mobiles India Pvt Ltd, 5th FLOOR, Tower B, BUILDING, N-8, DLF Cyber City, DLF Phase 2,Gurugram, Haryana 122002 Tel - 18001032777"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0FCTS8CVJ"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.3 4.3 out of 5 stars (560) 4.3 out of 5 stars"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [
+        "B0FCV2D79G",
+        "B0FCTS8CVJ",
+        "B0FQPR8WJS",
+        "B0FCT6M563"
+      ],
+      "variantDetails": [
+        {
+          "name": "Forest Green 8GB RAM + 256GB Storage With exchange bonus or No cost EMI",
+          "thumbnail": "https://m.media-amazon.com/images/I/41u-q0jGf4L._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/71iOkrxC9tL._SL1500_.jpg"
+          ],
+          "asin": "B0FCV2D79G",
+          "price": null
+        },
+        {
+          "name": "Pearl White 8GB RAM + 256GB Storage With exchange bonus or No cost EMI",
+          "thumbnail": "https://m.media-amazon.com/images/I/41smz+ajm2L._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/71qZESVTslL._SL1500_.jpg"
+          ],
+          "asin": "B0FCTS8CVJ",
+          "price": null
+        },
+        {
+          "name": "Gold 8GB RAM + 256GB Storage Other Offers",
+          "thumbnail": "https://m.media-amazon.com/images/I/61F+Uo3RmRL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61F+Uo3RmRL.jpg"
+          ],
+          "asin": "B0FQPR8WJS",
+          "price": null
+        },
+        {
+          "name": "Pearl White 8GB RAM + 256GB Storage Other Offers",
+          "thumbnail": "https://m.media-amazon.com/images/I/31A5gjyXMPL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61puZZVCo8L._SL1500_.jpg"
+          ],
+          "asin": "B0FCT6M563",
+          "price": null
+        }
+      ],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0FCTS8CVJ",
+      "hasReviews": true,
+      "delivery": "Wednesday, 23 September",
+      "fastestDelivery": "Tomorrow 8 am - 12 pm",
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [
+        {
+          "key": "Colour",
+          "value": "Pearl White"
+        },
+        {
+          "key": "Style Name",
+          "value": "With exchange bonus or No cost EMI"
+        }
+      ],
+      "manufacturerAttributes": [],
+      "seller": {
+        "name": "The Pop Market",
+        "id": "A2FED6VUR4SH7E",
+        "url": "https://www.amazon.in/sp?seller=A2FED6VUR4SH7E",
+        "reviewsCount": null,
+        "averageRating": null
+      },
+      "bestsellerRanks": null,
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nThe video showcases the product in use.The video guides you through product setup.The video compares multiple products.The video shows the product being unpacked.\nOppo Reno14 5G\nPrevious page\nNext page\n1 DESIGN 2 CAMERA 3 TELEPHOTO 4 PROCESSOR \nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\n1 BATTERY & CHARGING 2 GAMMING MODE 3 COOLING CHAMBER 4 LINK BOOST \nPrevious page\nNext page",
+        "rawImages": [
+          {
+            "name": "Oppo Reno14 KV",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f1a06733-a335-4ebd-8114-115f9b3c8996.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Reno14 KV",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f1a06733-a335-4ebd-8114-115f9b3c8996.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Reno14",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/30b19435-2253-4bd6-adab-8a5541dc2555.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Reno 14 Camera",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b12c3d5-5cdc-4abd-baa5-b66b41f0b8a1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Telephoto Phone",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/71bffc31-bac7-4def-9dd0-71fa22595c7d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo reno 8350 Chipset",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b4ecc29-1938-433f-a3a2-e077e547df7c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo reno14 5G Design",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/47a456fb-61c5-419b-bbef-a7fd7eed9c35.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo 120Hz Screen",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c4a8c3c9-f9fe-428d-981e-e8705c0a33a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Waterproof Phone",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b92e4ae-1717-4b8a-8ba4-bba58334696d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Camera  Reno14",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/13a77f3b-2295-4e31-9395-13b933fa7090.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Camera Phone",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/74b73e09-5bca-480b-9956-434d829bd1a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo 120x Camera",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7a39b6eb-44fa-4676-92e7-0d58e9614886.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Reno14 underwater Camera",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0989a612-e17b-4f59-9bd9-f904db3063c1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Battery",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/83c45aaf-3da4-4b01-baec-610a4e708d78.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Hyperboost",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2593f29-aae0-499e-82ec-e53fe0149b06.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Cooling phone",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0213ec8e-2fe7-4c32-ba00-27bc0c47ea00.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo link boost",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1364eadb-52ff-4e2b-acc5-d5dd1283d23b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo AI Phone",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/340eb8ab-19a6-4b8e-bc52-205f2b374ac3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo AI",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/aca19552-d925-487d-b20d-e6ac0b88c7a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "OPPO Ai Studio",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/451b35f4-0e41-4a63-a4d8-7931f279e328.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Oppo Reno",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6d795c4b-e096-45c2-a368-6ffc655cebae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "OPPO Reno14",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/43800554-5483-492c-bfb0-b42be44494c9.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [
+          {
+            "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/766d071b-7e8c-4ce8-8249-1330c7362c32/default.jobtemplate.hls.m3u8",
+            "previewImageUrl": "https://m.media-amazon.com/images/I/81w7gKCIhLL.jpg"
+          }
+        ],
+        "modules": [
+          {
+            "type": "premium-module-2-fullbackground-text",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "Oppo Reno14 KV",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f1a06733-a335-4ebd-8114-115f9b3c8996.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-8-hero-video",
+            "title": "Oppo Reno14 5G",
+            "text": null,
+            "video": {
+              "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/766d071b-7e8c-4ce8-8249-1330c7362c32/default.jobtemplate.hls.m3u8",
+              "previewImageUrl": "https://m.media-amazon.com/images/I/81w7gKCIhLL.jpg"
+            }
+          },
+          {
+            "type": "premium-module-12-regimen-carousel",
+            "items": [
+              {
+                "name": "DESIGN",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Reno14",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/30b19435-2253-4bd6-adab-8a5541dc2555.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "CAMERA",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Reno 14 Camera",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b12c3d5-5cdc-4abd-baa5-b66b41f0b8a1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "TELEPHOTO",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Telephoto Phone",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/71bffc31-bac7-4def-9dd0-71fa22595c7d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "PROCESSOR",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo reno 8350 Chipset",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b4ecc29-1938-433f-a3a2-e077e547df7c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo reno14 5G Design",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/47a456fb-61c5-419b-bbef-a7fd7eed9c35.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo 120Hz Screen",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c4a8c3c9-f9fe-428d-981e-e8705c0a33a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo Waterproof Phone",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b92e4ae-1717-4b8a-8ba4-bba58334696d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo Camera  Reno14",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/13a77f3b-2295-4e31-9395-13b933fa7090.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo Camera Phone",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/74b73e09-5bca-480b-9956-434d829bd1a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo 120x Camera",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7a39b6eb-44fa-4676-92e7-0d58e9614886.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Reno14 underwater Camera",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0989a612-e17b-4f59-9bd9-f904db3063c1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-12-regimen-carousel",
+            "items": [
+              {
+                "name": "BATTERY & CHARGING",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Battery",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/83c45aaf-3da4-4b01-baec-610a4e708d78.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "GAMMING MODE",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Hyperboost",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a2593f29-aae0-499e-82ec-e53fe0149b06.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "COOLING CHAMBER",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo Cooling phone",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0213ec8e-2fe7-4c32-ba00-27bc0c47ea00.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "LINK BOOST",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "Oppo link boost",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1364eadb-52ff-4e2b-acc5-d5dd1283d23b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo AI Phone",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/340eb8ab-19a6-4b8e-bc52-205f2b374ac3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo AI",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/aca19552-d925-487d-b20d-e6ac0b88c7a3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "OPPO Ai Studio",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/451b35f4-0e41-4a63-a4d8-7931f279e328.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Oppo Reno",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6d795c4b-e096-45c2-a368-6ffc655cebae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "OPPO Reno14",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/43800554-5483-492c-bfb0-b42be44494c9.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers praise the phone's quality, particularly its camera with its telescope feature, and appreciate its premium design and compact size. They find it performs well and consider it good value for money. The battery life receives mixed feedback - while some report it lasts over 24 hours at moderate use, others say it drains quickly. Customers report heating issues with the device.",
+        "keywords": [
+          {
+            "name": "Quality",
+            "sentiment": "positive",
+            "text": "Customers find the phone excellent, particularly praising its camera quality.",
+            "customersMentionedCount": {
+              "total": 122,
+              "positive": 112,
+              "negative": 10
+            },
+            "partialReviews": [
+              {
+                "text": "Good but outside brightness is low as per the price and the competitor..",
+                "highlightedPart": "Good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R20MAFUFKU3III"
+              },
+              {
+                "text": "Nice",
+                "highlightedPart": "Nice",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3G7PQU1TE9TZ5"
+              },
+              {
+                "text": "Good phone.",
+                "highlightedPart": "Good phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1U9MZZOWC2L3M"
+              },
+              {
+                "text": "Super",
+                "highlightedPart": "Super",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R22F5ITZL7ZS28"
+              }
+            ]
+          },
+          {
+            "name": "Camera",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's camera, particularly its telescope feature and clear image quality.",
+            "customersMentionedCount": {
+              "total": 64,
+              "positive": 55,
+              "negative": 9
+            },
+            "partialReviews": [
+              {
+                "text": "Not used much, but Good camera and software. Working fast and fine upto now",
+                "highlightedPart": "Good camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2SGBR9FKUU7VG"
+              },
+              {
+                "text": "Good camera phone",
+                "highlightedPart": "Good camera phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RHA8FRM0WZ9N0"
+              },
+              {
+                "text": "Very nice mobile. Classy look and feel, super Camera and it's features are just awesome.",
+                "highlightedPart": "super Camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1EZEMXMM2E8FC"
+              },
+              {
+                "text": "Good looking, light weight,premium design,best camera. Heating issue and bugs needed to be resolved.",
+                "highlightedPart": "best camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3DIB3MJLBT1HB"
+              }
+            ]
+          },
+          {
+            "name": "Value for money",
+            "sentiment": "positive",
+            "text": "Customers find the phone offers good value for money.",
+            "customersMentionedCount": {
+              "total": 33,
+              "positive": 24,
+              "negative": 9
+            },
+            "partialReviews": [
+              {
+                "text": "Good camera :Looks handy easy to operate value for money under 30 k",
+                "highlightedPart": "value for money",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2V641EHR96M0U"
+              },
+              {
+                "text": "Excellent phone for this price range I bought this product 26000 \u20b9 include exchange offer Camera looks display performance are excellent",
+                "highlightedPart": "Excellent phone for this price range",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2PHX6Q0FZQ93G"
+              },
+              {
+                "text": "Don't buy",
+                "highlightedPart": "Don't buy",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1TKI73QYGDM0S"
+              },
+              {
+                "text": "Flagship phone in budget price",
+                "highlightedPart": "budget price",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3LRDYED89BM2K"
+              }
+            ]
+          },
+          {
+            "name": "Appearance",
+            "sentiment": "positive",
+            "text": "Customers appreciate the phone's appearance, noting its premium design and good looks, with one customer mentioning it resembles an iPhone.",
+            "customersMentionedCount": {
+              "total": 18,
+              "positive": 18,
+              "negative": 0
+            },
+            "partialReviews": [
+              {
+                "text": "Good looking, light weight,premium design,best camera. Heating issue and bugs needed to be resolved.",
+                "highlightedPart": "Good looking",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3DIB3MJLBT1HB"
+              },
+              {
+                "text": "Superb camera with premium design..",
+                "highlightedPart": "premium design",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R215FDCXXLO4SU"
+              },
+              {
+                "text": "The parcel arrived on time. Everything is in the box. It is a very beautiful phone. Thank you.",
+                "highlightedPart": "very beautiful phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1ZK9B4IK3W2CM"
+              },
+              {
+                "text": "...Size is so handy and look is also nice from back looks like iphone . In one charge it took 50 min and lasts over 24 hours at moderate use",
+                "highlightedPart": "looks like iphone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R53911MS0KWQ"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "positive",
+            "text": "Customers find the phone performs well, with one mentioning it provides full day battery backup.",
+            "customersMentionedCount": {
+              "total": 17,
+              "positive": 12,
+              "negative": 5
+            },
+            "partialReviews": [
+              {
+                "text": "This phone challange to all higher segment phones....it's performance, sound quality, durability & offcourse picture quality is awesome \ud83d\ude0e\ud83d\udc4d",
+                "highlightedPart": "performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R9FYU4W1JSBOA"
+              },
+              {
+                "text": "This is a amazing mobile. Looks premium and performance is awesome. I received this product after using approx 8-9 days.",
+                "highlightedPart": "performance is awesome",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2ESONIAQ8PGTC"
+              },
+              {
+                "text": "Bad performance",
+                "highlightedPart": "Bad performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2K8HGTIYEYJ46"
+              },
+              {
+                "text": "This an excellent phone for photography. Performance is also very good, tons of Ai features really helpfull....",
+                "highlightedPart": "Performance is also very good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3U56Q9B3ZO6X1"
+              }
+            ]
+          },
+          {
+            "name": "Compact size",
+            "sentiment": "positive",
+            "text": "Customers appreciate the phone's compact size.",
+            "customersMentionedCount": {
+              "total": 9,
+              "positive": 8,
+              "negative": 1
+            },
+            "partialReviews": [
+              {
+                "text": "Pros - looks, compact, camera Cons - photo processing lag, battery not upto the mark Avg SOT: 12-13 hrs without gaming",
+                "highlightedPart": "compact",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2XXMULBPOC2I9"
+              },
+              {
+                "text": "Good compact Mobile",
+                "highlightedPart": "Good compact Mobile",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2Z7K7QTASOHR6"
+              },
+              {
+                "text": "...Heating is there that is power of mediatek \ud83d\ude05. Overall it is nice compact phone.",
+                "highlightedPart": "nice compact phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1V8OWYL9FCJBK"
+              },
+              {
+                "text": "...I very much like the compact size and less weight of the product, also the build quality is superb....",
+                "highlightedPart": "compact size",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3M0UOZM8SZHF8"
+              }
+            ]
+          },
+          {
+            "name": "Battery life",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's battery life, with some reporting it lasts over 24 hours at moderate use, while others find it drains quickly.",
+            "customersMentionedCount": {
+              "total": 39,
+              "positive": 19,
+              "negative": 20
+            },
+            "partialReviews": [
+              {
+                "text": "Battery drain issue.",
+                "highlightedPart": "Battery drain issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R30V5KPMRMZURU"
+              },
+              {
+                "text": "...Compact design easy to use. Strong battery and fast charging. AI edit features are very good....",
+                "highlightedPart": "fast charging",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2VJMT1M5FQDYI"
+              },
+              {
+                "text": "Battery drains so fast other aspects are awesome \ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e",
+                "highlightedPart": "Battery drains so fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RAI3NCP38L5WL"
+              },
+              {
+                "text": "...very good performance and good battery backup (around 24hrs without gaming)....",
+                "highlightedPart": "good battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3M0UOZM8SZHF8"
+              }
+            ]
+          },
+          {
+            "name": "Heat",
+            "sentiment": "negative",
+            "text": "Customers report that the phone heats up quickly.",
+            "customersMentionedCount": {
+              "total": 20,
+              "positive": 4,
+              "negative": 16
+            },
+            "partialReviews": [
+              {
+                "text": "Good looking, light weight,premium design,best camera. Heating issue and bugs needed to be resolved.",
+                "highlightedPart": "Heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3DIB3MJLBT1HB"
+              },
+              {
+                "text": "Heating problem and lag sometimes when playing bgmi. Camera better then iphone 15 less then iphone 16. Other then this all are avg.",
+                "highlightedPart": "Heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RTSW23LLTL50H"
+              },
+              {
+                "text": "Worst Produduct,Heating Issue while using camera and Camera always shows an error \"Optimizaing picture.....\"And So many problems in Software and...",
+                "highlightedPart": "Heating Issue while using camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R11VSVQEZZMAGY"
+              },
+              {
+                "text": "...Not for heavy gaming. Size is comfortable. Not a big phone. No heating issue while average use. Potraits are unbeatable....",
+                "highlightedPart": "No heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3I3YMSJJDMAYT"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": "200+ bought in past month",
+      "productPageReviews": [
+        {
+          "username": "Abhiroop",
+          "userId": "amzn1.account.AFHC6J7NH7QOLTJWD7BZBYMMPMVA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFHC6J7NH7QOLTJWD7BZBYMMPMVA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Best camera centric smartphone for this budgetBest camera centric smartphone for this budget",
+          "reviewDescription": "It's a smartphone for best camera performance in this price range.Battery backup is also nice. For performance please avoid. Not for heavy gaming. Size is comfortable. Not a big phone. No heating issue while average use. Potraits are unbeatable. Nice camera smartphone from oppo\ud83d\udd25",
+          "date": "2026-09-16",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 16 September 2026Reviewed in India on 16 September 2026",
+          "reviewId": "R3I3YMSJJDMAYT",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3I3YMSJJDMAYT/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71QOcL8UwoL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61Jmz2wZSBL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61jLmkmzYbL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61J4+AA7u4L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61CmZhrFZdL._SY500_.jpg"
+          ],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI, Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            },
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "Rupesh Agre",
+          "userId": "amzn1.account.AENKEYDH4F2XWGUDRBLZIPE2IT6A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AENKEYDH4F2XWGUDRBLZIPE2IT6A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Camera is best",
+          "reviewDescription": "Best in class",
+          "date": "2026-09-08",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 8 September 2026",
+          "reviewId": "R1VUXD6I283CP2",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1VUXD6I283CP2/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Forest Green, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Forest Green"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "Vaishnavi",
+          "userId": "amzn1.account.AEQTPWUJFRBOC42ZPGFJRWPFFYRA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEQTPWUJFRBOC42ZPGFJRWPFFYRA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Amazing ....",
+          "reviewDescription": "Price worthy looks and settings more it is like iphone camera quality also good feels like very in-hand..thanks to oppo.Little disappointed with amazon delivery service but though delivered the product thru continuous customer care contact and have support at anytime . I appreciate even if amazon delivery service number can be added at the app when it's out for delivery...",
+          "date": "2026-08-16",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 16 August 2026",
+          "reviewId": "RHQFLQACJVDG5",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RHQFLQACJVDG5/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "Placeholder",
+          "userId": "amzn1.account.AHZD5SUIZYXKCA5LNTBNLLKS2JXQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHZD5SUIZYXKCA5LNTBNLLKS2JXQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Value for Money",
+          "reviewDescription": "One of the best flagship phones by Oppo when it came. Even now it's comparable to the newer launches.Value for money",
+          "date": "2026-09-01",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 1 September 2026",
+          "reviewId": "R23D1GJ11YYW9O",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R23D1GJ11YYW9O/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/b2a85fac-a0ed-4548-878e-46211971fde5._CR0%2C26%2C281%2C281_UX460_SX48_.jpg",
+          "variant": "Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: Other Offers",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "Other Offers"
+            }
+          ]
+        },
+        {
+          "username": "Satya Narayan Choudhary",
+          "userId": "amzn1.account.AGR2ZAZR57VK6NXGFWEXIMWG6UVQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGR2ZAZR57VK6NXGFWEXIMWG6UVQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Very nice phone.Very nice phone.",
+          "reviewDescription": "The parcel arrived on time. Everything is in the box. It is a very beautiful phone. Thank you.",
+          "date": "2026-08-06",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 6 August 2026Reviewed in India on 6 August 2026",
+          "reviewId": "R1ZK9B4IK3W2CM",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1ZK9B4IK3W2CM/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71vpWLH-+jL._SY500_.jpg"
+          ],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/d8e7fbae-cbb6-45a4-a1b8-3e9f4036480f._CR0%2C0%2C1080%2C1080_SX460_SX48_.jpg",
+          "variant": "Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI, Colour: Pearl White, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            },
+            {
+              "key": "Colour",
+              "value": "Pearl White"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "santosh gaikwad",
+          "userId": "amzn1.account.AHDMII2A4DUSIOV6UFX2M3FO62OA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHDMII2A4DUSIOV6UFX2M3FO62OA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 1,
+          "reviewTitle": "Don't bay",
+          "reviewDescription": "Not good I hav youging are this phone lest 8 day.Ther are overheating problemAnd camera not working in properly",
+          "date": "2026-08-24",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 24 August 2026",
+          "reviewId": "R2GBK172G3BF4N",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2GBK172G3BF4N/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "2 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Forest Green, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Forest Green"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "Debojit Buragohain",
+          "userId": "amzn1.account.AGXVMUCHTEPIFBHN2NIHH3ADDUUQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGXVMUCHTEPIFBHN2NIHH3ADDUUQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Good",
+          "reviewDescription": "Good product",
+          "date": "2026-09-06",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 6 September 2026",
+          "reviewId": "R2X6PPNB9GCK4F",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2X6PPNB9GCK4F/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Forest Green, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Forest Green"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        },
+        {
+          "username": "You must be over 13 in order t",
+          "userId": "amzn1.account.AE2JFL36U3R5SU6SLJFW6C6AH74A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AE2JFL36U3R5SU6SLJFW6C6AH74A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 3,
+          "reviewTitle": "Not recommendedNot recommended",
+          "reviewDescription": "Having made the final-hour decision to pivot from the planned Samsung S24 FE to the Oppo Reno 14, I was initially impressed with the latter's overall performance. The Reno 14 proves to be an excellent smartphone in most aspects\u2014display, design, and general speed are all commendable. However, for a user whose first priority was the camera, two significant issues have emerged that are unfortunately deal-breakers, leading to considerable buyer's remorse.The Camera Conundrum: Poor HDR PerformanceThe most critical disappointment lies in the camera's High Dynamic Range (HDR) processing. Coming from the older Samsung Galaxy M31s, the expectation was that a newer, upper-mid-range device like the Reno 14 would offer a clear upgrade in computational photography. Regrettably, the reality is the opposite.The HDR on the Reno 14 is surprisingly poor. It struggles noticeably in high-contrast scenes, often failing to balance bright highlights and dark shadows effectively. The resulting images frequently look flat, overexposed in the bright areas, or have crushed shadows, losing crucial detail. This is a severe step down from my old Samsung Galaxy M31s, whose HDR capabilities were far superior and consistently delivered more balanced and pleasing results. For someone prioritizing camera performance, this regression in a fundamental area is baffling and highly frustrating.Pathetic Battery LifeThe second major deal-breaker is the battery performance. While I cannot state the official capacity, the real-world usage feels disastrously low. The battery life is pathetic, draining so quickly that it gives the impression of a phone housing a mere 3000 mAh cell.This short endurance cripples the usability of the phone. Constant anxiety about finding a charger or needing to top up multiple times a day negates the benefits of its other excellent features. A modern smartphone should comfortably last a full day of typical use, but the Reno 14 falls drastically short of this standard.Conclusion and Buyer's RemorseThe Oppo Reno 14 is a phone of stark contrasts: it excels in areas like general speed and aesthetics but fundamentally fails in the two aspects that matter most to me\u2014camera quality (specifically HDR) and battery longevity.The frustration is compounded by the knowledge that the planned purchase, the Samsung S24 FE, was explicitly chosen to meet the high camera and reliability standards. Now, with the Reno 14 already purchased and the option to switch closed, I am left with an otherwise excellent phone that is fundamentally flawed in the two areas that define its long-term viability for me.The lesson here is a harsh one: while last-minute decisions can sometimes pay off, in this case, deviating from a carefully planned purchase based on key priorities has resulted in significant regret. The Oppo Reno 14, for all its strengths, ultimately fails the core criteria of a demanding camera user who needs reliable all-day power.",
+          "date": "2025-10-12",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 12 October 2025Reviewed in India on 12 October 2025",
+          "reviewId": "R1JNPKEP4VEVXL",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1JNPKEP4VEVXL/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71CR2Wz4xQL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/613SWHjhXcL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71YNzh+DPaL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71xZDZI3uZL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71ar2tORnhL._SY500_.jpg"
+          ],
+          "reviewReaction": "22 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Forest Green, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI, Colour: Forest Green, Size: 8GB RAM + 256GB Storage, Style Name: With exchange bonus or No cost EMI",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Forest Green"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            },
+            {
+              "key": "Colour",
+              "value": "Forest Green"
+            },
+            {
+              "key": "Size",
+              "value": "8GB RAM + 256GB Storage"
+            },
+            {
+              "key": "Style Name",
+              "value": "With exchange bonus or No cost EMI"
+            }
+          ]
+        }
+      ],
+      "productPageReviewsFromOtherCountries": []
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0FCTS8CVJ"
+  }
+]

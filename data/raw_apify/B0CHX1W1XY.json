@@ -1,0 +1,606 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0CHX1W1XY",
+    "name": "Apple iPhone 15 (128 GB) - Black",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "Apple"
+    },
+    "image": "https://m.media-amazon.com/images/I/31KxpX7Xk7L._SX342_SY445_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 11846,
+    "rating": null,
+    "aiSummary": "Key business insights: the listing shows price and stock data gaps (price and priceCurrency are null; inStock is false with \u201cCurrently unavailable.\u201d), creating immediate risk of lost demand and poor conversion unless pricing and inventory are stabilized; Apple as the brand and the official Apple Store link bolster trust and premium positioning, suggesting this is a high-value SKU that should be aggressively stocked and priced to maximize ARPU when available; product strengths highlighted (Dynamic Island, durable glass/aluminum design, 48 MP main camera with telephoto, A16 Bionic, 6.1\" display, 128 GB) align with premium consumer segments and justify premium pricing, but user sentiment reveals notable negative friction around heating and battery life, which could damp demand and drive returns if not addressed; the aiReviewsSummary reinforces authenticity, premium design, and camera quality as core positives while flagging heat and battery as latent risks, meaning messaging and software optimization should address these concerns; cross-regional interest is evidenced by reviews from India and a country review from Egypt, indicating opportunity for localized pricing/shipping strategies and regional campaigns; media assets are strong (4 videos, multiple high-res images, gallery thumbnails) and can be leveraged to boost conversion and trust if price/stock are aligned with messaging; there are data gaps beyond price/stock (description, return policy, delivery terms, seller details) that, if filled, would reduce friction and increase trust; there is potential for merchandising expansion (introduce variants like 128 GB vs 256 GB, bundles with AppleCare or accessories, and clearer stock/restock ETA) to convert demand once price and availability are resolved; overall risk/reward suggests this device could deliver strong margin and growth in India with a synchronized approach to pricing, stock replenishment, authentic branding, and transparent performance messaging around heat and battery life; immediate action items: publish and refresh price and stock ETA, keep the Apple Store official channel prominent, fill missing policy details, tailor regional promotions, spotlight Dynamic Island/camera/UX while clearly communicating battery management tips, and explore SKU diversification and bundled offers to convert the demonstrated interest into sales.",
+    "additionalProperties": {
+      "asin": "B0CHX1W1XY",
+      "originalAsin": "B0CHX1W1XY",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.5,
+      "starsBreakdown": {
+        "5star": 0.75,
+        "4star": 0.15,
+        "3star": 0.04,
+        "2star": 0.01,
+        "1star": 0.05
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "",
+      "videosCount": 4,
+      "visitStoreLink": {
+        "text": "Visit the Apple Store",
+        "url": "https://www.amazon.in/stores/Apple/page/88D59F86-9161-4804-A524-0A5B39CD714A?lp_asin=B0CHX1W1XY&ref_=ast_bln"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/31KxpX7Xk7L._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/21QaYqiZmWL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/318PoeHeuZL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31XwlUhCeZL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/51Xr-2dfBpL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31nTdzrmGDL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51brdXeugJL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/712CBkmhLhL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61f4dTush1L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81BnjSLm2oL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/617JW0DrG8L._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "DYNAMIC ISLAND COMES TO IPHONE 15 \u2014 Dynamic Island bubbles up alerts and Live Activities \u2014 so you don\u2019t miss them while you\u2019re doing something else. You can see who\u2019s calling, track your next ride, check your flight status, and so much more.",
+        "INNOVATIVE DESIGN \u2014 iPhone 15 features a durable color-infused glass and aluminum design. It\u2019s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1\" Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.",
+        "48MP MAIN CAMERA WITH 2X TELEPHOTO \u2014 The 48MP Main camera shoots in super-high resolution. So it\u2019s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.",
+        "NEXT-GENERATION PORTRAITS \u2014 Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects \u2014 even after you take the shot.",
+        "POWERHOUSE A16 BIONIC CHIP \u2014 The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life."
+      ],
+      "attributes": [
+        {
+          "key": "Manufacturer",
+          "value": "Apple"
+        },
+        {
+          "key": "Item model number",
+          "value": "MTP03HN/A"
+        },
+        {
+          "key": "Product Dimensions",
+          "value": "0.78 x 7.16 x 14.76 cm; 171 g"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0CHX1W1XY"
+        },
+        {
+          "key": "Packer",
+          "value": "Not Applicable for Apple (Always)"
+        },
+        {
+          "key": "Importer",
+          "value": "(If applicable) Apple India Private Limited No.24, 19th floor, Concorde Tower C, UB City, Vittal Mallya Road, Bangalore - 560 001"
+        },
+        {
+          "key": "Item Weight",
+          "value": "171 g"
+        },
+        {
+          "key": "Item Dimensions LxWxH",
+          "value": "8 x 72 x 148 Millimeters"
+        },
+        {
+          "key": "Net Quantity",
+          "value": "1 Count"
+        },
+        {
+          "key": "Included Components",
+          "value": "iPhone 15 1N, USB-C Charge Cable"
+        },
+        {
+          "key": "Generic Name",
+          "value": "Smartphone"
+        }
+      ],
+      "productOverview": [
+        {
+          "key": "Brand",
+          "value": "Apple"
+        },
+        {
+          "key": "Operating System",
+          "value": "iOS"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Screen Size",
+          "value": "6.1 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2556x1179"
+        }
+      ],
+      "variantAsins": [],
+      "variantDetails": [],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0CHX1W1XY",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": null,
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": null,
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers find the iPhone to be authentic and appreciate its premium design, particularly the Dynamic Island feature. The camera quality is superb, with one customer noting DSLR-like picture quality in every click, and the user interface provides a smooth and enjoyable experience. While some customers report excellent battery life, others mention it drains too fast, and there are mixed opinions about performance, with some saying it runs super smoothly while others find it lagging. Customers report heating issues, with the phone getting heated quickly during use.",
+        "keywords": [
+          {
+            "name": "Quality",
+            "sentiment": "positive",
+            "text": "Customers find the iPhone to be a superb product.",
+            "customersMentionedCount": {
+              "total": 1132,
+              "positive": 1015,
+              "negative": 117
+            },
+            "partialReviews": [
+              {
+                "text": "This phone is good and quite seamless for multitasking and the camera quality and features is excellent.",
+                "highlightedPart": "good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3CJOGWXD7GY51"
+              },
+              {
+                "text": "Nice \ud83d\udc4d\ud83c\udffb iphone feature and display, durability,sound quality",
+                "highlightedPart": "Nice",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1FN4Y7U8425QC"
+              },
+              {
+                "text": "This was my first time online mobile purchase and I am glad I got good product and with good price thanks Amazon for secured delivery",
+                "highlightedPart": "good product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R11MMPURCWLBDU"
+              },
+              {
+                "text": "The iPhone 15 is excellent\u2014great performance and beautiful design. But the delivery was not good....",
+                "highlightedPart": "excellent",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VL538C2LQJHG"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "positive",
+            "text": "Customers praise the camera quality of the iPhone 15, noting that it takes great photos and has improved significantly compared to previous models, with one customer describing it as DSLR-like in every click.",
+            "customersMentionedCount": {
+              "total": 211,
+              "positive": 176,
+              "negative": 35
+            },
+            "partialReviews": [
+              {
+                "text": "Fantastic device! Smooth performance, great camera, and excellent battery life. Build quality feels premium and overall experience is excellent....",
+                "highlightedPart": "great camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1EYHE7J9UUUI9"
+              },
+              {
+                "text": "...Not because its apple but the build quality, camera quality and other things they offer. It makes it very reliable and good product.",
+                "highlightedPart": "camera quality",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1WZGYSCK03C2W"
+              },
+              {
+                "text": "Since its my first iPhone I had more expectations! CAmera is good, UI is smooth. Sound quality could have been better....",
+                "highlightedPart": "CAmera is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RIA41ZFX0JJG6"
+              },
+              {
+                "text": "The camera quality is excellent \u2014 especially for photos in low light \u2014 and the battery life easily lasts me a full day....",
+                "highlightedPart": "camera quality is excellent",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RZLFPTUOCO2JD"
+              }
+            ]
+          },
+          {
+            "name": "User experience",
+            "sentiment": "positive",
+            "text": "Customers find the phone's user experience excellent, describing it as smooth and enjoyable, with one customer specifically praising the interface.",
+            "customersMentionedCount": {
+              "total": 103,
+              "positive": 86,
+              "negative": 17
+            },
+            "partialReviews": [
+              {
+                "text": "...in this Amazon Festival sale..this is pure joy to use an iphone..very smooth..battery is good..everying is perfect..no problem whatsoever.....",
+                "highlightedPart": "very smooth",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R131PUGV5GO4I5"
+              },
+              {
+                "text": "Happy \ud83d\ude01",
+                "highlightedPart": "Happy",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R20EPXN5UPT2O8"
+              },
+              {
+                "text": "I recently received my new iPhone, and it has been an amazing experience so far....",
+                "highlightedPart": "amazing experience",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RWNPEH5OTKTLJ"
+              },
+              {
+                "text": "My first iPhone ever wonderful experience with this black beast iPhone 15 \ud83d\udda4",
+                "highlightedPart": "wonderful experience",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3C84LQH5UZI1N"
+              }
+            ]
+          },
+          {
+            "name": "Design",
+            "sentiment": "positive",
+            "text": "Customers appreciate the design of the iPhone 15, noting its premium appearance and the attractive Dynamic Island feature.",
+            "customersMentionedCount": {
+              "total": 94,
+              "positive": 90,
+              "negative": 4
+            },
+            "partialReviews": [
+              {
+                "text": "sleek design, excellent performance, and a user-friendly interface. Its display is bright and vivid, making it ideal for streaming and browsing....",
+                "highlightedPart": "sleek design",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RX961TTAO7N5J"
+              },
+              {
+                "text": "...The design feels premium and sleek in hand, and iOS runs flawlessly as always.",
+                "highlightedPart": "sleek",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RA2DVGCBYG2U2"
+              },
+              {
+                "text": "...The design feels premium, the display is super smooth, and the camera quality is amazing for photos and videos....",
+                "highlightedPart": "design feels premium",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R162810B0UQKEN"
+              },
+              {
+                "text": "ARRRGHHH CUTEEEEE JUST PERFECT, pretty and beautiful, camera is chefs kiss.",
+                "highlightedPart": "beautiful",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2VPCAJL5PRCW1"
+              }
+            ]
+          },
+          {
+            "name": "Authenticity",
+            "sentiment": "positive",
+            "text": "Customers confirm that the iPhone is authentic.",
+            "customersMentionedCount": {
+              "total": 63,
+              "positive": 54,
+              "negative": 9
+            },
+            "partialReviews": [
+              {
+                "text": "It is really good and genuine product, and it is working fine. Highly recommend the seller Also order delivered on time.",
+                "highlightedPart": "genuine product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2EGRYV8L78S92"
+              },
+              {
+                "text": "Product is superb and genuine! It was real and unused (new)phone with apple sealed ! With coverage of 1 year ! GENIUNE SELLER :)",
+                "highlightedPart": "genuine",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RHA525OSXSDJT"
+              },
+              {
+                "text": "Nice quality and original product, thank you for Amazon, great Indian festival",
+                "highlightedPart": "original product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3D39TN4WR38DX"
+              },
+              {
+                "text": "Authentic product and 5 star for secured delivery. The seller was genuine and trustworthy.",
+                "highlightedPart": "Authentic product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R39LYFH7YNQH2H"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's performance, with some reporting it runs super smoothly and works flawlessly, while others find it not working properly and lagging.",
+            "customersMentionedCount": {
+              "total": 226,
+              "positive": 142,
+              "negative": 84
+            },
+            "partialReviews": [
+              {
+                "text": "...But for the above, it\u2019s a big thumbs up for the phone. It\u2019s light & fast. I am told once the banks are connected, it\u2019s very secure transacting online",
+                "highlightedPart": "fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3ODEWZ5DXR33G"
+              },
+              {
+                "text": "Over all poor performance and Quality of camera it's only name of brand not features phone it's like dabba phone",
+                "highlightedPart": "poor performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3MW136RZ1NCXL"
+              },
+              {
+                "text": "...If you're looking for a stylish, powerful, and reliable phone, the iPhone 15 in Pink is a fantastic choice.",
+                "highlightedPart": "reliable",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R36I02CHL9D00Z"
+              },
+              {
+                "text": "sleek design, excellent performance, and a user-friendly interface. Its display is bright and vivid, making it ideal for streaming and browsing....",
+                "highlightedPart": "excellent performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RX961TTAO7N5J"
+              }
+            ]
+          },
+          {
+            "name": "Battery life",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's battery life, with some praising its excellent performance while others report it drains too fast and only lasts about 8 hours on a full charge.",
+            "customersMentionedCount": {
+              "total": 182,
+              "positive": 85,
+              "negative": 97
+            },
+            "partialReviews": [
+              {
+                "text": "Battery drain and heating problem very much....",
+                "highlightedPart": "Battery drain",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R15K2HBC703NLJ"
+              },
+              {
+                "text": "Mobile is superb and decent battery need to charge 2r 3 times in a day, mobile is heating sometimes.cemara is excellent.",
+                "highlightedPart": "decent battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R17I24ZXEV7LHA"
+              },
+              {
+                "text": "Best but battery issue",
+                "highlightedPart": "battery issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3UUVF1VCZ49EN"
+              },
+              {
+                "text": "...Battery life is solid for daily use, though it may heat up during heavy camera use or long charging sessions.",
+                "highlightedPart": "Battery life is solid",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R31LPPBY543LYD"
+              }
+            ]
+          },
+          {
+            "name": "Heat",
+            "sentiment": "negative",
+            "text": "Customers report that the phone heats up quickly, particularly during charging.",
+            "customersMentionedCount": {
+              "total": 112,
+              "positive": 13,
+              "negative": 99
+            },
+            "partialReviews": [
+              {
+                "text": "Overall it's okay except the heating issue. Device got automatically heated up after watching a video at high quality....",
+                "highlightedPart": "heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R36CLR8MRB2MDE"
+              },
+              {
+                "text": "...Initially, there were some battery drain and heating issues, but they resolved as the phone learned my usage patterns....",
+                "highlightedPart": "heating issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1DHP76NRV8RO8"
+              },
+              {
+                "text": "Heating problem while playing high quality movies in a video player",
+                "highlightedPart": "Heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R34UBYEXD2ACSN"
+              },
+              {
+                "text": "Camera is good but Heat issue and poor battery",
+                "highlightedPart": "Heat issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R7SJDX9MK0952"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "Ritu janghu",
+          "userId": "amzn1.account.AFXFHTR4KRTIQTGUAJMV2NODFCGQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFXFHTR4KRTIQTGUAJMV2NODFCGQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Amazing iPhone, Highly Recommended!",
+          "reviewDescription": "\u2b50\u2b50\u2b50\u2b50\u2b50I am very happy with this purchase. The iPhone looks premium, the performance is super smooth, and the camera quality is excellent. The battery backup is good for daily use, and the display is bright and vibrant. Everything was delivered safely and the product was genuine. Overall, it is worth buying and I highly recommend it.",
+          "date": "2026-07-12",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 12 July 2026",
+          "reviewId": "R144D2TLUT6148",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R144D2TLUT6148/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Sourabh Saini",
+          "userId": "amzn1.account.AHUBGQKESXPXP6JFFFSXVJD2KZLQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHUBGQKESXPXP6JFFFSXVJD2KZLQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Good",
+          "reviewDescription": "Good camera qualuty",
+          "date": "2026-09-12",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 12 September 2026",
+          "reviewId": "R21D6RSI06ROGH",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R21D6RSI06ROGH/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Narender Rao",
+          "userId": "amzn1.account.AGXT5DTRF4RQEK5UTLZVLPWPNDMQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGXT5DTRF4RQEK5UTLZVLPWPNDMQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Balanced phone",
+          "reviewDescription": "Very good phone with great screen quality and picture quality. Overpriced for what it offers",
+          "date": "2026-08-18",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 18 August 2026",
+          "reviewId": "R329NI4WKE80TZ",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R329NI4WKE80TZ/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Ataher Saeed",
+          "userId": "amzn1.account.AEBXW4JL7QKMKPMOSPMQPNO352XA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEBXW4JL7QKMKPMOSPMQPNO352XA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Gs",
+          "reviewDescription": "Very good product",
+          "date": "2026-09-11",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 11 September 2026",
+          "reviewId": "RTUSA6BTYDSE6",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RTUSA6BTYDSE6/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Sangeeta",
+          "userId": "amzn1.account.AFUWPPHQOG37K73IZVUNWGMSVH3Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFUWPPHQOG37K73IZVUNWGMSVH3Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Best product",
+          "reviewDescription": "Good",
+          "date": "2026-09-03",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 3 September 2026",
+          "reviewId": "R2TNJTNMKYKA26",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2TNJTNMKYKA26/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Supriyo Ghosh",
+          "userId": "amzn1.account.AFGH5CICJ2VOGQR6SLE3OIIAPLYQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFGH5CICJ2VOGQR6SLE3OIIAPLYQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Very good",
+          "reviewDescription": "Very good",
+          "date": "2026-09-14",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 14 September 2026",
+          "reviewId": "R1C18M6M0KCA7J",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1C18M6M0KCA7J/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Chinna",
+          "userId": "amzn1.account.AHKXZ2JNYIYU5YK5Z5FCICCZP6CQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHKXZ2JNYIYU5YK5Z5FCICCZP6CQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Chinna",
+          "reviewDescription": "Good",
+          "date": "2026-07-04",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 4 July 2026",
+          "reviewId": "R1A7TNHD2AYZXE",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1A7TNHD2AYZXE/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Faiyaz Khan",
+          "userId": "amzn1.account.AHTUMP6XSNVEAYZJG4UTBDMMDO4Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHTUMP6XSNVEAYZJG4UTBDMMDO4Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "camera quality, bestcamera quality, best",
+          "reviewDescription": "",
+          "date": "2026-09-09",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 9 September 2026Reviewed in India on 9 September 2026",
+          "reviewId": "R2EWR8PM5T71UX",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2EWR8PM5T71UX/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/811IFCNswPL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71Jg0bRQa+L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71d2h4NHmwL._SY500_.jpg"
+          ],
+          "reviewReaction": null,
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        }
+      ],
+      "productPageReviewsFromOtherCountries": [
+        {
+          "username": "zoghabi",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Excellent",
+          "reviewDescription": "Excellent phone.",
+          "date": "2026-06-18",
+          "position": 1,
+          "reviewedIn": "Reviewed in Egypt on 18 June 2026",
+          "reviewId": "R2W373YVL7TT0Q",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        }
+      ]
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0CHX1W1XY"
+  }
+]

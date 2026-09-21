@@ -1,0 +1,126 @@
+{
+  "price_overview": {
+    "current_price": 26349,
+    "all_time_low": 25935,
+    "all_time_high": 46999,
+    "avg_30_days": 26450.16,
+    "overall_average": 27125.74,
+    "low_6_months": 25935,
+    "trend_percentage": -2.37
+  },
+  "deal_evaluation": {
+    "score": 85,
+    "verdict": "Great deal"
+  },
+  "competitor_pricing": {
+    "Amazon": {
+      "price": 26349,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0HDYYYY13"
+    },
+    "Flipkart": {
+      "price": 34150,
+      "is_current": false,
+      "url": "https://www.flipkart.com/samsung-galaxy-f70-pro-5g-alpha-black-256-gb/p/itm37bbb9ed78024?pid=MOBHZ8YSJ2AJQEBZ&lid=LSTMOBHZ8YSJ2AJQEBZ5KBEEG"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-08-18",
+      "price": 46999
+    },
+    {
+      "date": "2026-08-19",
+      "price": 27999
+    },
+    {
+      "date": "2026-08-20",
+      "price": 27998
+    },
+    {
+      "date": "2026-08-22",
+      "price": 26990
+    },
+    {
+      "date": "2026-08-23",
+      "price": 26939
+    },
+    {
+      "date": "2026-08-25",
+      "price": 26480
+    },
+    {
+      "date": "2026-08-28",
+      "price": 26684
+    },
+    {
+      "date": "2026-08-29",
+      "price": 26645
+    },
+    {
+      "date": "2026-08-31",
+      "price": 25935
+    },
+    {
+      "date": "2026-09-02",
+      "price": 26900
+    },
+    {
+      "date": "2026-09-04",
+      "price": 26799
+    },
+    {
+      "date": "2026-09-05",
+      "price": 26489
+    },
+    {
+      "date": "2026-09-07",
+      "price": 26345
+    },
+    {
+      "date": "2026-09-08",
+      "price": 26337
+    },
+    {
+      "date": "2026-09-10",
+      "price": 26325
+    },
+    {
+      "date": "2026-09-11",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-12",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-13",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-14",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-16",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-17",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-18",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-19",
+      "price": 26349
+    },
+    {
+      "date": "2026-09-20",
+      "price": 26349
+    }
+  ],
+  "historical_data_points": 24
+}

@@ -1,0 +1,150 @@
+{
+  "price_overview": {
+    "current_price": 39999,
+    "all_time_low": 39999,
+    "all_time_high": 42105,
+    "avg_30_days": 39999,
+    "overall_average": 40059.17,
+    "low_6_months": 39999,
+    "trend_percentage": 0
+  },
+  "deal_evaluation": {
+    "score": 83,
+    "verdict": "Great deal"
+  },
+  "competitor_pricing": {
+    "Amazon": {
+      "price": 39999,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0H99SS8B2"
+    },
+    "Flipkart": {
+      "price": 39999,
+      "is_current": false,
+      "url": "https://www.flipkart.com/vivo-s2-silk-white-128-gb/p/itm019d134c8359d?pid=MOBHPGG9YF8Q3ZF3&lid=LSTMOBHPGG9YF8Q3ZF30GCDUS"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-08-01",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-02",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-03",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-04",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-05",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-06",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-07",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-11",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-12",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-13",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-15",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-16",
+      "price": 42105
+    },
+    {
+      "date": "2026-08-18",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-19",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-21",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-22",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-23",
+      "price": 39999
+    },
+    {
+      "date": "2026-08-25",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-01",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-03",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-10",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-11",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-12",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-14",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-15",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-16",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-17",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-18",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-19",
+      "price": 39999
+    },
+    {
+      "date": "2026-09-20",
+      "price": 39999
+    }
+  ],
+  "historical_data_points": 30
+}
