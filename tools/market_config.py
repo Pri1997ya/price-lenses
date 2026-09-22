@@ -75,9 +75,13 @@ class MarketSettings:
     @classmethod
     def from_env(cls) -> "MarketSettings":
         load_dotenv()
-        database_url = os.getenv("DATABASE_URL", "").strip()
+        database_url = (
+            os.getenv("DATABASE_URL") or os.getenv("PL_DATABASE_URL") or ""
+        ).strip()
         if not database_url:
-            raise ConfigurationError("DATABASE_URL is required")
+            raise ConfigurationError(
+                "DATABASE_URL is required (PL_DATABASE_URL is also supported)"
+            )
 
         country = os.getenv("MARKET_COUNTRY", "in").strip().lower()
         google_domain = os.getenv("MARKET_GOOGLE_DOMAIN", "google.co.in").strip().lower()

@@ -124,6 +124,9 @@ API enrichment is disabled by default and can be enabled with
 `SERPAPI_ENRICH_AMAZON=true`. Apify enriches the cheapest discovered listings
 with configured Flipkart and bank-offer actors.
 
+The application prefers `DATABASE_URL`; existing installations that already use
+`PL_DATABASE_URL` are also supported for backward compatibility.
+
 ---
 
 ## 🧠 Key Features for Evaluators

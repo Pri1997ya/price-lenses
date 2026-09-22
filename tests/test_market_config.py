@@ -22,6 +22,18 @@ def test_settings_default_to_india_and_search_api(monkeypatch):
     assert settings.serpapi_enrich_amazon is False
 
 
+def test_settings_accept_existing_pl_database_url(monkeypatch):
+    monkeypatch.delenv("DATABASE_URL", raising=False)
+    monkeypatch.setenv("PL_DATABASE_URL", "postgresql://localhost/pricelens")
+    monkeypatch.setenv("MARKET_COUNTRY", "in")
+    monkeypatch.setenv("MARKET_GOOGLE_DOMAIN", "google.co.in")
+    monkeypatch.setenv("MARKET_AMAZON_DOMAIN", "amazon.in")
+
+    settings = MarketSettings.from_env()
+
+    assert settings.database_url == "postgresql://localhost/pricelens"
+
+
 def test_settings_reject_non_india_market(monkeypatch):
     _base_environment(monkeypatch)
     monkeypatch.setenv("MARKET_COUNTRY", "us")
