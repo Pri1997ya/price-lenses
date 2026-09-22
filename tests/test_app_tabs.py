@@ -8,7 +8,8 @@ def test_dashboard_renders_history_and_market_tabs(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", "postgresql://localhost/pricelens")
 
     app_path = Path(__file__).resolve().parents[1] / "app.py"
-    app = AppTest.from_file(app_path, default_timeout=20).run()
+    # A clean CI environment may need extra time for first-time LangGraph imports.
+    app = AppTest.from_file(app_path, default_timeout=60).run()
 
     assert not app.exception
     assert [tab.label for tab in app.tabs] == [

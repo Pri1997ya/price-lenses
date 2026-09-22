@@ -1,6 +1,5 @@
-import operator
 import re
-from typing import Annotated, TypedDict, Any
+from typing import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 
@@ -67,7 +66,6 @@ def input_resolver_node(state: PriceLensState):
 
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
-from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 @tool
@@ -107,7 +105,6 @@ def history_agent_node(state: PriceLensState):
    
         
     try:
-        # llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
         llm = ChatOpenAI(
                 base_url=LLM_BASE_URL,
                 api_key=LLM_API_KEY,
