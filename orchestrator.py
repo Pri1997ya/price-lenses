@@ -101,6 +101,7 @@ def history_agent_node(state: PriceLensState):
     LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "http://127.0.0.1:5001/gateway/mlflow/v1")
     LLM_API_KEY  = os.environ.get("LLM_API_KEY", "not-needed")
     LLM_MODEL    = os.environ.get("LLM_MODEL",    "gemini")
+    agent_trace = []
 
    
         
@@ -128,7 +129,6 @@ def history_agent_node(state: PriceLensState):
         agent = create_react_agent(llm, tools=[check_price_trend, get_historical_sale_drops], prompt=system_prompt)
         
         # 5. Capture the exact thought process (Trace Logging)
-        agent_trace = []
         agent_trace.append(f"📥 SYSTEM PROMPT PASSED TO LLM:\n{system_prompt}\n")
         agent_trace.append(f"📥 USER PROMPT: Analyze the historical price for ASIN: {asin}\n")
         
@@ -153,8 +153,29 @@ def history_agent_node(state: PriceLensState):
         last_node = list(final_state.keys())[0]
         llm_analysis = final_state[last_node]["messages"][-1].content
         
-    except Exception as e:
-        raise RuntimeError(f"LLM Agent Failed: {str(e)}")
+    except Exception as exc:
+        # Historical pricing is deterministic database analysis and must remain
+        # available when the optional LLM commentary service is offline.
+        stance = trend.get("historical_stance", "UNKNOWN")
+        if trend.get("error"):
+            llm_analysis = f"Historical analysis could not be completed: {trend['error']}"
+        elif stance == "BUY_NOW":
+            llm_analysis = (
+                "The current price is close to the product's verified historical low. "
+                "Based on the stored price history, the current recommendation is BUY NOW."
+            )
+        else:
+            target = drops.get("safe_target_price")
+            target_text = f" near ₹{target:,.0f}" if target is not None else ""
+            llm_analysis = (
+                "The current price is above the preferred historical buying range. "
+                f"Consider waiting for a target price{target_text}; the current "
+                "recommendation is WAIT."
+            )
+        agent_trace.append(
+            "LLM commentary was unavailable; displayed deterministic PostgreSQL "
+            f"analysis instead. Reason: {exc}"
+        )
             
     return {
         "history_report": {

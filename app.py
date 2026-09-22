@@ -22,16 +22,19 @@ def fetch_price_history(canonical_id: str) -> pd.DataFrame:
     """Fetch the existing historical time series used by the History Agent."""
     connection = get_db_connection()
     try:
-        return pd.read_sql_query(
-            """
-            SELECT recorded_date, price
-            FROM price_history
-            WHERE canonical_id = %s
-            ORDER BY recorded_date ASC
-            """,
-            connection,
-            params=(canonical_id,),
-        )
+        with connection.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT recorded_date, price
+                FROM price_history
+                WHERE canonical_id = %s
+                ORDER BY recorded_date ASC
+                """,
+                (canonical_id,),
+            )
+            return pd.DataFrame(
+                cursor.fetchall(), columns=["recorded_date", "price"]
+            )
     finally:
         connection.close()
 
@@ -131,7 +134,7 @@ def render_history_results(result_state: dict) -> None:
                     line_color="green",
                     annotation_text="ATL",
                 )
-                st.plotly_chart(figure, use_container_width=True)
+                st.plotly_chart(figure, width="stretch")
 
     with st.container(border=True):
         st.info("⏳ Review Intelligence Agent is pending implementation.")
@@ -150,7 +153,7 @@ def render_history_tab() -> None:
             help="Try an ASIN, a product name, or an Amazon /dp/ link.",
         )
         submitted = button_column.form_submit_button(
-            "Analyze", type="primary", use_container_width=True
+            "Analyze", type="primary", width="stretch"
         )
 
     if submitted:
@@ -255,7 +258,7 @@ def render_market_results(
     st.dataframe(
         table,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
         column_config={
             "Price": st.column_config.NumberColumn(format="₹ %.0f"),
             "Effective price": st.column_config.NumberColumn(format="₹ %.0f"),
@@ -275,7 +278,7 @@ def render_market_results(
         st.dataframe(
             pd.DataFrame(promotions),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
             column_config={
                 "Amount": st.column_config.NumberColumn(format="₹ %.0f"),
                 "Percent": st.column_config.NumberColumn(format="%.1f%%"),
@@ -352,10 +355,10 @@ def render_market_tab() -> None:
         limit = st.slider("Results per provider", 5, 50, 20, step=5)
         fetch_button, load_button = st.columns(2)
         fetch_live = fetch_button.form_submit_button(
-            "Fetch live offers", type="primary", use_container_width=True
+            "Fetch live offers", type="primary", width="stretch"
         )
         load_stored = load_button.form_submit_button(
-            "Load stored results", use_container_width=True
+            "Load stored results", width="stretch"
         )
 
     normalized_query = query.strip()
