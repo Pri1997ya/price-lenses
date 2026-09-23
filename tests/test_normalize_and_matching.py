@@ -1,4 +1,4 @@
-from tools.market_matching import ProductResolver
+from tools.market_matching import ProductResolver, product_relevance
 from tools.market_models import Offer
 from tools.market_normalize import (extract_asin, normalize_title, parse_int, parse_price,
                                     search_query_from_url)
@@ -54,3 +54,19 @@ def test_normalize_title():
 def test_product_query_from_retailer_url():
     url = "https://www.flipkart.com/apple-iphone-16-black-128-gb/p/itm123?pid=MOB123"
     assert search_query_from_url(url) == "apple iphone 16 black 128 gb"
+
+
+def test_product_relevance_rejects_accessories_and_unrelated_models():
+    assert product_relevance("vivo s2", "Myflips Flip Cover For Vivo S2 5G") == 0
+    assert product_relevance("vivo s2", "Tempered Glass For Vivo S2") == 0
+    assert product_relevance("vivo s2", "Samsung Galaxy S25 Ultra") == 0
+    assert product_relevance(
+        "vivo s2",
+        "S2 5G (Silk White, 8GB RAM, 128GB Storage) | 50MP Camera",
+    ) >= 0.25
+
+
+def test_accessory_query_can_still_match_an_accessory():
+    assert product_relevance(
+        "vivo s2 flip cover", "Myflips Flip Cover For Vivo S2 5G"
+    ) >= 0.25

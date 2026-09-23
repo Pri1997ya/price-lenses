@@ -119,6 +119,9 @@ def test_two_stage_flow_enriches_and_computes_effective_price():
     assert actors.count("ecom") == 1 and actors.count("fk") == 1 and actors.count("bank") == 2
     assert dict(client.calls)["fk"]["productUrls"] == [FLIPKART_URL]
     assert dict(client.calls)["ecom"]["searchEngineKeyword"] == "iphone 16"
+    assert dict(client.calls)["ecom"]["scrapeModeSearchEngine"] == "Products"
+    assert dict(client.calls)["ecom"]["scrapeProductsFromSearchEngine"] is True
+    assert dict(client.calls)["ecom"]["scrapeSellersFromSearchEngine"] is False
 
 
 def test_effective_price_estimated_from_bank_offer_when_missing():

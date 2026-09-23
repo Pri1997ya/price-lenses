@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import json
 import uuid
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from decimal import Decimal
 from typing import Iterable
 
@@ -16,7 +16,7 @@ import psycopg2
 from psycopg2.extras import Json, RealDictCursor
 
 from .market_models import Offer
-from .market_normalize import normalize_title
+from .market_normalize import extract_asin, normalize_title
 
 
 class MarketSchemaError(RuntimeError):
@@ -109,6 +109,7 @@ class MarketDatabase:
                 )
 
     def upsert_product(self, resolved_id: str, offer: Offer) -> str:
+        """Insert a new canonical product without rewriting established metadata."""
         canonical_id = _canonical_id(resolved_id, offer)
         with self.connection:
             with self.connection.cursor() as cursor:
@@ -118,12 +119,7 @@ class MarketDatabase:
                         canonical_id, title, brand, current_price, customer_rating,
                         review_count, seller_name, created_at
                     ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
-                    ON CONFLICT (canonical_id) DO UPDATE SET
-                        brand=COALESCE(products.brand, EXCLUDED.brand),
-                        current_price=COALESCE(products.current_price, EXCLUDED.current_price),
-                        customer_rating=COALESCE(products.customer_rating, EXCLUDED.customer_rating),
-                        review_count=COALESCE(products.review_count, EXCLUDED.review_count),
-                        seller_name=COALESCE(products.seller_name, EXCLUDED.seller_name)
+                    ON CONFLICT (canonical_id) DO NOTHING
                     """,
                     (
                         canonical_id,
@@ -271,11 +267,84 @@ class MarketDatabase:
             (query, limit),
         )
 
+    def offers_for_product(self, canonical_id: str, limit: int = 100) -> list[dict]:
+        return self._dict_rows(
+            """
+            SELECT o.*, p.title AS product_title,
+                   d.seller_id, d.price_with_offers, d.is_assured,
+                   d.cod_available, d.no_cost_emi, d.return_policy,
+                   d.delivery_by, d.warranty, d.item_condition
+            FROM latest_market_offers o
+            JOIN products p ON p.canonical_id = o.canonical_id
+            LEFT JOIN market_offer_details d ON d.offer_id = o.offer_id
+            WHERE o.canonical_id = %s
+            ORDER BY COALESCE(d.price_with_offers, o.price) NULLS LAST
+            LIMIT %s
+            """,
+            (canonical_id, limit),
+        )
+
+    def offers_for_run_ids(self, run_ids: Iterable[str], limit: int = 200) -> list[dict]:
+        """Load only observations written by the current live-provider attempt."""
+        identifiers = list(dict.fromkeys(run_ids))
+        if not identifiers:
+            return []
+        return self._dict_rows(
+            """
+            SELECT o.*, p.title AS product_title,
+                   d.seller_id, d.price_with_offers, d.is_assured,
+                   d.cod_available, d.no_cost_emi, d.return_policy,
+                   d.delivery_by, d.warranty, d.item_condition
+            FROM market_offers o
+            JOIN products p ON p.canonical_id = o.canonical_id
+            LEFT JOIN market_offer_details d ON d.offer_id = o.offer_id
+            WHERE o.run_id = ANY(%s)
+            ORDER BY COALESCE(d.price_with_offers, o.price) NULLS LAST
+            LIMIT %s
+            """,
+            (identifiers, limit),
+        )
+
+    def product(self, canonical_id: str) -> dict | None:
+        rows = self._dict_rows(
+            """
+            SELECT canonical_id, title, brand, model, color, storage, ram, created_at
+            FROM products WHERE canonical_id = %s
+            """,
+            (canonical_id,),
+        )
+        return rows[0] if rows else None
+
+    def products_for_query(self, query: str) -> list[dict]:
+        """Return products previously observed for this exact provider query."""
+        asin = extract_asin(query)
+        if asin:
+            product = self.product(asin)
+            if product:
+                return [product]
+        return self._dict_rows(
+            """
+            SELECT p.canonical_id, p.title, p.brand, p.model, p.color, p.storage,
+                   p.ram, p.created_at, COUNT(o.offer_id) AS observed_offer_count,
+                   MAX(o.fetched_at) AS last_observed_at,
+                   MIN(o.price) FILTER (WHERE o.price IS NOT NULL) AS lowest_price
+            FROM market_search_runs run
+            JOIN market_offers o ON o.run_id = run.run_id
+            JOIN products p ON p.canonical_id = o.canonical_id
+            WHERE lower(run.query) = lower(%s)
+            GROUP BY p.canonical_id, p.title, p.brand, p.model, p.color,
+                     p.storage, p.ram, p.created_at
+            ORDER BY COUNT(o.offer_id) DESC, MAX(o.fetched_at) DESC
+            """,
+            (query,),
+        )
+
     def promotions_for_query(self, query: str) -> list[dict]:
         return self._dict_rows(
             """
-            SELECT o.offer_id, o.canonical_id, o.external_id, o.url, o.provider,
+            SELECT promo.promotion_id, o.offer_id, o.canonical_id, o.external_id, o.url, o.provider,
                    o.marketplace, o.seller_name, o.price, p.title AS product_title,
+                   o.fetched_at,
                    promo.promotion_type, promo.bank, promo.card_type,
                    promo.description, promo.amount, promo.percent,
                    promo.is_emi, promo.source
@@ -292,6 +361,65 @@ class MarketDatabase:
             """,
             (query,),
         )
+
+    def promotions_for_offer_ids(self, offer_ids: Iterable[str]) -> list[dict]:
+        identifiers = list(dict.fromkeys(offer_ids))
+        if not identifiers:
+            return []
+        return self._dict_rows(
+            """
+            SELECT promo.promotion_id, o.offer_id, o.canonical_id, o.external_id,
+                   o.url, o.provider, o.marketplace, o.seller_name, o.price,
+                   o.fetched_at, p.title AS product_title, promo.promotion_type, promo.bank,
+                   promo.card_type, promo.description, promo.amount, promo.percent,
+                   promo.is_emi, promo.source
+            FROM market_offers o
+            JOIN products p ON p.canonical_id = o.canonical_id
+            JOIN market_offer_promotions promo ON promo.offer_id = o.offer_id
+            WHERE o.offer_id = ANY(%s)
+            ORDER BY o.price NULLS LAST, promo.promotion_type
+            """,
+            (identifiers,),
+        )
+
+    def recent_runs_for_query(self, query: str, limit: int = 20) -> list[dict]:
+        return self._dict_rows(
+            """
+            SELECT run_id, query, provider, status, error, result_count,
+                   started_at, finished_at
+            FROM market_search_runs
+            WHERE lower(query) = lower(%s)
+            ORDER BY started_at DESC
+            LIMIT %s
+            """,
+            (query, limit),
+        )
+
+    def upcoming_sales(
+        self,
+        deadline_days: int,
+        *,
+        today: date | None = None,
+    ) -> list[dict]:
+        start = today or _now().date()
+        end = start + timedelta(days=deadline_days)
+        try:
+            rows = self._dict_rows(
+                """
+                SELECT sale_id, sale_name, retailer, approx_start_date,
+                       approx_end_date, typical_category_discount_pct, sale_type
+                FROM sales_calendar
+                WHERE approx_end_date >= %s AND approx_start_date <= %s
+                ORDER BY approx_start_date
+                """,
+                (start, end),
+            )
+        except psycopg2.errors.UndefinedTable:
+            self.connection.rollback()
+            return []
+        for row in rows:
+            row["days_away"] = max(0, (row["approx_start_date"] - start).days)
+        return rows
 
     def recent_runs(self, limit: int = 25) -> list[dict]:
         return self._dict_rows(

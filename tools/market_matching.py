@@ -20,6 +20,18 @@ from .market_normalize import normalize_title
 
 TITLE_MATCH_THRESHOLD = 0.82
 
+ACCESSORY_TERMS = {
+    "back cover", "case", "flip cover", "screen guard", "screen protector",
+    "tempered glass", "camera lens", "lens guard", "protector", "skin",
+    "charger", "charging cable", "usb cable", "adapter", "stand", "holder",
+    "replacement", "spare", "pouch", "sleeve",
+}
+
+_PRODUCT_SPEC_TERMS = {
+    "ram", "storage", "battery", "mah", "camera", "display", "processor",
+    "smartphone", "laptop", "television", "oled", "amoled", "ssd",
+}
+
 
 def _token_set(s: str) -> set[str]:
     return set(s.split())
@@ -38,6 +50,45 @@ def title_similarity(a: str, b: str) -> float:
     if nums_a and nums_b and not (nums_a & nums_b):
         return 0.0
     return max(seq * 0.6 + jac * 0.4, 0.0)
+
+
+def is_accessory_title(title: str | None) -> bool:
+    normalized = normalize_title(title or "")
+    return any(term in normalized for term in ACCESSORY_TERMS)
+
+
+def product_relevance(query: str, title: str | None) -> float:
+    """Score whether a listing is the requested product rather than an accessory.
+
+    Model tokens containing digits (``s2``, ``s24``, ``16``) are mandatory when
+    the query supplies them.  Accessory listings are rejected unless the query
+    itself explicitly asks for an accessory.
+    """
+    normalized_query = normalize_title(query)
+    normalized_title = normalize_title(title or "")
+    if not normalized_query or not normalized_title:
+        return 0.0
+    query_accessory = is_accessory_title(normalized_query)
+    if is_accessory_title(normalized_title) and not query_accessory:
+        return 0.0
+
+    query_tokens = set(normalized_query.split())
+    title_tokens = set(normalized_title.split())
+    model_tokens = {
+        token for token in query_tokens
+        if any(character.isdigit() for character in token)
+        and not token.endswith(("gb", "tb", "mah"))
+    }
+    if model_tokens and not model_tokens.issubset(title_tokens):
+        return 0.0
+
+    overlap = len(query_tokens & title_tokens) / max(1, len(query_tokens))
+    score = 0.65 * title_similarity(normalized_query, normalized_title) + 0.35 * overlap
+    if model_tokens:
+        score += 0.20
+    if _PRODUCT_SPEC_TERMS & title_tokens:
+        score += 0.10
+    return min(1.0, score)
 
 
 class ProductResolver:
