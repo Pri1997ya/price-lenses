@@ -80,7 +80,52 @@ Launch the interactive Streamlit UI:
 ```bash
 streamlit run app.py
 ```
+The dashboard has two independent tabs:
+
+- **History & Timing** uses the existing historical analyst and price-history tables.
+- **Market Investigator** loads stored market offers or explicitly fetches live
+  SerpAPI/Apify results. Merely opening the tab does not consume provider credits.
+
 *Note: If the `GEMINI_API_KEY` is missing, the LangGraph engine will gracefully fail via a strict production security fault, preventing silent LLM hallucinations.*
+
+### 5. Run the Market Investigator data pipeline
+
+The live-market pipeline uses the same `DATABASE_URL` and `products` catalog as
+the historical analyst. It adds append-only market run, offer, seller-detail,
+and promotion tables without replacing the existing history tables.
+
+For an optional local PostgreSQL instance:
+
+```bash
+docker compose up -d postgres
+export DATABASE_URL=postgresql://pricelens:pricelens_local@localhost:5433/pricelens
+python scripts/db/init_db.py
+python scripts/db/migrate.py
+```
+
+For Neon, set `DATABASE_URL` to the pooled URI with `sslmode=require`, initialize
+the existing base schema if necessary, and apply the same migration:
+
+```bash
+python scripts/db/init_db.py
+python scripts/db/migrate.py
+```
+
+Configure `SERPAPI_API_KEY` and `APIFY_API_TOKEN` in the ignored `.env`, then
+fetch and persist offers from both providers:
+
+```bash
+python scripts/market_search.py "Apple iPhone 16 128GB"
+```
+
+Use `--providers serpapi` or `--providers apify` to run one provider. SerpAPI
+uses Amazon Search and Google Shopping for discovery. Optional Amazon Product
+API enrichment is disabled by default and can be enabled with
+`SERPAPI_ENRICH_AMAZON=true`. Apify enriches the cheapest discovered listings
+with configured Flipkart and bank-offer actors.
+
+The application prefers `DATABASE_URL`; existing installations that already use
+`PL_DATABASE_URL` are also supported for backward compatibility.
 
 ---
 

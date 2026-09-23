@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL") or os.getenv("PL_DATABASE_URL")
 
 def get_db_connection():
     """Establishes a robust connection to Neon PostgreSQL, with DNS fallback."""
