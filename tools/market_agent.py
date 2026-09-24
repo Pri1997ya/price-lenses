@@ -703,13 +703,40 @@ class MarketInvestigatorAgent:
         )
 
     @staticmethod
+    def _llm_runtime_config() -> tuple[str, str, str]:
+        """Resolve Agent 2 LLM settings without affecting the History Agent."""
+        base_url = (
+            os.getenv("MARKET_AGENT_LLM_BASE_URL")
+            or os.getenv("LLM_BASE_URL")
+            or "https://api.openai.com/v1"
+        ).strip()
+        api_key = (
+            os.getenv("MARKET_AGENT_LLM_API_KEY")
+            or os.getenv("OPENAI_API_KEY")
+            or os.getenv("LLM_API_KEY")
+            or ""
+        ).strip()
+        model = (
+            os.getenv("MARKET_AGENT_LLM_MODEL")
+            or os.getenv("LLM_MODEL")
+            or "gpt-6-luna"
+        ).strip()
+        if "api.openai.com" in base_url and api_key in {"", "not-needed"}:
+            raise ValueError(
+                "MARKET_AGENT_LLM_API_KEY (or OPENAI_API_KEY) is required for OpenAI"
+            )
+        return base_url, api_key or "not-needed", model
+
+    @staticmethod
     def _default_llm_summary(report: dict[str, Any]) -> str:
+        base_url, api_key, model = MarketInvestigatorAgent._llm_runtime_config()
+
         from langchain_openai import ChatOpenAI
 
         llm = ChatOpenAI(
-            base_url=os.getenv("LLM_BASE_URL", "http://127.0.0.1:5001/gateway/mlflow/v1"),
-            api_key=os.getenv("LLM_API_KEY", "not-needed"),
-            model=os.getenv("LLM_MODEL", "gemini"),
+            base_url=base_url,
+            api_key=api_key,
+            model=model,
             timeout=20,
             max_retries=1,
         )

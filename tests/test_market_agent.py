@@ -332,6 +332,27 @@ def test_agent_trace_exposes_only_display_safe_prompts_for_real_llm_stages():
     assert "verified Indian-market" in report["agent_trace"][-1]["display_prompt"]
 
 
+def test_agent2_openai_configuration_is_isolated_and_requires_a_key(monkeypatch):
+    for name in (
+        "MARKET_AGENT_LLM_BASE_URL", "MARKET_AGENT_LLM_API_KEY",
+        "MARKET_AGENT_LLM_MODEL", "OPENAI_API_KEY", "LLM_BASE_URL",
+        "LLM_API_KEY", "LLM_MODEL",
+    ):
+        monkeypatch.delenv(name, raising=False)
+
+    try:
+        MarketInvestigatorAgent._llm_runtime_config()
+    except ValueError as exc:
+        assert "MARKET_AGENT_LLM_API_KEY" in str(exc)
+    else:
+        raise AssertionError("OpenAI configuration accepted a missing key")
+
+    monkeypatch.setenv("MARKET_AGENT_LLM_API_KEY", "test-only-key")
+    assert MarketInvestigatorAgent._llm_runtime_config() == (
+        "https://api.openai.com/v1", "test-only-key", "gpt-6-luna"
+    )
+
+
 def test_variant_parser_supports_non_phone_electronics():
     television = variant_facets('Samsung 55 inch 5th Gen TV Black')
     watch = variant_facets('Apple Watch 45mm GPS Starlight with charger')
