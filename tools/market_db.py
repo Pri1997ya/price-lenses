@@ -271,6 +271,24 @@ class MarketDatabase:
             (query, limit),
         )
 
+    def offers_for_product(self, canonical_id: str, limit: int = 100) -> list[dict]:
+        """Latest stored offer per marketplace/seller for one product (read-only)."""
+        return self._dict_rows(
+            """
+            SELECT o.*, p.title AS product_title,
+                   d.seller_id, d.price_with_offers, d.is_assured,
+                   d.cod_available, d.no_cost_emi, d.return_policy,
+                   d.delivery_by, d.warranty, d.item_condition
+            FROM latest_market_offers o
+            JOIN products p ON p.canonical_id = o.canonical_id
+            LEFT JOIN market_offer_details d ON d.offer_id = o.offer_id
+            WHERE o.canonical_id = %s
+            ORDER BY COALESCE(d.price_with_offers, o.price) NULLS LAST
+            LIMIT %s
+            """,
+            (canonical_id, limit),
+        )
+
     def promotions_for_query(self, query: str) -> list[dict]:
         return self._dict_rows(
             """

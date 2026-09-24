@@ -1,5 +1,7 @@
 # Application runtime
 apify-client==3.2.0
+beautifulsoup4==4.15.0
+chromadb==1.5.9
 httpx==0.28.1
 langchain-core==1.6.3
 langchain-openai==1.6.0
@@ -7,6 +9,7 @@ langgraph==1.2.11
 pandas==2.3.3
 plotly==7.1.0
 psycopg2-binary==2.9.13
+pypdf==6.19.0
 python-dotenv==1.2.3
 requests==2.34.2
 streamlit==1.64.0

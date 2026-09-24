@@ -127,6 +127,47 @@ with configured Flipkart and bank-offer actors.
 The application prefers `DATABASE_URL`; existing installations that already use
 `PL_DATABASE_URL` are also supported for backward compatibility.
 
+### 6. Eligibility & Safety Agent (policy RAG + seller/stock check)
+
+Agent 3 answers return, replacement and refund questions from indexed retailer
+policies (Amazon, Flipkart, Croma, Reliance Digital, Vijay Sales) and the
+Consumer Protection (E-Commerce) Rules, 2020. It also checks seller trust and
+stock on the offers the Market Investigator has stored. It adds no database
+tables and only reads `latest_market_offers`.
+
+Build the policy corpus and the Chroma index:
+
+```bash
+python scripts/policies/fetch_policies.py        # pages/PDFs -> data/policies/<retailer>/*.md
+python scripts/policies/build_policy_index.py --ask "Can I return a phone bought on Flipkart?"
+```
+
+Pages that block scripts (common on Amazon and Flipkart) are reported as
+`[too short]` and never overwrite an existing file. Save those by hand; see
+`data/policies/README.md`. The index is rebuilt in a staging collection and
+swapped in only when complete.
+
+How it stays grounded:
+
+- The LLM may answer only from retrieved passages and must cite them as `[n]`.
+  An answer with no citations, or with a citation number that wasn't supplied,
+  is rejected and the retrieved passages are shown instead.
+- If the LLM gateway is offline, the retrieved passages are shown with citations.
+- If nothing relevant is retrieved, the answer says it is not stated in the
+  indexed policies.
+- Restrictive terms ("replacement only", "non-returnable", seal or inspection
+  requirements) are flagged by a fixed pattern scan of the passages, not by the LLM.
+
+Seller and stock rules (no LLM): stock is classified as `IN_STOCK`, `LOW_STOCK`,
+`OUT_OF_STOCK`, `PREORDER` or `UNKNOWN`. Seller trust is `TRUSTED` (the retailer's
+own store, Flipkart Assured, or `TRUSTED_SELLERS`), `OK` (rated 4/5 or higher),
+`CAUTION` (unidentified, rated 3 to 4, or refurbished/used) or `AVOID` (rated
+below 3). Offers older than `OFFER_STALE_HOURS` are flagged.
+
+The results appear in the **🛡️ Policy & Seller Check** tab and, after a History
+analysis, in the Eligibility & Safety section. They are also in
+`eligibility_report` in the LangGraph state for the Decision Synthesizer.
+
 ---
 
 ## 🧠 Key Features for Evaluators

@@ -6,6 +6,7 @@ from langchain_openai import ChatOpenAI
 # 1. Define the LangGraph State
 class PriceLensState(TypedDict):
     query: str
+    policy_question: str  # optional user question for the policy RAG (Agent 3)
     canonical_id: str
     product_title: str
     
@@ -191,8 +192,23 @@ def market_agent_node(state: PriceLensState):
     return {"market_report": {"status": "Pending implementation"}}
 
 def eligibility_agent_node(state: PriceLensState):
-    """Node 3: Runs Eligibility Tools (Stub)"""
-    return {"eligibility_report": {"status": "Pending implementation"}}
+    """Node 3: Eligibility & Safety Analyst (seller/stock check + policy RAG).
+
+    Never raises: failures are reported inside eligibility_report so the other
+    parallel agents and the synthesizer still run.
+    """
+    asin = state.get("canonical_id")
+    if not asin:
+        return {"eligibility_report": {}}
+    try:
+        from tools.eligibility_agent import run_eligibility_analysis
+
+        report = run_eligibility_analysis(
+            asin, state.get("product_title"), state.get("policy_question")
+        )
+    except Exception as exc:
+        report = {"status": "error", "errors": [f"Eligibility agent failed: {exc}"]}
+    return {"eligibility_report": report}
 
 def decision_synthesizer_node(state: PriceLensState):
     """Node 4: LLM Synthesizes the 3 reports into a DraftVerdict"""
