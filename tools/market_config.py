@@ -65,12 +65,20 @@ class MarketSettings:
     serpapi_retries: int = 2
     serpapi_enrich_amazon: bool = False
     apify_ecom_actor: str = "apify/e-commerce-scraping-tool"
-    apify_ecom_mode: str = "Sellers"
+    apify_ecom_mode: str = "Products"
     apify_flipkart_details_actor: str = "piotrv1001/flipkart-product-details-scraper"
     apify_bank_offers_actor: str = "pale_tapestry/bank-offers-aggregator-actor"
     apify_enrichers: tuple[str, ...] = ("flipkart_details", "bank_offers")
     apify_enrich_limit: int = 5
     apify_extra_input: dict = field(default_factory=dict)
+    market_price_freshness_minutes: int = 60
+    market_availability_freshness_minutes: int = 30
+    market_delivery_freshness_minutes: int = 30
+    market_promotion_freshness_minutes: int = 180
+    market_seller_freshness_minutes: int = 1_440
+    market_product_freshness_minutes: int = 10_080
+    market_agent_llm_enabled: bool = True
+    market_provider_policy: str = "api_first"
 
     @classmethod
     def from_env(cls) -> "MarketSettings":
@@ -106,6 +114,12 @@ class MarketSettings:
                 "Unsupported APIFY_ENRICHERS: " + ", ".join(sorted(unknown))
             )
 
+        provider_policy = os.getenv("MARKET_PROVIDER_POLICY", "api_first").strip().lower()
+        if provider_policy not in {"api_first", "database_first", "database_only"}:
+            raise ConfigurationError(
+                "MARKET_PROVIDER_POLICY must be api_first, database_first, or database_only"
+            )
+
         return cls(
             database_url=database_url,
             serpapi_key=os.getenv("SERPAPI_API_KEY") or None,
@@ -121,7 +135,7 @@ class MarketSettings:
             apify_ecom_actor=os.getenv(
                 "APIFY_ECOM_ACTOR", "apify/e-commerce-scraping-tool"
             ),
-            apify_ecom_mode=os.getenv("APIFY_ECOM_MODE", "Sellers"),
+            apify_ecom_mode=os.getenv("APIFY_ECOM_MODE", "Products"),
             apify_flipkart_details_actor=os.getenv(
                 "APIFY_FLIPKART_DETAILS_ACTOR",
                 "piotrv1001/flipkart-product-details-scraper",
@@ -133,4 +147,26 @@ class MarketSettings:
             apify_enrichers=enrichers,
             apify_enrich_limit=_positive_int("APIFY_ENRICH_LIMIT", 5),
             apify_extra_input=_json_object("APIFY_EXTRA_INPUT_JSON"),
+            market_price_freshness_minutes=_positive_int(
+                "MARKET_PRICE_FRESHNESS_MINUTES", 60
+            ),
+            market_availability_freshness_minutes=_positive_int(
+                "MARKET_AVAILABILITY_FRESHNESS_MINUTES", 30
+            ),
+            market_delivery_freshness_minutes=_positive_int(
+                "MARKET_DELIVERY_FRESHNESS_MINUTES", 30
+            ),
+            market_promotion_freshness_minutes=_positive_int(
+                "MARKET_PROMOTION_FRESHNESS_MINUTES", 180
+            ),
+            market_seller_freshness_minutes=_positive_int(
+                "MARKET_SELLER_FRESHNESS_MINUTES", 1_440
+            ),
+            market_product_freshness_minutes=_positive_int(
+                "MARKET_PRODUCT_FRESHNESS_MINUTES", 10_080
+            ),
+            market_agent_llm_enabled=os.getenv(
+                "MARKET_AGENT_LLM_ENABLED", "true"
+            ).lower() in {"1", "true", "yes"},
+            market_provider_policy=provider_policy,
         )

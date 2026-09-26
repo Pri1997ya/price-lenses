@@ -122,7 +122,7 @@ def normalize_ecom_item(item: dict[str, Any]) -> list[Offer]:
     return out
 
 
-def ecom_search_spec(actor_id: str, *, country: str = "in", mode: str = "Sellers",
+def ecom_search_spec(actor_id: str, *, country: str = "in", mode: str = "Products",
                      sellers_per_product: int = 10, extra: dict | None = None) -> ActorSpec:
     # Field names follow the actor's Input tab. Its README uses slightly different names
     # (SearchEngineSearchKeyword / scrapeSellersFromSearchEngine); if a run ignores your keyword, copy
@@ -131,6 +131,11 @@ def ecom_search_spec(actor_id: str, *, country: str = "in", mode: str = "Sellers
         inp = {"searchEngineKeyword": query, "scrapeModeSearchEngine": mode, "countryCode": country,
                "additionalPropertiesSearchEngine": True, "maxSearchEngineProducts": limit,
                "maxSearchEngineSellersPerProduct": sellers_per_product, "maxSearchEngineResults": limit}
+        normalized_mode = mode.strip().lower()
+        # Keep the current mode field and the actor's documented compatibility flags.
+        # Exactly one mode is enabled so Products cannot silently become Sellers.
+        inp["scrapeProductsFromSearchEngine"] = normalized_mode == "products"
+        inp["scrapeSellersFromSearchEngine"] = normalized_mode == "sellers"
         inp.update(extra or {})
         return inp
     return ActorSpec("ecom_search", actor_id, "discover", build, normalize_ecom_item)

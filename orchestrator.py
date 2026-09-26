@@ -4,10 +4,15 @@ from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 
 # 1. Define the LangGraph State
-class PriceLensState(TypedDict):
+class PriceLensState(TypedDict, total=False):
     query: str
     canonical_id: str
     product_title: str
+    deadline_days: int
+    force_market_refresh: bool
+    bank: str
+    card_type: str
+    wants_emi: bool
     
     # Reports from parallel agents (Disjoint state keys for safe concurrent fan-out)
     history_report: dict
@@ -25,6 +30,7 @@ class PriceLensState(TypedDict):
 def input_resolver_node(state: PriceLensState):
     """Node 0: Parses raw user query to extract ASIN/canonical_id"""
     from tools.analytics import get_db_connection
+    from tools.market_matching import product_relevance
     
     query = state.get("query", "").strip()
     asin = None
@@ -50,15 +56,23 @@ def input_resolver_node(state: PriceLensState):
                 else:
                     errors.append(f"ASIN {asin} not found in database.")
             else:
-                # 3. Fuzzy search for product name
-                search_term = f"%{query}%"
-                cur.execute("SELECT canonical_id, title FROM products WHERE title ILIKE %s LIMIT 1", (search_term,))
-                row = cur.fetchone()
-                if row:
-                    asin = row[0]
-                    title = row[1]
-                else:
-                    errors.append(f"Could not find a product matching '{query}'")
+                # Text input may match multiple storage/colour variants. Resolve only
+                # when one product is clearly stronger; otherwise Agent 2 asks for
+                # clarification instead of binding the graph to an accessory.
+                cur.execute(
+                    "SELECT canonical_id, title FROM products "
+                    "ORDER BY created_at DESC LIMIT 500"
+                )
+                ranked = sorted(
+                    (
+                        (product_relevance(query, candidate_title), candidate_id, candidate_title)
+                        for candidate_id, candidate_title in cur.fetchall()
+                    ),
+                    reverse=True,
+                )
+                ranked = [candidate for candidate in ranked if candidate[0] >= 0.25]
+                if ranked and (len(ranked) == 1 or ranked[0][0] - ranked[1][0] >= 0.15):
+                    _score, asin, title = ranked[0]
     except Exception as e:
         errors.append(str(e))
     
@@ -187,8 +201,64 @@ def history_agent_node(state: PriceLensState):
     }
 
 def market_agent_node(state: PriceLensState):
-    """Node 2: Runs Market & Arbitrage Tools (Stub)"""
-    return {"market_report": {"status": "Pending implementation"}}
+    """Node 2: database-first India market analysis with grounded evidence."""
+    from tools.market_agent import MarketInvestigatorAgent
+    from tools.market_agent_models import FreshnessPolicy, MarketAgentRequest
+    from tools.market_config import MarketSettings
+    from tools.market_db import MarketDatabase
+    from tools.market_service import build_providers
+
+    database = None
+    try:
+        settings = MarketSettings.from_env()
+        provider_names = tuple(
+            name
+            for name, configured in (
+                ("serpapi", bool(settings.serpapi_key)),
+                ("apify", bool(settings.apify_token)),
+            )
+            if configured
+        )
+        providers = build_providers(settings, provider_names) if provider_names else []
+        database = MarketDatabase(settings.database_url)
+        agent = MarketInvestigatorAgent(
+            database,
+            providers,
+            freshness=FreshnessPolicy(
+                price_minutes=settings.market_price_freshness_minutes,
+                availability_minutes=settings.market_availability_freshness_minutes,
+                delivery_minutes=settings.market_delivery_freshness_minutes,
+                promotion_minutes=settings.market_promotion_freshness_minutes,
+                seller_minutes=settings.market_seller_freshness_minutes,
+                product_minutes=settings.market_product_freshness_minutes,
+            ),
+            enable_llm_summary=settings.market_agent_llm_enabled,
+        )
+        request = MarketAgentRequest(
+            query=state.get("query", ""),
+            canonical_id=state.get("canonical_id"),
+            deadline_days=int(state.get("deadline_days", 30)),
+            force_refresh=bool(state.get("force_market_refresh", False)),
+            provider_policy=settings.market_provider_policy,
+            bank=state.get("bank"),
+            card_type=state.get("card_type"),
+            wants_emi=state.get("wants_emi"),
+        )
+        return {"market_report": agent.analyze(request)}
+    except Exception as exc:
+        return {
+            "market_report": {
+                "schema_version": "1.0",
+                "agent": "market_investigator",
+                "status": "error",
+                "signals": ["INSUFFICIENT_EVIDENCE"],
+                "warnings": [str(exc)],
+                "summary": "Market analysis could not be completed.",
+            }
+        }
+    finally:
+        if database is not None:
+            database.close()
 
 def eligibility_agent_node(state: PriceLensState):
     """Node 3: Runs Eligibility Tools (Stub)"""
