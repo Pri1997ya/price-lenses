@@ -22,3 +22,6 @@ __pycache__/
 
 # Policy RAG vector index (rebuilt from data/policies with build_policy_index.py)
 data/chroma/
+
+# Collected reviews (third-party text; re-collect with scripts/reviews/fetch_reviews.py)
+data/reviews/

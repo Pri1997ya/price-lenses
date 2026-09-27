@@ -16,6 +16,8 @@ from dataclasses import asdict
 from typing import Callable
 
 from .policy_corpus import RETAILER_LABELS
+from .review_corpus import load_reviews
+from .review_defects import defect_summary, detect_defects
 from .seller_check import OfferAssessment, check_sellers
 
 # Order matters: the first match wins. Accessories and audio/wearables come
@@ -133,6 +135,7 @@ def run_eligibility_analysis(
     *,
     offers_loader: Callable[[str], list[dict]] = default_offers_loader,
     advisor_factory: Callable[[], object] = default_advisor,
+    reviews_loader: Callable[[str], list] = load_reviews,
 ) -> dict:
     trace: list[str] = []
     errors: list[str] = []
@@ -198,6 +201,24 @@ def run_eligibility_analysis(
         errors.append(f"Policy RAG unavailable: {exc}")
         trace.append(f"Policy RAG failed: {exc}")
 
+    # 3. Defects that many reviewers report (deterministic pattern scan).
+    defects = None
+    try:
+        reviews = reviews_loader(canonical_id)
+        defects = detect_defects(reviews, category)
+        trace.append(
+            f"Reviews: {defects['reviews_analyzed']} analysed, "
+            f"{len(defects['findings'])} defects above threshold"
+        )
+    except Exception as exc:
+        errors.append(f"Review analysis unavailable: {exc}")
+        trace.append(f"Review analysis failed: {exc}")
+    defect_warning = None
+    if defects and defects["findings"]:
+        defect_warning = "Defects reported in reviews — " + "; ".join(
+            defect_summary(finding, defects["reviews_analyzed"]) for finding in defects["findings"]
+        )
+
     relevant = [r for r in restrictions if r["retailer"] in set(retailers) | {"regulation"}]
     warning = None
     if relevant:
@@ -226,6 +247,8 @@ def run_eligibility_analysis(
         "policies": policies,
         "user_policy_answer": user_answer,
         "return_policy_warning": warning,
+        "defects": defects,
+        "defect_warning": defect_warning,
         "warnings": seller_report.warnings,
         "errors": errors,
         "agent_trace": trace,
