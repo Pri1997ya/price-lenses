@@ -1,0 +1,155 @@
+{
+  "price_overview": {
+    "current_price": 15799,
+    "all_time_low": 13999,
+    "all_time_high": 17999,
+    "avg_30_days": 16899,
+    "overall_average": 17042.84,
+    "low_6_months": 14499,
+    "trend_percentage": -12.22
+  },
+  "deal_evaluation": {
+    "score": 74,
+    "verdict": "Good deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 14498,
+      "is_current": false,
+      "url": "https://www.flipkart.com/samsung-galaxy-a15-5g-blue-black-128-gb/p/itm8a9b5d3f834e9?pid=MOBGWD85ZV6EZKJZ"
+    },
+    "Croma": {
+      "price": 15499,
+      "is_current": false,
+      "url": "https://www.croma.com/samsung-galaxy-a15-5g-6gb-ram-128gb-blue-/p/303259"
+    },
+    "Amazon": {
+      "price": 15799,
+      "is_current": true,
+      "url": "https://www.amazon.in/Samsung-Storage-Expandable-MediaTek-Dimensity/dp/B0CP7TH3YB/ref=mp_s_a_1_2?psc=1"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2024-02-23",
+      "price": 17999
+    },
+    {
+      "date": "2024-02-24",
+      "price": 17999
+    },
+    {
+      "date": "2024-02-25",
+      "price": 17999
+    },
+    {
+      "date": "2024-02-26",
+      "price": 17999
+    },
+    {
+      "date": "2024-02-27",
+      "price": 17819
+    },
+    {
+      "date": "2024-02-28",
+      "price": 17819
+    },
+    {
+      "date": "2024-02-29",
+      "price": 17819
+    },
+    {
+      "date": "2024-03-01",
+      "price": 17819
+    },
+    {
+      "date": "2024-03-02",
+      "price": 17819
+    },
+    {
+      "date": "2024-03-03",
+      "price": 17819
+    },
+    {
+      "date": "2024-03-04",
+      "price": 17819
+    },
+    {
+      "date": "2024-03-05",
+      "price": 17819
+    },
+    {
+      "date": "2024-04-05",
+      "price": 17999
+    },
+    {
+      "date": "2024-07-18",
+      "price": 17499
+    },
+    {
+      "date": "2024-07-24",
+      "price": 17999
+    },
+    {
+      "date": "2024-08-09",
+      "price": 17499
+    },
+    {
+      "date": "2024-08-15",
+      "price": 17999
+    },
+    {
+      "date": "2024-08-23",
+      "price": 16999
+    },
+    {
+      "date": "2024-08-27",
+      "price": 17999
+    },
+    {
+      "date": "2024-09-07",
+      "price": 17998
+    },
+    {
+      "date": "2024-09-11",
+      "price": 15499
+    },
+    {
+      "date": "2024-09-26",
+      "price": 15499
+    },
+    {
+      "date": "2024-10-23",
+      "price": 14499
+    },
+    {
+      "date": "2024-11-10",
+      "price": 15499
+    },
+    {
+      "date": "2024-11-21",
+      "price": 16999
+    },
+    {
+      "date": "2024-11-24",
+      "price": 14499
+    },
+    {
+      "date": "2024-11-26",
+      "price": 15499
+    },
+    {
+      "date": "2025-03-24",
+      "price": 15999
+    },
+    {
+      "date": "2025-04-13",
+      "price": 17999
+    },
+    {
+      "date": "2025-04-30",
+      "price": 15799
+    }
+  ],
+  "historical_data_points": 30
+}

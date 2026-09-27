@@ -1,0 +1,1032 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0DPS62DYH",
+    "name": "OnePlus 13R| Smarter with OnePlus AI (12GB RAM, 256GB Storage Nebula Noir)",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "OnePlus"
+    },
+    "image": "https://m.media-amazon.com/images/I/41tOmpvOY3L._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 2354,
+    "rating": null,
+    "aiSummary": "Key business insights from the fields show price data is missing (offers.price and offers.priceCurrency are null) and the listing is currently inStock: false, indicating either stock constraints or data gaps that block conversions and revenue; this creates an immediate need for restock visibility, ETA communications, or back-in-stock/pre-order options to capture demand. The OnePlus brand leverages a strong store presence (Visit the OnePlus Store link) and a recognizable slogan, suggesting a clear opportunity to drive brand-led promotions and cross-sell accessories through the brand ecosystem. Despite the stock/description gaps, the listing performs well in visibility and sentiment: Best Sellers Ranks in Electronics (#8223) and Smartphones (#279) along with a solid 4.4/5 from 2,354 reviews, and a rich media/A+ content footprint, provide credible social proof and multichannel marketing assets to accelerate awareness and conversions once price and availability are resolved. Notably, the description and productOverview fields are null, presenting a content gap that likely hurts SEO and shopper confidence; this is a low-cost, high-impact area to optimize with a compelling narrative and key specs. The featured capabilities (Snapdragon 8 Gen 3, up to 120fps gaming, 6000mAh battery, pro-grade 50MP main camera with OIS, OxygenOS AI, 1.5K ProXDR display) align with performance-focused buyers, so marketing should aggressively highlight these strengths while transparently addressing concerns raised in reviews about heating, battery life variability, and camera consistency. Actionable recommendations: immediately populate price in INR and clearly display current promotions; provide restock ETA or enable back-in-stock alerts; add a compelling, keyword-rich description and complete productOverview; leverage A+ content and OnePlus Store assets in campaigns; emphasize high-satisfaction metrics (4.4 average, 68% 5-star) in marketing while acknowledging and addressing heating/camera feedback via software updates; use the strong Best Sellers positioning to justify targeted ads and bundle promotions (accessories, cases, chargers) to lift average order value once stock returns.",
+    "additionalProperties": {
+      "asin": "B0DPS62DYH",
+      "originalAsin": "B0DPS62DYH",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.4,
+      "starsBreakdown": {
+        "5star": 0.68,
+        "4star": 0.21,
+        "3star": 0.04,
+        "2star": 0.01,
+        "1star": 0.06
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 3,
+      "visitStoreLink": {
+        "text": "Visit the OnePlus Store",
+        "url": "https://www.amazon.in/stores/OnePlus/page/A0A2BE47-0E82-40E4-BD82-A0ADBBB82BC7?lp_asin=B0DPS62DYH&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/41tOmpvOY3L._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31JQPJnAFfL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41vdeHr6ZtL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/518v4dfL+ML._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31MoTk-vAlL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41o8wRb15KL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/614obdQ0iYL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51KYAzenTfL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61XtpELvh4L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71rPMsQJv2L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61LT5BuXKCL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61caBJjbpKL._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "Flagship power made smarter with the Snapdragon 8 Gen 3 flagship \u2013 Up to 98% faster AI, 30% faster CPU compared to the OnePlus 12R. The OnePlus 13R maximizes the CPU efficiency of the Snapdragon 8 Gen 3 when gaming, while lowering heat and power consumption.",
+        "Winning made smooth with maximum 120fps gaming experience, no input delay and zero-touch latency gameplay. We've tuned the GPU pipeline to unlock near-instant 120fps HDR gaming that hits harder than any highlight.",
+        "Our biggest battery ever \u2013 Press play all day, every day, with the cutting-edge 6000mAh battery. Driven by our next-gen battery management system, your multimedia becomes an all-you-can-consume buffet.",
+        "Pro-grade triple camera with the latest SONY LYT-700 50MP main camera with OIS, a new 50MP telephoto camera with 2x optical zoom and 4x lossless zoom, and an 8MP ultra-wide camera at 112\u00b0. Unlock DSLR-like portraits with flagship algorithm.",
+        "OxygenOS 15 - Experience the power of all-new OnePlus AI. Search smarter, crank up your creativity, and power your productivity for a smoother digital life.",
+        "1.5K ProXDR Display with all-new RadiantView, for a bright display even under blazing sun \u2013 certified by TUV Rheinland Intelligent Eye Care with High Visibility."
+      ],
+      "attributes": [
+        {
+          "key": "Operating System",
+          "value": "Android 15, OxygenOS"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "12 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Snapdragon 8 Gen3"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "3.3 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "12 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Nebula Noir"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "Fingerprint Recognition"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Headphones Jack",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Product Features",
+          "value": "Dual SIM|Expandable Memory|Fast Charging Support"
+        },
+        {
+          "key": "Flash Memory Supported Size Maximum",
+          "value": "256 GB"
+        },
+        {
+          "key": "Front Photo Sensor Resolution",
+          "value": "16 MP"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Camera Description",
+          "value": "Front"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "3"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "6000 Milliamp Hours"
+        },
+        {
+          "key": "Battery Description",
+          "value": "silicon-carbon battery"
+        },
+        {
+          "key": "Battery Power",
+          "value": "6000"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "206 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "10 x 3 x 18 Centimeters"
+        },
+        {
+          "key": "Effective Video Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "4k"
+        },
+        {
+          "key": "Frame Rate",
+          "value": "120 fps, 30 fps, 60 fps"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "6.82 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2780 X 1264"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120"
+        },
+        {
+          "key": "Display Type",
+          "value": "AMOLED"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2780 X1264 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "450 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth, NFC, USB, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "GSM, LTE"
+        },
+        {
+          "key": "Brand Name",
+          "value": "OnePlus"
+        },
+        {
+          "key": "Model Year",
+          "value": "2025"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Phone Case, Power Adapter, SIM Tray Ejector, Screen Protector, USB Cable"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 year manufacturer warranty for device and 1 year manufacturer warranty for in-box accessories including batteries from the date of purchase"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "Oppo Mobiles India Private Limited, Oppo Mobiles India Private Limited, Oppo Mobiles India Private Limited, OPPO Mobiles India Private Limited PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306 OnePlus Customer Service Contact number\uff1a1800 102 8411 WhatsApp\uff1a+91-9289606888"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Business, Entertainment, Photography"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Piece"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "OPPO Mobiles India Private Limited; PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smart Phone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "Oppo Mobiles India Private Limited, Oppo Mobiles India Private Limited, OPPO Mobiles India Private Limited PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306 OnePlus Customer Service Contact number\uff1a1800 102 8411 WhatsApp\uff1a+91-9289606888"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "OPPO Mobiles India Private Limited; PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#8,223 in Electronics (See Top 100 in Electronics)#279 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0DPS62DYH"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.4 4.4 out of 5 stars (2,354) 4.4 out of 5 stars"
+        },
+        {
+          "key": "Phone Talk Time",
+          "value": "20 Hours"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "True"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [],
+      "variantDetails": [],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0DPS62DYH",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": [
+        {
+          "rank": 8223,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 279,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page",
+        "rawImages": [
+          {
+            "name": "DT_G_1",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8f7a8930-3df5-4df9-8756-b9204f94d78b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_1",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8f7a8930-3df5-4df9-8756-b9204f94d78b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_2",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1034effb-351c-45c8-875d-ca527c625c80.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_2",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1034effb-351c-45c8-875d-ca527c625c80.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_3",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8556d32e-5ddd-4cc0-918a-7f2978569698.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_3",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8556d32e-5ddd-4cc0-918a-7f2978569698.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_4",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a322fb5c-6734-4a7e-a567-f6c84ae102ae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_4",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a322fb5c-6734-4a7e-a567-f6c84ae102ae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_5a",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7069ed39-c6c7-4709-9115-904a768664ed.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_5b",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db757726-4a84-46fc-9b33-614487e3ffed.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_5c",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/98129610-eae4-468d-a1d7-1e3d5ead94e8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_6a",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4315ee04-70e1-4210-928a-229b2a927117.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_6b",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/80d41cc2-da81-451e-a8fe-b61140560795.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_6c",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a21fb019-8895-4339-826b-ade6aa334016.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_6d",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3c23455f-8770-4ac2-878f-156da8f87e58.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_7a",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/32b29d2a-395c-4454-a32a-08fcfc9ddeb8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_7b",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6f7e2ea0-40d9-4a80-bc6f-df39f6253432.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_7c",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/357854fa-25b9-4779-878f-32395a7132c8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "DT_G_7d",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2b8bcf31-d957-4ff5-bfc9-fcebe5bda05b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [],
+        "modules": [
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "DT_G_1",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8f7a8930-3df5-4df9-8756-b9204f94d78b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "DT_G_2",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1034effb-351c-45c8-875d-ca527c625c80.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "DT_G_3",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8556d32e-5ddd-4cc0-918a-7f2978569698.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "DT_G_4",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a322fb5c-6734-4a7e-a567-f6c84ae102ae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_5a",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7069ed39-c6c7-4709-9115-904a768664ed.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_5b",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db757726-4a84-46fc-9b33-614487e3ffed.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_5c",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/98129610-eae4-468d-a1d7-1e3d5ead94e8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_6a",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4315ee04-70e1-4210-928a-229b2a927117.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_6b",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/80d41cc2-da81-451e-a8fe-b61140560795.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_6c",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a21fb019-8895-4339-826b-ade6aa334016.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_6d",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3c23455f-8770-4ac2-878f-156da8f87e58.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_7a",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/32b29d2a-395c-4454-a32a-08fcfc9ddeb8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_7b",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6f7e2ea0-40d9-4a80-bc6f-df39f6253432.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_7c",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/357854fa-25b9-4779-878f-32395a7132c8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "DT_G_7d",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2b8bcf31-d957-4ff5-bfc9-fcebe5bda05b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers praise the OnePlus 13R's vibrant 120Hz AMOLED screen, sleek design, and feature-rich AI capabilities. The phone offers super-smooth performance, with one customer highlighting its excellent experience with BGMI at 120 fps. Battery life receives mixed feedback - while some say it lasts a full day, others report fast draining. The camera quality and heating performance also get mixed reviews, with some finding it superb while others report heating issues.",
+        "keywords": [
+          {
+            "name": "Performance",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's performance, describing it as fast and super-smooth, with one customer specifically noting excellent BGMI performance at 120 fps.",
+            "customersMentionedCount": {
+              "total": 148,
+              "positive": 126,
+              "negative": 22
+            },
+            "partialReviews": [
+              {
+                "text": "...2. Good brightness: Good outdoor view. 3. Good performance: Faced no lag till now. 1.8m antutu. 4. Haven't faced any heating issues....",
+                "highlightedPart": "Good performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1SGXPOREHRKKA"
+              },
+              {
+                "text": "...\ud83d\udc4d Final Verdict: If you want a powerful phone with great performance, good camera, and long battery life, OnePlus 13R is a perfect choice....",
+                "highlightedPart": "great performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2D1EGGCA6W4YN"
+              },
+              {
+                "text": "Best flagship phone in 39999/- This phone is fast and compatible. Camera & Battery is just awesome....",
+                "highlightedPart": "fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3IJ3EZS6X0IKY"
+              },
+              {
+                "text": "Excellent performance and battery life",
+                "highlightedPart": "Excellent performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1EUF75K99QEA2"
+              }
+            ]
+          },
+          {
+            "name": "Display quality",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's display, noting its bright and clear visuals with a vibrant 120Hz AMOLED screen and flat design.",
+            "customersMentionedCount": {
+              "total": 56,
+              "positive": 45,
+              "negative": 11
+            },
+            "partialReviews": [
+              {
+                "text": "...Pros: \u2714 Fast performance \u2714 Great display \u2714 Excellent battery & charging \u2714 4+6 years of updates Cons:...",
+                "highlightedPart": "Great display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1MK5KIMNPOCKC"
+              },
+              {
+                "text": "Nice display",
+                "highlightedPart": "Nice display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2RRBVAUYAILI"
+              },
+              {
+                "text": "...The finger print sensor is very responsive. The display is breathtaking as it comes in 120 hz.",
+                "highlightedPart": "display is breathtaking",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RXQ61DAT6FOHY"
+              },
+              {
+                "text": "...Good Audio , Amoled Display and Camera Verdict : If your a gamer or Video editor in mobile go for 13...",
+                "highlightedPart": "Amoled Display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VATLOBDPKFEH"
+              }
+            ]
+          },
+          {
+            "name": "Features",
+            "sentiment": "positive",
+            "text": "Customers appreciate the phone's features, particularly its AI capabilities and UI customizations, with one customer noting it offers premium features at an affordable price point.",
+            "customersMentionedCount": {
+              "total": 31,
+              "positive": 29,
+              "negative": 2
+            },
+            "partialReviews": [
+              {
+                "text": "Best Flagship mobile in this range you will ever get great features and with Snapdragon 8 Gen 3 the performance is apar....",
+                "highlightedPart": "great features",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3COZTL9PR2YRV"
+              },
+              {
+                "text": "...Light weight, You get a 80 watt charger and case in the box, Feature rich phone,",
+                "highlightedPart": "Feature rich phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1WIRN3VZOKCNF"
+              },
+              {
+                "text": "...-tier performance, great camera quality (except ultra-wide), and premium features....",
+                "highlightedPart": "premium features",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1UIUBK75EIBGM"
+              },
+              {
+                "text": "...OnePlus 13R offers flagship-level features at a competitive price, and getting premium earbuds for free just adds more value....",
+                "highlightedPart": "flagship-level features",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RBL5E27VRRWOR"
+              }
+            ]
+          },
+          {
+            "name": "Touch sensitivity",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's touch sensitivity, describing it as smooth and buttery, with one customer noting that the latest update made the device super fluid.",
+            "customersMentionedCount": {
+              "total": 31,
+              "positive": 28,
+              "negative": 3
+            },
+            "partialReviews": [
+              {
+                "text": "...While there are a few bloatware apps, OxygenOS 15 is lightning-fast and smooth. 4. Camera: 9/10...",
+                "highlightedPart": "smooth",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R14GFEB19UST4N"
+              },
+              {
+                "text": "...\ud83d\udcf1 Display & Design: The 6.78-inch display is big, bright, and very smooth. Watching videos and using apps feels premium....",
+                "highlightedPart": "very smooth",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2D1EGGCA6W4YN"
+              },
+              {
+                "text": "Very good and upto the mark product. Excellent display and smoothness. Gets hot while charging - but not much.",
+                "highlightedPart": "smoothness",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3IDXC7D365F38"
+              },
+              {
+                "text": "...Performance wise good. Touch is very smooth.",
+                "highlightedPart": "Touch is very smooth",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RGX7U7CJ7PX0E"
+              }
+            ]
+          },
+          {
+            "name": "Design",
+            "sentiment": "positive",
+            "text": "Customers appreciate the phone's design, describing it as sleek and a joy to look at, with one customer noting its awesome animations.",
+            "customersMentionedCount": {
+              "total": 30,
+              "positive": 26,
+              "negative": 4
+            },
+            "partialReviews": [
+              {
+                "text": "...With its sleek design, cutting-edge AI features, impressive battery life, and smooth performance, it redefines what a flagship killer should be....",
+                "highlightedPart": "sleek design",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R14GFEB19UST4N"
+              },
+              {
+                "text": "...Camera is good but it's need improvement through OTA update.The sleek and lightweight design feels premium in hand.",
+                "highlightedPart": "sleek",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RM479TU2YR5DR"
+              },
+              {
+                "text": "...Speed Light weight Premium glass back, matt finish and looks Software and software support Green line issues resolved...",
+                "highlightedPart": "looks",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1FOB4P74VAVXK"
+              },
+              {
+                "text": "...Designed to impress, built to perform. The OnePlus 13R is your perfect companion",
+                "highlightedPart": "Designed to impress",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1CEKY9FLD6WQ4"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's camera quality, with some finding it superb while others consider it poor.",
+            "customersMentionedCount": {
+              "total": 154,
+              "positive": 79,
+              "negative": 75
+            },
+            "partialReviews": [
+              {
+                "text": "Camera is good but 2x camera offers much better clarity than normal camera. Selfie camera is default quality. Processor is very good....",
+                "highlightedPart": "Camera is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R306RUEL8IBW4"
+              },
+              {
+                "text": "Camera could be better, but overall good phone and great battery backup.",
+                "highlightedPart": "Camera could be better",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2S21Z4GTEMC9"
+              },
+              {
+                "text": "...Good Audio , Amoled Display and Camera Verdict : If your a gamer or Video editor in mobile go for 13...",
+                "highlightedPart": "Camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VATLOBDPKFEH"
+              },
+              {
+                "text": "This is first time I took one plus 13r and it's worst experience. Camera is average, and display looks like 20k one...I took phone in exchange offer...",
+                "highlightedPart": "Camera is average",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RYALZGHLHYS68"
+              }
+            ]
+          },
+          {
+            "name": "Battery life",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's battery life, with some finding it excellent and lasting a full day, while others report it draining quickly.",
+            "customersMentionedCount": {
+              "total": 141,
+              "positive": 93,
+              "negative": 48
+            },
+            "partialReviews": [
+              {
+                "text": "...Impressed by its performance and battery life. I upgraded to the OnePlus 13R in April 2025, and it has lived up to expectations. -...",
+                "highlightedPart": "battery life",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RF5OPKUT140PK"
+              },
+              {
+                "text": "Battery is draining very fast, oneplus 9 battery is far better than this. Heating issue while charging.",
+                "highlightedPart": "Battery is draining very fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1MWEK7QZ7CL9E"
+              },
+              {
+                "text": "It's a great multitasking phone. Nice camera, great battery backup, better call quality,sturdy and strong body all these features make a great phone...",
+                "highlightedPart": "great battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2KN2A4SDJCABR"
+              },
+              {
+                "text": "...fone.. iam first time enter into Oxygen os.. mind blowing display and battery and performance peeks!!!",
+                "highlightedPart": "battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1XJI5OXOYMMKL"
+              }
+            ]
+          },
+          {
+            "name": "Heating",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's heating: while some report no heating issues, others mention that it gets heated very quickly.",
+            "customersMentionedCount": {
+              "total": 44,
+              "positive": 16,
+              "negative": 28
+            },
+            "partialReviews": [
+              {
+                "text": "Why did you pick this product vs others?: All of that good but heating issue have in this phone i share data and phone heat high...",
+                "highlightedPart": "heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2TZ1H9847Z3W"
+              },
+              {
+                "text": "...No heating issues then usual summer heating in phones, you can't avoid that. Cameras are underrated, they are well optimized....",
+                "highlightedPart": "No heating issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2ST3MR7ONMBLX"
+              },
+              {
+                "text": "I really don't like this product, it has heating issues and not working properly",
+                "highlightedPart": "heating issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R26HIYKJRKVMXL"
+              },
+              {
+                "text": "heating problem in this phone",
+                "highlightedPart": "heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RPCJTCSM6TW0C"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "A & A",
+          "userId": "amzn1.account.AE3FCL6PW5W227QSIZEEZPQXUUBQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AE3FCL6PW5W227QSIZEEZPQXUUBQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Excellent, but lacks in camera department!",
+          "reviewDescription": "This phone is literally the smoothest phone I have used till now. It is ultra smooth, opens apps instantly, without delay. I was not expecting much, coming from a SD870-powered device, but the way this phone surprised me is amazing. I did experience some stutters in the launcher initially, but there were updates available, as soon as I updated, it was fixed.The battery backup have been quite great too.The phone size is pretty small due to amazingly thin bezels. It makes the phone size much smaller than my previous phone with smaller screen size.The build quality also feels very premium. It feels just great in hand.The other stuffs like speakers, microphones, display, fingerprint sensor, etc. are perfectly great as well.Camera, however, isn't as good. Yes, you'll see people coming out on road with wooden fire torch in their hands saying the camera is great. Well, it some cases, it is, but in the other, it is not.Honestly, even mid range phones these days are able to take excellent shots, however, how often and how easy it is to take those shots varies. It is much easier to take a great shot with a super expensive phone compared to a mid-range phone.That thing is where 13R lacks. You can take some of the most marvellous photos with its camera, however, they are not very consistent. Even varies from telephoto to Ultra wide. The HDR goes haywire in some shots, while in some, it is like taken from an ultra-expensive DSLR.Video recording is average. And honestly, it is average on most Android phones except Samsung flagships. I would recommend S24FE in this range if you're into video recording. It is supposedly also better in camera, though, I prefer 13R's camera over S24FE. Just video recording is far better on S24FE, especially in low light. Video recording is pretty bad if you compare it to flagships, but then again, its elder brother, OnePlus 13, is also poor in it, so can't expect much from the younger one, can we?Overall, I already expected the camera to be bad, but it turned out to be pretty good. I would not call the camera bad, but it is not great either. The main thing is, for day-to-day usage, this is an excellent smartphone. The smoothest I have ever used. You might even find iPhones not-so smooth when you compare 13R or the regular 13 with them.I hated when Oxygen OS was discontinued and we started getting the skinned-up (it is not even skinned up anymore) ColorOS, but now I am glad that Oppo and OnePlus have done a great job in optimizing ColorOS. Not sure if the whole ColorOS is this smooth, or it is just OnePlus team's optimization, but it is well done.Considering what I have seen in the reviews, I am extremely excited for the OxygenOS 16 update. Good job OnePlus, but please do better job on the cameras.",
+          "date": "2025-10-27",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 27 October 2025",
+          "reviewId": "R48VSVT527SZS",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R48VSVT527SZS/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "55 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/42dc2c3a-5032-429d-a161-b662934dd3e5._CR0%2C0%2C3096%2C3096_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Aravind",
+          "userId": "amzn1.account.AFX4WCGASGI5ADVXH6PEZACQ3ZAA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFX4WCGASGI5ADVXH6PEZACQ3ZAA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "One of the best at 40k",
+          "reviewDescription": "I am writing this after purchasing this phone before 1.5 years. Is it a fantastic choice for a phone around 40k. It provides a user friendly experience. The performance is really fast. The batter life is very impressive even after 1.5 years. It looks very good. The camera quality is very very nice. The finger print sensor is very responsive. The display is breathtaking as it comes in 120 hz.",
+          "date": "2026-08-28",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 28 August 2026",
+          "reviewId": "RXQ61DAT6FOHY",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RXQ61DAT6FOHY/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Shubham Sundrani",
+          "userId": "amzn1.account.AHX65GTSW5Y4KLOHVNWE7YKQGGPQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHX65GTSW5Y4KLOHVNWE7YKQGGPQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Fast, Smooth, Battery Beast - but camera could use improvement.",
+          "reviewDescription": "Super happy with the phone. Fast, smooth, good performance, and a tank of a battery. I left the OnePlus 7 Pro for iPhone 13 because the software had gotten horrible with OOS 12, and it's safe to say I felt OOS 15 was compelling enough to where I felt it was worth coming back.Device doesn't heat up at all when charging, and it charges much faster - both solid improvements.Looks and feels quite sleek, display is bright and a joy to look at. The one complaint I would have is with the camera.Stills sometimes look overprocessed due to the \"AI\" functionality, add to it video capture isn't quite as smooth with noticeable frame drops and EIS stutter. Hope OnePlus fixes it with future software updates..",
+          "date": "2025-05-12",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 12 May 2025",
+          "reviewId": "RDEDK4Y0F1X3V",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RDEDK4Y0F1X3V/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Vaibhav d.",
+          "userId": "amzn1.account.AH5NVT6RPQ24QU2UCVJZIH4FLA4A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH5NVT6RPQ24QU2UCVJZIH4FLA4A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "First time OnePlus user",
+          "reviewDescription": "9/10Build quality is decent, i personally don't like the camera design and placement, but you get used to it.Excellent display with smooth animations across the ui, oxygen os 16 is the perfect balance of feature rich and smooth experience. It feels snappy like the nothing os with better animations.Battery is decent, 6-7 hrs of sot, with mostly social media apps and video viewing content. No heating issues then usual summer heating in phones, you can't avoid that.Cameras are underrated, they are well optimized. Especially the telephoto camera, it is tuned really good and give close competition to your iPhones in not so challenging lighting condition.Hardware wise, processor doesn't let you down, it is up to the mark and you don't see much lag except here and there.But The software is the real king here for this phone and other OnePlus devices, you get all the ai features in writing tools and in photo editing as well.Also you get the OG alert slider.",
+          "date": "2026-05-29",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 29 May 2026",
+          "reviewId": "R2ST3MR7ONMBLX",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2ST3MR7ONMBLX/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Abhijit Nag",
+          "userId": "amzn1.account.AFKUT2R56Q6ZWXVXZEFSICIFPH2A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFKUT2R56Q6ZWXVXZEFSICIFPH2A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Value for money",
+          "reviewDescription": "Excellent Performance & Camera \u2013 Totally Worth It!I have been using the OnePlus 13R for almost one month now, and I am really impressed with its overall performance.\ud83d\udcf1 Display & Design:The 6.78-inch display is big, bright, and very smooth. Watching videos and using apps feels premium.\u26a1 Performance (Processor):The Snapdragon 8 Gen 3 processor is extremely fast. There is no lag at all. Gaming and multitasking work smoothly without any heating issues.\ud83d\udcf8 Camera:The camera quality is very good. Photos come out sharp and natural, especially in daylight. The 2\u00d7 telephoto lens helps in taking better portrait and distance shots. Video recording is also stable and clear.\ud83d\udd0b Battery:The 6000mAh battery is excellent. Easily lasts a full day even with heavy usage. Fast charging is also very convenient.\ud83d\udcb0 Value for Money:At this price range, this phone offers flagship-level performance, good camera, and strong battery backup. Totally worth buying.\ud83d\udc4d Final Verdict:If you want a powerful phone with great performance, good camera, and long battery life, OnePlus 13R is a perfect choice.Highly recommended!",
+          "date": "2026-04-10",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 10 April 2026",
+          "reviewId": "R2D1EGGCA6W4YN",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2D1EGGCA6W4YN/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "43 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/96a92e9c-5414-41b0-a9d5-8acda74eeed2._CR96%2C0%2C307%2C307_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Vinayak Cheruvil",
+          "userId": "amzn1.account.AHWFESFCHWC6FONOTBPITNZPFDZA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHWFESFCHWC6FONOTBPITNZPFDZA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "OnePlus 13R Review: The True Flagship KillerOnePlus 13R Review: The True Flagship Killer",
+          "reviewDescription": "OnePlus has outdone itself this time, delivering a smartphone that truly lives up to its legacy as a flagship killer. After using it for a week, here are my ratings:1. Design: 10/10The slim, boxy design with a matte black finish feels premium and elegant. The in-hand feel is exceptional.2. AI: 10/10Packed with all the latest AI features, it\u2019s both innovative and intuitive.3. OS: 9/10The return of OxygenOS is a brilliant move! While there are a few bloatware apps, OxygenOS 15 is lightning-fast and smooth.4. Camera: 9/10While not flagship-level, the camera performs impressively, capturing excellent detail in most scenarios.5. Battery: 10/10The silicon battery is a game-changer, offering 10-11 hours of screen-on time with moderate use\u2014simply outstanding.6. Processor: 10/10The Snapdragon 8 Gen 3 delivers optimized, power-efficient performance that feels seamless.7. Display: 10/10The display is breathtaking\u2014vivid, sharp, and a delight to use.Overall, OnePlus 13R is a powerhouse and offers unbeatable value for its price.Conclusion:The OnePlus 13R is a masterclass in balancing performance, design, and innovation at a competitive price. With its sleek design, cutting-edge AI features, impressive battery life, and smooth performance, it redefines what a flagship killer should be. While the camera isn't quite flagship-level, it holds its own in most scenarios. If you're looking for a phone that offers premium features without breaking the bank, the OnePlus 13R is the one to beat.",
+          "date": "2025-01-22",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 22 January 2025Reviewed in India on 22 January 2025",
+          "reviewId": "R14GFEB19UST4N",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R14GFEB19UST4N/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/61Blun0wqiL._SY500_.jpg"
+          ],
+          "reviewReaction": "186 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/d78bc1d1-83f3-452f-b8bc-8cbb5f25b3d7._CR0%2C0%2C852%2C852_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Himanshu Soni",
+          "userId": "amzn1.account.AGEA33JJXKUUL5QPITGSBJSZ4HUQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGEA33JJXKUUL5QPITGSBJSZ4HUQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Doesn't feel like a OnePlus anymore",
+          "reviewDescription": "Decent mid-range phone that will get the job done, but nothing special to write about. Build quality is just Ok, with an aluminium back panel that feels like plastic, reducing it's appeal. Feels lighter in the hand as compared to the Nothing Phone 3A Pro, that comes with premium build quality with a metal and glass body. Camera is good, not exceptional. No performance or heating issues for medium usage (social media, YouTube, WhatsApp). Battery easily lasts for a day and a half.Go for it if you are a OnePlus fan, else I will recommend the Nothing Phone 3A Pro over this model any day.",
+          "date": "2025-10-27",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 27 October 2025",
+          "reviewId": "R37QT2UTVV2GEY",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R37QT2UTVV2GEY/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "32 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "NEEL",
+          "userId": "amzn1.account.AES5KBJDSXFF3IHN4YJTHXOWUVKA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AES5KBJDSXFF3IHN4YJTHXOWUVKA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "All rounder flagship killer phone",
+          "reviewDescription": "I bought this device on 14 May 2026. I love to use my phone without case/cover. And it feels like a flagship level device.\u2705 What I like:1. OS is the best part. Oxygen OS 16 is extremely fluid and lavish to use. I like it even more than one ui.2. Display is amazing. Bezels are extremely thin. Superb experience.3. It gives a very premium feel to use without case. Its a lil slippery though ;)4. Camera is great.5 Battery backup is amazing.6. No heating issue.\u274c What I don't like:1. Vibration motor especially during notifications feels cheap.2. Charging speed is downgraded to 80W. 12R had 100W.3. Dolby Atmos support removed.",
+          "date": "2026-07-16",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 16 July 2026",
+          "reviewId": "R3VUNM3OVX8N0H",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VUNM3OVX8N0H/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "2 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/7d2b7f55-e840-435d-9885-0e2bfbd798d8._CR0%2C0%2C500%2C500_SX460_SX48_.jpeg",
+          "variant": "",
+          "variantAttributes": []
+        }
+      ],
+      "productPageReviewsFromOtherCountries": [
+        {
+          "username": "dominic",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 4,
+          "reviewTitle": "value for money .",
+          "reviewDescription": "A good Phone with good specs .",
+          "date": "2026-06-08",
+          "position": 1,
+          "reviewedIn": "Reviewed in the United Arab Emirates on 8 June 2026",
+          "reviewId": "R14PWKE1H5O6WN",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Vysakh",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 4,
+          "reviewTitle": "Amazing",
+          "reviewDescription": "Sometimes it too much heat",
+          "date": "2026-02-17",
+          "position": 2,
+          "reviewedIn": "Reviewed in the United Arab Emirates on 17 February 2026",
+          "reviewId": "R2313B3SQ9JOB0",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        }
+      ]
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0DPS62DYH"
+  }
+]

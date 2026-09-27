@@ -1,0 +1,91 @@
+{
+  "price_overview": {
+    "current_price": 19999,
+    "all_time_low": 15999,
+    "all_time_high": 23999,
+    "avg_30_days": 19999,
+    "overall_average": 21369.15,
+    "low_6_months": 15999,
+    "trend_percentage": 0
+  },
+  "deal_evaluation": {
+    "score": 59,
+    "verdict": "Good deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 19949,
+      "is_current": false,
+      "url": "https://www.flipkart.com/oneplus-nord-ce4-lite-5g-ultra-orange-256-gb/p/itm8fd5fdf300955?pid=MOBH25ZHN4MRWKFT"
+    },
+    "Amazon": {
+      "price": 19999,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0D5YD7QSS?psc=1"
+    },
+    "Croma": {
+      "price": 20999,
+      "is_current": false,
+      "url": "https://www.croma.com/oneplus-nord-ce4-lite-5g-8gb-ram-256gb-super-silver-/p/307504"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2025-10-16",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-17",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-18",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-19",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-20",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-21",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-22",
+      "price": 15999
+    },
+    {
+      "date": "2025-10-23",
+      "price": 15999
+    },
+    {
+      "date": "2025-11-01",
+      "price": 16999
+    },
+    {
+      "date": "2026-01-22",
+      "price": 19999
+    },
+    {
+      "date": "2026-01-23",
+      "price": 19999
+    },
+    {
+      "date": "2026-01-24",
+      "price": 19999
+    },
+    {
+      "date": "2026-01-25",
+      "price": 19999
+    },
+    {
+      "date": "2026-01-26",
+      "price": 19999
+    }
+  ],
+  "historical_data_points": 14
+}

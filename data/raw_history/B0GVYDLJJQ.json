@@ -1,0 +1,457 @@
+{
+  "price_overview": {
+    "current_price": 28999,
+    "all_time_low": 20999,
+    "all_time_high": 28999,
+    "avg_30_days": 28828.85,
+    "overall_average": 25759.62,
+    "low_6_months": 20999,
+    "trend_percentage": 0
+  },
+  "deal_evaluation": {
+    "score": 36,
+    "verdict": "Fair deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 28435,
+      "is_current": false,
+      "url": "https://www.flipkart.com/oneplus-nord-ce6-lite-hyper-black-128-gb/p/itm894a5599b758b?pid=MOBHN8BDFU3PHHUR&lid=LSTMOBHN8BDFU3PHHURAEWY3J"
+    },
+    "Amazon": {
+      "price": 28999,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0GVYDLJJQ"
+    },
+    "Reliance Digital": {
+      "price": 28999,
+      "is_current": false,
+      "url": "https://www.reliancedigital.in/product/oneplus-nord-ce6-lite-5g-128-gb-6-gb-ram-hyper-black-mobile-phone-mov48v-10057352"
+    },
+    "Vijaysales": {
+      "price": 28999,
+      "is_current": false,
+      "url": "https://www.vijaysales.com/p/P257171/257171/oneplus-nord-ce6-lite-6gb-ram-128gb-storage-mediatek-dimensity-7400-7000-mah-battery-reverse-charging-support-hyper-black"
+    },
+    "Croma": {
+      "price": 30999,
+      "is_current": false,
+      "url": "https://www.croma.com/oneplus-nord-ce6-lite-5g-8gb-ram-128gb-vivid-mint-/p/322993"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-05-12",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-14",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-15",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-16",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-17",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-18",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-19",
+      "price": 20999
+    },
+    {
+      "date": "2026-05-20",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-22",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-23",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-24",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-25",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-27",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-29",
+      "price": 22999
+    },
+    {
+      "date": "2026-05-30",
+      "price": 22999
+    },
+    {
+      "date": "2026-06-01",
+      "price": 22999
+    },
+    {
+      "date": "2026-06-03",
+      "price": 22999
+    },
+    {
+      "date": "2026-06-05",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-06",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-08",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-09",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-10",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-12",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-13",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-14",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-15",
+      "price": 22998
+    },
+    {
+      "date": "2026-06-16",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-17",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-18",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-19",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-20",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-21",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-22",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-24",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-25",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-26",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-27",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-28",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-29",
+      "price": 25999
+    },
+    {
+      "date": "2026-06-30",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-01",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-02",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-03",
+      "price": 24999
+    },
+    {
+      "date": "2026-07-04",
+      "price": 24999
+    },
+    {
+      "date": "2026-07-06",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-07",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-09",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-10",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-11",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-12",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-13",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-15",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-16",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-17",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-18",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-20",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-21",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-22",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-24",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-25",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-26",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-27",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-28",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-30",
+      "price": 25999
+    },
+    {
+      "date": "2026-07-31",
+      "price": 25999
+    },
+    {
+      "date": "2026-08-02",
+      "price": 25999
+    },
+    {
+      "date": "2026-08-03",
+      "price": 25999
+    },
+    {
+      "date": "2026-08-04",
+      "price": 25999
+    },
+    {
+      "date": "2026-08-05",
+      "price": 25999
+    },
+    {
+      "date": "2026-08-06",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-07",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-09",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-10",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-11",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-13",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-14",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-16",
+      "price": 24999
+    },
+    {
+      "date": "2026-08-17",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-18",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-19",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-20",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-22",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-23",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-24",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-25",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-27",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-28",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-29",
+      "price": 28999
+    },
+    {
+      "date": "2026-08-30",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-01",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-03",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-05",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-06",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-07",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-08",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-09",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-11",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-19",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-20",
+      "price": 24575
+    },
+    {
+      "date": "2026-09-21",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-22",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-24",
+      "price": 28999
+    },
+    {
+      "date": "2026-09-26",
+      "price": 28999
+    }
+  ],
+  "historical_data_points": 103
+}

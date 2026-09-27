@@ -1,0 +1,54 @@
+{
+  "price_overview": {
+    "current_price": 11999,
+    "all_time_low": 9321,
+    "all_time_high": 13499,
+    "avg_30_days": 12499,
+    "overall_average": 12152.17,
+    "low_6_months": 11999,
+    "trend_percentage": 12.5
+  },
+  "deal_evaluation": {
+    "score": 67,
+    "verdict": "Good deal"
+  },
+  "competitor_pricing": {
+    "Flipkart": {
+      "price": 10424,
+      "is_current": false,
+      "url": "https://www.flipkart.com/iqoo-z9x-storm-grey-128-gb/p/itm37ed9034fd805?pid=MOBHF6ZZY5SMYZTP"
+    },
+    "Amazon": {
+      "price": 11999,
+      "is_current": true,
+      "url": "https://www.amazon.in/iQOO-Tornado-Storage-Snapdragon-FlashCharge/dp/B07WDKKJ45/ref=mp_s_a_1_3?psc=1"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2025-09-29",
+      "price": 13499
+    },
+    {
+      "date": "2025-11-25",
+      "price": 13499
+    },
+    {
+      "date": "2025-11-26",
+      "price": 13499
+    },
+    {
+      "date": "2026-01-22",
+      "price": 11999
+    },
+    {
+      "date": "2026-01-23",
+      "price": 11999
+    },
+    {
+      "date": "2026-02-09",
+      "price": 13499
+    }
+  ],
+  "historical_data_points": 6
+}
