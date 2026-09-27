@@ -19,3 +19,6 @@ __pycache__/
 
 # Streamlit
 .streamlit/
+
+# Policy RAG vector index (rebuilt from data/policies with build_policy_index.py)
+data/chroma/

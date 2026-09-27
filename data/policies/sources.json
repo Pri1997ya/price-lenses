@@ -1,0 +1,59 @@
+{
+  "_comment": "Policy corpus for the Eligibility & Safety Agent (Agent 3). Only entries with ingest=true are fetched. Each fetched document is saved as data/policies/<retailer>/<id>.md with its source URL and retrieval date in the front matter.",
+  "sources": [
+    {"id": "croma-cancellation-return", "retailer": "croma", "doc_type": "return_policy", "format": "html", "ingest": true,
+     "url": "https://www.croma.com/cancellation-and-return"},
+    {"id": "croma-faq", "retailer": "croma", "doc_type": "faq", "format": "html", "ingest": true,
+     "url": "https://www.croma.com/faq"},
+    {"id": "croma-help-support", "retailer": "croma", "doc_type": "help_hub", "format": "html", "ingest": true,
+     "url": "https://www.croma.com/helpAndSupport"},
+
+    {"id": "flipkart-return-policy", "retailer": "flipkart", "doc_type": "return_policy", "format": "html", "ingest": true,
+     "url": "https://www.flipkart.com/pages/returnpolicy"},
+    {"id": "flipkart-helpcentre", "retailer": "flipkart", "doc_type": "help_hub", "format": "html", "ingest": true,
+     "url": "https://www.flipkart.com/helpcentre"},
+    {"id": "flipkart-helpcentre-non-order", "retailer": "flipkart", "doc_type": "faq", "format": "html", "ingest": true,
+     "url": "https://www.flipkart.com/helpcentre/nonOrderIssues"},
+
+    {"id": "reliance-digital-cancellation-return", "retailer": "reliance_digital", "doc_type": "return_policy", "format": "html", "ingest": true,
+     "url": "https://www.reliancedigital.in/c/cancellation-and-return-policy"},
+    {"id": "reliance-digital-pricing-payments", "retailer": "reliance_digital", "doc_type": "pricing_policy", "format": "html", "ingest": true,
+     "url": "https://www.reliancedigital.in/c/pricing-and-payments-policy"},
+
+    {"id": "vijay-sales-faqs", "retailer": "vijay_sales", "doc_type": "faq", "format": "html", "ingest": true,
+     "url": "https://www.vijaysales.com/faqs"},
+    {"id": "vijay-sales-company-policies", "retailer": "vijay_sales", "doc_type": "company_policy", "format": "html", "ingest": true,
+     "url": "https://www.vijaysales.com/about-us/company-policies"},
+
+    {"id": "amazon-conditions-of-use", "retailer": "amazon", "doc_type": "terms", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display?nodeId=201909000"},
+    {"id": "amazon-returns-policy", "retailer": "amazon", "doc_type": "return_policy", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202111910"},
+    {"id": "amazon-replacement-policy", "retailer": "amazon", "doc_type": "replacement_policy", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202111750"},
+    {"id": "amazon-returns-refunds-hub", "retailer": "amazon", "doc_type": "refund_policy", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=GNW5VKFXMF72FFMR"},
+    {"id": "amazon-schedule-return", "retailer": "amazon", "doc_type": "how_to", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=GD4HZNRCW2JW4CMC"},
+    {"id": "amazon-return-pickup-self-ship", "retailer": "amazon", "doc_type": "how_to", "format": "html", "ingest": true,
+     "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202111950"},
+
+    {"id": "ecommerce-rules-2020-gazette", "retailer": "regulation", "doc_type": "regulation", "format": "pdf", "ingest": true,
+     "url": "https://thc.nic.in/Central%20Governmental%20Rules/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf"},
+    {"id": "ecommerce-rules-2020-icsi-overview", "retailer": "regulation", "doc_type": "regulation_explainer", "format": "pdf", "ingest": true,
+     "url": "https://www.icsi.edu/media/webmodules/Consumer_Protection_E-Commerce_Rules_2020.pdf"},
+
+    {"id": "dca-consumer-protection-acts-index", "retailer": "regulation", "doc_type": "index_page", "format": "html", "ingest": false,
+     "url": "https://consumeraffairs.gov.in/pages/consumer-protection-acts",
+     "note": "Index page whose download URLs change on amendment. Download the specific PDF and add it as its own entry."},
+    {"id": "dca-legal-metrology-index", "retailer": "regulation", "doc_type": "index_page", "format": "html", "ingest": false,
+     "url": "https://consumeraffairs.gov.in/index.php/pages/legal-metrology-act",
+     "note": "Index page. Download the specific PDF and add it as its own entry."},
+    {"id": "ejagriti-portal", "retailer": "case_law", "doc_type": "search_portal", "format": "html", "ingest": false,
+     "url": "https://ejagriti.gov.in/", "note": "Search entry point, not a document."},
+    {"id": "indian-kanoon-portal", "retailer": "case_law", "doc_type": "search_portal", "format": "html", "ingest": false,
+     "url": "https://indiankanoon.org/", "note": "Search entry point, not a document."},
+    {"id": "zlash-croma-summary", "retailer": "croma", "doc_type": "third_party_summary", "format": "html", "ingest": false,
+     "url": "https://zlash.ai/return-policy/croma", "note": "Cross-check only. Do not ingest."}
+  ]
+}

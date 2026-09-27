@@ -268,6 +268,7 @@ class MarketDatabase:
         )
 
     def offers_for_product(self, canonical_id: str, limit: int = 100) -> list[dict]:
+        """Latest stored offer per marketplace/seller for one product (read-only)."""
         return self._dict_rows(
             """
             SELECT o.*, p.title AS product_title,

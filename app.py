@@ -8,7 +8,7 @@ import plotly.express as px
 import streamlit as st
 
 from orchestrator import graph
-from tools import market_ui
+from tools import eligibility_ui, market_ui
 from tools.analytics import get_db_connection
 from tools.market_agent import MarketInvestigatorAgent
 from tools.market_agent_models import FreshnessPolicy, MarketAgentRequest
@@ -137,6 +137,12 @@ def render_history_results(result_state: dict) -> None:
                     annotation_text="ATL",
                 )
                 st.plotly_chart(figure, width="stretch")
+
+    eligibility_report = result_state.get("eligibility_report")
+    if eligibility_report:
+        st.subheader("🛡️ Eligibility & Safety")
+        with st.container(border=True):
+            eligibility_ui.render_eligibility_report(eligibility_report)
 
     with st.container(border=True):
         st.info("⏳ Review Intelligence Agent is pending implementation.")
@@ -568,13 +574,160 @@ def render_market_tab() -> None:
         st.info("Fetch live offers or load an exact query already stored in PostgreSQL.")
 
 
+@st.cache_resource(show_spinner="Loading policy index...")
+def policy_advisor():
+    """One policy index + advisor per server process (loads the embedding model once)."""
+    from tools.policy_rag import PolicyAdvisor, PolicyIndex, embedder_from_env
+
+    return PolicyAdvisor(PolicyIndex(embedder_from_env()))
+
+
+def render_policy_tab() -> None:
+    from tools.policy_corpus import RETAILER_LABELS, retailer_for_marketplace
+    from tools.policy_rag import PolicyIndexError
+    from tools.seller_check import check_sellers
+
+    st.subheader("Policy & Seller Check")
+    st.caption(
+        "Ask return, replacement and refund questions answered only from indexed retailer "
+        "policies and government rules, and verify seller trust and stock from stored offers."
+    )
+
+    # ---- Policy Q&A --------------------------------------------------------
+    st.markdown("#### 📜 Ask a policy question")
+    advisor = None
+    try:
+        advisor = policy_advisor()
+        stats = advisor.index.stats()
+        st.caption(
+            f"Index: {stats['documents']} documents, {stats['chunks']} passages, "
+            f"retrieved {stats['oldest_retrieval']} to {stats['newest_retrieval']} "
+            f"({stats['embedder']} embeddings)."
+        )
+    except PolicyIndexError as exc:
+        advisor = None
+        st.warning(str(exc))
+        st.code(
+            "python scripts/policies/fetch_policies.py\npython scripts/policies/build_policy_index.py",
+            language="bash",
+        )
+    except Exception as exc:
+        advisor = None
+        st.error(f"Policy index could not be opened: {exc}")
+
+    retailer_keys = ["amazon", "flipkart", "croma", "reliance_digital", "vijay_sales"]
+    with st.form("policy_question_form"):
+        question = st.text_input(
+            "Question",
+            value=st.session_state.get("policy_question", ""),
+            placeholder="e.g. Can I return an iPhone bought on Flipkart if it is defective?",
+        )
+        selected = st.multiselect(
+            "Retailers (leave empty for all)",
+            retailer_keys,
+            format_func=lambda key: RETAILER_LABELS[key],
+        )
+        include_rules = st.checkbox("Include government e-commerce rules", value=True)
+        ask = st.form_submit_button("Ask", type="primary", disabled=advisor is None)
+    if ask:
+        if not question.strip():
+            st.warning("Enter a question.")
+        else:
+            st.session_state["policy_question"] = question.strip()
+            with st.spinner("Searching policies..."):
+                try:
+                    answer = advisor.answer(
+                        question.strip(), selected or None, include_regulations=include_rules
+                    )
+                    st.session_state["policy_answer"] = answer.to_dict()
+                except Exception as exc:
+                    st.error(f"Policy question failed: {exc}")
+    if st.session_state.get("policy_answer"):
+        with st.container(border=True):
+            eligibility_ui.render_policy_answer(st.session_state["policy_answer"], show_question=True)
+
+    st.divider()
+
+    # ---- Seller & stock ----------------------------------------------------
+    st.markdown("#### 🏪 Seller & stock check")
+    st.caption("Uses offers already stored by the Market Investigator. No provider credits are used.")
+    with st.form("seller_check_form"):
+        product = st.text_input(
+            "ASIN or an exact query already fetched in the Market Investigator",
+            value=st.session_state.get("seller_check_query", ""),
+            placeholder="e.g. B0CS5XW6TN or Apple iPhone 16 128GB",
+        )
+        check = st.form_submit_button("Check sellers & stock", type="primary")
+    if check:
+        if not product.strip():
+            st.warning("Enter an ASIN or a stored query.")
+        else:
+            st.session_state["seller_check_query"] = product.strip()
+            try:
+                settings = MarketSettings.from_env()
+            except ConfigurationError as exc:
+                st.error(f"Market configuration error: {exc}")
+                return
+            database = market_database(settings)
+            if database is not None:
+                try:
+                    value = product.strip()
+                    if len(value) == 10 and value.isalnum() and value.upper() == value:
+                        rows = database.offers_for_product(value)
+                    else:
+                        rows = database.offers_for_query(value)
+                    st.session_state["seller_check_rows"] = rows
+                finally:
+                    database.close()
+
+    rows = st.session_state.get("seller_check_rows")
+    if rows is None:
+        return
+    if not rows:
+        st.info("No stored offers found. Fetch live offers in the Market Investigator tab first.")
+        return
+    products = {}
+    for row in rows:
+        products.setdefault(row["canonical_id"], row.get("product_title") or row["canonical_id"])
+    chosen = next(iter(products))
+    if len(products) > 1:
+        chosen = st.selectbox(
+            "Several products matched; pick one so variants are not mixed",
+            list(products),
+            format_func=lambda key: f"{products[key]} ({key})",
+        )
+    report = check_sellers([row for row in rows if row["canonical_id"] == chosen]).to_dict()
+    summary = {
+        "cheapest_store": report["cheapest_available"],
+        "safest_store": report["safest_available"],
+        "cheapest_unverified": report["cheapest_unverified"],
+    }
+    for key, offer in summary.items():
+        if offer:
+            summary[key] = {
+                "label": RETAILER_LABELS.get(offer.get("retailer") or "", offer["marketplace"]),
+                "seller": offer["seller"],
+                "price": offer["effective_price"],
+                "url": offer["url"],
+                "stock_status": offer["stock_status"],
+                "trust_tier": offer["trust_tier"],
+            }
+    eligibility_ui.render_eligibility_report(
+        {**summary, "offers": report["offers"], "warnings": report["warnings"]}
+    )
+
+
 st.title("🔍 PriceLens: Autonomous Deal Advisor")
 st.caption(
     "Use historical pricing to decide when to buy, then compare live Indian-market offers."
 )
 
-history_tab, market_tab = st.tabs(["📈 History & Timing", "🛒 Market Investigator"])
+history_tab, market_tab, policy_tab = st.tabs(
+    ["📈 History & Timing", "🛒 Market Investigator", "🛡️ Policy & Seller Check"]
+)
 with history_tab:
     render_history_tab()
 with market_tab:
     render_market_tab()
+with policy_tab:
+    render_policy_tab()
