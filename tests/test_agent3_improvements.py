@@ -199,3 +199,13 @@ def test_evaluation_reports_passes_and_misses(index, capsys):
     ])
     assert (result["passed"], result["total"]) == (2, 3)
     assert "MISS" in capsys.readouterr().out
+
+
+def test_policy_llm_sends_no_temperature_unless_configured(monkeypatch):
+    from tools import policy_rag
+
+    monkeypatch.delenv("POLICY_LLM_TEMPERATURE", raising=False)
+    monkeypatch.setenv("LLM_API_KEY", "test-only-key")
+    assert policy_rag.default_llm().temperature is None
+    monkeypatch.setenv("POLICY_LLM_TEMPERATURE", "0")
+    assert policy_rag.default_llm().temperature == 0

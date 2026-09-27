@@ -521,13 +521,18 @@ SYSTEM_PROMPT = (
 def default_llm():
     from langchain_openai import ChatOpenAI
 
+    options = {}
+    # GPT-5-family and other reasoning models reject any temperature except the
+    # default, so only send one when it is explicitly configured.
+    if os.environ.get("POLICY_LLM_TEMPERATURE", "").strip():
+        options["temperature"] = float(os.environ["POLICY_LLM_TEMPERATURE"])
     return ChatOpenAI(
         base_url=os.environ.get("LLM_BASE_URL", "http://127.0.0.1:5001/gateway/mlflow/v1"),
         api_key=os.environ.get("LLM_API_KEY", "not-needed"),
         model=os.environ.get("LLM_MODEL", "gemini"),
-        temperature=0,
-        timeout=float(os.environ.get("POLICY_LLM_TIMEOUT", "30")),
+        timeout=float(os.environ.get("POLICY_LLM_TIMEOUT", "60")),
         max_retries=0,
+        **options,
     )
 
 
