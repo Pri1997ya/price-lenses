@@ -34,9 +34,9 @@ graph TD
 ### 2. Market & Arbitrage Analyst
 * **Role:** Scrapes live pricing from competitors (Flipkart, Croma) and identifies geographic arbitrage opportunities.
 
-### 3. Eligibility & Safety Analyst (Deep Semantic RAG)
+### 3. Eligibility & Safety Analyst (Policy RAG + Review Defect Scan)
 * **Role:** Protects the buyer from defective products and bad return policies.
-* **Tools:** Queries a **ChromaDB Vector Store** containing thousands of chunked, raw user reviews to semantically detect hidden hardware defects (e.g., "green line issues" or "overheating").
+* **Tools:** Answers return/refund questions from a **ChromaDB** index of retailer policies and government rules, checks seller trust and stock, and scans collected Amazon, Flipkart, Reddit and YouTube reviews for defects many owners report (e.g., "green line issues" or "overheating").
 
 ### 4. Decision Synthesizer (The Central Arbiter)
 * **Role:** Waits for the three parallel agents to finish, ingests their JSON reports, resolves logical conflicts (e.g., "It's cheap, but it overheats"), and outputs the final executive verdict to the UI.
@@ -192,6 +192,29 @@ Seller and stock rules (no LLM): stock is classified as `IN_STOCK`, `LOW_STOCK`,
 own store, Flipkart Assured, or `TRUSTED_SELLERS`), `OK` (rated 4/5 or higher),
 `CAUTION` (unidentified, rated 3 to 4, or refurbished/used) or `AVOID` (rated
 below 3). Offers older than `OFFER_STALE_HOURS` are flagged.
+
+Review defect scan (no LLM): `scripts/reviews/fetch_reviews.py` collects reviews
+into `data/reviews/<ASIN>.jsonl` (git-ignored; third-party text) from whichever
+sources are configured in `.env`:
+
+| Source | Needs |
+|---|---|
+| Amazon, Flipkart | `APIFY_API_TOKEN` plus a review actor and its input template (`APIFY_AMAZON_REVIEWS_ACTOR` / `_INPUT`, same for Flipkart). Flipkart also needs a stored Flipkart offer. |
+| Reddit | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET` (a "script" app at reddit.com/prefs/apps); optional `REDDIT_SUBREDDITS` |
+| YouTube | `YOUTUBE_API_KEY` (YouTube Data API v3) |
+
+```bash
+python scripts/reviews/fetch_reviews.py --dry-run          # what would run
+python scripts/reviews/fetch_reviews.py --asin B0CS5XW6TN  # one product
+```
+
+A fixed list of defect patterns (display lines, overheating, battery drain,
+charging, network, camera, audio, lag, dead on arrival, used/fake unit, ...) is
+matched sentence by sentence. Negated mentions ("no heating issue"), questions
+("does it overheat?") and "lag-free" are ignored, and each review counts once
+per defect. A defect is reported only when at least `REVIEW_MIN_MENTIONS` (3)
+distinct reviews and `REVIEW_MIN_SHARE` (1%) of the collected reviews mention
+it, with its count in the last year and up to five linked example sentences.
 
 The results appear in the **🛡️ Policy & Seller Check** tab and, after a History
 analysis, in the Eligibility & Safety section. They are also in
