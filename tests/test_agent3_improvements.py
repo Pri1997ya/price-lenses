@@ -261,3 +261,77 @@ def test_phone_question_finds_the_mobiles_row(tmp_path, monkeypatch):
     assert {hit.retailer for hit in answer.citations} == {"flipkart"}
     assert "7 days Replacement only" in answer.citations[0].text
     assert "keyword" in answer.citations[0].matched_by  # "phone" matched "Mobiles"
+
+
+# ------------------------------------------------------------ corpus clean-up
+def test_link_only_menus_are_dropped_but_policy_lists_kept():
+    from tools.policy_corpus import html_to_markdown
+
+    html = """<html><body><div class="menu"><ul>
+      <li><a href="/b">boAt</a></li><li><a href="/a">Apple</a></li>
+      <li><a href="/j">JBL</a></li><li><a href="/s">Sony</a></li></ul></div>
+    <main><h2>Returns</h2><ul>
+      <li>Items can be returned within 7 days.</li>
+      <li>See the <a href="/faq">FAQ</a> for pickup details.</li>
+      <li>Keep the invoice.</li><li>Keep the original box.</li></ul>
+    <ul><li><a href="#pickup">Return Pickup</a></li><li><a href="#self">Self-Ship</a></li>
+      <li><a href="#refund">Refunds</a></li><li><a href="#faq">FAQ</a></li></ul></main></body></html>"""
+    text, _ = html_to_markdown(html)
+    assert "boAt" not in text and "Self-Ship" not in text  # menu and table of contents
+    assert "- Items can be returned within 7 days." in text
+    assert "- See the FAQ for pickup details." in text  # a link inside real text stays
+
+
+def test_long_paragraph_chunks_restart_on_a_word():
+    from tools.policy_corpus import chunk_document
+
+    words = " ".join(f"word{n:03d}" for n in range(400))
+    document = PolicyDocument("s", "croma", "return_policy", "https://c", "2026-09-27", f"# T\n\n{words}")
+    for chunk in chunk_document(document, size=300, overlap=60)[1:]:
+        assert chunk.text.split("\n", 1)[1].startswith("word")
+
+
+# ------------------------------------------------------------ cut-off suggestion
+def _hit(relevance, text, matched_by):
+    from tools.policy_rag import PolicyHit
+
+    return PolicyHit(1, text, relevance, "amazon", "return_policy", "s", "https://a", "2026-09-27",
+                     matched_by=matched_by)
+
+
+class _FakeIndex:
+    """Replays hits; applies the cut-off the way PolicyIndex.search does."""
+
+    def __init__(self, hits_by_question, threshold):
+        self.hits, self.threshold = hits_by_question, threshold
+
+    def search(self, question, retailers=None, k=3, min_relevance=None):
+        cut = self.threshold if min_relevance is None else min_relevance
+        return [h for h in self.hits[question] if "keyword" in h.matched_by or h.relevance >= cut]
+
+
+def test_suggestion_counts_keyword_matches_as_safe(capsys):
+    # The reported run: a correct answer at 0.28 (also a keyword match) and a
+    # meaning-only stray at 0.33. Raising the cut-off above 0.33 is safe.
+    index = _FakeIndex({
+        "replacement window": [_hit(0.28, "Replacement within 7 days", ("semantic", "keyword"))],
+        "moon": [_hit(0.33, "Self-ship the item", ("semantic",))],
+    }, threshold=0.25)
+    result = eval_policy_questions.evaluate(index, [
+        {"question": "replacement window", "expect_text": "days"},
+        {"question": "moon", "expect": "no_match"},
+    ])
+    assert result["suggested_min_relevance"] == 0.35
+    assert "also match by keyword" in capsys.readouterr().out
+
+
+def test_no_suggestion_when_a_meaning_only_answer_is_weaker(capsys):
+    index = _FakeIndex({
+        "window": [_hit(0.28, "within 7 days", ("semantic",))],
+        "moon": [_hit(0.33, "Self-ship", ("semantic",))],
+    }, threshold=0.25)
+    result = eval_policy_questions.evaluate(index, [
+        {"question": "window", "expect_text": "days"}, {"question": "moon", "expect": "no_match"},
+    ])
+    assert result["suggested_min_relevance"] is None
+    assert "Improve that source" in capsys.readouterr().out

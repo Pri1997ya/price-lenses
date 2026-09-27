@@ -45,7 +45,9 @@ DEFAULT_QUESTIONS = [
 
 def evaluate(index: PolicyIndex, questions: list[dict], k: int = 3) -> dict:
     passed = 0
-    good_scores: list[float] = []
+    # Lowest cut-off each answerable question needs to keep a correct passage;
+    # None when a keyword match keeps one whatever the cut-off.
+    needed: list[float | None] = []
     stray_scores: list[float] = []
     for number, item in enumerate(questions, start=1):
         retailer = item.get("retailer")
@@ -71,8 +73,15 @@ def evaluate(index: PolicyIndex, questions: list[dict], k: int = 3) -> dict:
             ok = bool(real)
             if ok and item.get("expect_text"):
                 ok = any(item["expect_text"].lower() in h.text.lower() for h in real)
-            if ok:
-                good_scores.append(real[0].relevance)
+            correct = [
+                h for h in hits
+                if not item.get("expect_text") or item["expect_text"].lower() in h.text.lower()
+            ]
+            if correct:
+                needed.append(
+                    None if any("keyword" in h.matched_by for h in correct)
+                    else max(h.relevance for h in correct)
+                )
             verdict = "OK" if ok else (
                 "MISS: nothing passed the cut-off" if not real
                 else f"MISS: no returned passage mentions '{item['expect_text']}'"
@@ -82,18 +91,29 @@ def evaluate(index: PolicyIndex, questions: list[dict], k: int = 3) -> dict:
 
     print(f"\n{passed}/{len(questions)} questions passed.")
     suggestion = None
-    if good_scores:
-        weakest_good = min(good_scores)
-        strongest_stray = max(stray_scores) if stray_scores else None
-        print(f"Weakest correct top result: {weakest_good:.2f}")
-        if strongest_stray is not None:
-            print(f"Strongest match for an unanswerable question: {strongest_stray:.2f}")
-            if strongest_stray < weakest_good:
-                suggestion = round((strongest_stray + weakest_good) / 2, 2)
-        if suggestion is not None:
-            print(f"Suggested POLICY_MIN_RELEVANCE={suggestion} (midway between the two).")
-        else:
-            print("No clean cut-off separates these; keep the default and rely on keyword matches.")
+    strongest_stray = max(stray_scores) if stray_scores else None
+    meaning_only = [score for score in needed if score is not None]
+    weakest_good = min(meaning_only) if meaning_only else None
+    if strongest_stray is not None:
+        print(f"Strongest meaning-only match for an unanswerable question: {strongest_stray:.2f}")
+    if weakest_good is not None:
+        print(f"Weakest correct passage found by meaning only: {weakest_good:.2f}")
+    if needed and len(meaning_only) < len(needed):
+        print(f"{len(needed) - len(meaning_only)} answerable questions also match by keyword, "
+              "so they keep their passages at any cut-off.")
+    if strongest_stray is not None:
+        if weakest_good is None:
+            suggestion = round(strongest_stray + 0.02, 2)
+            reason = "just above the strongest unanswerable match"
+        elif strongest_stray < weakest_good:
+            suggestion = round((strongest_stray + weakest_good) / 2, 2)
+            reason = "midway between the two"
+    if suggestion is not None:
+        print(f"Suggested POLICY_MIN_RELEVANCE={suggestion} ({reason}). "
+              "Set it and run this again to confirm.")
+    elif strongest_stray is not None:
+        print("No cut-off separates these: an answerable question's only correct passage scores "
+              "below an unanswerable one. Improve that source rather than the cut-off.")
     return {"passed": passed, "total": len(questions), "suggested_min_relevance": suggestion}
 
 

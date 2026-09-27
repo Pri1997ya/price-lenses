@@ -229,6 +229,27 @@ def _flatten_table_rows(soup, root) -> None:
         row.replace_with(item)
 
 
+def _is_link_only(item) -> bool:
+    text = re.sub(r"\s+", "", item.get_text(""))
+    links = "".join(re.sub(r"\s+", "", a.get_text("")) for a in item.find_all("a"))
+    return bool(text) and text == links
+
+
+def _drop_link_menus(root, min_items: int = 4) -> None:
+    """Remove lists made only of links: mega-menus, brand lists, tables of contents.
+
+    Some retailers render navigation outside <nav>, so it reached the corpus as
+    passages like "- boAt - Apple - JBL - Sony ..." that match unrelated
+    questions. A policy's own bullet points carry text, not just links.
+    """
+    for menu in root.find_all(["ul", "ol"]):
+        if menu.decomposed:
+            continue
+        items = menu.find_all("li", recursive=False)
+        if len(items) >= min_items and all(_is_link_only(item) for item in items):
+            menu.decompose()
+
+
 def html_to_markdown(html: str) -> tuple[str, str | None]:
     """Convert a policy page to heading-preserving plain Markdown. Returns (text, title)."""
     from bs4 import BeautifulSoup
@@ -238,6 +259,7 @@ def html_to_markdown(html: str) -> tuple[str, str | None]:
     for tag in soup(_DROP_TAGS):
         tag.decompose()
     root = soup.find("main") or soup.find("article") or soup.body or soup
+    _drop_link_menus(root)
     _flatten_table_rows(soup, root)
     lines: list[str] = []
     for element in root.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "td", "th", "dt", "dd"]):
@@ -309,7 +331,10 @@ def _window(text: str, size: int, overlap: int) -> list[str]:
                 pieces.append(current)
                 current = ""
             pieces.append(paragraph[:cut].strip())
-            paragraph = paragraph[max(cut - overlap, 0):].strip()
+            # Restart at a word boundary inside the overlap, not mid-word.
+            start = max(cut - overlap, 0)
+            space = paragraph.find(" ", start, cut)
+            paragraph = paragraph[space + 1 if space != -1 else start:].strip()
         candidate = f"{current}\n{paragraph}".strip() if current else paragraph
         if len(candidate) <= size:
             current = candidate
