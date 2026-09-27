@@ -165,6 +165,14 @@ def render_eligibility_report(report: dict) -> None:
     st.markdown("**All stored listings**")
     render_offers_table(report.get("offers", []))
 
+    windows = report.get("return_windows") or {}
+    if windows:
+        st.markdown("**Return windows (reviewed)**")
+        for row in windows.values():
+            st.markdown(
+                f"- {row['summary']} — [source]({row['source_url']}), retrieved {row['retrieved_at']}"
+            )
+
     policies = report.get("policies") or {}
     if policies:
         st.markdown(f"**Return & replacement policy ({report.get('category', 'electronics')})**")

@@ -1,0 +1,4 @@
+{
+  "_comment": "Reviewed return windows copied by hand from each retailer's policy page. See tools/return_windows.py and data/policies/README.md. Add a row only from a page you have read, with its exact URL and retrieval date.",
+  "rows": []
+}
