@@ -1,0 +1,1166 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0CX59H5W7",
+    "name": "OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 128GB Storage)",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "OnePlus"
+    },
+    "image": "https://m.media-amazon.com/images/I/417odtnpERL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 14019,
+    "rating": null,
+    "aiSummary": "Key business insights from the analyzed fields (offers, brand, description, additionalProperties, url): pricing data is missing (price, priceCurrency null; listPrice null) which blocks conversion, revenue forecasting, and promotions and indicates a data-feed gap to fix urgently; the brand is OnePlus, signaling strong brand equity and an opportunity to leverage the Visit the OnePlus Store link for direct-brand traffic and cross-channel marketing; description is null, revealing a content gap that hurts discovery, SEO, and shopper confidence\u2014adding a rich, SEO-optimized description with clear use-cases, benefits, and specs would improve conversion; the product is currently out of stock (inStock false; inStockText \u201cCurrently unavailable.\u201d) despite strong demand signals, evidenced by a 4.4 average rating from thousands of reviews and top-tier best-seller rankings in Electronics and Smartphones, suggesting replenishment should be a priority to capture existing demand and minimize lost sales to competitors; listing quality is high on media assets (videosCount 3, multiple high-resolution images, gallery thumbnails, A+ content) and a detailed feature/attribute set, which supports premium positioning and justifies potential higher price points once stocked; the core specification set points to OnePlus Nord CE4 (Snappy Gen 3, 100W charging, 5500mAh battery, OLED 120Hz, 8GB RAM with virtual RAM, 128GB storage, 5G unlocked, OxygenOS), reinforcing a mid-to-high tier strategy with strong value propositions (fast charging, battery life, software experience) that should be emphasized in marketing; the url confirms a dedicated product page, and the presence of best-seller ranks and extensive customer feedback (including cross-country reviews) offers a foundation for demand forecasting and localized initiatives once stock/price data are aligned; risks include continued stockouts driving customers to alternatives, missing price data creating price opacity, and underutilization of brand storytelling (brandStory null, sustainabilityFeatures null) that could differentiate in a competitive mid-range segment; opportunities/ Recommendations: (1) secure rapid replenishment and publish ETA/backorder messaging to minimize lost demand; (2) populate price data and any promotions to unlock conversions and competitive positioning; (3) fill the product description and expand brand/A+ content to maximize discovery and perceived value; (4) highlight Nord CE4 differentiators (100W in-box charger, Snapdragon 7 Gen 3, 5500mAh, OxygenOS upgrades, 120Hz OLED) across metadata and marketing assets; (5) leverage the OnePlus Store link to drive direct-brand sales and collect loyalty data; (6) consider interim promotions or pre-orders to monetize demand while stock is being replenished; (7) explore sustainability and brand-story content to deepen differentiation and justify pricing; (8) monitor competitive price movements and stock levels to adjust go-to-market quickly.",
+    "additionalProperties": {
+      "asin": "B0CX59H5W7",
+      "originalAsin": "B0CX59H5W7",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.4,
+      "starsBreakdown": {
+        "5star": 0.65,
+        "4star": 0.23,
+        "3star": 0.06,
+        "2star": 0.01,
+        "1star": 0.05
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 3,
+      "visitStoreLink": {
+        "text": "Visit the OnePlus Store",
+        "url": "https://www.amazon.in/stores/OnePlus/page/A0A2BE47-0E82-40E4-BD82-A0ADBBB82BC7?lp_asin=B0CX59H5W7&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/417odtnpERL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31W5G9cRCyL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41tGGYCGOKL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/51toDCsS7CL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31OJNnwB9TL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/31xDDsi9w0L._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/61g1pqSjAhL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51qUVdQl9JL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61sxKi8sR5L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71rooC1PHHL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/51BWdKswXFL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51c0FSRyA7L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51TQf+x0tcL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51cBlxHGfAL._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "Highest-Power with Snapdragon 7 Gen 3: Experience unrivalled speed and efficiency with the Qualcomm Snapdragon 7 Gen 3 chipset. It powers through demanding tasks, delivers blazing download speeds up to 5Gbps, and optimizes battery usage for mobile gaming, productivity, and entertainment without compromise.",
+        "Real-World Battery Performance: Enjoy up to 7.3 hours of video streaming, 19.7 hours of music, 10.9 hours of voice calls, 6.7 hours of social media browsing, or 3.9 hours of gaming\u2014all from a quick 10-minute charge. Whether you're working, gaming, or exploring, Nord CE4 keeps up with your lifestyle.",
+        "100W SUPERVOOC Charging & 5500mAh Battery: Say goodbye to low-battery anxiety. Nord CE4 features the most powerful fast charging in Nord history. With 100W SUPERVOOC, charge from 1% to 100% in just 30 minutes. Smart Charging 4.0 learns your usage patterns to prevent overheating and extend battery life, giving you unstoppable power for your day.",
+        "OxygenOS 14.1 (Upgrade Available to OxygenOS 15) \u2013 Experience a clean, bloat-free interface with OxygenOS 14, optimised for speed, fluidity, and seamless multitasking. Upgrade to OxygenOS 15 for enhanced AI-driven optimisations, intuitive gestures, and smart features.",
+        "Seamless Multitasking with RAM Expansion: Switch between apps effortlessly with 8GB of RAM and up to 8GB of virtual RAM expansion. Combined with up to 256GB of storage and support for microSD cards up to 1TB, Nord CE4 ensures smooth performance and plenty of space for your files, apps, and memories.",
+        "Durability Meets Performance: Built to withstand the toughest conditions, the Nord CE4 features a mega-durable bezel material that passed a 1.5-meter drop test onto marble. It\u2019s tough, sleek, and ready for any adventure.",
+        "Design: OnePlus Nord CE4 comes in 2 colourways - Celadon Marble, a first for Nord and Dark Chrome, our signature variant."
+      ],
+      "attributes": [
+        {
+          "key": "Operating System",
+          "value": "OxygenOS"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "8 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Snapdragon"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "1.8, 2.4, 2.63 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Dark Chrome"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "Fingerprint Recognition"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Micro"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Headphones Jack",
+          "value": "USB"
+        },
+        {
+          "key": "Product Features",
+          "value": "Camera, Dual SIM, Fast Charging Support, Fingerprint Scanner"
+        },
+        {
+          "key": "Flash Memory Supported Size Maximum",
+          "value": "128 GB"
+        },
+        {
+          "key": "Front Photo Sensor Resolution",
+          "value": "16 MP"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Shooting Modes",
+          "value": "High Dynamic Range"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "2"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "5500"
+        },
+        {
+          "key": "Battery Description",
+          "value": "Lithium-Ion"
+        },
+        {
+          "key": "Battery Power",
+          "value": "5500"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "186 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "16.3 x 7.5 x 0.8 Centimeters"
+        },
+        {
+          "key": "Effective Video Resolution",
+          "value": "1080 Pixels"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "1080p"
+        },
+        {
+          "key": "Frame Rate",
+          "value": "120 frames_per_second, 30 frames_per_second, 60 frames_per_second"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "17.02 Centimetres"
+        },
+        {
+          "key": "Resolution",
+          "value": "2412 x 1080"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120 Hz"
+        },
+        {
+          "key": "Display Type",
+          "value": "OLED"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2412 x 1080 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "394 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked for All Carriers"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G, 4G LTE"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth, USB, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "Wi-Fi"
+        },
+        {
+          "key": "Brand Name",
+          "value": "OnePlus"
+        },
+        {
+          "key": "Model Year",
+          "value": "2024"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Phone Case, Power Adapter, SIM Tray Ejector, USB Cable"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "OPPO Mobiles India Private Limited PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306 OnePlus Customer Service Contact number\uff1a1800 102 8411 WhatsApp\uff1a+91-9289606888, Oppo Mobiles India Private Limited"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Gaming,Entertainment"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Count"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smartphone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "OPPO Mobiles India Private Limited PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306 OnePlus Customer Service Contact number\uff1a1800 102 8411 WhatsApp\uff1a+91-9289606888"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "OPPO Mobiles India Private Limited PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306 OnePlus Customer Service Contact number\uff1a1800 102 8411 WhatsApp\uff1a+91-9289606888"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#3,577 in Electronics (See Top 100 in Electronics)#158 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0CX59H5W7"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.4 4.4 out of 5 stars (14,019) 4.4 out of 5 stars"
+        },
+        {
+          "key": "Battery Average Life",
+          "value": "16.6 Hours"
+        },
+        {
+          "key": "Phone Talk Time",
+          "value": "24.6 Hours"
+        },
+        {
+          "key": "Battery Average Life Talk Time",
+          "value": "24.6 Hours"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "GLONASS"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [],
+      "variantDetails": [],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0CX59H5W7",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": [
+        {
+          "rank": 3577,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 158,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page",
+        "rawImages": [
+          {
+            "name": "Benz_1_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3e591d84-d0bd-4a86-bd0b-b734fe2398d8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_2_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d33f11a5-94ca-4214-a0bd-af4c418154ca.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Avalon LDW DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cff99645-3f4e-49a3-a6c8-b09054f5ff49.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_2_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/07d90e39-4457-4411-a696-f079b7510ee3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz d",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fee70bda-a81d-484f-ab79-60d5484ef353.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 5 D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/31d48230-e09f-4982-b989-5ad07cfd1af4.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 6 D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cda88df0-e51c-451d-9381-412f75663988.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_6_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6f11c2e6-225f-4206-ab0a-6c5ff5387c86.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 7 D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/777ce4bd-edd2-40c5-9a2e-dd8ee3afdd9f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 8 D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8aa007a7-0a26-49b1-ba28-da324e4db7f6.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 9D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2e1ce0f0-2c62-47f5-a7dc-a4a5a8442401.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 10D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1d24cae1-3a60-4deb-bbda-7c47f8c1a4fe.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz 11D",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f62ccd12-fdb2-4814-af70-65b491c44b58.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_13_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bcdf40b7-30c0-4228-b4be-1318123cfedc.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_13_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bcdf40b7-30c0-4228-b4be-1318123cfedc.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_14_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3afd5a92-dc47-4900-b116-8132f3bbfc78.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_15_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4d37d2c4-7029-4d99-a4e8-67645778dc61.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_16_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f280f70e-394d-4c68-9654-19c6f615f558.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_17_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/365f8433-9dfc-444f-9e2c-65b0086ebed5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Benz_18_DT",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/770a0621-0d88-4839-aca5-4201c245a040.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [],
+        "modules": [
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_1_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3e591d84-d0bd-4a86-bd0b-b734fe2398d8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_2_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d33f11a5-94ca-4214-a0bd-af4c418154ca.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Avalon LDW DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cff99645-3f4e-49a3-a6c8-b09054f5ff49.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_2_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/07d90e39-4457-4411-a696-f079b7510ee3.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz d",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fee70bda-a81d-484f-ab79-60d5484ef353.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 5 D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/31d48230-e09f-4982-b989-5ad07cfd1af4.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 6 D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cda88df0-e51c-451d-9381-412f75663988.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_6_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6f11c2e6-225f-4206-ab0a-6c5ff5387c86.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 7 D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/777ce4bd-edd2-40c5-9a2e-dd8ee3afdd9f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 8 D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8aa007a7-0a26-49b1-ba28-da324e4db7f6.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 9D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2e1ce0f0-2c62-47f5-a7dc-a4a5a8442401.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 10D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1d24cae1-3a60-4deb-bbda-7c47f8c1a4fe.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz 11D",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f62ccd12-fdb2-4814-af70-65b491c44b58.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "Benz_13_DT",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bcdf40b7-30c0-4228-b4be-1318123cfedc.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_14_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3afd5a92-dc47-4900-b116-8132f3bbfc78.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_15_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4d37d2c4-7029-4d99-a4e8-67645778dc61.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_16_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f280f70e-394d-4c68-9654-19c6f615f558.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_17_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/365f8433-9dfc-444f-9e2c-65b0086ebed5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Benz_18_DT",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/770a0621-0d88-4839-aca5-4201c245a040.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers praise the phone's battery life, with one noting its 5500mAh capacity, and appreciate its premium look and feel. The sound quality receives positive feedback, with customers highlighting the front-firing speakers, while the user experience is smooth with good Android 14 functionality. The performance and camera quality receive mixed reviews, with some customers reporting lagging issues and poor camera performance. The display and heat management also get mixed feedback, with some customers reporting no heating issues while others mention significant heating during fast charging.",
+        "keywords": [
+          {
+            "name": "Battery life",
+            "sentiment": "positive",
+            "text": "Customers are satisfied with the phone's battery life, praising its performance and charging capabilities, with one customer noting its 5500mAh capacity.",
+            "customersMentionedCount": {
+              "total": 463,
+              "positive": 332,
+              "negative": 131
+            },
+            "partialReviews": [
+              {
+                "text": "...as per its performance, this phone has excellent battery backup, fast charging, great camera, excellent display, powerful sound and no heating up or...",
+                "highlightedPart": "fast charging",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R312E7S65AILR6"
+              },
+              {
+                "text": "Good battery backup and super smooth display with stable performance, camera is ok according to price overall good balance experience with this...",
+                "highlightedPart": "Good battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R9JS99VQ40W1H"
+              },
+              {
+                "text": "...sim use kr rha hu HD calling me bhi bhut jyada intruption h.battery draining fast.speaker bhi achhe nhi h.or app clone me limited 4 app h. Se auto...",
+                "highlightedPart": "battery draining fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2BUDMN2GEAJ5I"
+              },
+              {
+                "text": "...No Lag. Amoled Vivid display . Sleek Design. Light Weight. Good Battery and UI. Happy about it. Hope my review helps others....",
+                "highlightedPart": "Good Battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3EYWMF2MAMAC0"
+              }
+            ]
+          },
+          {
+            "name": "Sound quality",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's sound quality, particularly noting its loud speakers and front-firing design.",
+            "customersMentionedCount": {
+              "total": 105,
+              "positive": 78,
+              "negative": 27
+            },
+            "partialReviews": [
+              {
+                "text": "...Other than these, camera, sound and screen quality are good. I felt bezzels could be a bit thinner but it is ok. Battery and charging is very good....",
+                "highlightedPart": "sound",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R27SU0BFL954VO"
+              },
+              {
+                "text": "After 4 months of use: Pros: 1. Sound quality 2 .Camera Cons: 1. Battery drains very fast 2....",
+                "highlightedPart": "Sound quality",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R73J7C3T8LMY8"
+              },
+              {
+                "text": "SOUND QUALITY IS NOT GOOD",
+                "highlightedPart": "SOUND QUALITY IS NOT GOOD",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RDLRZ37DKH5GZ"
+              },
+              {
+                "text": "sound quality is good, picture quality, camrea bhut hi achha h. processing bhi fast h hang nhi hota h. security features are on the marks",
+                "highlightedPart": "sound quality is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3FDODDI3FEWEC"
+              }
+            ]
+          },
+          {
+            "name": "Appearance",
+            "sentiment": "positive",
+            "text": "Customers appreciate the phone's appearance, describing it as premium and classy, with one customer noting it resembles an iPhone.",
+            "customersMentionedCount": {
+              "total": 102,
+              "positive": 97,
+              "negative": 5
+            },
+            "partialReviews": [
+              {
+                "text": "...No Lag. Amoled Vivid display . Sleek Design. Light Weight. Good Battery and UI. Happy about it. Hope my review helps others....",
+                "highlightedPart": "Sleek Design",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3EYWMF2MAMAC0"
+              },
+              {
+                "text": "...backup, charging speed, display, haptic feedbacks, sound, camera, looks, performance...All things are top notch..!!! Best phone..",
+                "highlightedPart": "looks",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R10DGMZ4GII494"
+              },
+              {
+                "text": "Beautiful phone, Go for it. Perfect looks. Display amoled.",
+                "highlightedPart": "Beautiful phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2COZ1DDG5MRL0"
+              },
+              {
+                "text": "...Design & Display: Sleek and premium design with a vibrant 2)AMOLED display \u2014 perfect for watching videos and gaming....",
+                "highlightedPart": "Sleek",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R26AR0JT30E37K"
+              }
+            ]
+          },
+          {
+            "name": "User experience",
+            "sentiment": "positive",
+            "text": "Customers find the phone provides a premium experience, handling multitasking with ease and running Android 14 smoothly.",
+            "customersMentionedCount": {
+              "total": 97,
+              "positive": 68,
+              "negative": 29
+            },
+            "partialReviews": [
+              {
+                "text": "Bought this for my father. Easy to use. Good features, camera is also good. Sound quality and screen clarity is great.",
+                "highlightedPart": "Easy to use",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3KTRLR9VR395O"
+              },
+              {
+                "text": "...& voice quality are just fabulous.. smoothness is the key and user friendly also ... connectivity is very good.. picture quality is the best.",
+                "highlightedPart": "user friendly",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R29B1OUUPF1V06"
+              },
+              {
+                "text": "...is getting overheating when I am using it for more than 20mins very bad experience I am facing now since 1st day I am facing this issue unable to...",
+                "highlightedPart": "very bad experience",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R38H93KNMB4SBU"
+              },
+              {
+                "text": "...really had a great experience so far",
+                "highlightedPart": "great experience",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RIQDVREJ67GMT"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's performance, with some finding it runs smoothly and works well, while others report poor performance and lagging issues.",
+            "customersMentionedCount": {
+              "total": 464,
+              "positive": 306,
+              "negative": 158
+            },
+            "partialReviews": [
+              {
+                "text": "Using for last 3 weeks. Good performance. Good camera Fast processor Best thing is super fast charging feature....",
+                "highlightedPart": "Good performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3GXL78RPOS3QX"
+              },
+              {
+                "text": "...Not working properly the touch was not working poor performance and with the help of Amazon mega discount sale both amazon and one plus are not able...",
+                "highlightedPart": "Not working properly",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R287CV4KUA89L9"
+              },
+              {
+                "text": "After the use of 6 months the Performance and handy to use, personally I liked this oneplus UI, only downgrade is camera quality not that great even...",
+                "highlightedPart": "Performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RPUM43H9UPWHC"
+              },
+              {
+                "text": "...Feels good in hand. It's really light weight and fast. Picture quality from both the front facing and rear facing camera is impressive....",
+                "highlightedPart": "fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RXOA89NAS5HCG"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's camera, with some finding it decent and praising the back camera, while others consider it poor.",
+            "customersMentionedCount": {
+              "total": 432,
+              "positive": 289,
+              "negative": 143
+            },
+            "partialReviews": [
+              {
+                "text": "This phone has nice features like a good camera but there is something very annoying happening in the course of time, if you move the telephone even...",
+                "highlightedPart": "good camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3ONNJQSI330SQ"
+              },
+              {
+                "text": "Nice Camera. I am using both Nord CE4 and Nord 4, I feel the camera quality of CE4 is better than that of Nord 4.",
+                "highlightedPart": "Nice Camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3FKRWDUY7BYF5"
+              },
+              {
+                "text": "Worst camera, bad display, bad night mode, isse acha to Mera iqoo ka 10 k vala camera he....I think they sold defective pieces in bb sales....when I...",
+                "highlightedPart": "Worst camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RXCC89X5VPEL9"
+              },
+              {
+                "text": "...The camera is good, especially the portrait mode. My mother has been using this phone for the last year or so without any lagging issues....",
+                "highlightedPart": "camera is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R311NQZVVGFAAH"
+              }
+            ]
+          },
+          {
+            "name": "Display",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's display, with some praising its AMOLED quality and clarity, while others report display problems.",
+            "customersMentionedCount": {
+              "total": 128,
+              "positive": 80,
+              "negative": 48
+            },
+            "partialReviews": [
+              {
+                "text": "Display is good, camera is good and with these we will get super fast charger of 100w we can easily charge to 100% with in 15-20 min....",
+                "highlightedPart": "Display is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R30JOXF5SW9AFK"
+              },
+              {
+                "text": "...Many users, including myself, have experienced display issues\u2014specifically lines appearing on the screen\u2014just after one year of usage....",
+                "highlightedPart": "display issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RU2574T0G4VZT"
+              },
+              {
+                "text": "Best Nord series mobile , battery backup 8 hours screen on time , good display, good processor, best charger in box, good sound ,call quality little...",
+                "highlightedPart": "good display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R9XJDFD8PPTCR"
+              },
+              {
+                "text": "...Battery backup, charging speed, display, haptic feedbacks, sound, camera, looks, performance...All things are top notch..!!! Best phone..",
+                "highlightedPart": "display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R10DGMZ4GII494"
+              }
+            ]
+          },
+          {
+            "name": "Heat",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's temperature: while some report no heating issues, others mention that it warms up quickly and can get hot enough to cook an egg during fast charging.",
+            "customersMentionedCount": {
+              "total": 111,
+              "positive": 35,
+              "negative": 76
+            },
+            "partialReviews": [
+              {
+                "text": "Heating Issue ,lag in some apps. I am not feel full worth of money in this price range",
+                "highlightedPart": "Heating Issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RSGQG9V9P3B71"
+              },
+              {
+                "text": "Heating problem And camera quality is very poor",
+                "highlightedPart": "Heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2OY0G2051JWNW"
+              },
+              {
+                "text": "...display quality is too good || performance is superb || There is no heating issue || phone hanging is very very far from the phone it's powerful and...",
+                "highlightedPart": "no heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1TM244QGXTX76"
+              },
+              {
+                "text": "...Build Quality not good, Old fashioned UI , Camera Lag and heating issues, Tempered glass gets air bubbles on all corners due to some manufacturing...",
+                "highlightedPart": "heating issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RHEYCS17T7DTF"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "Jaswant",
+          "userId": "amzn1.account.AG2BZ3XZHQVKXL37OZCORDFBS54A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AG2BZ3XZHQVKXL37OZCORDFBS54A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Get it for long term stable use",
+          "reviewDescription": "If you use your phone for long term and need something that would last a long time then this is a really good choice and value for money.It might be big for some people, but it doesn't feel bulky. Has everything you'd expect from a device in this price range and more.If I had to review this in short here's everything you need to know in short:- Camera delivers good quality, consistent photos in Day and Night. There is slight lag which gets worse in low light but if you keep it stable, the image will be good. Night mode works fine. Videos are excellent but there are jitters and low light videos can sometimes get worse. 7.5/10 for me.- Performance is good for everyday use and beyond. From editing to playing videos and Browsing hundreds of apps, Never had any issues with it. All games worked fine for me, sometimes it would skip frames or lags slightly but never got unplayable or anything like that. 8/10 for me.- It charges before I wash my face, literally. Charging is so damn fast that sometimes I intentionally charge it at last moment. It supports 100W charging which is crazy and comes with fast charger included in the box. It goes from 0-100 in around 30 mins and 80% around 12-15 minutes. It also last for a long time and consume less when not in use, Optimization are there and so far no issues with anything. 10/10 tbh.- Fingerprint sensor is fine, it works but i don't use it. There is face unlock which I don't as well. 6/10 because its optical sensor.- I like the design and the way it looks. Its not much fancy looking and thats a good thing because I prefer standard. 9/10.- Oxygen OS has made some things worse but I still prefer it. Some things are changed when you update which is a headache but you get used to it and most of the things are customizable so you can revert back to them. There is a lot of bloatware which increased with Android update but you can disable/delete almost all of it. 7/10.- Display quality is top notch, colors are vibrant and most things are customizable, like always on display and stuff. You can change from vibrant to normal colors btw. I'm not fan of big screen but at least it shows me a lot of stuff without scrolling. 8/10.- You get a charger, cable, cover, screen protector(applied), sim tool, stickers in box. Which is good considering what other brands are giving nowadays. Quality of everything is good. Be careful removing the sim tray for the first time, Mic and Sim tray hole are close to each other and you might accidentally poke and damage the mic. 9/10 overall unboxing experience.Overall: I'd highly recommend this for long term if you're okay with not having headphone jack and if videos at low light are not your priority (they're mostly fine just 60fps, moving fast or in low light you will experience jitters and skipping frames). 8/10 would recomment.",
+          "date": "2026-04-15",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 15 April 2026",
+          "reviewId": "R35O93QP6S27DN",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R35O93QP6S27DN/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Kamesh",
+          "userId": "amzn1.account.AETMKDWDHT3JRBAM2QNWOWJRNYVA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AETMKDWDHT3JRBAM2QNWOWJRNYVA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Medium usage level phone for daily usageMedium usage level phone for daily usage",
+          "reviewDescription": "Reviewing after 20days of usage.Good performece won't say this phone is best but okay for normal usage not for gaming or super heavy user purpose. Display is decent thumbs up for it.Camera is mediocre, battery run for whole day, good thing is it super charged with 100W charger from 20-100% in 30minutephone is not heating as other are saying, althought it's normal for smartphone to get heated while charging so it happens with this one.played Pubg fro 4-7hours non stop at HD settings it worked smoothly. Their is high performance mode and 120hz settings so not to worry we can turn it on for heavy usage like gaming but it will consume more battery.Screen is is visible bright in outdoors against sunlight..Phone will take around 20gb of storage for system.my current occupied storage is 44gb with apps out of 128gb.Phone UI is good not best, good thing is their is no bloaware their are some apps which we can disable easily.with 20days of calling, gaming, heavy video watching i m satisfied with the product..no issue for now.Even I dropped mistakenly this one it's fine with the cover nothing bad happened.I m 1st time one plus user very happy, I also bought 1year extended warranty from official one plus website...so I have 2yrs manufacture warranty at extra Rs.599.phone body is plastic nd fits good in big hands, small hand people will face problem holding the device.Final suggestion yes go for it if you are normal usage watching videos, running different apps for various task, calling also decent but speaker is not too loud on call but that's acceptable.Price could have been lower around 18k or 20k something.Bought at 24.5k.. of which 22k is price and 2.5k GST.",
+          "date": "2024-05-24",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 24 May 2024Reviewed in India on 24 May 2024",
+          "reviewId": "R1X4E0T728JZBK",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1X4E0T728JZBK/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/61UitZ0aykL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61P2MQUts5L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61f5RVo-m8L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61BxzEU6lgL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61I38s9SZuL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61Xjnwab1gL._SY500_.jpg"
+          ],
+          "reviewReaction": "229 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/42421e47-d957-49c3-866f-ff5ea38b9e46._CR0%2C0%2C375%2C375_UX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Ashutosh Sharma",
+          "userId": "amzn1.account.AH5AIRMAV5R2WBPNAWRCLZLD5BEQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH5AIRMAV5R2WBPNAWRCLZLD5BEQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "It's the best in this category!",
+          "reviewDescription": "I've been using this phone for about a week now and I feel that it's super awesome. Let's talk about the pros and cons :Pros1. The display is pretty bright and amazing. It can play HDR videos upto 1440p in YouTube and you can set your device to brighten up while playing HDR videos in the setting.2. The UI is very smooth. It has a lot of features too!3. The cameras are awesome! They click such amazing photos and shoot amazing videos. It clicks natural photos. There are modes like timelapse,slow-mo,etc too. It has OIS, which only records at 1080p 60fps. There is a mode in the video section named 'ultra steady' by which you can use OIS.4. The performance of the phone is amazing and is well optimised!5. The built is quality is nice too!6. The charging is fabulous! It has a 100 watt charger in the box which can full charge your phone in 25 minutes when smart rapid charging is on. The battery backup is just amazing. This phone gives a whopping 1.5-2 days of battery backup.7. There is a feature that you might not know, you can adjust the intensity of brightness of the torch by pressing and holding the torch symbol, just like iphones.8. The speakers are loud AF! After updating there is this mode where you could ultra boost volume upto 300% which is crazy! And it's very-very loud.Cons1. It can't play 2160p in HDR.2. It doesn't support OIS on 4k 30fps and the OIS video has very slight unnoticeable jitterness.3. The animation is kinda slow but smooth for me, so I changed it in developer options.4. The frame and back is made up of plastic.The phone is pretty awesome and the cons don't bother me \ud83d\ude04.I'm a tech enthusiast so you can trust on me!",
+          "date": "2024-07-25",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 25 July 2024",
+          "reviewId": "RJ2XKH3DW5F17",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RJ2XKH3DW5F17/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "369 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Thakur Hitesh",
+          "userId": "amzn1.account.AGC7U4QOQVFA5NOX5Y7AZAEWBL6Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGC7U4QOQVFA5NOX5Y7AZAEWBL6Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Best Phone under the Price Range",
+          "reviewDescription": "If you are thinking about to buy a phone under 30K you can go for Nord CE4. And I think this is the only best phone under 30K,gives you brand value amd reliability , best performance and attraction with its unique design.What I love in this phone:Snapdragon 7 Gen 3 processor never lets you down while performing heavy tasks.Along with processor it also comes with dedicated Gaming Boost Engine that makes your gaming experience even smoother and longer without heating.Double stereo speaker gives an awesome sound quality.5500mah battery can easily last upto 2 days even after heavy usage. On moderate or average usage it gives you 3-4 days backup. And most important, 100 watt supervooc charger will charge it within 25 minutes, its a big adapter and weighs just like a brick.50MP+8MP main camera setup is a functional camera setup and a 16MP selfie camera, its not gonna disappoint you but don't compare with those camera centric smartphones, this phone is heavily on performance side but still it is giving you a good camera.Display is superb, amoled display that gives you high definition media quality.. bazzles are almost non existing and gives you a premium experience like flagship displays.Comes with O-Haptics feedback and completely like Iphones..really loving it...8GB RAM+8GB virtual RAM with 256GB UFS 3.1 ROM makes it superb and most importantly there are many of phones that gives you 12GB of RAM in this price range but don't look at the numbers, the biggest factor is brand and performance. Point to be noted, Its 8GB RAM is better than Realme, poco vivo or oppo 12GB RAM....After starting the phone, you will start getting updates within a week, and will get many of new features even not described in specifications,, its a surprise for you...they are gonna give you even more features in updates that will make it a flagship killer..Oneplus is just similar to Samsung or Apple, is better known for making premium and flagship devices, so I will not compare these brands with any other brands,,they are reliable and doing a great job in smartphone market, you can chose any one of these three brands..",
+          "date": "2024-05-24",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 24 May 2024",
+          "reviewId": "RHWZQRW7WOT85",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RHWZQRW7WOT85/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "203 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Abhishek M",
+          "userId": "amzn1.account.AE5LTWKMGQFPI75WWQKCXEGZ75BQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AE5LTWKMGQFPI75WWQKCXEGZ75BQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Excellent product!",
+          "reviewDescription": "Review after 2.5 years of usage -Pros -Rear Cameras - Takes good, contrasty, social media-ready shots in daytime with the main camera. In low-light situations, shots are good with night mode, but the colours sometimes change... like black sky becoming dark blue. Ultrawide shots are good in daytime, and quite noisy and soft in low-light. Videos shot with the main as well as ultrawide cameras are detailed, have good colours and crisp audio. Videos can be taken with rear and front cameras simultaneously.Front Camera - Takes good shots in daytime, even portrait shots. Night-time shots are decent, and suffer from softness and lack of details. Videos shot are very good in daytime, ok at night.Software - It has received the Android 16 update. OxygenOS 16 is extremely well optimised, runs smooth and the 120Hz makes using it even smoother.Battery - Easily lasts 1.5 days with a screen on time (SOT) of around 7 - 8 hours.Build Quality - It has a very solid all-plastic build with a glossy finish on the back. The back looks really good.Performance - The processor is extremely good, along with UFS 3.1 storage, it performs very well for day-to-day and heavy tasks too. The well-optimised software also helps. It can run heavy games at medium settings very smoothly.Display - The display is bright, has excellent viewing angles and contrast.Cons -The back is very smooth and slippery. A cover should be used.",
+          "date": "2026-07-26",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 26 July 2026",
+          "reviewId": "RZGP8NL038CU6",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RZGP8NL038CU6/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Vaibhav Bhatt",
+          "userId": "amzn1.account.AHRHIJD5DBTBLD44H3W6XAXP6RGQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHRHIJD5DBTBLD44H3W6XAXP6RGQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Good phone but heating issue",
+          "reviewDescription": "Using phone since mre than 2 yrs battary back up is awesome, no any issue with heavy use. I think not for gaming use but for routine use and office purpose it's okey. Only issue I have found is heating. Phone getting heated if continuously talk for 20-30 min over call or sometimes also phone in charging. As well in summer if keeping phone on pocket no use, no charge still automatically getting heated.",
+          "date": "2026-04-25",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 25 April 2026",
+          "reviewId": "R2B8VMW5XC61B",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2B8VMW5XC61B/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "JG Krishnan",
+          "userId": "amzn1.account.AELB65BZMGFCWZETBXFPKELXR64Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AELB65BZMGFCWZETBXFPKELXR64Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "OnePlus Nord CE4 the EXTRAORDINARY!!!OnePlus Nord CE4 the EXTRAORDINARY!!!",
+          "reviewDescription": "I usually not write \u270d\ufe0f review very fast when it comes to smartphone. First I need to use it and under rigorous testing only I can put forward my verdict so that any brother or  sister can buy the same from Amazon.BODY : OnePlus has comeup with a very durable body and stylish. Looking premium.DISPLAY: Its a PureAmoled with 10Bit resolution with crispy HDR10 features. Vibrant natural color and screen ratio is 88.5% to body ratio. So very less bezels.BATTERY: Easily comes for 1 and half day if not playing any games. With games 1 day. No idle midnight auto battery drain and all. 5500mAh is very slowly discharging and due to 100w charger coming inside the box the mobile charges in 17 to 18minutes only upto 85% and full 100% charging approx 19 minutes as per my test.CAMERA: Very ok for the price. I got one update recently in May 25, 2024 and after this the camera works wonderful specially selfie and portrait mode.PROCESSOR: Snapdragon 7Gen3 name is enough that it is very stable and fast multi tasking and even this snapdragon version not heats up fastly.  The clock speed is amazingly impressive to any games like PUBG or FreeFires or Asphalt. Rest all the medium games runs smoothly. No throttle. No lag and even No uncommon heating issues etc.METWORK: Very fast 5G and even 4G also no issues. Runs smoothly without any call drop or any disturbance in voice quality. The Voice Focus mode works very nice even in the rush or crowded metro area. Last time recorded download speed was 175mbps & upload speed approx 145 to 166mbps.STEREO SPEAKERS: This is what attracted me the most. The stereo speakers are very loud enough. And even it sync the eaarpods very quickly. OnePlus earpods are recommended for all those EQ and bass.OVERALL VERDICT:  Very lightest mobile inspite of 5500 mAh battery. Too premium boxy design. Call and network speed very impressive. After investing on this phone I have not regretted. Highly recommended and Value for money. Thanks Seller and Amazon. 100w charger in the box. Backcase and screen guard all in the box. A complete midrange killer phone. Highly valuable.",
+          "date": "2024-05-28",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 28 May 2024Reviewed in India on 28 May 2024",
+          "reviewId": "R34EB3VNEEQ3NC",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R34EB3VNEEQ3NC/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/61nOM2MGRiL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71AQTzZfVWL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61Ql4Ah65IL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71DbSlG6GYL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/712dm9e7U0L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61GrRSFLSYL._SY500_.jpg"
+          ],
+          "reviewReaction": "166 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/f64790e4-8789-429e-b6e7-9d8c7c945fb2._CR50%2C0%2C400%2C400_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Antarjyoti",
+          "userId": "amzn1.account.AEEU67VEOAXDNJXEA6ZUIAI62DRQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEEU67VEOAXDNJXEA6ZUIAI62DRQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 3,
+          "reviewTitle": "Some annoying defect",
+          "reviewDescription": "This phone has nice features like a good camera but there is something very annoying happening in the course of time, if you move the telephone even slowly while you are looking at a video in youtube ir facebook etc then many times,it just changes the video by itself!!!",
+          "date": "2026-08-26",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 26 August 2026",
+          "reviewId": "R3ONNJQSI330SQ",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3ONNJQSI330SQ/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        }
+      ],
+      "productPageReviewsFromOtherCountries": [
+        {
+          "username": "Placeholder",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Working fine in general",
+          "reviewDescription": "The phone works perfectly and meets all expectations. It offers smooth performance, long battery life, and excellent camera quality. The display is clear, and the system is stable and fast. A reliable product that I highly recommend. Thank you to the company for the high quality!",
+          "date": "2024-12-22",
+          "position": 1,
+          "reviewedIn": "Reviewed in the United Arab Emirates on 22 December 2024",
+          "reviewId": "R161J3MENHKBT2",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "\u0648\u0635\u0644\u0646\u064a \u0627\u0644\u062c\u0647\u0627\u0632 \u0628\u062d\u0627\u0644\u0629 \u0633\u064a\u0626\u0629\u060c \u0627\u0644\u062c\u0647\u0627\u0632 \u0645\u0633\u062a\u062e\u062f\u0645 \u0648 \u062a\u0645 \u0627\u0639\u0627\u062f\u0629 \u062a\u063a\u0644\u064a\u0641\u0647",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 1,
+          "reviewTitle": "\u0648\u0635\u0644\u0646\u064a \u0628\u062d\u0627\u0644\u0629 \u0633\u064a\u0626\u0629\u060c \u0627\u0644\u062c\u0647\u0627\u0632 \u0645\u0633\u062a\u062e\u062f\u0645",
+          "reviewDescription": "\u0627\u0644\u062c\u0647\u0627\u0632 \u0648\u0635\u0644\u0646\u064a \u0628\u062d\u0627\u0644\u0647 \u0633\u064a\u0626\u0629 \u0648 \u0645\u0633\u062a\u062e\u062f\u0645 \u0644\u064a\u0633 \u062c\u062f\u064a\u062f\u060c \u064a\u062a\u0645 \u0627\u0644\u0623\u0646 \u0627\u0631\u062c\u0627\u0639 \u0627\u0644\u062c\u0647\u0627\u0632. \u0645\u062a\u062c\u0631 \u0641\u0627\u0634\u0644",
+          "date": "2024-07-08",
+          "position": 2,
+          "reviewedIn": "Reviewed in Saudi Arabia on 8 July 2024",
+          "reviewId": "R1Y02MM1DJP1TA",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "M. A.",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Fantastic 'Backup' Phone",
+          "reviewDescription": "I use this as my backup / workplace phone, to contact co-workers and do workplace-related things on it. It's a low-spec phone but even that doesn't stop it from being such a great phone. OnePlus did a really great job making a nice, cheap phone that just works.",
+          "date": "2025-12-02",
+          "position": 3,
+          "reviewedIn": "Reviewed in the United Arab Emirates on 2 December 2025",
+          "reviewId": "R2KBHB5FRCD6JD",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "\u0645\u062d\u0645\u062f \u0627\u0644\u0639\u0628\u062f\u0627\u0644\u0645\u062d\u0633\u0646",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "\u062d\u0644\u0648 \u0644\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0627\u062a \u0627\u0644\u062e\u0641\u064a\u0641\u0647",
+          "reviewDescription": "\u0631\u062e\u064a\u0635 \u0648\u0642\u0648\u064a",
+          "date": "2025-12-16",
+          "position": 4,
+          "reviewedIn": "Reviewed in Saudi Arabia on 16 December 2025",
+          "reviewId": "R2SXBOIVS2RHUJ",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "This product 100% original and very pretty product",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "all side good",
+          "reviewDescription": "this phone very good but nfc not available this phone",
+          "date": "2025-08-05",
+          "position": 5,
+          "reviewedIn": "Reviewed in Saudi Arabia on 5 August 2025",
+          "reviewId": "R1CQMM4YQP4ZSG",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        }
+      ]
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0CX59H5W7"
+  }
+]

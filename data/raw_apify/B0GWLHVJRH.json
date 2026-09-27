@@ -1,0 +1,1378 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0GWLHVJRH",
+    "name": "OnePlus Nord CE6 | 8GB+128GB | Pitch Black | Snapdragon 7s Gen 4 | Segment's Fastest Touch Response | 8000mAh Battery | 144Hz 1.5K AMOLED Display | 50MP Main + 32MP Selfie 4K Cameras | IP66,68,69,69K",
+    "offers": {
+      "price": 37999,
+      "priceCurrency": "\u20b9"
+    },
+    "brand": {
+      "slogan": "OnePlus"
+    },
+    "image": "https://m.media-amazon.com/images/I/414wEtgWfsL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 3009,
+    "rating": null,
+    "aiSummary": "Key business takeaways from the provided fields are: pricing shows a promotional discount (\u20b937,999 vs \u20b940,999 list price) delivering a ~7% price reduction to drive demand; monthly volume of 500+ units and a top-20 smartphone Best Seller rank indicate solid demand and strong channel performance in India, supported by robust retail visibility (Amazon product page with store link). The OnePlus brand positioning is leveraged (brand slogan: OnePlus) to justify features appealing to gamers and power users, such as Snapdragon 7s Gen 4, 8GB RAM, 128GB/256GB storage, 6.78\" 144Hz AMOLED display, 8000mAh battery with 27W reverse charging and 80W SuperVOOC, and IP66/68/69K durability; however, the absence of a product description (description: null) and brand story reduces storytelling, SEO, and conversion potential, representing a content and messaging gap to address. The additionalProperties data show strong stock status (inStock: true, \u201cIn stock\u201d), positive but mixed consumer sentiment (overall rating 4.3 from thousands of reviews; multiple reviews cite battery life and display as positives while camera, reliability, and value-for-money are mixed), and a diverse set of images and videos that could be leveraged for richer listings and A+ content; variant-level opportunities exist (Pitch Black, Lunar Pearl, Fresh Blue across 8GB+128GB and 8GB+256GB) but variant prices are not populated, signaling a pricing/margin opportunity to optimize consumer choice and average order value. Channel dynamics are favorable (Visit the OnePlus Store link and strong category rankings in Electronics and Smartphones) but risk persists from mixed reviews on core capabilities (camera, responsiveness, heating) which could dampen long-term growth if not mitigated. Content gaps present an immediate risk to conversion; the product page could benefit from a descriptive, SEO-optimized description and a compelling brand story to complement the feature-rich attributes that are already documented (high refresh rate, battery, durability, OxygenOS experience). Strategic opportunities include reinforcing value messaging around battery longevity, high-refresh display, and durability to justify price parity, leveraging the store link for cross-sell (cases, chargers, higher-storage variants), and accelerating variant-level pricing clarity to maximize margin and reduce cart abandonment. Overall, the listing points to a strong demand and premium mid-range positioning with clear differentiators, but to sustain growth and improve conversion, it should address content gaps, clarify variant pricing, and actively manage consumer expectations around camera and day-to-day performance.",
+    "additionalProperties": {
+      "asin": "B0GWLHVJRH",
+      "originalAsin": "B0GWLHVJRH",
+      "inStock": true,
+      "inStockText": "In stock",
+      "listPrice": {
+        "value": 40999,
+        "currency": "\u20b9"
+      },
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.3,
+      "starsBreakdown": {
+        "5star": 0.63,
+        "4star": 0.22,
+        "3star": 0.06,
+        "2star": 0.02,
+        "1star": 0.07
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 5,
+      "visitStoreLink": {
+        "text": "Visit the OnePlus Store",
+        "url": "https://www.amazon.in/stores/OnePlus/page/A0A2BE47-0E82-40E4-BD82-A0ADBBB82BC7?lp_asin=B0GWLHVJRH&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/414wEtgWfsL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41qqzorq2ML._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/21yf7p1eZkL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41isXB6JcgL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41GWzbXmFuL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41Xqgp+EKbL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/61Di24QT6GL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71dHjMw5RML._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41MHYFfqTuL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71itN06BkKL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71hMoZngHbL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61jOfdz3zeL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61Wlaj0Jt8L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61jlSBEu5xL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/616IWE6zMsL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61sLzkXZm3L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61N4npx702L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41HJSPnqE-L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51WmWWSy85L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61LcsUeLk+L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51vBLzZUDGL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51DeGT5VTXL._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "Supercharged by Snapdragon 7s Gen 4 (Antutu 1.17 million+): Engineered for snappy-smooth performance, OnePlus Nord CE6 unleashes up to 144 FPS gameplay in optimised titles. Experience up to 6 hours of steady BGMI sessions with consistent, high-speed performance that never compromises.",
+        "Segment's Fastest Touch Response: Built for ultra-responsive gameplay, OnePlus Nord CE6 delivers industry-leading 3200Hz instant touch sampling rate, ensuring faster inputs, precise control, and a competitive edge in every move.",
+        "8000mAh \u201c2.5+ Days\" Battery: Experience 10 hours of BGMI, 17.5 hours of GPS, or 30 hours of streaming on a single charge. It doubles as a power bank to charge anything via 27W reverse charging, while 80W SUPERVOOC gets you back in action with hours of use from just minutes of charging.",
+        "144Hz 1.5K AMOLED Display: Enjoy ultra-fluid scrolling and gameplay with a 144Hz refresh rate for seamless interaction. From being crystal-clear in direct sunlight (1800 nits HBM) to being gentle on your eyes at night (3840Hz high-frequency PWM), this display is designed for unmatched clarity, day or night.",
+        "4K Front and Back Clarity: 50MP 4K main camera with dual-axis OIS for stable, detailed shots and videos. 32MP 4K selfie camera with autofocus and 90\u00b0 wide-angle capture for perfect groufies, even in low light. Elevate your photos with OnePlus AI like AI Portrait Glow, AI Perfect Shot, AI Eraser, AI Unblur, and more.",
+        "Military-grade Durability with IP66,68,69,69K: Certified with the industry's most complete IP ratings, the Nord CE6 is built to resist deep immersion, hot water, and high-pressure jets. It has passed rigorous american military-grade standards, proven to survive being burnt, frozen, salt-corroded, and dropped over 25 times onto steel surfaces for total reliability.",
+        "Smoothness for 6 Years, Built to Last: Powered by the latest OxygenOS 16, the Nord CE6 stays fast and smooth for work, study, and play. With a Rated A system fluency and 6-year battery health, your phone is engineered to deliver a \"like-new\" experience for years to come."
+      ],
+      "attributes": [
+        {
+          "key": "Replacement Reason  Replacement Period  Replacement Policy",
+          "value": ""
+        },
+        {
+          "key": "Operating System",
+          "value": "OxygenOS 16"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "8 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Snapdragon"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "2.7 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Pitch Black"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "Fingerprint Recognition"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Headphones Jack",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Front Photo Sensor Resolution",
+          "value": "32 MP"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Camera Description",
+          "value": "Front, Rear"
+        },
+        {
+          "key": "Camera Flash Type",
+          "value": "LED"
+        },
+        {
+          "key": "Optical Sensor Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "2"
+        },
+        {
+          "key": "Digital Zoom",
+          "value": "10 x"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "8000 Milliamp Hours"
+        },
+        {
+          "key": "Battery Charge Time",
+          "value": "64 Minutes"
+        },
+        {
+          "key": "Battery Power",
+          "value": "8000"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "215 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "16.3 x 7.8 x 0.9 Centimeters"
+        },
+        {
+          "key": "Effective Video Resolution",
+          "value": "50 MP"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "4k"
+        },
+        {
+          "key": "Frame Rate",
+          "value": "30 Frames per Second"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "6.78 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2772\u00d71272"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "144"
+        },
+        {
+          "key": "Display Type",
+          "value": "AMOLED"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2772 x 1272 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "450 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked for All Carriers"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth, Infrared, USB, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "GSM, LTE, Wi-Fi"
+        },
+        {
+          "key": "Brand Name",
+          "value": "OnePlus"
+        },
+        {
+          "key": "Model Year",
+          "value": "2026"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Phone Case, Power Adapter, Quick Start Guide, SIM Tray Ejector, USB Cable"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "OPPO Mobiles India Private Limited, Oppo Mobiles India Private Limited"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Gaming, Multimedia Consumption, Photography"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Piece"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "OPPO Mobiles India Private Limited; PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201311"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smartphone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "OPPO Mobiles India Private Limited"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "OPPO Mobiles India Private Limited; PLOT-NO.1, SECTOR ECOTECH-VII, GREATER, NOIDA, UTTAR PRADESH, India-201306"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#251 in Electronics (See Top 100 in Electronics)#20 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0GWLHVJRH"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.3 4.3 out of 5 stars (3,009) 4.3 out of 5 stars"
+        },
+        {
+          "key": "Battery Average Life",
+          "value": "2.5 Days"
+        },
+        {
+          "key": "Phone Talk Time",
+          "value": "62.3 Hours"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "True"
+        },
+        {
+          "key": "Supported Satellite Navigation System",
+          "value": "GLONASS, GPS, Galileo, QZSS"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [
+        "B0GWLHVJRH",
+        "B0GWLV615M",
+        "B0GWLHWCLJ",
+        "B0GWLTLNTV",
+        "B0GWLJL55D",
+        "B0GWLDWKF3"
+      ],
+      "variantDetails": [
+        {
+          "name": "Pitch Black 8GB+128GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/414wEtgWfsL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61Di24QT6GL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLHVJRH",
+          "price": null
+        },
+        {
+          "name": "Lunar Pearl 8GB+256GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41XWJv3IlbL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61XS3YRaPsL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLV615M",
+          "price": null
+        },
+        {
+          "name": "Fresh Blue 8GB+128GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41081KQik2L._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61EC3mmirsL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLHWCLJ",
+          "price": null
+        },
+        {
+          "name": "Lunar Pearl 8GB+128GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41XWJv3IlbL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61XS3YRaPsL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLTLNTV",
+          "price": null
+        },
+        {
+          "name": "Pitch Black 8GB+256GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/414wEtgWfsL._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61Di24QT6GL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLJL55D",
+          "price": null
+        },
+        {
+          "name": "Fresh Blue 8GB+256GB",
+          "thumbnail": "https://m.media-amazon.com/images/I/41081KQik2L._SX38_SY50_CR,0,0,38.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61EC3mmirsL._SL1500_.jpg"
+          ],
+          "asin": "B0GWLDWKF3",
+          "price": null
+        }
+      ],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0GWLHVJRH",
+      "hasReviews": true,
+      "delivery": "Monday, 28 September",
+      "fastestDelivery": "Tomorrow 6 am - 10 am",
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [
+        {
+          "key": "Colour",
+          "value": "Pitch Black"
+        },
+        {
+          "key": "Size",
+          "value": "8GB+128GB"
+        }
+      ],
+      "manufacturerAttributes": [],
+      "seller": {
+        "name": "Dawntech Etel!",
+        "id": "AQUYM0O99MFUT",
+        "url": "https://www.amazon.in/sp?seller=AQUYM0O99MFUT",
+        "reviewsCount": null,
+        "averageRating": null
+      },
+      "bestsellerRanks": [
+        {
+          "rank": 251,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 20,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page",
+        "rawImages": [
+          {
+            "name": "PRADO_DT1",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e7e4b21d-ca3d-4704-8a54-2ad21f3c044b.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT1",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e7e4b21d-ca3d-4704-8a54-2ad21f3c044b.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT2",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2804920a-05f6-4fed-b704-a1b8e1366194.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT3",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/05a47626-ba96-4919-97e7-3e9c691c2308.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT4",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d376d130-eb35-40bb-a515-effb4f4cfd93.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT5",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7ba51006-4705-4f1e-8049-d047ece85e07.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT6",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35194e12-5e4c-4843-8bf7-894c598e25b2.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT7",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6a3779e9-17ca-4486-a034-321535109624.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT8",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7024b9e6-e6d6-4262-9154-ce823b37e32c.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT9",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8fa4a375-80f0-4b34-9f31-77afc3d47a0c.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT10",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/969a9f08-5c60-40c4-94cd-50b732ae95d4.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT11",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/62eda313-2d29-4992-b027-7a182bdd88fb.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT12",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e1e1ba08-8184-4467-869f-2c6cd82cd0ec.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT13",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6aafd33f-78c9-46b8-9b82-2c3e0fbe3d91.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT14",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/be55fc50-7d7d-46f4-8c3f-d69399051a23.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT15",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/29a713c9-5497-4deb-8c07-d8784d3e0225.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT16",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/06ef111f-3844-4406-8999-3e13d3351635.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT17",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ffd06dce-5656-4550-8d5c-a5798868ad88.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT18",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/611ab059-9cc7-493d-8d5f-0f5ba6d669f3.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT19",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff229136-68ff-44fb-8969-5a1cb10ed963.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT20",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4dd58eb7-643a-4263-85ed-8e7451c40f9e.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT21",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/de8a124e-3ee8-4c23-953e-8611a160653e.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT22",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f29c4f5f-67ff-4583-9420-e6ccd5a26499.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT23",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ebc0ba16-d41e-4f49-ad69-b46d01871e76.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT24",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48aa5ad2-0479-4ce3-9131-6174cbad84ce.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT25",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d6eaad7e-7ac7-4270-a39c-4f6b72664408.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT26",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/96b01f34-a7a0-49bc-9b2f-d6f321902b53.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT27",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/effec5c7-6d28-44ea-b244-339eca0b6c96.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "PRADO_DT28",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/08c86475-325a-4b51-892d-23361bbf6f26.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [],
+        "modules": [
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "PRADO_DT1",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e7e4b21d-ca3d-4704-8a54-2ad21f3c044b.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT2",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2804920a-05f6-4fed-b704-a1b8e1366194.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT3",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/05a47626-ba96-4919-97e7-3e9c691c2308.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT4",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d376d130-eb35-40bb-a515-effb4f4cfd93.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT5",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7ba51006-4705-4f1e-8049-d047ece85e07.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT6",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35194e12-5e4c-4843-8bf7-894c598e25b2.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT7",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6a3779e9-17ca-4486-a034-321535109624.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT8",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7024b9e6-e6d6-4262-9154-ce823b37e32c.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT9",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8fa4a375-80f0-4b34-9f31-77afc3d47a0c.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT10",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/969a9f08-5c60-40c4-94cd-50b732ae95d4.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT11",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/62eda313-2d29-4992-b027-7a182bdd88fb.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT12",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e1e1ba08-8184-4467-869f-2c6cd82cd0ec.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT13",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6aafd33f-78c9-46b8-9b82-2c3e0fbe3d91.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT14",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/be55fc50-7d7d-46f4-8c3f-d69399051a23.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT15",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/29a713c9-5497-4deb-8c07-d8784d3e0225.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT16",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/06ef111f-3844-4406-8999-3e13d3351635.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT17",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ffd06dce-5656-4550-8d5c-a5798868ad88.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT18",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/611ab059-9cc7-493d-8d5f-0f5ba6d669f3.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT19",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff229136-68ff-44fb-8969-5a1cb10ed963.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT20",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4dd58eb7-643a-4263-85ed-8e7451c40f9e.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT21",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/de8a124e-3ee8-4c23-953e-8611a160653e.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT22",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f29c4f5f-67ff-4583-9420-e6ccd5a26499.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT23",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ebc0ba16-d41e-4f49-ad69-b46d01871e76.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT24",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48aa5ad2-0479-4ce3-9131-6174cbad84ce.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT25",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d6eaad7e-7ac7-4270-a39c-4f6b72664408.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT26",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/96b01f34-a7a0-49bc-9b2f-d6f321902b53.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT27",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/effec5c7-6d28-44ea-b244-339eca0b6c96.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "PRADO_DT28",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/08c86475-325a-4b51-892d-23361bbf6f26.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers give positive feedback about the phone's quality, appearance, and battery life with its impressive 8000mAh capacity. The display receives mixed reviews - while some praise its sharp 144Hz AMOLED screen, others report issues with picture quality. Customers disagree on the phone's responsiveness, with some reporting smooth streaming while others experience slow app opening. The camera quality and performance also receive mixed feedback, with some finding it decent while others say it could be better, and opinions on value for money are divided between those who find it worth the price and those who consider it overpriced.",
+        "keywords": [
+          {
+            "name": "Quality",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's quality, describing it as excellent and amazing, with one customer noting it's the phone of the year 2026.",
+            "customersMentionedCount": {
+              "total": 483,
+              "positive": 405,
+              "negative": 78
+            },
+            "partialReviews": [
+              {
+                "text": "One word review good and perfect mobile overall perfect",
+                "highlightedPart": "good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2DG696ECFWCFF"
+              },
+              {
+                "text": "Good phone but camera \ud83d\udcf8 \ud83e\udd33 other things are average not good weight also too much at this price need more correction in this phone.",
+                "highlightedPart": "Good phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3J7FKEJ20JX4R"
+              },
+              {
+                "text": "Good Product\u2026 fast charging Good Screen for daily use feels fast \u2026. Sadly price increases compared to earlier models",
+                "highlightedPart": "Good Product",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3334WJDX6NXFM"
+              },
+              {
+                "text": "Excellent DEVICE VERY SMOOTH AND FEATURES LOADED",
+                "highlightedPart": "Excellent",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2WPW79YZ90HHI"
+              }
+            ]
+          },
+          {
+            "name": "Battery life",
+            "sentiment": "positive",
+            "text": "Customers praise the phone's battery life, particularly its 8000mAh capacity, with one customer noting it completely eliminates battery anxiety.",
+            "customersMentionedCount": {
+              "total": 146,
+              "positive": 106,
+              "negative": 40
+            },
+            "partialReviews": [
+              {
+                "text": "Good Battery Not Great but Good Camera Overall Performance is good Network connectivity is also good Good Built quality...",
+                "highlightedPart": "Good Battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R347AQMHYYRWO2"
+              },
+              {
+                "text": "...Nord CE 6 for 10 days, the only major plus point I found is the battery backup. Other than that, the performance is very disappointing....",
+                "highlightedPart": "battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2T8O32KH3W2BQ"
+              },
+              {
+                "text": "Battery issue and camera quality is poor",
+                "highlightedPart": "Battery issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1Y3U84HMSLJ79"
+              },
+              {
+                "text": "Overall Performance, Battery life and Oxygen UI is excellent, but camera is not the great (There is no ultrawide and macro), other than that this...",
+                "highlightedPart": "Battery life",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1AD4YJ99CN7XO"
+              }
+            ]
+          },
+          {
+            "name": "Appearance",
+            "sentiment": "positive",
+            "text": "Customers like the phone's appearance, describing it as premium, with one customer noting its uniform bezels.",
+            "customersMentionedCount": {
+              "total": 50,
+              "positive": 48,
+              "negative": 2
+            },
+            "partialReviews": [
+              {
+                "text": "Very good phone under 30k. Nice look, decent camera, great display and battery. No lags.",
+                "highlightedPart": "Nice look",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R12K1G6BV45K0Q"
+              },
+              {
+                "text": "Best looking phone.",
+                "highlightedPart": "Best looking phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R13APCLAHYKSRB"
+              },
+              {
+                "text": "Premium look Screen size amazing And front camera just amazing",
+                "highlightedPart": "Premium look",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3HKKMD4BV89DU"
+              },
+              {
+                "text": "...It looks premium and catches people's attention\u2014I've actually had people ask me what phone it is. The big screen is perfect for content consumption....",
+                "highlightedPart": "looks premium",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R23X3MN7T8J2FT"
+              }
+            ]
+          },
+          {
+            "name": "Value for money",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's value for money, with some finding it worth the price while others say it's not worth buying.",
+            "customersMentionedCount": {
+              "total": 182,
+              "positive": 94,
+              "negative": 88
+            },
+            "partialReviews": [
+              {
+                "text": "...ke hisab se bilkul heavy fill nhi hota , or premium bhi lgta he, Value for money \ud83d\udc4d, Smooth experience \ud83d\ude0d, battery becup Good but not very good....",
+                "highlightedPart": "Value for money",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R29ODIHKMM7GO6"
+              },
+              {
+                "text": "Waste of money don't buy this phone because there is no clarity in photos and the battery capacity is 8000 mah but if you play a game that causes...",
+                "highlightedPart": "Waste of money",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3O5ILF1BEWNJ2"
+              },
+              {
+                "text": "It's a good phone with all great features..worth buying it",
+                "highlightedPart": "worth buying it",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RIUINULAKMZ13"
+              },
+              {
+                "text": "Don't buy ..STOP BUYING .. I BOUGGHT THIS PHONE 9 MAY AND ON 8 JUNE I VISITED SERVICE CENTER ....",
+                "highlightedPart": "Don't buy",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2OCOX2VBQ7KP7"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's camera quality, with some finding it decent and taking quality pictures, while others consider it poor and average.",
+            "customersMentionedCount": {
+              "total": 163,
+              "positive": 56,
+              "negative": 107
+            },
+            "partialReviews": [
+              {
+                "text": "...Difficult to hold in one hand & havier- may be due to battery, Camera is not good -after taking photo some times I found image is blur, hopefully...",
+                "highlightedPart": "Camera is not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R26OR3M0Q55NMA"
+              },
+              {
+                "text": "...Camera quality is good too, there is just one port for charging and earphone (wired) C type charging and not 3.5mm which is a bit of drawback, baaki...",
+                "highlightedPart": "Camera quality is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2QMWI22RK2489"
+              },
+              {
+                "text": "...1 less rating because of camera , after update photos become blurr, worst camera. If you are looking for camera then don't buy this one....",
+                "highlightedPart": "worst camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R8A39KIPSUVHA"
+              },
+              {
+                "text": "...Good stereo sound with dual speakers Cons Camera quality is not upto mark at this price which could be better....",
+                "highlightedPart": "Camera quality is not upto mark",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R15GGG0NV4ISIY"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's performance, with some finding it excellent and working well, while others report poor performance and say it doesn't work properly.",
+            "customersMentionedCount": {
+              "total": 132,
+              "positive": 75,
+              "negative": 57
+            },
+            "partialReviews": [
+              {
+                "text": "Performance, build quality, and battery backup are excellent, but camera quality is very poor....",
+                "highlightedPart": "Performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RP1UPQUSG0D3X"
+              },
+              {
+                "text": "Bahut hi sada phone..don't take it...very slow..mean take times for open whatsapp...time to load angel one....time to take trading view...want to...",
+                "highlightedPart": "very slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2BLF6F17MBC3E"
+              },
+              {
+                "text": "Excellent device with excellent performance, powerful battery, only camera performance is compromise, clean & smooth software, feel good in hand it...",
+                "highlightedPart": "excellent performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RUGFL6ENXXIKR"
+              },
+              {
+                "text": "...The phone hangs frequently, and opening multiple apps is very slow. Even the keyboard takes around 10 seconds to appear after opening the search box....",
+                "highlightedPart": "The phone hangs frequently",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2T8O32KH3W2BQ"
+              }
+            ]
+          },
+          {
+            "name": "Display",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's display, with some praising its 144Hz AMOLED screen that looks incredibly sharp, while others report issues with picture quality and blurriness.",
+            "customersMentionedCount": {
+              "total": 70,
+              "positive": 41,
+              "negative": 29
+            },
+            "partialReviews": [
+              {
+                "text": "...superb battery backup 2) good display 3) Nice design 4) avarage camera 5) sound quality ok",
+                "highlightedPart": "good display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1EC9WHWYC6XLQ"
+              },
+              {
+                "text": "No Always on display even with amoled and the overall display quality also feels cheap than my brother's Nord 4....",
+                "highlightedPart": "No Always on display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3SKC2L2LODHGI"
+              },
+              {
+                "text": "Product is very good, display is awesome, battery is ok above average, doesn't seem like 8000 mah...",
+                "highlightedPart": "display is awesome",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3QAX4TV9LZJZN"
+              },
+              {
+                "text": "...The camera quality is also not good, and I am disappointed with the display and other features as well....",
+                "highlightedPart": "disappointed with the display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2T8O32KH3W2BQ"
+              }
+            ]
+          },
+          {
+            "name": "Responsiveness",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's responsiveness: while some report completely lag-free performance and quick top-ups, others mention that opening multiple apps is slow.",
+            "customersMentionedCount": {
+              "total": 46,
+              "positive": 24,
+              "negative": 22
+            },
+            "partialReviews": [
+              {
+                "text": "...Pros-: 1. Smooth functioning 2. Fast and feelgood UI 3. Long-lasting battery 4. Fast charging with 80w power adapter 5....",
+                "highlightedPart": "Fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RZPXXIEW4W2N9"
+              },
+              {
+                "text": "...The phone hangs frequently, and opening multiple apps is very slow. Even the keyboard takes around 10 seconds to appear after opening the search box....",
+                "highlightedPart": "opening multiple apps is very slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2T8O32KH3W2BQ"
+              },
+              {
+                "text": "...good phone a bit pricey, battery life and everything is very good, phone is fast",
+                "highlightedPart": "phone is fast",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1AJX9SNFWGY52"
+              },
+              {
+                "text": "Software update was the worst , phone is slow , slower than my previous device .",
+                "highlightedPart": "phone is slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RQDVE5HQ8ANBL"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": "500+ bought in past month",
+      "productPageReviews": [
+        {
+          "username": "Amazon Customer",
+          "userId": "amzn1.account.AHB7PG43T74OX2ROSGRO2YJEEGLQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHB7PG43T74OX2ROSGRO2YJEEGLQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Excellent performance, display and battery life",
+          "reviewDescription": "The OnePlus Nord CE6 is an impressive phone with a strong combination of performance, battery life, display quality, and features. The Snapdragon 7s Gen 4 processor with 8GB RAM handles everyday apps, multitasking, gaming, and streaming smoothly.The 8000mAh battery is one of the biggest highlights. It provides excellent battery backup and is well suited for heavy daily usage. The phone can comfortably last through a long day, and the large battery is especially useful for users who don't want to charge frequently.The 1.5K 144Hz AMOLED display looks excellent, with sharp details, vibrant colours, deep blacks, and smooth scrolling. The high refresh rate also makes gaming and general navigation feel very responsive.The 50MP main camera and 32MP selfie camera deliver good results, particularly in daylight. The ability to record 4K video is a useful addition for users who regularly shoot photos and videos. Low-light performance can vary, but overall camera performance is good for the segment.The phone feels well-built and durable, and the extensive IP66/IP68/IP69/IP69K protection provides additional confidence against dust and water exposure. The Fresh Blue finish also gives it a premium and attractive appearance.With 256GB storage, there is plenty of space for apps, photos, videos, and games. The touch response is very fast, making the phone feel responsive during both everyday use and gaming.Overall: A feature-packed smartphone offering excellent battery life, powerful performance, a superb 144Hz AMOLED display, capable cameras, large storage, fast touch response, and strong water/dust protection. A very good choice for users looking for a high-performance phone with long battery life.",
+          "date": "2026-09-10",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 10 September 2026",
+          "reviewId": "R17DJQ0J3YLLGY",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R17DJQ0J3YLLGY/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Fresh Blue, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Fresh Blue"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "kaushik baur",
+          "userId": "amzn1.account.AFGOBKYW74WS4RCACJOGM4PFAYMQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFGOBKYW74WS4RCACJOGM4PFAYMQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Good phone overall",
+          "reviewDescription": "This phone has a great battery life.... Like played game for 2.5 hrs only 6% reduced from 36% to 30%. Speakers are too good sound is very crisp and clear, every evening I love to enjoy music on this phone speakers. This phone doesn't have 3.5 mm audio jack. Had more expectations with Camera photo quality is good... But Could have been better as zoom is only 10x. No wide angle photography supported.Display quality is also good not causing much strain on eyes.hence giving it 4 star.",
+          "date": "2026-05-19",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 19 May 2026",
+          "reviewId": "R6PSXGD8NEKKU",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R6PSXGD8NEKKU/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "231 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Fresh Blue, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Fresh Blue"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "Kunal Singh",
+          "userId": "amzn1.account.AFU7VPL7636QME7AN6YGSRIHPEJQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFU7VPL7636QME7AN6YGSRIHPEJQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Absolute Battery Monster & Blazing Fast Charging \u2013 The King of Practicality!Absolute Battery Monster & Blazing Fast Charging \u2013 The King of Practicality!",
+          "reviewDescription": "I recently switched to the OnePlus Nord CE6 after a brief stint with the Nothing Phone 3A Pro (and having unluckily lost my Nord CE4 before that). While the Nothing phone was aesthetically brilliant with great cameras, it heavily missed the mark on daily battery endurance and charging speed for my usage. Moving back to this OnePlus device has been an absolute game-changer.Here is my breakdown after putting the device through its paces (According to my experiences and usage patterns) :\ud83d\udd0b Battery Life: Elite Tier EnduranceThe battery performance on this phone is a literal joke\u2014in the best way possible. On day one alone (while the phone was still indexing and setting up accounts), I hit an unbelievable 8 hours and 31 minutes of Screen-On Time (SOT), and I still had 26% battery remaining! The system estimated another 9 hours of standby on Balanced Mode. The overnight idle drain is practically flat. You can easily clear a 24-hour cycle and push past 10+ hours of heavy SOT before needing a plug.\u26a1 Charging: The Return of True Fast ChargingHaving to charge my previous 5000 mAh phone twice every 36 hours was becoming a chore. Getting back to the legendary high-speed SUPERVOOC charging ecosystem feels incredibly liberating. Top-ups are ridiculously quick, giving you absolute peace of mind without having to constantly hunt for a wall socket.\ud83d\udcf1 Software & Convenience FeaturesComing back to OxygenOS feels highly optimized. Little daily conveniences work perfectly here. For instance, taking a scrolling screenshot happens smoothly in a single action, unlike other custom UIs that clunkily force you to take multiple manual captures just to stitch an image together. The system launcher and background management are fluid and snappy out of the box.\ud83d\udce6 Storage Efficiency (8GB/128GB Variant)While I am stepping down to 128 GB after using 256 GB phones for a few years, managing it is completely effortless if you manage your data dynamically. With streaming being so seamless and offloading data to a laptop being a breeze, 128 GB is more than enough for current essential usage and apps, especially if you aren\u2019t heavily into hoarding photography.Final Verdict:If you value raw battery longevity, minimal idle drain, lightning-fast charging speeds, and a reliable, snappy daily user experience, the OnePlus Nord CE6 is an absolute home run. Highly recommended!Shall update after a month with a more specific review.",
+          "date": "2026-05-18",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 18 May 2026Reviewed in India on 18 May 2026",
+          "reviewId": "R3VSLWC273GXOY",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3VSLWC273GXOY/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71pIlv1mVtL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61jWTDkIpTL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/51PPciXy70L._SY500_.jpg"
+          ],
+          "reviewReaction": "109 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/62d5c51f-4878-4e4e-ad99-158082285834._CR1080%2C0%2C1872%2C1872_SX460_SX48_.jpg",
+          "variant": "Colour: Fresh Blue, Size: 8GB+128GB, Colour: Fresh Blue, Size: 8GB+128GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Fresh Blue"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+128GB"
+            },
+            {
+              "key": "Colour",
+              "value": "Fresh Blue"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+128GB"
+            }
+          ]
+        },
+        {
+          "username": "Harkhender Kumar",
+          "userId": "amzn1.account.AHXPXZD242D266BSQUMHV6FISH4Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHXPXZD242D266BSQUMHV6FISH4Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Value for moneyValue for money",
+          "reviewDescription": "It's really amazing mobile, value for money and phone was functioning so smoothly because of his processor is so good. Camera Is so good for clear shot.Heat contro system functioning roperly and weight was so light and battery backup was so good.",
+          "date": "2026-09-08",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 8 September 2026Reviewed in India on 8 September 2026",
+          "reviewId": "R3LHYXD43PU18",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3LHYXD43PU18/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/51Zqif+ImrL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/61lwpdLERiL._SY500_.jpg"
+          ],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/ebae48ee-37c8-4d30-8f7f-aff6c8f09963._CR0%2C0%2C640%2C640_SX460_SX48_.jpg",
+          "variant": "Colour: Lunar Pearl, Size: 8GB+256GB, Colour: Lunar Pearl, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Lunar Pearl"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            },
+            {
+              "key": "Colour",
+              "value": "Lunar Pearl"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "Sarvesh gautam",
+          "userId": "amzn1.account.AHP4MXVRTHA6ZL7K5D55TLWR7K4A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHP4MXVRTHA6ZL7K5D55TLWR7K4A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Read this before buying itRead this before buying it",
+          "reviewDescription": "I\u2019ve been using the OnePlus Nord CE6 as a heavy user, and honestly, this phone has impressed me a lot in daily usage. The UI is super smooth, clean, and optimized really well. Everything feels fast and fluid.The BGMI experience is very, very impressive. Initially, I faced some issues, but after turning OFF the Touch Reflex Chip option, the gameplay became much smoother and responsive. I play BGMI around 2 hours daily, and the performance is excellent for long gaming sessions.Battery backup is also good enough for heavy usage. However, one complaint I have is the charging time. It takes around 1 hour 15\u201320 minutes to fully charge, which feels a bit high compared to expectations.Talking about the camera, it surprised me a lot. My previous phone was the Realme GT 6T, and honestly, I found the camera quality on this phone better in many situations.There are some small cons too. For example, WhatsApp filters are currently not working properly, but I think OnePlus will fix this in future updates.Please don\u2019t get influenced by negative comments saying this phone is not up to the mark. For day-to-day life, gaming, multitasking, and overall usage, this phone is really good. I\u2019m a software engineer and a heavy user, and I\u2019m fully impressed with this device.",
+          "date": "2026-05-21",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 21 May 2026Reviewed in India on 21 May 2026",
+          "reviewId": "R2ZRTF391SJM2Z",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2ZRTF391SJM2Z/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71FNOEDNSAL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/712YOCB2B1L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/817v8XBNHkL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/7187TzQQanL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71vo8JCMA+L._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/81CyyQbNdWL._SY500_.jpg"
+          ],
+          "reviewReaction": "309 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/84a819e8-4b4e-40b4-ab8a-11fb3b5d7629._CR0%2C0%2C500%2C500_SX460_SX48_.jpg",
+          "variant": "Colour: Lunar Pearl, Size: 8GB+256GB, Colour: Lunar Pearl, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Lunar Pearl"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            },
+            {
+              "key": "Colour",
+              "value": "Lunar Pearl"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "Muhammed siddique",
+          "userId": "amzn1.account.AGZ3G2JCO5UDZGMCNRMU3SULJMYQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AGZ3G2JCO5UDZGMCNRMU3SULJMYQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Always on display must work",
+          "reviewDescription": "Iam using this smart phone from last 3 days now. It's a very good smart phone if you re not a heavy user. No glitch and not facing any when you use multiples app. Iam disppapinted with this one feature which is the always on display is not working. The screen gets off within  within a sec when you turn on this feature. Disappointing from one plus and price a bit high..",
+          "date": "2026-06-09",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 9 June 2026",
+          "reviewId": "R3BFF9N62JRT5H",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3BFF9N62JRT5H/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "23 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Pitch Black, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pitch Black"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "Placeholder",
+          "userId": "amzn1.account.AHFDCOAT4UQMLTWNQXGT7BQ4A7TA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHFDCOAT4UQMLTWNQXGT7BQ4A7TA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 1,
+          "reviewTitle": "Extremely disappointing \u2013 One of the worst OnePlus phones I have used in 10 years",
+          "reviewDescription": "I have been a OnePlus user for nearly 10 years, and OnePlus has always been one of the brands I trusted for a smooth, reliable and hassle-free smartphone experience. I have used and recommended OnePlus phones for years.Unfortunately, the OnePlus Nord CE6 5G (8GB RAM + 256GB, Fresh Blue) has been a completely different experience.This is honestly one of the most disappointing OnePlus phones I have ever purchased, and for the first time in nearly a decade, this phone has made me seriously reconsider buying a OnePlus device again.1. Heating issue during normal usageThe phone gets noticeably warm during regular usage. I am not talking about heavy gaming or extreme workloads.The heating happens during normal day-to-day activities, which is disappointing for a phone with a modern chipset and a large battery.A smartphone at this price should be able to handle basic tasks without becoming noticeably warm.2. Phone suddenly hangs while using itThe most frustrating issue is that the phone suddenly becomes unresponsive/hangs while I am using it.At times, the phone simply does not respond properly, and I have to wait for it to recover. This is extremely irritating when you are doing something important.With 8GB RAM and 256GB storage, I expected smooth multitasking and reliable performance. Instead, I am experiencing random freezes and interruptions during normal usage.3. Fingerprint authentication fails during paymentThis is one of my biggest concerns.While trying to make payments through payment gateways/apps, the fingerprint authentication does not work properly. The fingerprint lock/authentication sometimes fails when I actually need it.This is not a minor inconvenience. Today, smartphones are used for UPI payments, banking, online shopping and other financial transactions. If biometric authentication does not work reliably during a payment, it becomes a serious usability and trust issue.The fingerprint sensor may work in some normal unlocking situations, but my experience during payment authentication has been disappointing.4. Frequent app crashesAnother major problem is frequent application crashes and unexpected app behaviour.The issue is not limited to one particular application.For example, while using Google Maps, I have experienced situations where the application does not work as expected. Maps is one of the most basic and commonly used applications on a smartphone, so having problems while using it is extremely frustrating.I have also experienced apps becoming unresponsive or closing unexpectedly.5. Not the OnePlus experience I expectedWhat makes this even more disappointing is the fact that I am a long-time OnePlus customer.I bought this phone expecting the same smooth OxygenOS experience and reliability that I have associated with OnePlus for years.Instead, I am facing:- \u274c Heating during normal usage- \u274c Random hanging/freezing- \u274c Frequent app crashes- \u274c Google Maps not working as expected- \u274c Fingerprint authentication issues during payments- \u274c Overall unreliable day-to-day experienceThese are not features I am complaining about. These are basic smartphone functions that I expect to work properly.My message to OnePlusI genuinely hope OnePlus takes feedback like this seriously.I have been loyal to the brand for almost a decade, and I have recommended OnePlus phones to friends and family because of my previous experiences.But the Nord CE6 has changed my perception of the brand.I understand that every individual device can potentially have a manufacturing defect or software issue. However, as a customer, I should not have to deal with freezing, application crashes, heating and payment authentication problems on a new smartphone.I would strongly recommend OnePlus investigate these issues through software updates and, where necessary, provide proper service/support for affected customers.Final verdictI would not recommend the OnePlus Nord CE6 based on my personal experience.The specifications on paper may look impressive, but specifications are meaningless if the phone cannot provide a stable and reliable everyday experience.For a long-time OnePlus customer like me, this is particularly disappointing.I am giving 2 stars only because there are some good aspects of the phone, but the basic reliability issues I am experiencing significantly affect my overall experience.OnePlus, after almost 10 years of being your customer, this is the first phone that has made me question whether I should buy OnePlus again.",
+          "date": "2026-08-08",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 8 August 2026",
+          "reviewId": "R8YI17YSL4ABZ",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R8YI17YSL4ABZ/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "66 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/589355d3-1f50-4057-abc0-ccc95335f866._CR0%2C26%2C281%2C281_UX460_SX48_.jpg",
+          "variant": "Colour: Fresh Blue, Size: 8GB+256GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Fresh Blue"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+256GB"
+            }
+          ]
+        },
+        {
+          "username": "D Srinivas Reddy",
+          "userId": "amzn1.account.AG7BMHBYTEWKA3YENI64ED7LXIIQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AG7BMHBYTEWKA3YENI64ED7LXIIQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Value for money",
+          "reviewDescription": "Mobile is very nice. Working as mentioned in description. Think about only camera photo clarity.",
+          "date": "2026-09-17",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 17 September 2026",
+          "reviewId": "R1YBMM9OO8E435",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1YBMM9OO8E435/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Pitch Black, Size: 8GB+128GB",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Pitch Black"
+            },
+            {
+              "key": "Size",
+              "value": "8GB+128GB"
+            }
+          ]
+        }
+      ],
+      "productPageReviewsFromOtherCountries": []
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0GWLHVJRH"
+  }
+]

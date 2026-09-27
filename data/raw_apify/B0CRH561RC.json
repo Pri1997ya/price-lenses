@@ -1,0 +1,1180 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B0CRH561RC",
+    "name": "OnePlus Buds 3 Truly Wireless Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "OnePlus"
+    },
+    "image": "https://m.media-amazon.com/images/I/31Wen6gm2JL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 10952,
+    "rating": null,
+    "aiSummary": "Key business insights from the analyzed fields:\n\n- Stock and pricing gaps are the primary risk signals: the listing shows inStock as false with the text \u201cCurrently unavailable,\u201d and offers price fields are null, along with null listPrice and priceCurrency, which hurts conversion, pricing transparency, and SEO momentum during demand cycles.\n\n- Brand strength and product positioning are solid on the surface: brand is OnePlus, the product is Buds 3 with multiple color variants and a robust set of features (ANC, dual drivers, LHDC5.0, IP55, 44 hours total playback, 10-minute fast charge to ~7 hours).\n\n- Customer sentiment is clearly positive but nuanced: average rating around 4.4/5 from a large sample, with strong praise for sound quality and ANC, but persistent feedback around connectivity reliability, fit/comfort, and durability over time. This mix signals strong core value but potential post-purchase experience risk.\n\n- Content quality is inconsistent: rich media, A+ content, multiple high\u2011quality images and videos exist, plus a detailed features list, but the primary product description is null and the \u201cdescription\u201d field is empty. This misalignment reduces conversion and trust despite strong assets.\n\n- Market and product visibility are decent but not dominant: Best Sellers Rank positions (4181 in Electronics, 295 in In-Ear Headphones) suggest solid category presence but not a top-tier hotspot; variants and ASINs indicate breadth but price data consistency across variants is missing.\n\n- Variant strategy and assortment present opportunities: several color variants with individual ASINs exist, but price and stock data are not shown per variant, limiting testing of price points, color-level demand, and inventory planning.\n\n- Cross-channel and ecosystem leverage exist: a prominent \u201cVisit the OnePlus Store\u201d link and extensive brand/manufacturer content offer an opportunity to funnel traffic to the brand store, potentially increasing loyalty, warranties, and standalone sales outside the marketplace.\n\n- Global signals hint at demand but require localization and reliability improvements: product reviews and country-level feedback indicate steady interest and good baseline performance, but regional concerns (fit, mic quality, occasional connectivity issues) suggest need for localized support messaging and warranty/service clarity.\n\nActionable recommendations:\n\n- Fix price visibility and restore stock quickly: coordinate with suppliers to restore in-stock status and display clear price, listPrice, and currency to improve conversion and pricing transparency; consider back-in-stock ETA banners and temporary promotions to capture demand.\n\n- Enrich and standardize product content: replace null description with a concise, benefit-driven overview plus bullet points (ANC, battery life, charging, IP55, dual-device connectivity); ensure per-variant pricing and stock visibility; highlight top features in search-optimized copy.\n\n- Mitigate post-purchase risk with clear FAQs and support: address common pain points from reviews (connectivity reliability, fit/comfort, durability) in the listing and seller responses; offer updated firmware/app guidance where relevant; improve return/warranty clarity.\n\n- Leverage rich media for conversion: maximize use of A+ content, videos, and high-resolution imagery to demonstrate ANC performance, battery life, and real-world use cases; ensure the \u201cFrom the manufacturer\u201d and multi-module visuals clearly map to customer questions.\n\n- Optimize pricing and promotions by variant/color: analyze demand signals across colors and SKUs once in stock; run targeted promos (bundle offers, EMI deals, launch coupons) to move inventory and improve ranking.\n\n- Accelerate cross-channel and brand-led selling: direct traffic to the OnePlus Store with incentives (extended warranty, better returns, or exclusive colors) to deepen brand equity and improve margins.\n\n- Monitor and iterate on feedback loops: establish a steady stream of verified reviews and responsive seller commentary focusing on the most mentioned issues (connectivity, fit, battery life) to reduce negative signals and improve NPS.\n\n- Localize for the Indian market while signaling global availability: emphasize local warranty/support, service centers, and Kirti-friendly terms to boost confidence; use localized copy and FAQs to address region-specific usage patterns and expectations.\n\nOverall takeaway: the OnePlus Buds 3 listing has strong brand equity, compelling technical features, and positive consumer sentiment, but is hampered by stock/pricing gaps and uneven content quality. Rapidly restoring stock, surfacing clear pricing, and enriching the listing with targeted, customer-centric content and support will unlock conversion and capitalize on the demonstrated demand and positive review signals.",
+    "additionalProperties": {
+      "asin": "B0CRH561RC",
+      "originalAsin": "B0CRH561RC",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4.4,
+      "starsBreakdown": {
+        "5star": 0.68,
+        "4star": 0.19,
+        "3star": 0.04,
+        "2star": 0.02,
+        "1star": 0.07
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Headphones, Earbuds & Accessories > Headphones > In-Ear",
+      "videosCount": 3,
+      "visitStoreLink": {
+        "text": "Visit the OnePlus Store",
+        "url": "https://www.amazon.in/stores/OnePlus/page/A0A2BE47-0E82-40E4-BD82-A0ADBBB82BC7?lp_asin=B0CRH561RC&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/31Wen6gm2JL._SS.jpg",
+        "https://m.media-amazon.com/images/I/31LvrkaCt3L._SS.jpg",
+        "https://m.media-amazon.com/images/I/31CttSAIs8L._SS.jpg",
+        "https://m.media-amazon.com/images/I/31pFzdSe63L._SS.jpg",
+        "https://m.media-amazon.com/images/I/41NkeDXdnzL._SS.jpg",
+        "https://m.media-amazon.com/images/I/31okmGGaI-L._SS.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/518JdWAXvJL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51wXDR0u4uL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41EpveO7uQL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61XHerhMdaL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51AAuZ-WOIL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71fXx1fB5BL._SL1500_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "[Best-in-class Sound Quality]: 10.4mm+6mm dynamic dual driver, LHDC5.0 Bluetooth CODEC and high resolution certification makes the product best in its sound quality with deeper bass, delicate treble and clear vocals",
+        "[Sliding Volume Control]: Slide on the surface of touch area of buds to adjust the volume.Sliding up increases the volume, while sliding down decreases the volume",
+        "[49dB Adaptive Nosie Cancellation]: Advanced noise-cancelling technology,coupled with a high-performance chip,elevates the depth of noise cancellation upto 49dB.This reduces noise and blocks out chaos and allows users to enjoy music immersively",
+        "[Dual Connection]:It can simulatenously connect to 2 devices such as Andriod/iOS/Windows smartphone, tablets or computers allowing for quick and seamless device switching",
+        "[Battery Life]:It has 10mins of Fast Charging that give 7 hours of Playback time with total music playback upto 44 hours with ANC Off||[IP55 rating]: With IP55 Dust and water resistance there is no fear of sweating or rain"
+      ],
+      "attributes": [
+        {
+          "key": "Brand Name",
+          "value": "OnePlus"
+        },
+        {
+          "key": "Model Number",
+          "value": "E509A"
+        },
+        {
+          "key": "Model Name",
+          "value": "Buds"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Ear Cushions"
+        },
+        {
+          "key": "Age Range Description",
+          "value": "Adult"
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 year Manufacturer"
+        },
+        {
+          "key": "Customer Package Type",
+          "value": "Standard Packaging"
+        },
+        {
+          "key": "Number of Items",
+          "value": "1"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000, OnePlus"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "ONEPLUS TECHNOLOGY INDIA PRIVATE LIMITED. UB CITY, 6TH FLOOR, UB CITY 24, UB CITY, VITTAL MALLYA RD, D'SOUZA LAYOUT ASHOK NAGAR, BENGALURU, BENGALURU URBAN, KARNATAKA 560001"
+        },
+        {
+          "key": "Is Autographed",
+          "value": "No"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Wireless in Ear Earbuds"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "ONEPLUS TECHNOLOGY (SHENZHEN) CO., LTD. 18C02, 18C03, 18C04 AND 18C05, SHUM YIP TERRA BUILDING, BINHEAVENUE NORTH, FULIAN DISTRICT, SHENZHEN, GUANGDONG, P.R.CHINA 518000"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#4,181 in Electronics (See Top 100 in Electronics)#295 in In-Ear Headphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B0CRH561RC"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.4 4.4 out of 5 stars (10,952) 4.4 out of 5 stars"
+        },
+        {
+          "key": "Headphones Ear Placement",
+          "value": "In Ear"
+        },
+        {
+          "key": "Headphone Form Factor",
+          "value": "In Ear"
+        },
+        {
+          "key": "Earpiece Shape",
+          "value": "rounded tips"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "50.04 Grams"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Count"
+        },
+        {
+          "key": "Impedance Unit of Measure",
+          "value": "0.29 Ohms"
+        },
+        {
+          "key": "Noise Control",
+          "value": "Adaptive Noise Cancellation"
+        },
+        {
+          "key": "Sensitivity",
+          "value": "38 dB"
+        },
+        {
+          "key": "Audio Driver Type",
+          "value": "Dynamic Driver"
+        },
+        {
+          "key": "Frequency Range",
+          "value": "15~40000 hertz"
+        },
+        {
+          "key": "Enclosure Material",
+          "value": "Plastic"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Bluetooth Earbuds"
+        },
+        {
+          "key": "Antenna Location",
+          "value": "Calling, Exercising, Gaming"
+        },
+        {
+          "key": "Compatible Devices",
+          "value": "smartphone"
+        },
+        {
+          "key": "Cable Features",
+          "value": "Without Cable"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Waterproof"
+        },
+        {
+          "key": "Product Features",
+          "value": "Buds 3 True Wireless in Ear Earbuds with Sliding Volume Control and 49dB ANC"
+        },
+        {
+          "key": "Headphone Jack",
+          "value": "wireless"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Wireless"
+        },
+        {
+          "key": "Wireless Technology Type",
+          "value": "Bluetooth"
+        },
+        {
+          "key": "Bluetooth Range",
+          "value": "10 Metres"
+        },
+        {
+          "key": "Bluetooth Version",
+          "value": "5.3"
+        },
+        {
+          "key": "Colour",
+          "value": "Metallic Gray"
+        },
+        {
+          "key": "Style Name",
+          "value": "Buds 3"
+        },
+        {
+          "key": "Control Type",
+          "value": "Touch Control"
+        },
+        {
+          "key": "Control Method",
+          "value": "Touch"
+        },
+        {
+          "key": "Battery Charge Time",
+          "value": "430 Minutes"
+        },
+        {
+          "key": "Battery Average Life",
+          "value": "44 Hours"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [
+        "B0CRH6CYS6",
+        "B0CRH561RC",
+        "B0DGTTQG4L",
+        "B0CRZCMPMW",
+        "B0CS14V6B8"
+      ],
+      "variantDetails": [
+        {
+          "name": "Splendid Blue",
+          "thumbnail": "https://m.media-amazon.com/images/I/31riIuaxjmL._SS.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/51LxiMjx3XL._SL1500_.jpg"
+          ],
+          "asin": "B0CRH6CYS6",
+          "price": null
+        },
+        {
+          "name": "Metallic Gray",
+          "thumbnail": "https://m.media-amazon.com/images/I/31Wen6gm2JL._SS.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/51h7CQTRJ1L._SL1500_.jpg"
+          ],
+          "asin": "B0CRH561RC",
+          "price": null
+        },
+        {
+          "name": "Green",
+          "thumbnail": "https://m.media-amazon.com/images/I/31ZJOBt2MBL._SS.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/71wlgC7Q5ZL._SL1500_.jpg"
+          ],
+          "asin": "B0DGTTQG4L",
+          "price": null
+        },
+        {
+          "name": "OnePlus Buds 3 \u2013 Gray",
+          "thumbnail": "https://m.media-amazon.com/images/I/41WGpwhNd1L._SS.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61TSw1kcNlL._SL1500_.jpg"
+          ],
+          "asin": "B0CRZCMPMW",
+          "price": null
+        },
+        {
+          "name": "OnePlus Buds 3 \u2013 Blue",
+          "thumbnail": "https://m.media-amazon.com/images/I/41fx+PeHiRL._SS.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/71dYwhicgnL._SL1500_.jpg"
+          ],
+          "asin": "B0CS14V6B8",
+          "price": null
+        }
+      ],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B0CRH561RC",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [
+        {
+          "key": "Colour",
+          "value": "Metallic Gray"
+        }
+      ],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": [
+        {
+          "rank": 4181,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 295,
+          "category": "In-Ear Headphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/14146389031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nPrevious page\nNext page\nThe video showcases the product in use.The video guides you through product setup.The video compares multiple products.The video shows the product being unpacked.\naplus content video",
+        "rawImages": [
+          {
+            "name": "Main Banner",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/36706080-18ca-4ce0-8040-8999a7427a89.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Main Banner",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/36706080-18ca-4ce0-8040-8999a7427a89.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Volume Control",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9689b08f-be63-4ff1-a7f2-d72f04b5e2ef.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Bolder Beautiful",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/382643da-c53c-4647-9114-441bc5e087d8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Infographics",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a36d1849-a172-41ee-8794-b8f8b850f80c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Unbeatable Noise",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/791c1d0a-69a1-4c5b-885b-c83448ed7b7e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Hi-Res Audio",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/af5fec38-a575-471f-9ad1-ab89ef601788.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Audio ID 2.0",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f0d93f5f-acc6-47e5-a121-0211504cfe33.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "3D Audio",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf90175e-2d6b-45c6-94f8-7e5258f36290.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Battery Life",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db5b4616-fbb9-46a1-9a94-14006974b9bd.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Seamless Connectivity",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c57b0403-0a81-45a3-88ee-b11613c4f723.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Colors",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3baffb3e-935b-40d6-98d0-8a61ad2e4eb1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Ergonomic Bliss",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f64e5702-5cc1-4ff8-b980-ee9cd16d089f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "In the Box",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5178c2ac-f5f5-4bb4-9258-bd3c4fedbd71.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Disclaimer",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ee5c17f3-9fc1-4c2e-94c4-3e62d8ec76c7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [
+          {
+            "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/f9c08e6a-2b56-4a02-96f1-9bfb49376e11/default.jobtemplate.hls.m3u8",
+            "previewImageUrl": "https://m.media-amazon.com/images/I/71XG0o9qSkL.jpg"
+          }
+        ],
+        "modules": [
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "Main Banner",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/36706080-18ca-4ce0-8040-8999a7427a89.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Volume Control",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9689b08f-be63-4ff1-a7f2-d72f04b5e2ef.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Bolder Beautiful",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/382643da-c53c-4647-9114-441bc5e087d8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Infographics",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a36d1849-a172-41ee-8794-b8f8b850f80c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Unbeatable Noise",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/791c1d0a-69a1-4c5b-885b-c83448ed7b7e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Hi-Res Audio",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/af5fec38-a575-471f-9ad1-ab89ef601788.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Audio ID 2.0",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f0d93f5f-acc6-47e5-a121-0211504cfe33.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "3D Audio",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf90175e-2d6b-45c6-94f8-7e5258f36290.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Battery Life",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db5b4616-fbb9-46a1-9a94-14006974b9bd.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Seamless Connectivity",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c57b0403-0a81-45a3-88ee-b11613c4f723.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-13-carousel",
+            "text": null,
+            "items": [
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Colors",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3baffb3e-935b-40d6-98d0-8a61ad2e4eb1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Ergonomic Bliss",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f64e5702-5cc1-4ff8-b980-ee9cd16d089f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "In the Box",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5178c2ac-f5f5-4bb4-9258-bd3c4fedbd71.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "title": null,
+                "text": null,
+                "url": null,
+                "image": {
+                  "name": "Disclaimer",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ee5c17f3-9fc1-4c2e-94c4-3e62d8ec76c7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-8-hero-video",
+            "title": "aplus content video",
+            "text": null,
+            "video": {
+              "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/f9c08e6a-2b56-4a02-96f1-9bfb49376e11/default.jobtemplate.hls.m3u8",
+              "previewImageUrl": "https://m.media-amazon.com/images/I/71XG0o9qSkL.jpg"
+            }
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers find the earbuds' sound quality amazing and appreciate their noise cancellation capabilities. The battery life, performance, connectivity, comfort, fit, and durability receive mixed feedback - while some report good performance and connectivity, others experience connectivity issues, and while some find them comfortable, others report pain after long hours of use.",
+        "keywords": [
+          {
+            "name": "Sound quality",
+            "sentiment": "positive",
+            "text": "Customers praise the headphones' sound quality, describing it as crystal clear, with one customer noting its crisp highs.",
+            "customersMentionedCount": {
+              "total": 801,
+              "positive": 648,
+              "negative": 153
+            },
+            "partialReviews": [
+              {
+                "text": "...bud after buying multiple brand bud ..it was never justified the sound quality and ANC feature where this product does...for Android user you can...",
+                "highlightedPart": "sound quality",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2CVEP96S26RK6"
+              },
+              {
+                "text": "Good Product from One plus sound quality is good and nice good bass and noise cancelling is also good but the Amount of the buds is little bit High...",
+                "highlightedPart": "sound quality is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R21T5GWHUKA9U2"
+              },
+              {
+                "text": "I really like this earbuds, Good Sound, Good base, Good sound output, Good battery life, everything is Good about OnePlus earbuds 3 \ud83d\udc4c\ud83c\udffb",
+                "highlightedPart": "Good Sound",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2JWUXSTJXKUJ1"
+              },
+              {
+                "text": "Good sound quality, mic quality, connectivity, performance, durability. But price is little higher side.",
+                "highlightedPart": "Good sound quality",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3SO7AAG5RJXR5"
+              }
+            ]
+          },
+          {
+            "name": "Noise cancellation",
+            "sentiment": "positive",
+            "text": "Customers appreciate the noise cancellation feature of these earbuds, with one mentioning it provides good value for the price.",
+            "customersMentionedCount": {
+              "total": 317,
+              "positive": 246,
+              "negative": 71
+            },
+            "partialReviews": [
+              {
+                "text": "...The sound quality is really good but what I love is the Noise cancellation it almost cancels 80% of the Noise and you can also customize it by using...",
+                "highlightedPart": "Noise cancellation",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1OKYUU4087O4X"
+              },
+              {
+                "text": "...Balanced sound delivery. Good Noise cancellation. It however is not a good choice for 'calls in a busy place'....",
+                "highlightedPart": "Good Noise cancellation",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1KOHXIB1WNKSR"
+              },
+              {
+                "text": "Ear buds are great. Comfortable fit. Noise cancellation is good. Seemed a bit bulkier than air pods pro but ok, comparing the price difference.",
+                "highlightedPart": "Noise cancellation is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RMAZ72D3ZTSV8"
+              },
+              {
+                "text": "Good charging confirtable but bad noise cancellation",
+                "highlightedPart": "bad noise cancellation",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1AWZ8Q3WCH380"
+              }
+            ]
+          },
+          {
+            "name": "Battery life",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the battery life of these earbuds, with some praising the excellent backup while others find it insufficient.",
+            "customersMentionedCount": {
+              "total": 278,
+              "positive": 170,
+              "negative": 108
+            },
+            "partialReviews": [
+              {
+                "text": "...realme buds q2 to this everything feels awesome the build quality, battery life and the audio itself is amazing upgrade for me all the notes are...",
+                "highlightedPart": "battery life",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R17GN0QY0PL9RD"
+              },
+              {
+                "text": "Poor battery backup, looks like it started heating now.",
+                "highlightedPart": "Poor battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RGJPDZA9RTX1H"
+              },
+              {
+                "text": "...The only issues I faced is the battery life is good but you'll be highly dependent on case and the other is there are constant video and sound sync...",
+                "highlightedPart": "battery life is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2SMYT1SEGY35W"
+              },
+              {
+                "text": "...sound quality.. and calling ... Noise consolation... And battery backup ... Everything is vary beautiful \u2764\ufe0f",
+                "highlightedPart": "battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1SBQI853GO2IW"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the earbuds' performance, with some reporting that the ANC works amazingly well and no issues, while others mention that they stop working after a week or specifically note problems with the right earbud and microphone.",
+            "customersMentionedCount": {
+              "total": 245,
+              "positive": 130,
+              "negative": 115
+            },
+            "partialReviews": [
+              {
+                "text": "Loved it. The color, performance, quality etc. This is my third OnePlus buds. Buds Pro, Nord & now Buds 3....",
+                "highlightedPart": "performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RZN6UWFFRNAH4"
+              },
+              {
+                "text": "Not working i want to replace",
+                "highlightedPart": "Not working",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2IFDMCFM5V5RU"
+              },
+              {
+                "text": "Works well. Auto connectivity can miss 1 out of 10 times but you can press the button on the case to resolve it....",
+                "highlightedPart": "Works well",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R30Y6UHCQ4W6NO"
+              },
+              {
+                "text": "It's not working properly but they don't take return or replace the product It's not suitable for my ear type",
+                "highlightedPart": "not working properly",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1SD6FYV5NM221"
+              }
+            ]
+          },
+          {
+            "name": "Connectivity",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the earbuds' connectivity, with some reporting excellent performance and seamless connection to multiple devices, while others mention issues with pairing to mobile devices and the buds disconnecting.",
+            "customersMentionedCount": {
+              "total": 175,
+              "positive": 113,
+              "negative": 62
+            },
+            "partialReviews": [
+              {
+                "text": "Good sound and connectivity also when you keep one side in case it wont be disconnected from paired device....",
+                "highlightedPart": "connectivity",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R18ETABLF6S1A9"
+              },
+              {
+                "text": "I wasted my money, I am using this from past 8 months, and I have connectivity issue, I gave it for repair and they send me the same buds without...",
+                "highlightedPart": "connectivity issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1D3ARE3PIS68I"
+              },
+              {
+                "text": "...With good connectivity and a reliable battery, these earbuds are a great choice for anyone seeking quality audio on the go.",
+                "highlightedPart": "good connectivity",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1UDQQTCPAQZPX"
+              },
+              {
+                "text": "...but one plus 3 earbuds is different its very comfortable in ear, easy to connect , sound quality is superb !! Go for it without a second thought \u2665\ufe0f",
+                "highlightedPart": "easy to connect",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RYW25V1JJQQRI"
+              }
+            ]
+          },
+          {
+            "name": "Comfort",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the earbuds' comfort, with some finding them extremely comfortable and suitable for travel, while others report pain in their ears after long hours of use, particularly with the right earbud.",
+            "customersMentionedCount": {
+              "total": 171,
+              "positive": 86,
+              "negative": 85
+            },
+            "partialReviews": [
+              {
+                "text": "Its a perfect pair of buds for the price. From build quality to comfort, to tuning, to functions, to call quality.. its a beautiful and hassle free...",
+                "highlightedPart": "comfort",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2RC2ABMM2YNP4"
+              },
+              {
+                "text": "1. Not comfortable, painfull for wearing 2. Noise cancellation very bad even not able to cancel small noise 3. Sound I ok ok 4....",
+                "highlightedPart": "Not comfortable",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3SJ5D30FMV26P"
+              },
+              {
+                "text": "All is very best ,like comfortable, light weight,use long time period without no any problem,but bass lover not buy this product.",
+                "highlightedPart": "comfortable",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2LLE2G3Z2EFFB"
+              },
+              {
+                "text": "Uncomfortable",
+                "highlightedPart": "Uncomfortable",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RI6BMXX0VDMF2"
+              }
+            ]
+          },
+          {
+            "name": "Fit",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the earbuds' fit, with some finding them great and comfortable in the ear, while others report that they are too big for their ears.",
+            "customersMentionedCount": {
+              "total": 151,
+              "positive": 90,
+              "negative": 61
+            },
+            "partialReviews": [
+              {
+                "text": "Ear buds are great. Comfortable fit. Noise cancellation is good. Seemed a bit bulkier than air pods pro but ok, comparing the price difference.",
+                "highlightedPart": "Comfortable fit",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RMAZ72D3ZTSV8"
+              },
+              {
+                "text": "Fitting issue",
+                "highlightedPart": "Fitting issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2PJODTV0CMGZV"
+              },
+              {
+                "text": "...product and I also have a PRO Buds as well but still feels this fits well and awesome ..Only drawback is that Sound is not that high including the...",
+                "highlightedPart": "fits well",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RT68S2ONKLG0S"
+              },
+              {
+                "text": "Not proper fit for ears. Couple of times it slipped from ears and luckily not went under tires....",
+                "highlightedPart": "Not proper fit for ears",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R56N0PJCQ1EHM"
+              }
+            ]
+          },
+          {
+            "name": "Durability",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the durability of these earbuds, with some finding them perfect for extended wear and long battery life, while others report that they don't last long and can't be worn for extended periods.",
+            "customersMentionedCount": {
+              "total": 104,
+              "positive": 59,
+              "negative": 45
+            },
+            "partialReviews": [
+              {
+                "text": "...It's been working fine for so many months. Durable and quick charging, lasts two days with the case. Love the aesthetic design and best fit....",
+                "highlightedPart": "Durable",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R14IM4FCTFX1HO"
+              },
+              {
+                "text": "...Beside this the earphone voice breaks up and produce a ticking sound when increased above 70%....",
+                "highlightedPart": "the earphone voice breaks up",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2TVFLZDL9QUDB"
+              },
+              {
+                "text": "Good Quality product and long life. We are satisfied about this product and Quality",
+                "highlightedPart": "long life",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R256D6JXDOU18O"
+              },
+              {
+                "text": "Dead after 2 days, it's saying replace until 24th, when click it's showing support center num er, and it's not exist,...",
+                "highlightedPart": "Dead after 2 days",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R15KSJYRRSCZNX"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "Rituraj",
+          "userId": "amzn1.account.AHH25PAB5YKECWZ7KGHZFGX4KO3Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHH25PAB5YKECWZ7KGHZFGX4KO3Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Value for the Price.",
+          "reviewDescription": "I got these during the Great Amazon Sale for around 4.5k and I believe it to be worth every penny.This is my second pair of TWS and I am not an experienced tws reviewer or anything. Just the experience of a common user. Below are my detailed thoughts about this TWS.Build 4/5 - Very good build. Sturdy and solid design. The matte finish helps keep any dirt and fingerprint away from the case. Although the buds are not free from fingerprints and dirt.Keep in mind that they are oval shaped and the casing is oval as well. So round eartips might not fit the casing.Comfort 2/5 - Totally subjective. My ears aren't made for oval shaped earbuds. The buds press hard around the crus helix (look it up) and it gets sore if I wear the earbuds constantly for more than 20-30 mins. After a couple of week, the pain is less. I have tried different size eartips to no avail. I am looking for covers for buds that might help.ANC - 4.5/5 - Dont have any issue with this. Enough and perfect for my use case. I use it indoors mostly. Never had any problem with external noise.Features 5/5 - I have a OnePlus phone so I don't even need a third party app like HeyMelody. The functions are baked into the Bluetooth earbud settings. All the necessary settings can be set through Bluetooth settings. For other phones, HeyMelody app offers all the necessary functions.Gestures work almost flawlessly. At time too flawlessly as even mistouches get registered.  Google assistant works great.Battery 5/5 - Just charged once in 10 days. Although I am not an avid user due to the comfort user. But usually will last you long enough without any worries even for heavy users.Call quality 4/5 - Havent had any issues. Havent tested thoroughly though. Might update later.Sound Quality - 9/10 (for the price)The rating has a few caveats. So far I have learnt that having compatible devices make a lot of difference. If you have a device of the same company in this case OnePlus your experience will be much better. These buds sounds better with my phone than with my Ipad while its never the case for other earphones.Coming to the quality of the soundBass - 10/10. If you're a basshead, close your eyes and get these. This is where it shines. Everything is catering to the bass.Mids 7.5/10 - Subdued by the bass. With equalizer you can make it better. Although I didnt have any issue hearing vocals, some instruments can be subdued by the bass. Drums dont sound authentic. For rock and metal songs the instruments sound mushy.Highs 8/10 - Not too bright. Sounds Pleasant. Unlike many earbuds it doesn't have the hiss in the higher frequencies.Clarity - 9/10 - This honestly surprised me. Never expected a TWS in this range to sound this clear.Sound Stage 7.5/10 - Not bad at all. Not as wide as some IEMs at this range but inderstable. Surround sound can improve the staging. But decreases the quality and clarity.Volume -5/5 This is a huge issue with many TWS. They are way too timid. This might depend on the compatible devices though. In my phone its really loud even with 50% volume. My last pair Oppo Enco air 2 were really timid even in full volume.I own 2 more IEMsKZ Zsn Pro (2k) and Simgot EW200 (4k)In terms of bass it is better than both. And I prefer this over the KZ in every category. Thats saying something for a TWS that it is beating out budget IEMs. I have heard it can compete with the like of 7z and Moondrop Chu.Although the Simgot is way ahead in terms of clarity, mids and sound Stage which is understandable. But I prefer the OP buds 3 for pop and hip hop because of that amazing bass.Too long a review. Hope this helps in your decision to purchase these.Buy if -Have OnePlus device.Bass lover/ Pop, hip hop, edm, bollywood listener.Needs best value, features, build.Dont buy if -If oval shaped buds dont fit you.More of a metal head.",
+          "date": "2025-05-13",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 13 May 2025",
+          "reviewId": "RITU59CO8HFWB",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RITU59CO8HFWB/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "44 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Metallic Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Metallic Gray"
+            }
+          ]
+        },
+        {
+          "username": "Satyendra Yadav",
+          "userId": "amzn1.account.AH6EHHCCOLA6FQ33ZGHRJUARPGZQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH6EHHCCOLA6FQ33ZGHRJUARPGZQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Excellent Sound Quality Even After 2 Years of Use",
+          "reviewDescription": "I have been using these OnePlus Buds for over 2 years, and they are still working perfectly. The Bluetooth connectivity is fast and stable, with no connection issues.The noise cancellation works really well, especially in public places, making it much easier to enjoy music or take calls. The bass is deep and powerful, and the overall sound quality is excellent. The call quality and battery life are also very good.Even after two years of regular use, the performance is almost the same as when I first bought them. Overall, this is a great product and definitely worth the money. Highly recommended!",
+          "date": "2026-07-27",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 27 July 2026",
+          "reviewId": "R3BP094JIF3H47",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3BP094JIF3H47/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "4 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Metallic Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Metallic Gray"
+            }
+          ]
+        },
+        {
+          "username": "Raquib",
+          "userId": "amzn1.account.AHASKC4SY3BXZZDLNGG2GIAP57TA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHASKC4SY3BXZZDLNGG2GIAP57TA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "They're good for the price",
+          "reviewDescription": "I've been using it for about more than 1.5 months now and so far they're performing really well. I've used OnePlus Buds before and my previous one lasted for over 2 years. I've been using these for almost 6-8hrs at least daily and they're getting the job done.The battery life is good and if you've a fast charging adapter (more than 50W) then it'll charge the case fast.The mic quality is good for the price, the voice is clear and crisp.The Transperant mode is quite good and the noise cancellation is decent but sometimes in really loud places it may not feel enough but trust me it's good enough for the price you're paying.The bluetooth connectivity is fast just like the previous gen of OnePlus Buds and maybe even better since now they're using Google device/My Device to pair it and not just relaying on Bluetooth only like before.The sound quality is good. Like it's going to feel like you're using something premium when you're using it under the right circumstances and they even let you have all the customisation and Equalizer in the buds settings so you don't even have to download anything else (may not be the case for all devices but for me i don't have to download anything else since it's all there)As for durability, I'm not the one to just throw my buds around or something like that but they do feel sturdy and even if someone really big/fat person stepped on it, it will be fine or if you dropped them from a high level they should be fine. But the case needs to be protected a bit because if you're too rough with it then it'll get scratches but I've been lucky enough to keep it safe and scratch less (thank goodness for that) and they look good. At least better than the Pro varient in my opinion.But the only problem I've with them is the fit might not be perfect. Like they won't fall out of your ear or anything but sometimes it feels like (at least for me) that the right bud is falling out of the eat but it's there so it just freaks you out at times or you maybe just reassuring if it's securely fit there but you can rest assured and if you have second thoughts then just wear them and just up and down and change the tips to fit your size.Overall it's great.",
+          "date": "2024-12-10",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 10 December 2024",
+          "reviewId": "R3KEFXMB9842UC",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3KEFXMB9842UC/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "34 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Metallic Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Metallic Gray"
+            }
+          ]
+        },
+        {
+          "username": "Felce",
+          "userId": "amzn1.account.AEAHBPNKAPGJ4OTQABVCXJBPLS7A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEAHBPNKAPGJ4OTQABVCXJBPLS7A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Excellent",
+          "reviewDescription": "Have been using this for over a year now and haven't had any issues uptill now. Great sound quality in this range. Looks, feels and sounds premium. Go for it.",
+          "date": "2026-09-14",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 14 September 2026",
+          "reviewId": "R36LJEAY2CMRIR",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R36LJEAY2CMRIR/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Splendid Blue",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Splendid Blue"
+            }
+          ]
+        },
+        {
+          "username": "Lucifer",
+          "userId": "amzn1.account.AEYQUKGBNSDSMXABF63ZZXPLKF5A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEYQUKGBNSDSMXABF63ZZXPLKF5A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "OnePlus Buds 3: Impressive Sound, Long Battery Life, and Stylish DesignOnePlus Buds 3: Impressive Sound, Long Battery Life, and Stylish Design",
+          "reviewDescription": "I bought the OnePlus Buds 3 in May 2024, and I\u2019ve been really impressed with them. Here\u2019s my breakdown:Functionality: The Smart Adaptive Noise Cancellation is a standout feature. It adjusts based on your surroundings, so whether I\u2019m in a busy caf\u00e9 or at home, it keeps the audio clear and immersive. The sliding volume control is intuitive and super convenient\u2014I don\u2019t need to pull out my phone to adjust the sound, making it perfect when I\u2019m on the move.Durability: The buds feel solid and well-built, with a comfortable fit that stays secure in my ears. I\u2019ve used them during workouts and runs, and they\u2019ve held up well, no issues with them falling out or feeling uncomfortable. The case is compact and sturdy, so I don\u2019t worry about it getting scratched or damaged.Latency: There\u2019s virtually no noticeable lag when gaming or watching videos, which is a huge plus for a pair of TWS earbuds. Audio and video sync up perfectly, so I can enjoy media without any annoying delays.Color: The Splendid Blue color is gorgeous! It\u2019s sleek and unique without being too flashy, and I\u2019ve gotten plenty of compliments on them. The finish on the case and the buds themselves feels premium and adds to the overall aesthetic.Battery Life: The fast charging is amazing\u2014just 10 minutes gives me 7 hours of playtime, which is super convenient when I\u2019m in a rush. With up to 44 hours of playback in total (with the case), I rarely find myself needing to charge them, even with daily use.Music Quality: The Hi-Res sound quality is crystal clear, with great bass and balanced mids and highs. Whether I\u2019m listening to music, podcasts, or watching videos, the sound is immersive and detailed, making everything from gaming to listening to my favorite tunes a joy.Overall, the OnePlus Buds 3 offer a great balance of functionality, sound quality, and design. The battery life and noise cancellation alone make them worth it, and the fast charging is a huge bonus. Highly recommend for anyone looking for a reliable, stylish pair of earbuds!",
+          "date": "2025-09-21",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 21 September 2025Reviewed in India on 21 September 2025",
+          "reviewId": "RBW883P1A11KE",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RBW883P1A11KE/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/61QUOUDB+FL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71Nur8aQEML._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71hnsbAVprL._SY500_.jpg"
+          ],
+          "reviewReaction": "3 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Splendid Blue, Colour: Splendid Blue",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Splendid Blue"
+            },
+            {
+              "key": "Colour",
+              "value": "Splendid Blue"
+            }
+          ]
+        },
+        {
+          "username": "Kimberly Zeeshan Patel",
+          "userId": "amzn1.account.AHYCVX4XS3NMIF6XPXUK4TMIALEA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHYCVX4XS3NMIF6XPXUK4TMIALEA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Noise cancelling and good sound effectsNoise cancelling and good sound effects",
+          "reviewDescription": "Purchased this earbuds as a gift for my husband. Loved the sound effects and the noise cancelling effect. Even if you use the earbuds for calling purpose, the voice is very clear. Fast charging and overall it\u2019s a good product.",
+          "date": "2026-08-05",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 5 August 2026Reviewed in India on 5 August 2026",
+          "reviewId": "R2CPQ0DAXQINDA",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2CPQ0DAXQINDA/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/71bwW79A8qL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71MqBO4G+PL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/81RdBHLJwlL._SY500_.jpg"
+          ],
+          "reviewReaction": "One person found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Green, Colour: Green",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Green"
+            },
+            {
+              "key": "Colour",
+              "value": "Green"
+            }
+          ]
+        },
+        {
+          "username": "mehul pande",
+          "userId": "amzn1.account.AH7O3BMWO5QVTIUMSBTB3QRWQY5A",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH7O3BMWO5QVTIUMSBTB3QRWQY5A?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Great Value for the Price, but Noise Cancellation Could Be Better.",
+          "reviewDescription": "I purchased the OnePlus 3 In-Ear TWS Bluetooth Earbuds in July 2024, and after 6-7 months of daily use (2-3 hours per day), here\u2019s my honest review. My primary usage includes office meetings and YouTube streaming.\u2705 Pros:\u2714 Sleek & Lightweight Design \u2013 Comfortable for extended wear.\u2714 Durable Build \u2013 Have dropped them multiple times, and they still work fine.\u2714 Fast & Reliable Connectivity \u2013 Pairs quickly with two devices.\u2714 Quick Charging \u2013Charging case can be plugged in while using the buds.Buds start charging automatically when placed in the case.10-minute charge = ~80% battery, which lasts about an hour.\u2714 Long Battery Life \u2013 On a full charge, lasts 3+ hours of continuous use.\u2714 Customizable Controls \u2013 Touch gestures for volume, play, pause, and skipping tracks, configurable via the app.\u2714 Good Sound Quality \u2013 Clear and balanced audio for the price range.\u274c Cons:\ud83d\udd39 Picks Up Surrounding Noise \u2013 The mic amplifies background sounds, making it difficult for others to hear me on calls, especially in a shared workspace.\ud83d\udd39 Noise Cancellation is One-Way \u2013 Helps reduce noise when listening but does not cut out background noise while speaking. Not sure if any settings can fix this.\ud83d\udd0b Long-Term Battery Performance \u2013 TBDSo far, battery life is solid, but I\u2019ll update if I notice any degradation over time.\ud83d\udca1 Final Verdict:\u2705 Great value for money with impressive battery life and sound quality.\u274c Not ideal for noisy environments due to the mic picking up background sounds.If you can overlook the mic issue, this is a solid buy at its price point!",
+          "date": "2025-02-28",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 28 February 2025",
+          "reviewId": "RXQ3NS6IU57RG",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RXQ3NS6IU57RG/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Metallic Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Metallic Gray"
+            }
+          ]
+        },
+        {
+          "username": "Anamika Maurya",
+          "userId": "amzn1.account.AEC53EHX42QV5Q2XVTO6ST5ND6BQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEC53EHX42QV5Q2XVTO6ST5ND6BQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Best quality budget buds",
+          "reviewDescription": "Have been using this since Feb 2024, 2.5 years almost. The response from the start has been great. Battery life is brilliant. Case\u2019s battery lasts atleast 2-3 weeks for me. Call quality is decent. Music is crisp and bass is also nice at this price range. Comfortable for travel.",
+          "date": "2026-08-13",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 13 August 2026",
+          "reviewId": "R3LEIZAI8A3G87",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R3LEIZAI8A3G87/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "3 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: Metallic Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "Metallic Gray"
+            }
+          ]
+        }
+      ],
+      "productPageReviewsFromOtherCountries": [
+        {
+          "username": "JustAl",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Great sound for the price",
+          "reviewDescription": "I bought these because I quickly needed a pair of earbuds and I didn\u2019t wanna break the bank and the reviews were really good. They do not disappoint. The sound quality is very interesting for this price range. My only problem with them is the noise cancelling could be better. But if you are looking for an affordable earbud with good quality, so this one is for you.",
+          "date": "2025-10-07",
+          "position": 1,
+          "reviewedIn": "Reviewed in Canada on 7 October 2025",
+          "reviewId": "R12Y1QPDS75HZP",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: OnePlus Buds 3 \u2013 Blue",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "OnePlus Buds 3 \u2013 Blue"
+            }
+          ]
+        },
+        {
+          "username": "Ehsan u.",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Very Good",
+          "reviewDescription": "Great mic quality and sound quality.",
+          "date": "2025-10-11",
+          "position": 2,
+          "reviewedIn": "Reviewed in Saudi Arabia on 11 October 2025",
+          "reviewId": "R1D7KEGGZ4R8T2",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: OnePlus Buds 3 \u2013 Blue",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "OnePlus Buds 3 \u2013 Blue"
+            }
+          ]
+        },
+        {
+          "username": "richard dobson",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "great sound",
+          "reviewDescription": "Very good ear buds. Went on Youtube and found a reviewer who recommended them for bass lovers and they didnt disappoint. Great sound. Use them for running and they never feel like coming loose. Sit well in your ears.",
+          "date": "2025-11-17",
+          "position": 3,
+          "reviewedIn": "Reviewed in Australia on 17 November 2025",
+          "reviewId": "R1OEOTKY3XJPHC",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: OnePlus Buds 3 \u2013 Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "OnePlus Buds 3 \u2013 Gray"
+            }
+          ]
+        },
+        {
+          "username": "Gaelle",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Produit conforme - belle couleur",
+          "reviewDescription": "Produit conforme \u00e0 la marque - jolie couleur - appairrage automatique et rapide avec tous mes appareils : t\u00e9l\u00e9phone et PC.",
+          "date": "2025-07-29",
+          "position": 4,
+          "reviewedIn": "Reviewed in Belgium on 29 July 2025",
+          "reviewId": "R2HJ1ERG3C5QHJ",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: OnePlus Buds 3 \u2013 Blue",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "OnePlus Buds 3 \u2013 Blue"
+            }
+          ]
+        },
+        {
+          "username": "Alejandro Vargas",
+          "userId": null,
+          "userProfileLink": null,
+          "ratingScore": 5,
+          "reviewTitle": "Solid buds at a solid price",
+          "reviewDescription": "The case feels nice and premium. The buds themselves feel fine, would've preferred a matte finish on them. Sound quality is excellent especially with the Golden Sound feature. ANC and ambient sound are okay, not on par with more premium options but you get what you pay for. Touch controls are a bit finicky. Battery life is fine, lasts me about 6 hrs on average. Overall, very satisfied. More premium tws buds felt like a waste of money after owning this pair.",
+          "date": "2024-08-03",
+          "position": 5,
+          "reviewedIn": "Reviewed in the United Arab Emirates on 3 August 2024",
+          "reviewId": "R2JB44ACS69XWY",
+          "reviewUrl": null,
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "Colour: OnePlus Buds 3 \u2013 Gray",
+          "variantAttributes": [
+            {
+              "key": "Colour",
+              "value": "OnePlus Buds 3 \u2013 Gray"
+            }
+          ]
+        }
+      ]
+    },
+    "inputUrl": "https://www.amazon.in/dp/B0CRH561RC"
+  }
+]

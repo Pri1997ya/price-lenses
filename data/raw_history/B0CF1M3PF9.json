@@ -1,0 +1,93 @@
+{
+  "price_overview": {
+    "current_price": 199,
+    "all_time_low": 189,
+    "all_time_high": 209,
+    "avg_30_days": 199.48,
+    "overall_average": 198.55,
+    "low_6_months": 199,
+    "trend_percentage": 0
+  },
+  "deal_evaluation": {
+    "score": 71,
+    "verdict": "Good deal"
+  },
+  "competitor_pricing": {
+    "Amazon": {
+      "price": 199,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0CF1M3PF9"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2026-09-04",
+      "price": 199
+    },
+    {
+      "date": "2026-09-05",
+      "price": 199
+    },
+    {
+      "date": "2026-09-08",
+      "price": 199
+    },
+    {
+      "date": "2026-09-09",
+      "price": 199
+    },
+    {
+      "date": "2026-09-11",
+      "price": 199
+    },
+    {
+      "date": "2026-09-12",
+      "price": 199
+    },
+    {
+      "date": "2026-09-13",
+      "price": 199
+    },
+    {
+      "date": "2026-09-14",
+      "price": 199
+    },
+    {
+      "date": "2026-09-16",
+      "price": 199
+    },
+    {
+      "date": "2026-09-17",
+      "price": 199
+    },
+    {
+      "date": "2026-09-18",
+      "price": 199
+    },
+    {
+      "date": "2026-09-19",
+      "price": 199
+    },
+    {
+      "date": "2026-09-21",
+      "price": 199
+    },
+    {
+      "date": "2026-09-22",
+      "price": 199
+    },
+    {
+      "date": "2026-09-23",
+      "price": 199
+    },
+    {
+      "date": "2026-09-24",
+      "price": 199
+    },
+    {
+      "date": "2026-09-26",
+      "price": 199
+    }
+  ],
+  "historical_data_points": 17
+}
