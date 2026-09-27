@@ -156,6 +156,20 @@ Pages that block scripts (common on Amazon and Flipkart) are reported as
 `data/policies/README.md`. The index is rebuilt in a staging collection and
 swapped in only when complete.
 
+How search works: every question runs both a meaning search (MiniLM embeddings)
+and a keyword search (BM25) over the stored passages, and the two rankings are
+merged. Meaning-only matches must clear `POLICY_MIN_RELEVANCE`; passages that
+contain the question's key words are kept even below it, so exact terms such as
+"restocking fee" or "7 days" are not lost. Passages about the product being
+bought (phone, laptop, earbuds, ...) are ranked first.
+
+To check search quality and tune the cut-off on your own index:
+
+```bash
+python scripts/policies/eval_policy_questions.py              # built-in question set
+python scripts/policies/eval_policy_questions.py --questions my_questions.json
+```
+
 How it stays grounded:
 
 - The LLM may answer only from retrieved passages and must cite them as `[n]`.
@@ -166,6 +180,8 @@ How it stays grounded:
   indexed policies.
 - Restrictive terms ("replacement only", "non-returnable", seal or inspection
   requirements) are flagged by a fixed pattern scan of the passages, not by the LLM.
+  Clauses written for a different product type (for example a laptop "brand
+  seal" rule when the product is a phone) are not flagged.
 
 Seller and stock rules (no LLM): stock is classified as `IN_STOCK`, `LOW_STOCK`,
 `OUT_OF_STOCK`, `PREORDER` or `UNKNOWN`. Seller trust is `TRUSTED` (the retailer's

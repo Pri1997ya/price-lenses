@@ -149,6 +149,7 @@ class PolicyHit:
     source_url: str
     retrieved_at: str
     heading: str = ""
+    matched_by: tuple[str, ...] = ()  # "semantic" and/or "keyword"
 
 
 @dataclass
@@ -246,6 +247,18 @@ class PolicyIndex:
             "newest_retrieval": max(dates.values()) if dates else None,
         }
 
+    # -- keyword index --------------------------------------------------------
+    def _keyword_index(self, collection) -> "KeywordIndex":
+        """BM25 over every stored passage, rebuilt only when the index changes."""
+        key = (getattr(collection, "id", None), collection.count())
+        if getattr(self, "_keyword_cache_key", None) != key:
+            rows = collection.get(include=["documents", "metadatas"])
+            self._keyword_index_cache = KeywordIndex(
+                rows["ids"], rows["documents"], rows["metadatas"]
+            )
+            self._keyword_cache_key = key
+        return self._keyword_index_cache
+
     def search(
         self,
         question: str,
@@ -255,10 +268,17 @@ class PolicyIndex:
         include_regulations: bool = True,
         min_relevance: float | None = None,
         boost_terms: tuple[str, ...] = (),
+        hybrid: bool | None = None,
     ) -> list[PolicyHit]:
-        """Vector search. ``boost_terms`` (e.g. product-category words) re-rank
-        passages that mention them above generic ones; relevance filtering still
-        uses the unboosted similarity."""
+        """Hybrid search: MiniLM (meaning) + BM25 (exact words), merged by rank.
+
+        * Meaning-only matches must clear the relevance cut-off.
+        * Passages that also contain the question's key words are kept even
+          below the cut-off, so exact terms ("restocking fee", "7 days") are
+          not lost when the embedding similarity is modest.
+        * ``boost_terms`` (product-category words) lift passages about the
+          product being bought above generic ones.
+        """
         question = (question or "").strip()
         if not question:
             raise ValueError("question must not be empty")
@@ -268,47 +288,161 @@ class PolicyIndex:
             threshold = float(os.environ["POLICY_MIN_RELEVANCE"])
         else:
             threshold = getattr(self.embedder, "default_min_relevance", DEFAULT_MIN_RELEVANCE)
+        if hybrid is None:
+            hybrid = os.getenv("POLICY_HYBRID_SEARCH", "true").strip().lower() not in {"0", "false", "no"}
         collection = self._collection()
-        where = None
-        if retailers:
-            allowed = sorted(set(retailers) | ({REGULATION} if include_regulations else set()))
-            where = {"retailer": {"$in": allowed}}
         total = collection.count()
         if total == 0:
             return []
+        allowed = None
+        where = None
+        if retailers:
+            allowed = set(retailers) | ({REGULATION} if include_regulations else set())
+            where = {"retailer": {"$in": sorted(allowed)}}
+
+        query_vector = self.embedder.embed([question])[0]
+        pool = min(max(k * 4, 20), total)
         result = collection.query(
-            query_embeddings=self.embedder.embed([question]),
-            n_results=min(k * 2 if boost_terms else k, total),
+            query_embeddings=[query_vector],
+            n_results=pool,
             where=where,
             include=["documents", "metadatas", "distances"],
         )
+        passages: dict[str, dict] = {}
+        semantic_rank: dict[str, int] = {}
+        for rank, (chunk_id, text, metadata, distance) in enumerate(zip(
+            result["ids"][0], result["documents"][0],
+            result["metadatas"][0], result["distances"][0],
+        )):
+            passages[chunk_id] = {"text": text, "metadata": metadata,
+                                  "relevance": 1.0 - float(distance)}
+            semantic_rank[chunk_id] = rank
+
+        keyword_rank: dict[str, int] = {}
+        if hybrid:
+            ranked = self._keyword_index(collection).search(question, allowed, limit=pool)
+            keyword_rank = {chunk_id: rank for rank, (chunk_id, _score) in enumerate(ranked)}
+            missing = [chunk_id for chunk_id in keyword_rank if chunk_id not in passages]
+            if missing:
+                extra = collection.get(ids=missing, include=["documents", "metadatas", "embeddings"])
+                for chunk_id, text, metadata, vector in zip(
+                    extra["ids"], extra["documents"], extra["metadatas"], extra["embeddings"]
+                ):
+                    passages[chunk_id] = {"text": text, "metadata": metadata,
+                                          "relevance": _cosine(query_vector, vector)}
+
         candidates = []
-        for text, metadata, distance in zip(
-            result["documents"][0], result["metadatas"][0], result["distances"][0]
-        ):
-            relevance = 1.0 - float(distance)  # cosine distance -> similarity
-            if relevance < threshold:
+        for chunk_id, item in passages.items():
+            in_keyword = chunk_id in keyword_rank
+            if item["relevance"] < threshold and not in_keyword:
                 continue
-            lowered = text.lower()
-            boost = 0.15 if any(term in lowered for term in boost_terms) else 0.0
-            candidates.append((relevance + boost, relevance, text, metadata))
-        candidates.sort(key=lambda item: item[0], reverse=True)
+            score = 0.0
+            if chunk_id in semantic_rank:
+                score += 1.0 / (60 + semantic_rank[chunk_id])
+            if in_keyword:
+                score += 1.0 / (60 + keyword_rank[chunk_id])
+            lowered = item["text"].lower()
+            if any(term in lowered for term in boost_terms):
+                score += 1.0 / 60  # worth one top-ranked vote
+            sources = tuple(
+                name for name, ranks in (("semantic", semantic_rank), ("keyword", keyword_rank))
+                if chunk_id in ranks and (name == "keyword" or item["relevance"] >= threshold)
+            )
+            candidates.append((score, chunk_id, item, sources))
+        candidates.sort(key=lambda entry: entry[0], reverse=True)
+
         hits: list[PolicyHit] = []
-        for _score, relevance, text, metadata in candidates[:k]:
+        for _score, _chunk_id, item, sources in candidates[:k]:
+            metadata = item["metadata"]
             hits.append(
                 PolicyHit(
                     number=len(hits) + 1,
-                    text=text,
-                    relevance=round(relevance, 4),
+                    text=item["text"],
+                    relevance=round(item["relevance"], 4),
                     retailer=metadata["retailer"],
                     doc_type=metadata["doc_type"],
                     source_id=metadata["source_id"],
                     source_url=metadata["source_url"],
                     retrieved_at=metadata["retrieved_at"],
                     heading=metadata.get("heading", ""),
+                    matched_by=sources,
                 )
             )
         return hits
+
+
+def _cosine(left, right) -> float:
+    dot = sum(a * b for a, b in zip(left, right))
+    norm = math.sqrt(sum(a * a for a in left)) * math.sqrt(sum(b * b for b in right))
+    return dot / norm if norm else 0.0
+
+
+_KEYWORD_STOPWORDS = frozenset(
+    "a an and any are as at be been but by can could do does for from get got has have "
+    "how i if in into is it its me my of on or our so than that the their them then "
+    "there this to was we were what when where which who will with would you your "
+    "policy policies rule rules".split()
+)
+
+
+def keyword_tokens(text: str) -> list[str]:
+    tokens = []
+    for token in re.findall(r"[a-z0-9]+", (text or "").lower()):
+        if token in _KEYWORD_STOPWORDS:
+            continue
+        if len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
+            token = token[:-1]  # phones -> phone, days -> day
+        tokens.append(token)
+    return tokens
+
+
+class KeywordIndex:
+    """Small in-memory BM25 index over the stored policy passages."""
+
+    def __init__(self, ids, documents, metadatas, k1: float = 1.5, b: float = 0.75):
+        self.ids = list(ids)
+        self.metadatas = list(metadatas)
+        self.docs = [keyword_tokens(text) for text in documents]
+        self.k1, self.b = k1, b
+        self.avg_len = (sum(len(doc) for doc in self.docs) / len(self.docs)) if self.docs else 0.0
+        self.doc_freq: dict[str, int] = {}
+        for doc in self.docs:
+            for token in set(doc):
+                self.doc_freq[token] = self.doc_freq.get(token, 0) + 1
+        self.term_freqs = []
+        for doc in self.docs:
+            counts: dict[str, int] = {}
+            for token in doc:
+                counts[token] = counts.get(token, 0) + 1
+            self.term_freqs.append(counts)
+
+    def search(self, question: str, allowed_retailers=None, limit: int = 20):
+        terms = list(dict.fromkeys(keyword_tokens(question)))
+        if not terms or not self.docs:
+            return []
+        total = len(self.docs)
+        # A passage must match at least two query terms (or the only one) so
+        # that a single common word like "return" does not pull in everything.
+        needed = 1 if len(terms) == 1 else 2
+        scored = []
+        for index, counts in enumerate(self.term_freqs):
+            if allowed_retailers and self.metadatas[index].get("retailer") not in allowed_retailers:
+                continue
+            matched = [term for term in terms if term in counts]
+            if len(matched) < needed:
+                continue
+            length = len(self.docs[index]) or 1
+            score = 0.0
+            for term in matched:
+                df = self.doc_freq[term]
+                idf = math.log(1 + (total - df + 0.5) / (df + 0.5))
+                tf = counts[term]
+                score += idf * tf * (self.k1 + 1) / (
+                    tf + self.k1 * (1 - self.b + self.b * length / self.avg_len)
+                )
+            scored.append((self.ids[index], score))
+        scored.sort(key=lambda item: item[1], reverse=True)
+        return scored[:limit]
 
 
 # ---------------------------------------------------------------- answers ----
@@ -319,6 +453,22 @@ RESTRICTION_PATTERNS = {
     "inspection / verification required": r"technician\s+visit|inspection|verification\s+by\s+(?:the\s+)?(?:brand|technician)",
     "seal / packaging must be intact": r"seal(?:ed)?\s+(?:must|should)|(?:original|intact)\s+packaging|brand\s+seal",
 }
+
+
+def _mentions(text: str, terms: tuple[str, ...]) -> bool:
+    return any(re.search(rf"\b{re.escape(term.strip())}", text) for term in terms if term.strip())
+
+
+def about_other_product(hit: PolicyHit, own_terms: tuple[str, ...], other_terms: tuple[str, ...]) -> bool:
+    """True when a passage is about another product type and not this one.
+
+    Looks at the section heading and the start of the passage, where retailer
+    pages name the category a rule applies to ("Laptops: ...").
+    """
+    if not other_terms:
+        return False
+    scope = f"{hit.heading} {hit.text[:300]}".lower()
+    return _mentions(scope, other_terms) and not _mentions(scope, own_terms)
 
 
 def detect_restrictions(hits: list[PolicyHit]) -> list[dict]:
@@ -436,7 +586,10 @@ class PolicyAdvisor:
         k: int = 5,
         include_regulations: bool = True,
         boost_terms: tuple[str, ...] = (),
+        exclude_terms: tuple[str, ...] = (),
     ) -> PolicyAnswer:
+        """``boost_terms`` describe the product being bought; ``exclude_terms``
+        describe other product types, whose clauses are not flagged."""
         hits = self.index.search(
             question, retailers, k=k, include_regulations=include_regulations, boost_terms=boost_terms
         )
@@ -448,12 +601,12 @@ class PolicyAdvisor:
                 "The answer is not stated in the current corpus.",
                 "no_match",
             )
-        # Only flag restrictions from passages about this product type when known,
-        # so a laptop-only rule is not reported for a phone.
-        restriction_hits = (
-            [hit for hit in hits if any(term in hit.text.lower() for term in boost_terms)]
-            if boost_terms else hits
-        )
+        # Do not flag clauses written for a different product type (a laptop
+        # "brand seal" rule is not a restriction on a phone). Generic clauses
+        # that name no product type are still flagged.
+        restriction_hits = [
+            hit for hit in hits if not about_other_product(hit, boost_terms, exclude_terms)
+        ]
         restrictions = detect_restrictions(restriction_hits)
         llm = self._get_llm()
         if llm is None:

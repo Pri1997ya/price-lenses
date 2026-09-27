@@ -49,6 +49,18 @@ USER_AGENT = (
 )
 
 
+def missing_packages() -> list[str]:
+    """Packages the fetcher needs; checked once up front instead of failing per source."""
+    import importlib.util
+
+    needed = {"bs4": "beautifulsoup4", "pypdf": "pypdf"}
+    return [package for module, package in needed.items() if importlib.util.find_spec(module) is None]
+
+
+def is_pdf_source(source: PolicySource) -> bool:
+    return source.format == "pdf" or source.url.lower().split("?")[0].endswith(".pdf")
+
+
 def fetch_text(source: PolicySource, timeout: int = 30) -> tuple[str, str | None]:
     response = requests.get(
         source.url,
@@ -100,6 +112,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--timeout", type=int, default=30)
     args = parser.parse_args(argv)
 
+    missing = missing_packages()
+    if missing and not args.dry_run:
+        print(
+            "Missing Python packages: " + ", ".join(missing)
+            + ". Run: pip install -r requirements.txt (in the same environment)."
+        )
+        return 2
+
     sources = [source for source in load_sources(args.sources) if source.ingest]
     if args.only:
         wanted = set(args.only)
@@ -116,15 +136,42 @@ def main(argv: list[str] | None = None) -> int:
             continue
         try:
             body, title = fetch_text(source, args.timeout)
+        except requests.HTTPError as exc:  # network errors must not stop the batch
+            failures += 1
+            status = exc.response.status_code if exc.response is not None else None
+            if status in {401, 403, 429}:
+                print(
+                    f"[blocked] {source.id}: the site refused scripted access (HTTP {status}). "
+                    f"Save it by hand to {target} (see data/policies/README.md)."
+                )
+            elif status in {404, 410}:
+                print(
+                    f"[gone   ] {source.id}: the page no longer exists (HTTP {status}). "
+                    "Find the new URL or set \"ingest\": false in sources.json."
+                )
+            else:
+                print(f"[failed ] {source.id}: {exc}")
+            continue
         except Exception as exc:  # network errors must not stop the batch
             failures += 1
             print(f"[failed ] {source.id}: {exc}")
             continue
         if len(body) < MIN_USEFUL_CHARS:
             failures += 1
+            if is_pdf_source(source) and not body.strip():
+                reason = (
+                    "the PDF has no text layer (it is probably a scanned image). "
+                    "Copy the text from a text-based copy of the document"
+                )
+            elif is_pdf_source(source):
+                reason = f"the PDF contains only {len(body)} characters of text"
+            else:
+                reason = (
+                    f"only {len(body)} characters of text; the page is probably blocked "
+                    "or rendered by JavaScript"
+                )
             print(
-                f"[too short] {source.id}: only {len(body)} characters of text. The page is "
-                f"probably blocked or rendered by JavaScript. Save it by hand to {target} "
+                f"[too short] {source.id}: {reason}. Save it by hand to {target} "
                 "with the same front-matter header (see data/policies/README.md)."
             )
             continue

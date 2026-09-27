@@ -18,17 +18,26 @@ from typing import Callable
 from .policy_corpus import RETAILER_LABELS
 from .seller_check import OfferAssessment, check_sellers
 
+# Order matters: the first match wins. Accessories and audio/wearables come
+# before phones because their titles often name a phone brand or model
+# ("OnePlus Buds 4", "Tempered Glass for iPhone 15", "Cable for Smartphones").
 CATEGORY_PATTERNS = [
-    ("mobile phones", r"iphone|galaxy\s+[sazm]\d|smartphone|\bphone\b|pixel\s*\d|oneplus|redmi|\b5g\b"),
+    ("accessories", r"tempered\s+glass|screen\s+(?:guard|protector)|flip\s+cover|back\s+cover"
+                    r"|\bcase\b(?!\s+fr)|charger|adapt[eo]r|\bcable\b|power\s*bank"),
+    ("smartwatches", r"smart\s*watch|\bwatch\b|fitness\s+band"),
+    ("headphones and earbuds", r"earbud|earphone|headphone|airpods|\bbuds\b|neckband|airdopes"
+                               r"|bassheads|rockerz|bullets\s+wireless|\btws\b|nirvana"),
+    ("tablets", r"ipad|tablet|\bpad\s*\d|galaxy\s+tab|\btab\s+[as]\d"),
     ("laptops", r"laptop|macbook|notebook|vivobook|zenbook|thinkpad|ideapad|inspiron|pavilion"),
-    ("tablets", r"ipad|tablet|galaxy\s+tab|\btab\s+[as]\d"),
-    ("headphones and earbuds", r"earbuds|headphone|airpods|\bbuds\b|earphone|neckband"),
     ("speakers", r"speaker|soundbar"),
-    ("gaming consoles", r"playstation|\bps5\b|xbox|nintendo|switch\s*2?"),
-    ("televisions", r"\btv\b|television|oled|qled"),
-    ("smartwatches", r"watch|band\s*\d"),
+    ("gaming consoles", r"playstation|\bps5\b|xbox|nintendo"),
+    ("televisions", r"\btv\b|television|\boled\b|\bqled\b"),
+    ("mobile phones", r"iphone|smartphone|\bphone\b|\bmobile\b|galaxy\s+[sazmf]\d|pixel\s*\d"
+                      r"|oneplus|\bnord\b|redmi|motorola|\bmoto\b|iqoo|vivo|oppo|realme|xiaomi"
+                      r"|\bpoco\b|\b5g\b|\d+\s*gb\s*(?:ram|[/+])"),
 ]
 CATEGORY_TERMS = {
+    "accessories": ("accessor", "charger", "cable", "adapter", "cover", "screen guard", "tempered"),
     "mobile phones": ("mobile", "phone", "smartphone"),
     "laptops": ("laptop", "notebook", "computer"),
     "tablets": ("tablet",),
@@ -41,10 +50,23 @@ CATEGORY_TERMS = {
 MAX_POLICY_RETAILERS = 3
 
 
+def category_terms(category: str) -> tuple[tuple[str, ...], tuple[str, ...]]:
+    """(words for this product type, words for every other product type)."""
+    own = CATEGORY_TERMS.get(category, ())
+    other = tuple(
+        term for name, terms in CATEGORY_TERMS.items() if name != category
+        for term in terms if term not in own
+    )
+    return own, (other if own else ())
+
+
 def infer_category(title: str | None) -> str:
     text = (title or "").lower()
+    # The product name comes before the first "|", "," or "(": accessory words
+    # after it are features ("... | Without Charger", "..., 120cm Cable").
+    head = re.split(r"[|,(]", text, maxsplit=1)[0]
     for category, pattern in CATEGORY_PATTERNS:
-        if re.search(pattern, text):
+        if re.search(pattern, head if category == "accessories" else text):
             return category
     return "electronics"
 
@@ -141,6 +163,7 @@ def run_eligibility_analysis(
         )
 
     # 2. Policy RAG for the retailers the buyer would actually use.
+    own_terms, other_terms = category_terms(category)
     policies: dict[str, dict] = {}
     user_answer = None
     restrictions: list[dict] = []
@@ -156,7 +179,8 @@ def run_eligibility_analysis(
             )
             answer = advisor.answer(
                 question, [retailer] if retailer else None,
-                boost_terms=CATEGORY_TERMS.get(category, ()),
+                boost_terms=own_terms,
+                exclude_terms=other_terms,
             )
             policies[retailer or "general"] = answer.to_dict()
             restrictions.extend(answer.restrictions)
@@ -165,7 +189,10 @@ def run_eligibility_analysis(
                 + (f", note: {answer.note}" if answer.note else "")
             )
         if policy_question and policy_question.strip():
-            user_answer = advisor.answer(policy_question.strip(), retailers or None).to_dict()
+            user_answer = advisor.answer(
+                policy_question.strip(), retailers or None,
+                boost_terms=own_terms, exclude_terms=other_terms,
+            ).to_dict()
             trace.append(f"Answered user policy question (mode={user_answer['mode']})")
     except Exception as exc:
         errors.append(f"Policy RAG unavailable: {exc}")

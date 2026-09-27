@@ -583,7 +583,7 @@ def policy_advisor():
 
 
 def render_policy_tab() -> None:
-    from tools.policy_corpus import RETAILER_LABELS, retailer_for_marketplace
+    from tools.policy_corpus import RETAILER_LABELS
     from tools.policy_rag import PolicyIndexError
     from tools.seller_check import check_sellers
 
@@ -636,8 +636,14 @@ def render_policy_tab() -> None:
             st.session_state["policy_question"] = question.strip()
             with st.spinner("Searching policies..."):
                 try:
+                    from tools.eligibility_agent import category_terms, infer_category
+
+                    # "Can I return an opened phone?" -> phone rules; clauses
+                    # written for other product types are not flagged.
+                    own_terms, other_terms = category_terms(infer_category(question))
                     answer = advisor.answer(
-                        question.strip(), selected or None, include_regulations=include_rules
+                        question.strip(), selected or None, include_regulations=include_rules,
+                        boost_terms=own_terms, exclude_terms=other_terms,
                     )
                     st.session_state["policy_answer"] = answer.to_dict()
                 except Exception as exc:
