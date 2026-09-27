@@ -1,7 +1,7 @@
 """PriceLens Streamlit application with history and live-market workspaces."""
 from __future__ import annotations
 
-from dataclasses import asdict, replace
+from dataclasses import replace
 
 import pandas as pd
 import plotly.express as px
@@ -10,9 +10,11 @@ import streamlit as st
 from orchestrator import graph
 from tools import eligibility_ui, market_ui
 from tools.analytics import get_db_connection
+from tools.market_agent import MarketInvestigatorAgent
+from tools.market_agent_models import FreshnessPolicy, MarketAgentRequest
 from tools.market_config import ConfigurationError, MarketSettings
 from tools.market_db import MarketDatabase, MarketSchemaError
-from tools.market_service import MarketInvestigatorService, build_providers
+from tools.market_service import build_providers
 
 
 st.set_page_config(page_title="PriceLens Advisor", page_icon="🔍", layout="wide")
@@ -199,8 +201,22 @@ def fetch_market_results(query: str, settings: MarketSettings) -> tuple[list[dic
 
 
 def render_market_results(
-    query: str, offer_rows: list[dict], promotion_rows: list[dict]
+    query: str,
+    offer_rows: list[dict],
+    promotion_rows: list[dict],
+    report: dict | None = None,
 ) -> None:
+    if report and report.get("unresolved_variant_fields"):
+        st.info(
+            "Run the search again with a specific storage/colour or paste a product URL. "
+            "Raw provider matches are hidden to prevent accessory or cross-variant comparisons."
+        )
+        return
+    if report and report.get("evidence"):
+        evidence_ids = {
+            item.get("offer_id") for item in report["evidence"] if item.get("offer_id")
+        }
+        offer_rows = [row for row in offer_rows if row.get("offer_id") in evidence_ids]
     rows = market_ui.enrich_rows(offer_rows)
     st.subheader(f"Results for “{query}”")
     if not rows:
@@ -322,6 +338,115 @@ def render_market_results(
         st.bar_chart(chart.set_index("Seller"))
 
 
+def render_market_agent_report(report: dict) -> None:
+    st.markdown("**Agent 2 market report**")
+    coverage = report.get("coverage") or {}
+    freshness = report.get("freshness") or {}
+    requested_match = report.get("requested_match") or {}
+    best = (
+        requested_match.get("best_unconditional_offer")
+        or report.get("best_unconditional_offer")
+    )
+    conditional = (
+        requested_match.get("best_conditional_offer")
+        or report.get("best_conditional_offer")
+    )
+    columns = st.columns(4)
+    columns[0].metric(
+        "Requested variant" if requested_match else "Starting price",
+        market_ui.format_money(
+            best.get("price") if best else None,
+            best.get("currency") if best else "INR",
+        ),
+    )
+    columns[1].metric(
+        "Potential conditional",
+        market_ui.format_money(
+            conditional.get("price") if conditional else None,
+            conditional.get("currency") if conditional else "INR",
+        ),
+    )
+    columns[2].metric(
+        "Retailer coverage",
+        f"{len(coverage.get('verified_retailers', []))}/{len(coverage.get('expected_retailers', []))}",
+    )
+    columns[3].metric("Confidence", f"{float(report.get('confidence') or 0):.0%}")
+    st.write(report.get("summary") or "No Agent 2 summary is available.")
+    st.caption(
+        f"Match: {str(report.get('match_mode', 'unknown')).replace('_', ' ')} · "
+        f"Status: {report.get('status', 'unknown')} · Freshness: "
+        f"{freshness.get('status', 'unknown')} · Signals: "
+        f"{', '.join(report.get('signals') or []) or 'none'}"
+    )
+    if report.get("missing_inputs"):
+        st.info("Conditional-price eligibility still needed: " + ", ".join(report["missing_inputs"]))
+    if report.get("variant_groups"):
+        st.markdown("**Verified product variants**")
+        variants = []
+        for group in report["variant_groups"]:
+            variant = group.get("variant") or {}
+            group_best = group.get("best_unconditional_offer") or {}
+            group_conditional = group.get("best_conditional_offer") or {}
+            variants.append({
+                "Match": str(group.get("match_type") or "").replace("_", " ").title(),
+                "Product": group.get("title"),
+                "Storage": variant.get("storage"),
+                "RAM": variant.get("ram"),
+                "Colour": variant.get("color"),
+                "Connectivity": variant.get("connectivity"),
+                "Screen / device size": (
+                    variant.get("screen_size") or variant.get("device_size")
+                ),
+                "Generation": variant.get("generation"),
+                "Condition": variant.get("condition"),
+                "Bundle": variant.get("bundle"),
+                "Best price": group_best.get("price"),
+                "Conditional price": group_conditional.get("price"),
+                "Retailer": group_best.get("retailer"),
+                "Seller": group_best.get("seller"),
+                "Offers": group.get("offer_count"),
+                "Promotions": group.get("promotion_count"),
+                "Link": group_best.get("url"),
+            })
+        st.dataframe(
+            pd.DataFrame(variants),
+            hide_index=True,
+            width="stretch",
+            column_config={
+                "Best price": st.column_config.NumberColumn(format="₹ %.0f"),
+                "Conditional price": st.column_config.NumberColumn(format="₹ %.0f"),
+                "Link": st.column_config.LinkColumn("Link", display_text="Open"),
+            },
+        )
+    for warning in report.get("warnings") or []:
+        st.warning(warning)
+    with st.expander("How Agent 2 investigated this product"):
+        trace = report.get("agent_trace") or []
+        if not trace:
+            st.caption("No execution trace is available for this analysis.")
+        for index, event in enumerate(trace, start=1):
+            status_icon = {
+                "completed": "✓",
+                "skipped": "○",
+                "fallback": "△",
+                "error": "✕",
+            }.get(event.get("status"), "•")
+            st.markdown(
+                f"**{index}. {status_icon} {str(event.get('stage') or '').replace('_', ' ').title()}** "
+                f"— {float(event.get('duration_ms') or 0):,.0f} ms"
+            )
+            st.caption(
+                f"Tool: {event.get('tool', '-')} · Source: {event.get('source', '-')} · "
+                f"Status: {event.get('status', 'unknown')}"
+            )
+            st.caption(f"Input: {event.get('input_summary') or 'No input summary.'}")
+            st.write(event.get("output_summary") or "No result summary.")
+            if event.get("display_prompt"):
+                st.code(event["display_prompt"], language="text")
+            else:
+                st.caption("Prompt: Not applicable — this stage does not use an LLM.")
+
+
 def render_market_tab() -> None:
     st.subheader("Live Market Investigator")
     st.caption(
@@ -329,7 +454,8 @@ def render_market_tab() -> None:
         "from SerpAPI and Apify."
     )
     st.warning(
-        "Live fetches may consume SerpAPI or Apify credits. Loading stored results does not call providers."
+        "Analyze market checks SerpAPI/Apify first and may consume credits. "
+        "Analyze stored data only never calls providers."
     )
 
     try:
@@ -360,28 +486,28 @@ def render_market_tab() -> None:
         )
         limit = st.slider("Results per provider", 5, 50, 20, step=5)
         fetch_button, load_button = st.columns(2)
-        fetch_live = fetch_button.form_submit_button(
-            "Fetch live offers", type="primary", width="stretch"
+        analyze_market = fetch_button.form_submit_button(
+            "Analyze market", type="primary", width="stretch"
         )
         load_stored = load_button.form_submit_button(
-            "Load stored results", width="stretch"
+            "Analyze stored data only", width="stretch"
         )
 
     normalized_query = query.strip()
-    if fetch_live or load_stored:
+    if analyze_market or load_stored:
         if not normalized_query:
             st.warning("Enter a product name or product URL.")
         else:
             st.session_state["market_query"] = normalized_query
             st.session_state["market_active_query"] = normalized_query
 
-    if fetch_live and normalized_query:
+    if (analyze_market or load_stored) and normalized_query:
         provider_names = [
             name
             for name, enabled in (("serpapi", use_serpapi), ("apify", use_apify))
-            if enabled
+            if enabled and analyze_market
         ]
-        if not provider_names:
+        if analyze_market and not provider_names:
             st.warning("Select at least one provider.")
         else:
             runtime_settings = replace(
@@ -395,21 +521,36 @@ def render_market_tab() -> None:
                     providers.extend(build_providers(runtime_settings, (provider_name,)))
                 except ConfigurationError as exc:
                     st.error(f"{provider_name}: {exc}")
-            if providers:
-                database = market_database(runtime_settings)
-                if database is not None:
-                    try:
-                        with st.spinner(
-                            f"Fetching from {', '.join(provider.name for provider in providers)}..."
-                        ):
-                            results = MarketInvestigatorService(database, providers).search(
-                                normalized_query, limit
-                            )
-                        st.session_state["market_run_results"] = [
-                            asdict(result) for result in results
-                        ]
-                    finally:
-                        database.close()
+            database = market_database(runtime_settings)
+            if database is not None:
+                try:
+                    freshness = FreshnessPolicy(
+                        price_minutes=runtime_settings.market_price_freshness_minutes,
+                        availability_minutes=runtime_settings.market_availability_freshness_minutes,
+                        delivery_minutes=runtime_settings.market_delivery_freshness_minutes,
+                        promotion_minutes=runtime_settings.market_promotion_freshness_minutes,
+                        seller_minutes=runtime_settings.market_seller_freshness_minutes,
+                        product_minutes=runtime_settings.market_product_freshness_minutes,
+                    )
+                    with st.spinner("Agent 2 is checking stored evidence and provider freshness..."):
+                        report = MarketInvestigatorAgent(
+                            database,
+                            providers,
+                            freshness=freshness,
+                            enable_llm_summary=runtime_settings.market_agent_llm_enabled,
+                        ).analyze(
+                            MarketAgentRequest(
+                                query=normalized_query,
+                                provider_policy=(
+                                    "api_first" if analyze_market else "database_only"
+                                ),
+                            ),
+                            limit=limit,
+                        )
+                    st.session_state["market_agent_report"] = report
+                    st.session_state["market_run_results"] = report.get("provider_runs", [])
+                finally:
+                    database.close()
 
     for result in st.session_state.get("market_run_results", []):
         if result["status"] == "error":
@@ -424,8 +565,11 @@ def render_market_tab() -> None:
 
     active_query = st.session_state.get("market_active_query")
     if active_query:
+        report = st.session_state.get("market_agent_report")
+        if report:
+            render_market_agent_report(report)
         offers, promotions = fetch_market_results(active_query, settings)
-        render_market_results(active_query, offers, promotions)
+        render_market_results(active_query, offers, promotions, report)
     else:
         st.info("Fetch live offers or load an exact query already stored in PostgreSQL.")
 

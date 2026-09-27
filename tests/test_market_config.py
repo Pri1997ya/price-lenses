@@ -20,6 +20,8 @@ def test_settings_default_to_india_and_search_api(monkeypatch):
     assert settings.google_domain == "google.co.in"
     assert settings.amazon_domain == "amazon.in"
     assert settings.serpapi_enrich_amazon is False
+    assert settings.market_agent_llm_enabled is True
+    assert settings.market_provider_policy == "api_first"
 
 
 def test_settings_accept_existing_pl_database_url(monkeypatch):
@@ -47,4 +49,12 @@ def test_settings_validate_apify_json(monkeypatch):
     monkeypatch.setenv("APIFY_EXTRA_INPUT_JSON", "not-json")
 
     with pytest.raises(ConfigurationError, match="valid JSON"):
+        MarketSettings.from_env()
+
+
+def test_settings_reject_unknown_market_provider_policy(monkeypatch):
+    _base_environment(monkeypatch)
+    monkeypatch.setenv("MARKET_PROVIDER_POLICY", "cache_magic")
+
+    with pytest.raises(ConfigurationError, match="MARKET_PROVIDER_POLICY"):
         MarketSettings.from_env()

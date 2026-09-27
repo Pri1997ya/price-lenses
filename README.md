@@ -69,11 +69,20 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configure API Keys
-Create a `.env` file in the root directory and add your PostgreSQL connection string and Gemini API Key:
+Create a `.env` file in the root directory and add the database and agent credentials:
 ```env
 DATABASE_URL="postgresql://[user]:[password]@[host]/[dbname]?sslmode=require"
 GEMINI_API_KEY="your_google_gemini_api_key_here"
+
+# Agent 2 only: verified market facts are summarized through OpenAI.
+MARKET_AGENT_LLM_ENABLED=true
+MARKET_AGENT_LLM_BASE_URL=https://api.openai.com/v1
+MARKET_AGENT_LLM_API_KEY=
+MARKET_AGENT_LLM_MODEL=gpt-6-luna
 ```
+
+Keep real keys only in `.env`, which is ignored by Git. Agent 2 also accepts the
+standard `OPENAI_API_KEY` variable when `MARKET_AGENT_LLM_API_KEY` is omitted.
 
 ### 4. Run the Dashboard
 Launch the interactive Streamlit UI:

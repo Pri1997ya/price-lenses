@@ -76,3 +76,19 @@ def test_service_rejects_empty_query_and_invalid_limit():
             pass
         else:
             raise AssertionError("invalid search input was accepted")
+
+
+def test_validation_keeps_phone_and_rejects_accessories_invalid_rows():
+    offers = [
+        Offer("serpapi", "amazon.in", "S2 5G 8GB RAM 128GB Storage", price=39999, currency="INR"),
+        Offer("serpapi", "flipkart.com", "Flip Cover For Vivo S2", price=300, currency="INR"),
+        Offer("apify", "croma.com", "Croma", price=None, currency="INR"),
+        Offer("serpapi", "example.com", "S2 5G 8GB RAM 128GB Storage", price=39000, currency="INR"),
+    ]
+
+    accepted, warnings = MarketInvestigatorService._validated_offers("vivo s2", offers)
+
+    assert [offer.price for offer in accepted] == [39999]
+    assert any("irrelevant product or accessory" in warning for warning in warnings)
+    assert any("missing price" in warning for warning in warnings)
+    assert any("unsupported retailer" in warning for warning in warnings)
