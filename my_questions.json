@@ -1,0 +1,7 @@
+[
+  {"question": "Can I return a phone bought on Flipkart?", "retailer": "flipkart", "expect_text": "replacement"},
+  {"question": "What is the replacement window for mobile phones on Amazon?", "retailer": "amazon", "expect_text": "days"},
+  {"question": "Can I return an opened phone at Croma?", "retailer": "croma"},
+  {"question": "Is there a restocking fee for returned laptops?", "expect_text": "fee"},
+  {"question": "Do you deliver to the moon?", "expect": "no_match"}
+]
