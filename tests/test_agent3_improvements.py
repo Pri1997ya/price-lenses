@@ -209,3 +209,55 @@ def test_policy_llm_sends_no_temperature_unless_configured(monkeypatch):
     assert policy_rag.default_llm().temperature is None
     monkeypatch.setenv("POLICY_LLM_TEMPERATURE", "0")
     assert policy_rag.default_llm().temperature == 0
+
+
+# ------------------------------------------------------------ search fixes
+FLIPKART_HTML = """<html><body><main><h2>Returns Policy</h2>
+<p>Returns is a scheme provided by respective sellers directly under this policy.</p>
+<table>
+<tr><th>Category</th><th>Returns Window, Actions Possible and Conditions (if any)</th></tr>
+<tr><td>Mobiles (non-premium brands)</td><td><p>7 days Replacement only</p>
+<p>Free replacement will be provided within 7 days if the product is delivered in
+defective/damaged condition or different from the ordered item.</p></td></tr>
+<tr><td>Mobiles (premium brands: Apple, Samsung)</td><td>7 Days Service Center
+Replacement/Repair only <ul><li>Brand assistance for device related issues is subject
+to brand warranty guidelines and service policies.</li></ul></td></tr>
+<tr><td>Furniture</td><td>10 days Replacement only</td></tr>
+</table>
+<h2>Samsung DOA</h2><p>If DOA is approved by the brand, share the approval certificate
+with Flipkart support to process the complaint for your device.</p>
+</main></body></html>"""
+
+
+def test_table_rows_stay_on_one_line():
+    from tools.policy_corpus import html_to_markdown
+
+    text, _ = html_to_markdown(FLIPKART_HTML)
+    assert "- Mobiles (non-premium brands) | 7 days Replacement only Free replacement" in text
+    assert "- Mobiles (premium brands: Apple, Samsung) | 7 Days Service Center" in text
+
+
+def test_retailers_named_in_question():
+    from tools.policy_rag import retailers_in_question
+
+    assert retailers_in_question("Can I return a phone bought on Flipkart?") == ["flipkart"]
+    assert retailers_in_question("Reliance Digital vs Croma returns") == ["croma", "reliance_digital"]
+    assert retailers_in_question("Can I return a phone?") == []
+
+
+def test_phone_question_finds_the_mobiles_row(tmp_path, monkeypatch):
+    from tools.policy_corpus import html_to_markdown
+
+    monkeypatch.setenv("POLICY_MIN_RELEVANCE", "0.1")
+    text, _ = html_to_markdown(FLIPKART_HTML)
+    index = PolicyIndex(HashEmbedder(), tmp_path / "chroma")
+    index.build([
+        PolicyDocument("fk", "flipkart", "return_policy", "https://fk", "2026-09-27", text),
+        PolicyDocument("rd", "reliance_digital", "return_policy", "https://rd", "2026-09-27",
+                       "# Returns\n\nMobile phones can be returned within 7 days at Reliance "
+                       "Digital stores for a refund if unopened."),
+    ])
+    answer = PolicyAdvisor(index, llm=None).answer("Can I return a phone bought on Flipkart?")
+    assert {hit.retailer for hit in answer.citations} == {"flipkart"}
+    assert "7 days Replacement only" in answer.citations[0].text
+    assert "keyword" in answer.citations[0].matched_by  # "phone" matched "Mobiles"
