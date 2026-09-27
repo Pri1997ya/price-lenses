@@ -201,7 +201,8 @@ def test_evaluation_reports_passes_and_misses(index, capsys):
     assert "MISS" in capsys.readouterr().out
 
 
-def test_default_question_file_is_valid():
-    questions = json.loads(eval_policy_questions.DEFAULT_QUESTIONS_FILE.read_text(encoding="utf-8"))
+@pytest.mark.parametrize("path", [eval_policy_questions.DEFAULT_QUESTIONS_FILE, ROOT / "my_questions.json"])
+def test_question_files_are_valid(path):
+    questions = json.loads(path.read_text(encoding="utf-8"))
     assert questions and all(item["question"].strip() for item in questions)
     assert any(item.get("expect") == "no_match" for item in questions)
