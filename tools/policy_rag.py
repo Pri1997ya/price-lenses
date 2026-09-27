@@ -300,7 +300,7 @@ class PolicyIndex:
             allowed = set(retailers) | ({REGULATION} if include_regulations else set())
             where = {"retailer": {"$in": sorted(allowed)}}
 
-        query_vector = self.embedder.embed([question])[0]
+        query_vector = self.embedder.embed([expanded_query(question)])[0]
         pool = min(max(k * 4, 20), total)
         result = collection.query(
             query_embeddings=[query_vector],
@@ -385,6 +385,60 @@ _KEYWORD_STOPWORDS = frozenset(
 )
 
 
+# Words retailer pages use for the same thing. A question about a "phone"
+# must find a table row about "Mobiles".
+SYNONYM_GROUPS = [
+    {"phone", "mobile", "smartphone", "handset"},
+    {"laptop", "notebook"},
+    {"tablet", "ipad"},
+    {"earbud", "earphone", "headphone", "headset", "tws"},
+    {"tv", "television"},
+    {"watch", "smartwatch", "wearable"},
+    {"refund", "reimbursement"},
+    {"cancel", "cancellation", "cancelled"},
+    {"replace", "replacement", "exchange"},
+    {"return", "returned", "returnable"},
+    {"defective", "damaged", "faulty"},
+]
+_SYNONYMS = {word: group for group in SYNONYM_GROUPS for word in group}
+
+
+def expand_terms(terms: list[str]) -> list[set[str]]:
+    """Each query term becomes the set of words that count as a match for it."""
+    return [set(_SYNONYMS.get(term, {term})) for term in terms]
+
+
+def expanded_query(question: str) -> str:
+    """Question text plus the related words it implies, for the embedding model."""
+    extra = []
+    tokens = set(keyword_tokens(question))
+    for token in tokens:
+        for word in sorted(_SYNONYMS.get(token, ())):
+            if word not in tokens and word not in extra:
+                extra.append(word)
+    return f"{question} ({' '.join(extra)})" if extra else question
+
+
+RETAILER_NAMES = {
+    "amazon": "amazon",
+    "flipkart": "flipkart",
+    "croma": "croma",
+    "reliance digital": "reliance_digital",
+    "reliance": "reliance_digital",
+    "vijay sales": "vijay_sales",
+}
+
+
+def retailers_in_question(question: str) -> list[str]:
+    """Retailer keys named in a question ("... bought on Flipkart?")."""
+    text = (question or "").lower()
+    found: list[str] = []
+    for name, key in RETAILER_NAMES.items():
+        if re.search(rf"\b{re.escape(name)}\b", text) and key not in found:
+            found.append(key)
+    return found
+
+
 def keyword_tokens(text: str) -> list[str]:
     tokens = []
     for token in re.findall(r"[a-z0-9]+", (text or "").lower()):
@@ -420,6 +474,7 @@ class KeywordIndex:
         terms = list(dict.fromkeys(keyword_tokens(question)))
         if not terms or not self.docs:
             return []
+        groups = expand_terms(terms)
         total = len(self.docs)
         # A passage must match at least two query terms (or the only one) so
         # that a single common word like "return" does not pull in everything.
@@ -428,12 +483,18 @@ class KeywordIndex:
         for index, counts in enumerate(self.term_freqs):
             if allowed_retailers and self.metadatas[index].get("retailer") not in allowed_retailers:
                 continue
-            matched = [term for term in terms if term in counts]
-            if len(matched) < needed:
+            # A query term matches when the passage contains it or a related word;
+            # the best-scoring word in each group counts once.
+            matched_groups = [
+                [word for word in group if word in counts] for group in groups
+            ]
+            matched_groups = [words for words in matched_groups if words]
+            if len(matched_groups) < needed:
                 continue
             length = len(self.docs[index]) or 1
             score = 0.0
-            for term in matched:
+            for words in matched_groups:
+                term = max(words, key=lambda word: counts[word])
                 df = self.doc_freq[term]
                 idf = math.log(1 + (total - df + 0.5) / (df + 0.5))
                 tf = counts[term]
@@ -521,13 +582,18 @@ SYSTEM_PROMPT = (
 def default_llm():
     from langchain_openai import ChatOpenAI
 
+    options = {}
+    # GPT-5-family and other reasoning models reject any temperature except the
+    # default, so only send one when it is explicitly configured.
+    if os.environ.get("POLICY_LLM_TEMPERATURE", "").strip():
+        options["temperature"] = float(os.environ["POLICY_LLM_TEMPERATURE"])
     return ChatOpenAI(
         base_url=os.environ.get("LLM_BASE_URL", "http://127.0.0.1:5001/gateway/mlflow/v1"),
         api_key=os.environ.get("LLM_API_KEY", "not-needed"),
         model=os.environ.get("LLM_MODEL", "gemini"),
-        temperature=0,
-        timeout=float(os.environ.get("POLICY_LLM_TIMEOUT", "30")),
+        timeout=float(os.environ.get("POLICY_LLM_TIMEOUT", "60")),
         max_retries=0,
+        **options,
     )
 
 
@@ -589,7 +655,10 @@ class PolicyAdvisor:
         exclude_terms: tuple[str, ...] = (),
     ) -> PolicyAnswer:
         """``boost_terms`` describe the product being bought; ``exclude_terms``
-        describe other product types, whose clauses are not flagged."""
+        describe other product types, whose clauses are not flagged. When no
+        retailers are given, retailers named in the question are used."""
+        if not retailers:
+            retailers = retailers_in_question(question) or None
         hits = self.index.search(
             question, retailers, k=k, include_regulations=include_regulations, boost_terms=boost_terms
         )

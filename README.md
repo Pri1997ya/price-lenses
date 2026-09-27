@@ -161,7 +161,11 @@ and a keyword search (BM25) over the stored passages, and the two rankings are
 merged. Meaning-only matches must clear `POLICY_MIN_RELEVANCE`; passages that
 contain the question's key words are kept even below it, so exact terms such as
 "restocking fee" or "7 days" are not lost. Passages about the product being
-bought (phone, laptop, earbuds, ...) are ranked first.
+bought (phone, laptop, earbuds, ...) are ranked first. Related words count as
+matches ("phone" finds a "Mobiles" row), a retailer named in the question
+("... on Flipkart?") limits the search to that retailer, and each row of a
+policy table is kept on one line ("Mobiles | 7 days Replacement only") so a
+rule is never split across passages.
 
 To check search quality and tune the cut-off on your own index:
 

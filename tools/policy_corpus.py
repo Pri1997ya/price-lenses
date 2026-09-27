@@ -206,6 +206,29 @@ def load_corpus(policy_dir: Path = DEFAULT_POLICY_DIR) -> tuple[list[PolicyDocum
 _DROP_TAGS = ("script", "style", "noscript", "svg", "iframe", "form", "button", "header", "footer", "nav")
 
 
+def _flatten_table_rows(soup, root) -> None:
+    """Turn each table row into one line: "Mobiles | 7 days Replacement only | ...".
+
+    Retailer return policies are mostly tables of category -> window ->
+    conditions. Emitting cells separately scatters a rule across lines (and
+    passages), so no passage says "Mobiles: 7 days replacement only".
+    """
+    for row in root.find_all("tr"):
+        if row.find("table"):
+            continue  # nested table: its own rows are flattened instead
+        cells = [
+            re.sub(r"\s+", " ", cell.get_text(" ", strip=True)).strip()
+            for cell in row.find_all(["td", "th"], recursive=False)
+        ]
+        cells = [cell for cell in cells if cell]
+        if not cells:
+            row.decompose()
+            continue
+        item = soup.new_tag("li")
+        item.string = " | ".join(cells)
+        row.replace_with(item)
+
+
 def html_to_markdown(html: str) -> tuple[str, str | None]:
     """Convert a policy page to heading-preserving plain Markdown. Returns (text, title)."""
     from bs4 import BeautifulSoup
@@ -215,6 +238,7 @@ def html_to_markdown(html: str) -> tuple[str, str | None]:
     for tag in soup(_DROP_TAGS):
         tag.decompose()
     root = soup.find("main") or soup.find("article") or soup.body or soup
+    _flatten_table_rows(soup, root)
     lines: list[str] = []
     for element in root.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "td", "th", "dt", "dd"]):
         # Skip containers whose text is already emitted through a nested block element.
