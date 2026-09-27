@@ -25,8 +25,9 @@
     {"id": "vijay-sales-company-policies", "retailer": "vijay_sales", "doc_type": "company_policy", "format": "html", "ingest": true,
      "url": "https://www.vijaysales.com/about-us/company-policies"},
 
-    {"id": "amazon-conditions-of-use", "retailer": "amazon", "doc_type": "terms", "format": "html", "ingest": true,
-     "url": "https://www.amazon.in/gp/help/customer/display?nodeId=201909000"},
+    {"id": "amazon-conditions-of-use", "retailer": "amazon", "doc_type": "terms", "format": "html", "ingest": false,
+     "url": "https://www.amazon.in/gp/help/customer/display?nodeId=201909000",
+     "note": "General terms of use, mostly unrelated to returns; it crowded return rules out of search results."},
     {"id": "amazon-returns-policy", "retailer": "amazon", "doc_type": "return_policy", "format": "html", "ingest": true,
      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=202111910"},
     {"id": "amazon-replacement-policy", "retailer": "amazon", "doc_type": "replacement_policy", "format": "html", "ingest": true,
@@ -40,8 +41,9 @@
 
     {"id": "ecommerce-rules-2020-gazette", "retailer": "regulation", "doc_type": "regulation", "format": "pdf", "ingest": true,
      "url": "https://thc.nic.in/Central%20Governmental%20Rules/Consumer%20Protection%20(E-Commerce)%20Rules,%202020.pdf"},
-    {"id": "ecommerce-rules-2020-icsi-overview", "retailer": "regulation", "doc_type": "regulation_explainer", "format": "pdf", "ingest": true,
-     "url": "https://www.icsi.edu/media/webmodules/Consumer_Protection_E-Commerce_Rules_2020.pdf"},
+    {"id": "ecommerce-rules-2020-icsi-overview", "retailer": "regulation", "doc_type": "regulation_explainer", "format": "pdf", "ingest": false,
+     "url": "https://www.icsi.edu/media/webmodules/Consumer_Protection_E-Commerce_Rules_2020.pdf",
+     "note": "Returns HTTP 404 (checked 2026-09-27); the Gazette copy is the official text."},
 
     {"id": "dca-consumer-protection-acts-index", "retailer": "regulation", "doc_type": "index_page", "format": "html", "ingest": false,
      "url": "https://consumeraffairs.gov.in/pages/consumer-protection-acts",
