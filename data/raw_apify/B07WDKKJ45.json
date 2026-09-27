@@ -1,0 +1,930 @@
+[
+  {
+    "url": "https://www.amazon.in/dp/B07WDKKJ45",
+    "name": "iQOO Z9x 5G (Tornado Green, 4GB RAM, 128GB Storage) | Snapdragon 6 Gen 1 with 560k+ AnTuTu Score | 6000mAh Battery with 7.99mm Slim Design | 44W FlashCharge",
+    "offers": {
+      "price": null,
+      "priceCurrency": null
+    },
+    "brand": {
+      "slogan": "iQOO"
+    },
+    "image": "https://m.media-amazon.com/images/I/41QioujvLVL._SY300_SX300_QL70_FMwebp_.jpg",
+    "description": null,
+    "reviewCount": 2918,
+    "rating": null,
+    "aiSummary": "Stock and pricing signals are weak or missing (offers price and currency null; inStock false; \u201cCurrently unavailable.\u201d), signaling data feed gaps and a stock-backorder risk that can suppress demand; immediate actions: fix price data, enable back-in-stock alerts, and clarify availability to avoid lost sales. The brand is strong (iQOO with a store link) but the listing lacks description content (description null), which hurts conversion, SEO, and trust\u2014invest in complete, benefit-focused copy and enhanced content (A+ pages, videos) to mature the listing. The product positioning highlights compelling hardware (6000 mAh battery, 44W FlashCharge, 6.72\" 120 Hz display, IP64, Snapdragon 6 Gen 1, Android 14 with updates), suggesting solid value in the mid-range, but this value is undermined by user feedback in additionalProperties-derived data: reviews show mixed/perceived lag, heating, and reliability issues (hanging, crashes, slow performance), which threaten satisfaction, repeat purchases, and returns; this implies a risk to brand reputation if not addressed via firmware, thermal management, RAM optimization, or a higher-RAM variant strategy. The Best Sellers data indicates meaningful demand in Smartphones (high rank within the category) but moderate Electronics visibility, meaning improved content and stock signals could convert existing interest into sales. The rich media and A+ content present a strong upside if coupled with accurate stock, pricing, and a sharper value proposition; there is an opportunity to upsell within the iQOO ecosystem (store, accessories, higher-RAM variants) and to differentiate on battery endurance and display quality, while mitigating perceived shortcomings with clear messaging about software updates, warranty, and after-sales support. Collectively, the listing shows strong growth potential hampered by data gaps (price/stock), incomplete description, and genuine quality/performance concerns in consumer reviews; actionable bets include data hygiene (price/stock), enhanced description and A+ content emphasizing battery, display, and durability, firmware/tuning to reduce heat and lag, consideration of higher-RAM variants, targeted promos to lift conversion once stock returns, and leveraging the iQOO Store for cross-sell and post-purchase support.",
+    "additionalProperties": {
+      "asin": "B07WDKKJ45",
+      "originalAsin": "B07WDKKJ45",
+      "inStock": false,
+      "inStockText": "Currently unavailable.        Currently unavailable.",
+      "listPrice": null,
+      "author": null,
+      "shippingPrice": null,
+      "stars": 4,
+      "starsBreakdown": {
+        "5star": 0.5,
+        "4star": 0.25,
+        "3star": 0.1,
+        "2star": 0.04,
+        "1star": 0.11
+      },
+      "answeredQuestions": null,
+      "breadCrumbs": "Electronics > Mobiles & Accessories > Smartphones & Basic Mobiles > Smartphones",
+      "videosCount": 1,
+      "visitStoreLink": {
+        "text": "Visit the iQOO Store",
+        "url": "https://www.amazon.in/stores/iQOO/page/291C27A4-502A-463E-A273-D2C362AF312A?lp_asin=B07WDKKJ45&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto&bl_grd_status=override"
+      },
+      "galleryThumbnails": [
+        "https://m.media-amazon.com/images/I/41QioujvLVL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41OC-RTP4vL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41ni29m1EWL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41KD4c2nTpL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/51H6K6PVFnL._SX38_SY50_CR,0,0,38.jpg",
+        "https://m.media-amazon.com/images/I/41A9ZjDyKgL._SX38_SY50_CR,0,0,38.jpg"
+      ],
+      "highResolutionImages": [
+        "https://m.media-amazon.com/images/I/61nKhMnr-XL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61xra9CqF6L._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61DkAf9gRmL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61U7dRqltyL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/71mTe-G+7QL._SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61PZm3rkclL._SL1200_.jpg"
+      ],
+      "importantInformation": null,
+      "sustainabilityFeatures": null,
+      "features": [
+        "Processor - Powered by 4nm Snapdragon 6 Gen 1 with 560K+ AnTuTu Score that gives your phone lag free smooth experience.",
+        "Battery - 6000mAh ultra slim Battery phone with 44W FlashCharge gives you up to 10 hours of binge with just 30 mins of charging. Along with 2 day battery with single charge, iQOO Z9x comes with 7.99mm Slim Design.",
+        "Display - iQOO Z9x comes with 6.72' large display, 120Hz 7-level adaptive refresh rate and 2408\u00d71080 resolution. Along with 1000 nits high brightness mode(HBM) gives you clear sight even in direct sunlight. Along with it iQOO Z9x is also IP64 certified against Dust & Water.",
+        "Entertainment: Dual Stereo Speakers with 300% Immersive Audio Booster enhances your multi-media experience.",
+        "Operating System : Funtouch OS 14 based on Android 14 with 2 years of Android & 3 years of security update."
+      ],
+      "attributes": [
+        {
+          "key": "Operating System",
+          "value": "Funtouch OS 14 based on Android 14"
+        },
+        {
+          "key": "RAM Memory Installed",
+          "value": "4 GB"
+        },
+        {
+          "key": "Processor Series",
+          "value": "Snapdragon"
+        },
+        {
+          "key": "Processor Speed",
+          "value": "2.7 GHz"
+        },
+        {
+          "key": "Memory Storage Capacity",
+          "value": "128 GB"
+        },
+        {
+          "key": "Colour",
+          "value": "Tornado Green"
+        },
+        {
+          "key": "SIM Card Slot Count",
+          "value": "Dual SIM"
+        },
+        {
+          "key": "Connector Type",
+          "value": "USB Type C"
+        },
+        {
+          "key": "Form Factor",
+          "value": "Bar"
+        },
+        {
+          "key": "Biometric Security Feature",
+          "value": "Fingerprint Recognition"
+        },
+        {
+          "key": "Human Interface Types",
+          "value": "Touchscreen"
+        },
+        {
+          "key": "Sim Card Size",
+          "value": "Nano"
+        },
+        {
+          "key": "Water Resistance Level",
+          "value": "Water Resistant"
+        },
+        {
+          "key": "Headphones Jack",
+          "value": "3.5 mm"
+        },
+        {
+          "key": "Product Features",
+          "value": "Dual Stereo Speakers, Fast Charging Support, IP64 Dust & Water Resistant"
+        },
+        {
+          "key": "Flash Memory Supported Size Maximum",
+          "value": "128 GB"
+        },
+        {
+          "key": "Rear Facing Camera Photo Sensor Resolution",
+          "value": "2 MP"
+        },
+        {
+          "key": "Camera Description",
+          "value": "Front, Rear"
+        },
+        {
+          "key": "Shooting Modes",
+          "value": "High Dynamic Range"
+        },
+        {
+          "key": "Number of Rear Facing Cameras",
+          "value": "2"
+        },
+        {
+          "key": "Number of Front Cameras",
+          "value": "1"
+        },
+        {
+          "key": "Battery Capacity",
+          "value": "6000"
+        },
+        {
+          "key": "Battery Description",
+          "value": "Lithium-Ion"
+        },
+        {
+          "key": "Battery Power",
+          "value": "6000"
+        },
+        {
+          "key": "Item Weight Unit of Measure",
+          "value": "199 Grams"
+        },
+        {
+          "key": "Item Dimensions",
+          "value": "16.6 x 7.6 x 0.8 Centimeters"
+        },
+        {
+          "key": "Video Capture Resolution",
+          "value": "1080p"
+        },
+        {
+          "key": "Screen Size Unit of Measure",
+          "value": "6.72 Inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2408 x 1080"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "120 Hz"
+        },
+        {
+          "key": "Display Type",
+          "value": "FHD+"
+        },
+        {
+          "key": "Maximum Display Resolution",
+          "value": "2408*1080 Pixels"
+        },
+        {
+          "key": "Display Pixel Density",
+          "value": "393 Pixels Per Inch (PPI)"
+        },
+        {
+          "key": "Wireless Provider",
+          "value": "Unlocked for All Carriers"
+        },
+        {
+          "key": "Cellular Technology",
+          "value": "5G"
+        },
+        {
+          "key": "Network Connectivity Technology",
+          "value": "Bluetooth, USB, Wi-Fi"
+        },
+        {
+          "key": "Wireless Network Technology",
+          "value": "LTE"
+        },
+        {
+          "key": "Brand Name",
+          "value": "iQOO"
+        },
+        {
+          "key": "Model Year",
+          "value": "2024"
+        },
+        {
+          "key": "Box Contents",
+          "value": "Cell Phone, Eject tool, Warranty card, Quick start guide, Phone case, Charger, USB cable."
+        },
+        {
+          "key": "Warranty Description",
+          "value": "1 year manufacturer warranty for device & 6 months for In-box accessories from the date of purchase"
+        },
+        {
+          "key": "Manufacturer",
+          "value": "Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308, iQOO"
+        },
+        {
+          "key": "Specific Uses For Product",
+          "value": "Business, Gaming, Photography"
+        },
+        {
+          "key": "Unit Count",
+          "value": "1 Count"
+        },
+        {
+          "key": "Importer Contact Information",
+          "value": "Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308"
+        },
+        {
+          "key": "Item Type Name",
+          "value": "Smartphone"
+        },
+        {
+          "key": "Manufacturer Contact Information",
+          "value": "Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308"
+        },
+        {
+          "key": "Packer Contact Information",
+          "value": "Vivo Mobile India Pvt Ltd, Tech-1 and Tech-2, World Trade Centre, Plot no-TZ-13A, Techzone (I.T. Park), Greater Noida, Uttar Pradesh, India. Pin - 201308"
+        },
+        {
+          "key": "Best Sellers Rank",
+          "value": "#3,398 in Electronics (See Top 100 in Electronics)#150 in Smartphones"
+        },
+        {
+          "key": "ASIN",
+          "value": "B07WDKKJ45"
+        },
+        {
+          "key": "Customer Reviews",
+          "value": "4.0 4.0 out of 5 stars (2,918) 4.0 out of 5 stars"
+        },
+        {
+          "key": "Battery Average Life",
+          "value": "2 Days"
+        },
+        {
+          "key": "GPS Geotagging Functionality",
+          "value": "True"
+        }
+      ],
+      "productOverview": [],
+      "variantAsins": [],
+      "variantDetails": [],
+      "reviewsLink": "https://www.amazon.in/product-reviews/B07WDKKJ45",
+      "hasReviews": true,
+      "delivery": null,
+      "fastestDelivery": null,
+      "condition": null,
+      "returnPolicy": null,
+      "support": null,
+      "variantAttributes": [],
+      "manufacturerAttributes": [],
+      "seller": null,
+      "bestsellerRanks": [
+        {
+          "rank": 3398,
+          "category": "Electronics",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/ref=pd_zg_ts_electronics"
+        },
+        {
+          "rank": 150,
+          "category": "Smartphones",
+          "url": "https://www.amazon.in/gp/bestsellers/electronics/1805560031/ref=pd_zg_hrsr_electronics"
+        }
+      ],
+      "isAmazonChoice": false,
+      "amazonChoiceText": null,
+      "bookDescription": null,
+      "priceRange": null,
+      "aPlusContent": {
+        "title": "From the manufacturer",
+        "rawText": "From the manufacturer\nThe video showcases the product in use.The video guides you through product setup.The video compares multiple products.The video shows the product being unpacked.\naplus content video\nPrevious page\nNext page\n1 Snapdragon 6 Gen 1 2 6000mAh Battery 3 44W FlashCharge \nPrevious page\nNext page\n1 120 Hz Display 2 IP64 3 Dual Stereo Speakers",
+        "rawImages": [
+          {
+            "name": "tws combo",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/347624e9-4c82-46e6-83ba-0caab75559a6.__CR224,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "tws combo",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/347624e9-4c82-46e6-83ba-0caab75559a6.__CR224,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "processor z9x",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9653bd7b-e322-4467-a953-8661c94a1f9f.__CR188,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "battery",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/25d633a4-075d-4635-a8a7-2fadf0f27507.__CR209,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "flashcharge z9x",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4713340-e72f-4e0e-9ade-c918d1f47705.__CR188,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "z9x",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff2bc885-d983-4871-9b2a-6a6133700fa7.__CR179,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "IP64",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3e6dbdc0-f7b8-47dc-86dd-121edd1b423e.__CR173,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "speaker",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bd581ce3-4d5b-4ecd-80d3-1b8854669572.__CR143,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "camera",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/69328023-12c6-4501-ba4e-712d4c56a2ca.__CR120,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "camera",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/69328023-12c6-4501-ba4e-712d4c56a2ca.__CR120,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "os",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/17822010-429a-4466-a7b2-a527f412355f.__CR203,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "os",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/17822010-429a-4466-a7b2-a527f412355f.__CR203,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Z9x",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/63f4083a-7109-4380-ac37-f8c19ee8a12f.__CR119,0,2928,1200_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "name": "Z9x",
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/63f4083a-7109-4380-ac37-f8c19ee8a12f.__CR119,0,2928,1200_PT0_SX1464_V1___.jpg"
+          }
+        ],
+        "rawVideos": [
+          {
+            "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/77e377e1-80b2-4725-ab5c-2be83c28f05b/default.jobtemplate.hls.m3u8",
+            "previewImageUrl": "https://m.media-amazon.com/images/I/813P3JR07zL.jpg"
+          }
+        ],
+        "modules": [
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "tws combo",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/347624e9-4c82-46e6-83ba-0caab75559a6.__CR224,0,2928,1200_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-8-hero-video",
+            "title": "aplus content video",
+            "text": null,
+            "video": {
+              "url": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/77e377e1-80b2-4725-ab5c-2be83c28f05b/default.jobtemplate.hls.m3u8",
+              "previewImageUrl": "https://m.media-amazon.com/images/I/813P3JR07zL.jpg"
+            }
+          },
+          {
+            "type": "premium-module-12-regimen-carousel",
+            "items": [
+              {
+                "name": "Snapdragon 6 Gen 1",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "processor z9x",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9653bd7b-e322-4467-a953-8661c94a1f9f.__CR188,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "6000mAh Battery",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "battery",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/25d633a4-075d-4635-a8a7-2fadf0f27507.__CR209,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "44W FlashCharge",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "flashcharge z9x",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4713340-e72f-4e0e-9ade-c918d1f47705.__CR188,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-12-regimen-carousel",
+            "items": [
+              {
+                "name": "120 Hz Display",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "z9x",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff2bc885-d983-4871-9b2a-6a6133700fa7.__CR179,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "IP64",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "IP64",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3e6dbdc0-f7b8-47dc-86dd-121edd1b423e.__CR173,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              },
+              {
+                "name": "Dual Stereo Speakers",
+                "title": null,
+                "subtitle": null,
+                "text": null,
+                "image": {
+                  "name": "speaker",
+                  "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bd581ce3-4d5b-4ecd-80d3-1b8854669572.__CR143,0,2928,1200_PT0_SX1464_V1___.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "camera",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/69328023-12c6-4501-ba4e-712d4c56a2ca.__CR120,0,2928,1200_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "os",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/17822010-429a-4466-a7b2-a527f412355f.__CR203,0,2928,1200_PT0_SX1464_V1___.jpg"
+            }
+          },
+          {
+            "type": "premium-module-2-fullbackground-image",
+            "title": null,
+            "subtitle": null,
+            "text": null,
+            "image": {
+              "name": "Z9x",
+              "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/63f4083a-7109-4380-ac37-f8c19ee8a12f.__CR119,0,2928,1200_PT0_SX1464_V1___.jpg"
+            }
+          }
+        ]
+      },
+      "brandStory": null,
+      "productComparison": null,
+      "aiReviewsSummary": {
+        "text": "Customers give positive feedback about the phone's battery life, with one mentioning it powers through two full days, and appreciate its impressive display quality. However, the performance receives mixed reviews, with some finding it runs smoothly while others report laggy operation. The camera quality, display, and processor performance also get mixed reactions, with some finding them decent while others consider them poor. Moreover, customers report issues with extreme heating, frequent app crashes, and hanging problems.",
+        "keywords": [
+          {
+            "name": "Battery life",
+            "sentiment": "positive",
+            "text": "Customers are satisfied with the phone's battery life, praising its 6000 mAh capacity and excellent performance, with one customer noting it powers through two full days of use.",
+            "customersMentionedCount": {
+              "total": 83,
+              "positive": 60,
+              "negative": 23
+            },
+            "partialReviews": [
+              {
+                "text": "Marvellous offer, very good product, good battery, display, everything, just needed 2 speaker",
+                "highlightedPart": "good battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RPARXRK696VOP"
+              },
+              {
+                "text": "...at this price,even the 44w flashcharge is awesome with massive battery,and the display panel is top notch in this price range,I don't know which...",
+                "highlightedPart": "massive battery",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R37X07M2QREQ6D"
+              },
+              {
+                "text": "Very Less Battery backup. Doesn't meet expectations. I repeat again, very Less Battery backup.",
+                "highlightedPart": "Very Less Battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3NYBY4J2J4YM6"
+              },
+              {
+                "text": "...Fast and smooth performance. Camera quality is good \ud83d\udc4d. Good battery backup. Fast 44 watt charging.",
+                "highlightedPart": "Good battery backup",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R34S2DZQ619D91"
+              }
+            ]
+          },
+          {
+            "name": "Performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's performance, with some finding it runs smoothly and works well under 15k, while others report very slow performance and lag when opening apps.",
+            "customersMentionedCount": {
+              "total": 133,
+              "positive": 41,
+              "negative": 92
+            },
+            "partialReviews": [
+              {
+                "text": "...Too much lagging in every app very bad performance Too irritating",
+                "highlightedPart": "very bad performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3UOH0F2B5K02N"
+              },
+              {
+                "text": "Laggy phone. Don't buy please avoid this phone. Buy something else",
+                "highlightedPart": "Laggy phone",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1TKFRUEJTCM39"
+              },
+              {
+                "text": "...Pros : 1. Great Battery 2. Good Performance 3. Decent Back Camera 4. Build Quality is Good 5....",
+                "highlightedPart": "Good Performance",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1G690CQQCCW0D"
+              },
+              {
+                "text": "lagging.. not like other iQOO phones",
+                "highlightedPart": "lagging",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RMMN3UHZCNCD8"
+              }
+            ]
+          },
+          {
+            "name": "Camera quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's camera, with some finding it decent while others report poor picture quality.",
+            "customersMentionedCount": {
+              "total": 80,
+              "positive": 34,
+              "negative": 46
+            },
+            "partialReviews": [
+              {
+                "text": "...1. Noisy Sound Quality only in audio support mode 2. Front Camera is not good",
+                "highlightedPart": "Front Camera is not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1G690CQQCCW0D"
+              },
+              {
+                "text": "It's a very nice phone in this price range. All the features i.e Camera, battery and big display which are very good in this phone.",
+                "highlightedPart": "Camera",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2T7H2ES0ZVM94"
+              },
+              {
+                "text": "Camera Quality not good. Heating issue.",
+                "highlightedPart": "Camera Quality not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R21LWC0BQAGSJ4"
+              },
+              {
+                "text": "Camera is good in this renge and procecer speed is too good",
+                "highlightedPart": "Camera is good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3UZT4TPNH5IGK"
+              }
+            ]
+          },
+          {
+            "name": "Display quality",
+            "sentiment": "mixed",
+            "text": "Customers have mixed opinions about the phone's display, with some finding it impressive and smooth, while others express dissatisfaction with its quality.",
+            "customersMentionedCount": {
+              "total": 36,
+              "positive": 18,
+              "negative": 18
+            },
+            "partialReviews": [
+              {
+                "text": "...if your requirement is processor performance ,storage, gaming and good display but there camera below average",
+                "highlightedPart": "good display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R37QUSB2FNMDA3"
+              },
+              {
+                "text": "Display quality is not good I compare it with my redmi 12c which I buy only for 6800rs only but that phone display is more clear than that and if...",
+                "highlightedPart": "Display quality is not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2TWL73H5T8J2B"
+              },
+              {
+                "text": "Smooth display, good sound quality, good camera quality within budget, battery is too good. Amazon service is very good, very fast service.",
+                "highlightedPart": "Smooth display",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2N6PQQQW1WTHP"
+              },
+              {
+                "text": "The phone volume is very low; it's difficult to take calls clearly both indoors and outdoors.",
+                "highlightedPart": "difficult to take calls clearly",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2C54WKA24HAA8"
+              }
+            ]
+          },
+          {
+            "name": "Processor performance",
+            "sentiment": "mixed",
+            "text": "Customers have mixed experiences with the phone's processor performance, with some finding it fast and powerful, while others report it being very slow.",
+            "customersMentionedCount": {
+              "total": 34,
+              "positive": 12,
+              "negative": 22
+            },
+            "partialReviews": [
+              {
+                "text": "Glitchy and slow. I guess it's a product to product difference. My friend who had bought another one, same phone, had no problem....",
+                "highlightedPart": "slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2J3R0K1VF49TI"
+              },
+              {
+                "text": "Super battery life, good processor, good phone from iqoo..",
+                "highlightedPart": "good processor",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/RX2ZQJY2YGJOO"
+              },
+              {
+                "text": "Worst phone ever , processor is very slow, hang problem, finger sensor worst",
+                "highlightedPart": "processor is very slow",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R38IABSG2ZAEG6"
+              },
+              {
+                "text": "Look is good but I think processor not good as I search contact it takes time",
+                "highlightedPart": "processor not good",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1G0W5R277PZ53"
+              }
+            ]
+          },
+          {
+            "name": "Hanging",
+            "sentiment": "negative",
+            "text": "Customers report that the phone hangs frequently, particularly while using camera and other applications.",
+            "customersMentionedCount": {
+              "total": 57,
+              "positive": 9,
+              "negative": 48
+            },
+            "partialReviews": [
+              {
+                "text": "4 gb ram is not good. There are many issues like app crash , hanging issue, battery is decent not that much good but ok for normal users camera is...",
+                "highlightedPart": "hanging issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3GRMMXSBESRYN"
+              },
+              {
+                "text": "...This phone Hangs a lot, Slow operation and many Fingersprint, heating issues, RAM management and Many, even the support wasn't enough to get...",
+                "highlightedPart": "Hangs a lot",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2HHVGBMA61VJ2"
+              },
+              {
+                "text": "...Processor is not capable to handle basic processing and gaming. Phone hangs a lot, camera picture quality is so poor not as promised by iqoo,...",
+                "highlightedPart": "Phone hangs a lot",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R7C1RII7ZZEZU"
+              },
+              {
+                "text": "Performance is not good so much hanging problem",
+                "highlightedPart": "hanging problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R29LP6FABNPW3O"
+              }
+            ]
+          },
+          {
+            "name": "Heat",
+            "sentiment": "negative",
+            "text": "Customers report extreme heating issues with the phone, noting that it heats up quickly.",
+            "customersMentionedCount": {
+              "total": 55,
+              "positive": 7,
+              "negative": 48
+            },
+            "partialReviews": [
+              {
+                "text": "...The heating issue has also become a big problem. It doesn't even keep small apps like YouTube or WhatsApp in RAM....",
+                "highlightedPart": "heating issue",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R9DCPPHRH0R86"
+              },
+              {
+                "text": "...Heating problem. Multiple time crashed application when multiple app using. I have already 4gb ram iQOO z9x mobile but I want buy other phone.",
+                "highlightedPart": "Heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3M4BALY7R0R4"
+              },
+              {
+                "text": "Not worth it. Heating issues. Despite a good chip, it lags a lot. Honestly it feels like I'm using a phone from 2015....",
+                "highlightedPart": "Heating issues",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R1Z81SMCSZSOSI"
+              },
+              {
+                "text": "Mobile heating problem and mobile keyboard laging please slow this problem",
+                "highlightedPart": "Mobile heating problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3QJC921Q7DTIB"
+              }
+            ]
+          },
+          {
+            "name": "Reliability",
+            "sentiment": "negative",
+            "text": "Customers report reliability issues with the phone, including multiple application crashes and poor overall performance.",
+            "customersMentionedCount": {
+              "total": 52,
+              "positive": 7,
+              "negative": 45
+            },
+            "partialReviews": [
+              {
+                "text": "...but recently facing too much bucks and camera issues long with glitch problem. Even after updating android 15 I'm still facing this problem and....",
+                "highlightedPart": "glitch problem",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3U499TN2ZN7NT"
+              },
+              {
+                "text": "display not working it can't produce true callers yellow layed every image",
+                "highlightedPart": "display not working",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R2FMTXF7654PI4"
+              },
+              {
+                "text": "Some time it hangs",
+                "highlightedPart": "Some time it hangs",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3JIDCB9ASL2LF"
+              },
+              {
+                "text": "4 gb ram is not good. There are many issues like app crash , hanging issue, battery is decent not that much good but ok for normal users camera is...",
+                "highlightedPart": "app crash",
+                "url": "https://www.amazon.in/portal/customer-reviews/srp/-/R3GRMMXSBESRYN"
+              }
+            ]
+          }
+        ]
+      },
+      "monthlyPurchaseVolume": null,
+      "productPageReviews": [
+        {
+          "username": "HITESH GARG",
+          "userId": "amzn1.account.AEVFENVWSASUCAOWN35XEQTWRZPA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AEVFENVWSASUCAOWN35XEQTWRZPA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Power-packed phone with 6000mAh battery, 120Hz display & smooth Snapdragon performance! \ud83d\udd25\ud83d\udcf1",
+          "reviewDescription": "\ud83c\udf1f iQOO Z9x 5G Review \u2013 A True Power Performer with Flagship-Level EfficiencyThe iQOO Z9x 5G is a brilliantly engineered mid-range smartphone that redefines value for money. With its stunning display, top-tier performance, massive battery, and refined software, it delivers a flagship-like experience at an unbeatable price.\ud83d\udd0b Battery & Charging \u2013 Beast Mode, All DayAt the heart of this phone lies a massive 6000 mAh battery\u2014a rarity in this segment. It easily powers through two full days on moderate to heavy use. Streaming, gaming, multitasking, or video calls\u2014nothing drains this beast too quickly.Paired with 44W FlashCharge, it juices up fast despite the large battery. In just 30 minutes, you get enough power for most of the day. Whether you're a student, gamer, or professional, battery anxiety is gone forever.\u2699\ufe0f Performance \u2013 Snapdragon 6 Gen 1 DeliversThe Snapdragon 6 Gen 1 5G processor, built on a 4nm architecture, offers flagship-grade efficiency and speed. Backed by UFS 2.2 storage and LPDDR4X RAM (up to 8GB + 8GB extended RAM), the phone handles multitasking, heavy apps, and gaming effortlessly.Games like BGMI, COD Mobile, and Asphalt 9 run smooth even at high settings. Thermal performance is well-managed thanks to iQOO's cooling system. Lag? None. Frame drops? Rare. This is mid-range gaming and performance perfected.\ud83d\udcf1 Display \u2013 Smooth, Bright, and ImmersiveThe 6.72-inch FHD+ LCD display with a 120Hz refresh rate offers a fluid and enjoyable viewing experience. Scrolling, animations, and gaming feel buttery smooth. The 1000 nits peak brightness ensures excellent outdoor visibility, even under direct sunlight.Colors are vivid, contrast is great, and the overall experience is immersive whether you're binge-watching Netflix or reading on Kindle.\ud83d\udcf8 Camera \u2013 Surprisingly Good for the PriceEquipped with a 50MP AI main sensor, the iQOO Z9x captures detailed and vibrant photos in good lighting. Daylight shots are crisp, with natural colors and solid dynamic range. The 2MP depth sensor complements portrait shots fairly well.Selfies from the 8MP front camera are sharp and social-media ready. While low-light performance is average, the built-in Night Mode helps in improving clarity.For casual photography and social media usage, the camera exceeds expectations.\ud83d\udcbb Software & Experience \u2013 Clean and OptimizedRunning on Funtouch OS 14 (based on Android 14), the UI is smooth, responsive, and surprisingly clutter-free. iQOO has minimized bloatware, and the system feels light and optimized.With 2 years of Android updates and 3 years of security patches, the Z9x is a future-proof investment in this price range.\u2705 Why iQOO Z9x 5G Stands Out6000mAh battery with fast 44W chargingSnapdragon 6 Gen 1 \u2013 blazing performance120Hz bright display \u2013 smooth and vivid50MP camera \u2013 sharp and natural shots5G Ready \u2013 seamless next-gen connectivityPremium design \u2013 slim, stylish, and durableIP64 rating \u2013 dust and water resistance\ud83c\udfaf Final Verdict \u2013 Flagship Feel Without the PriceThe iQOO Z9x isn\u2019t just another mid-range phone\u2014it\u2019s a powerhouse that offers superior performance, incredible battery life, and a smooth user experience. For gamers, students, professionals, and casual users alike, this is one of the most well-balanced and reliable smartphones in its segment.Rating: \u2b50\u2b50\u2b50\u2b50\u2b50 (5/5)Best For: Performance, Battery, Gaming, Everyday UseNotable Competitors Defeated: Redmi Note 13, Realme Narzo 70x, Samsung M14",
+          "date": "2025-07-09",
+          "position": 1,
+          "reviewedIn": "Reviewed in India on 9 July 2025",
+          "reviewId": "R2DZUS7LBP1K8P",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2DZUS7LBP1K8P/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "5 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/e16bbd79-6025-46ec-b4f1-a7cf474fe293._CR0%2C0%2C500%2C500_SX460_SX48_.jpg",
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Prakash",
+          "userId": "amzn1.account.AETWM63ALDJXVO636MLX3XBT7APA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AETWM63ALDJXVO636MLX3XBT7APA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "Good good",
+          "reviewDescription": "Velue for money",
+          "date": "2026-08-21",
+          "position": 2,
+          "reviewedIn": "Reviewed in India on 21 August 2026",
+          "reviewId": "RA0QLFSTBQBBD",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/RA0QLFSTBQBBD/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Midhun a.",
+          "userId": "amzn1.account.AE7BXMPWDBSR3DGKTWJ5OFMQFO4Q",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AE7BXMPWDBSR3DGKTWJ5OFMQFO4Q?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Good",
+          "reviewDescription": "Good",
+          "date": "2026-09-23",
+          "position": 3,
+          "reviewedIn": "Reviewed in India on 23 September 2026",
+          "reviewId": "R1JR3W0DBP1KLA",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1JR3W0DBP1KLA/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Ronak",
+          "userId": "amzn1.account.AFQRZNCMCV5IUI2TUMNVPKKLQESQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFQRZNCMCV5IUI2TUMNVPKKLQESQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 1,
+          "reviewTitle": "Good hardware, bad software.Good hardware, bad software.",
+          "reviewDescription": "I purchased the 4 GB RAM and 128 GB storage version (with RAM expansion turned on the total 'RAM' is 8 GB). It was Android 14 out of the box but immediately got updated to Android 15 on same day.I have noticed some concerning issues in my 10 days of using this phone.- Application screen does not display sometimes when opened from recent applications and instead shows a black screen only with notification bar and navigation buttons. This happens with many applications so not a particular application's fault. The black screenshot has actually an application open but nothing is being displayed.- Webpage unloads when going from Firefox browser > home > recent applications > Firefox browser- Whatsapp locks when going from a chat to chat list when using Whatsapp's own application lock feature- Simple Analogue Clock widget stops working during the night and needs to be removed and re-added to get it working- The chat screen jumps up with an empty space between the chat screen and emoji panel when switching from keyboard to emojis in WhatsApp as shown in the screenshot- Totally unusable when RAM expansion is turned off due to applications being cleared from memory immediately on losing focus. Though when RAM expansion is turned off, the system details show RAM of about 0.5-1 GB is free.- Network management and certain other system functions are only available in iQOO's proprietary application which can only be accessed after agreeing to their privacy policy as per which they will collect data- Navigating from 1 application to another takes a noticeable time. Even navigating from Settings screen to a setting item (eg. Display, Sound and vibration, Security, etc.) and back takes noticeable time- Within Firefox, switching from 1 tab to another unloads the previous tab- Accubattery application get closed multiple times during the regular use of the phone or at night when phone is not being used- In some rare cases the screen glitches at the notification bar area and displays TV-static like noise. Hard to reproduce.My almost 4 year old Infinix HOT 10S with G85, 4 GB RAM, 64 GB storage and Android 11 is much faster and has less issues than this iQOO Z9x.",
+          "date": "2025-05-25",
+          "position": 4,
+          "reviewedIn": "Reviewed in India on 25 May 2025Reviewed in India on 25 May 2025",
+          "reviewId": "R1NLXEVYV0E84P",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1NLXEVYV0E84P/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [
+            "https://m.media-amazon.com/images/I/31EkmWuvVgL._SY500_.jpg",
+            "https://m.media-amazon.com/images/I/71TD-LbPeGL._SY500_.jpg"
+          ],
+          "reviewReaction": "8 people found this helpful",
+          "isVerified": false,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Vrushabh Rahangdale",
+          "userId": "amzn1.account.AH26GEGY6Y5VIVEMTJK66M573SDQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AH26GEGY6Y5VIVEMTJK66M573SDQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 3,
+          "reviewTitle": "Use after 1 year",
+          "reviewDescription": "I'll not recommend this phone to you in this range this phone lags to much . I'll recommend you to go for 1k-2k more in budget and gets a good phone",
+          "date": "2026-08-21",
+          "position": 5,
+          "reviewedIn": "Reviewed in India on 21 August 2026",
+          "reviewId": "R38YV8NH581LVU",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R38YV8NH581LVU/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Harshal shinde",
+          "userId": "amzn1.account.AFTPR4PE6KZLZNZZAQB66FFTMHIA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFTPR4PE6KZLZNZZAQB66FFTMHIA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Best in this price range",
+          "reviewDescription": "I have iQOO 12 but there is need for secondary phone so I was searching for mobile usually under 20k.then I saw this phone at 12k and amazon offering 1500rs coupon code on 4+128gb variant and additional bank discount of rs500 effectively got this mobile at Rs.10k only.But the kind of experience this budget mobile gives is marvelous.Fluidity like iQOO 12, everything just run smoothly.I don't like to play games,if you are into gaming go for 6+128gb variant otherwise usually task like whatsapp chrome youtube instagram even snapchat runs smoothly.camera is okayish you can't expect flagship grade camera at this price,but it's better than its competitors at this price,even the 44w flashcharge is awesome with massive battery,and the display panel is top notch in this price range,I don't know which type of ips lcd panel iQOO used but the quality is close to amoled which is amazing.go for it without any hesitation",
+          "date": "2025-04-25",
+          "position": 6,
+          "reviewedIn": "Reviewed in India on 25 April 2025",
+          "reviewId": "R37X07M2QREQ6D",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R37X07M2QREQ6D/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": "19 people found this helpful",
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "Varun Raj Gundeboyaina",
+          "userId": "amzn1.account.AFRVJ7HPIWOS4G3RV5JC4PY4KEMQ",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AFRVJ7HPIWOS4G3RV5JC4PY4KEMQ?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 4,
+          "reviewTitle": "U must know",
+          "reviewDescription": "The phone feels but lagging and slow",
+          "date": "2026-07-07",
+          "position": 7,
+          "reviewedIn": "Reviewed in India on 7 July 2026",
+          "reviewId": "R2D6UL6ZYPPWWA",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R2D6UL6ZYPPWWA/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": null,
+          "variant": "",
+          "variantAttributes": []
+        },
+        {
+          "username": "ashish rajput",
+          "userId": "amzn1.account.AHDD7V4F3GBGFZL3XHTQM5RFSIQA",
+          "userProfileLink": "https://www.amazon.in/gp/profile/amzn1.account.AHDD7V4F3GBGFZL3XHTQM5RFSIQA?ref=cm_cr_dp_d_bdcrb_top",
+          "ratingScore": 5,
+          "reviewTitle": "Must buy",
+          "reviewDescription": "\"I recently bought this mobile from Amazon and I am extremely satisfied with my purchase. The phone\u2019s performance is very smooth, apps open quickly, and multitasking is effortless. The display quality is crisp and bright, making videos and photos look amazing. Battery backup is excellent and lasts me the whole day even with heavy usage. The camera is also very impressive, capturing clear and detailed photos even in low light. Delivery was fast and packaging was perfect. Overall, this phone is worth every penny. Highly recommended!\"",
+          "date": "2025-10-03",
+          "position": 8,
+          "reviewedIn": "Reviewed in India on 3 October 2025",
+          "reviewId": "R1HIPE0SOP4UZ5",
+          "reviewUrl": "https://www.amazon.in/portal/customer-reviews/srp/-/R1HIPE0SOP4UZ5/ref=cm_cr_dp_d_rvw_ttl?_encoding=UTF8&ie=UTF8",
+          "reviewImages": [],
+          "reviewReaction": null,
+          "isVerified": true,
+          "isAmazonVine": false,
+          "avatar": "https://m.media-amazon.com/images/S/amazon-avatars-global/af7e4f62-0f84-42f6-9529-df155f21c2c4._CR0%2C0%2C500%2C500_SX460_SX48_.jpeg",
+          "variant": "",
+          "variantAttributes": []
+        }
+      ],
+      "productPageReviewsFromOtherCountries": []
+    },
+    "inputUrl": "https://www.amazon.in/dp/B07WDKKJ45"
+  }
+]

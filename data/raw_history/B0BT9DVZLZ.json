@@ -1,0 +1,151 @@
+{
+  "price_overview": {
+    "current_price": 54999,
+    "all_time_low": 37435,
+    "all_time_high": 79999,
+    "avg_30_days": 53354.78,
+    "overall_average": 72599.72,
+    "low_6_months": 46609,
+    "trend_percentage": 9.07
+  },
+  "deal_evaluation": {
+    "score": 61,
+    "verdict": "Good deal"
+  },
+  "competitor_pricing": {
+    "Croma": {
+      "price": 49994,
+      "is_current": false,
+      "url": "https://www.croma.com/samsung-galaxy-s23-5g-8gb-ram-256gb-lavender-/p/268993"
+    },
+    "Amazon": {
+      "price": 54999,
+      "is_current": true,
+      "url": "https://www.amazon.in/dp/B0BT9DVZLZ/ref=cm_sw_r_apa_i_dl_PES6AB11KRFCZ2Q457T1_0"
+    },
+    "Flipkart": {
+      "price": 69250,
+      "is_current": false,
+      "url": "https://www.flipkart.com/samsung-galaxy-s23-5g-green-256-gb/p/itm6840743bfd1ef?pid=MOBGMFFXB7RGPNET&lid=LSTMOBGMFFXB7RGPNETO08UOS"
+    }
+  },
+  "time_series": [
+    {
+      "date": "2025-10-29",
+      "price": 54990
+    },
+    {
+      "date": "2025-10-30",
+      "price": 54990
+    },
+    {
+      "date": "2025-11-12",
+      "price": 54999
+    },
+    {
+      "date": "2025-11-13",
+      "price": 54999
+    },
+    {
+      "date": "2025-11-14",
+      "price": 54999
+    },
+    {
+      "date": "2025-11-15",
+      "price": 54999
+    },
+    {
+      "date": "2025-11-16",
+      "price": 54999
+    },
+    {
+      "date": "2025-11-30",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-01",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-02",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-03",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-05",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-06",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-07",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-08",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-09",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-10",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-11",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-12",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-13",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-26",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-27",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-28",
+      "price": 54999
+    },
+    {
+      "date": "2025-12-29",
+      "price": 46609
+    },
+    {
+      "date": "2025-12-30",
+      "price": 54999
+    },
+    {
+      "date": "2026-01-08",
+      "price": 51990
+    },
+    {
+      "date": "2026-01-11",
+      "price": 46609
+    },
+    {
+      "date": "2026-01-12",
+      "price": 54999
+    },
+    {
+      "date": "2026-01-22",
+      "price": 59990
+    }
+  ],
+  "historical_data_points": 29
+}

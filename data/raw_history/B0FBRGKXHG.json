@@ -1,0 +1,18 @@
+{
+  "price_overview": {
+    "current_price": null,
+    "all_time_low": null,
+    "all_time_high": null,
+    "avg_30_days": null,
+    "overall_average": null,
+    "low_6_months": null,
+    "trend_percentage": null
+  },
+  "deal_evaluation": {
+    "score": null,
+    "verdict": null
+  },
+  "competitor_pricing": {},
+  "time_series": [],
+  "historical_data_points": 0
+}
