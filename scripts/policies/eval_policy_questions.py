@@ -1,6 +1,6 @@
 """Check policy search quality against a fixed question set, and suggest a cut-off.
 
-    python scripts/policies/eval_policy_questions.py
+    python scripts/policies/eval_policy_questions.py          # data/policies/eval_questions.json
     python scripts/policies/eval_policy_questions.py --questions my_questions.json
 
 Runs retrieval only (no LLM), so it is fast and repeatable. For every question
@@ -27,20 +27,7 @@ from dotenv import load_dotenv  # noqa: E402
 
 from tools.policy_rag import PolicyIndex, embedder_from_env  # noqa: E402
 
-DEFAULT_QUESTIONS = [
-    {"question": "Can I return a phone bought on Flipkart?", "retailer": "flipkart"},
-    {"question": "What is the replacement window for mobile phones on Amazon?",
-     "retailer": "amazon", "expect_text": "days"},
-    {"question": "How long does a refund take on Amazon?", "retailer": "amazon", "expect_text": "refund"},
-    {"question": "Can I return an opened phone at Croma?", "retailer": "croma"},
-    {"question": "How do I cancel an order on Reliance Digital?", "retailer": "reliance_digital",
-     "expect_text": "cancel"},
-    {"question": "What is Vijay Sales' return policy for electronics?", "retailer": "vijay_sales"},
-    {"question": "Is there a restocking fee for returned laptops?", "retailer": None,
-     "expect_text": "fee"},
-    {"question": "What is the best pizza topping?", "expect": "no_match"},
-    {"question": "Do you deliver to the moon?", "expect": "no_match"},
-]
+DEFAULT_QUESTIONS_FILE = Path(__file__).resolve().parents[2] / "data" / "policies" / "eval_questions.json"
 
 
 def evaluate(index: PolicyIndex, questions: list[dict], k: int = 3) -> dict:
@@ -100,12 +87,13 @@ def evaluate(index: PolicyIndex, questions: list[dict], k: int = 3) -> dict:
 def main(argv: list[str] | None = None) -> int:
     load_dotenv()
     parser = argparse.ArgumentParser(description="Evaluate policy search on a question set.")
-    parser.add_argument("--questions", type=Path, help="JSON question file (see module docstring)")
+    parser.add_argument(
+        "--questions", type=Path, default=DEFAULT_QUESTIONS_FILE,
+        help="JSON question file (see module docstring); default: data/policies/eval_questions.json",
+    )
     parser.add_argument("--k", type=int, default=3)
     args = parser.parse_args(argv)
-    questions = (
-        json.loads(args.questions.read_text(encoding="utf-8")) if args.questions else DEFAULT_QUESTIONS
-    )
+    questions = json.loads(args.questions.read_text(encoding="utf-8"))
     result = evaluate(PolicyIndex(embedder_from_env()), questions, k=args.k)
     return 0 if result["passed"] == result["total"] else 1
 

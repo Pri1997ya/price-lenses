@@ -199,3 +199,9 @@ def test_evaluation_reports_passes_and_misses(index, capsys):
     ])
     assert (result["passed"], result["total"]) == (2, 3)
     assert "MISS" in capsys.readouterr().out
+
+
+def test_default_question_file_is_valid():
+    questions = json.loads(eval_policy_questions.DEFAULT_QUESTIONS_FILE.read_text(encoding="utf-8"))
+    assert questions and all(item["question"].strip() for item in questions)
+    assert any(item.get("expect") == "no_match" for item in questions)

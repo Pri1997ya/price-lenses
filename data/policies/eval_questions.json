@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Can I return a phone bought on Flipkart?",
+    "retailer": "flipkart"
+  },
+  {
+    "question": "What is the replacement window for mobile phones on Amazon?",
+    "retailer": "amazon",
+    "expect_text": "days"
+  },
+  {
+    "question": "How long does a refund take on Amazon?",
+    "retailer": "amazon",
+    "expect_text": "refund"
+  },
+  {
+    "question": "Can I return an opened phone at Croma?",
+    "retailer": "croma"
+  },
+  {
+    "question": "How do I cancel an order on Reliance Digital?",
+    "retailer": "reliance_digital",
+    "expect_text": "cancel"
+  },
+  {
+    "question": "What is Vijay Sales' return policy for electronics?",
+    "retailer": "vijay_sales"
+  },
+  {
+    "question": "Is there a restocking fee for returned laptops?",
+    "retailer": null,
+    "expect_text": "fee"
+  },
+  {
+    "question": "What is the best pizza topping?",
+    "expect": "no_match"
+  },
+  {
+    "question": "Do you deliver to the moon?",
+    "expect": "no_match"
+  }
+]
