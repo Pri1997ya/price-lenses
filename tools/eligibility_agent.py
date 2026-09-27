@@ -16,6 +16,9 @@ from dataclasses import asdict
 from typing import Callable
 
 from .policy_corpus import RETAILER_LABELS
+from .review_corpus import load_reviews
+from .review_defects import defect_summary, detect_defects
+from .return_windows import find_return_window, load_return_windows
 from .seller_check import OfferAssessment, check_sellers
 
 # Order matters: the first match wins. Accessories and audio/wearables come
@@ -133,6 +136,8 @@ def run_eligibility_analysis(
     *,
     offers_loader: Callable[[str], list[dict]] = default_offers_loader,
     advisor_factory: Callable[[], object] = default_advisor,
+    reviews_loader: Callable[[str], list] = load_reviews,
+    return_windows_loader: Callable[[], list] | None = None,
 ) -> dict:
     trace: list[str] = []
     errors: list[str] = []
@@ -162,12 +167,27 @@ def run_eligibility_analysis(
             f"stock={offer.stock_status}, trust={offer.trust_tier} ({'; '.join(offer.trust_reasons)})"
         )
 
-    # 2. Policy RAG for the retailers the buyer would actually use.
+    # 2. Reviewed return windows (exact rules copied from policy pages), then
+    #    policy RAG for the retailers the buyer would actually use.
+    retailers = _policy_retailers(seller_report)
+    return_windows: dict[str, dict] = {}
+    try:
+        window_rows = (return_windows_loader or (
+            lambda: load_return_windows(categories={name for name, _ in CATEGORY_PATTERNS})
+        ))()
+        for retailer in retailers:
+            row = find_return_window(window_rows, retailer, category)
+            if row:
+                return_windows[retailer] = row.to_dict()
+                trace.append(f"Reviewed return window: {row.summary}")
+    except Exception as exc:
+        errors.append(f"Return window table unavailable: {exc}")
+        trace.append(f"Return window table failed: {exc}")
+
     own_terms, other_terms = category_terms(category)
     policies: dict[str, dict] = {}
     user_answer = None
     restrictions: list[dict] = []
-    retailers = _policy_retailers(seller_report)
     try:
         advisor = advisor_factory()
         targets = retailers or [None]
@@ -198,6 +218,24 @@ def run_eligibility_analysis(
         errors.append(f"Policy RAG unavailable: {exc}")
         trace.append(f"Policy RAG failed: {exc}")
 
+    # 3. Defects that many reviewers report (deterministic pattern scan).
+    defects = None
+    try:
+        reviews = reviews_loader(canonical_id)
+        defects = detect_defects(reviews, category)
+        trace.append(
+            f"Reviews: {defects['reviews_analyzed']} analysed, "
+            f"{len(defects['findings'])} defects above threshold"
+        )
+    except Exception as exc:
+        errors.append(f"Review analysis unavailable: {exc}")
+        trace.append(f"Review analysis failed: {exc}")
+    defect_warning = None
+    if defects and defects["findings"]:
+        defect_warning = "Defects reported in reviews — " + "; ".join(
+            defect_summary(finding, defects["reviews_analyzed"]) for finding in defects["findings"]
+        )
+
     relevant = [r for r in restrictions if r["retailer"] in set(retailers) | {"regulation"}]
     warning = None
     if relevant:
@@ -223,9 +261,12 @@ def run_eligibility_analysis(
         "cheapest_unverified": _offer_summary(seller_report.cheapest_unverified),
         "stock_summary": seller_report.stock_by_retailer,
         "offers": [asdict(offer) for offer in seller_report.offers],
+        "return_windows": return_windows,
         "policies": policies,
         "user_policy_answer": user_answer,
         "return_policy_warning": warning,
+        "defects": defects,
+        "defect_warning": defect_warning,
         "warnings": seller_report.warnings,
         "errors": errors,
         "agent_trace": trace,

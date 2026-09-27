@@ -206,3 +206,137 @@ def test_question_files_are_valid(path):
     questions = json.loads(path.read_text(encoding="utf-8"))
     assert questions and all(item["question"].strip() for item in questions)
     assert any(item.get("expect") == "no_match" for item in questions)
+def test_policy_llm_sends_no_temperature_unless_configured(monkeypatch):
+    from tools import policy_rag
+
+    monkeypatch.delenv("POLICY_LLM_TEMPERATURE", raising=False)
+    monkeypatch.setenv("LLM_API_KEY", "test-only-key")
+    assert policy_rag.default_llm().temperature is None
+    monkeypatch.setenv("POLICY_LLM_TEMPERATURE", "0")
+    assert policy_rag.default_llm().temperature == 0
+
+
+# ------------------------------------------------------------ search fixes
+FLIPKART_HTML = """<html><body><main><h2>Returns Policy</h2>
+<p>Returns is a scheme provided by respective sellers directly under this policy.</p>
+<table>
+<tr><th>Category</th><th>Returns Window, Actions Possible and Conditions (if any)</th></tr>
+<tr><td>Mobiles (non-premium brands)</td><td><p>7 days Replacement only</p>
+<p>Free replacement will be provided within 7 days if the product is delivered in
+defective/damaged condition or different from the ordered item.</p></td></tr>
+<tr><td>Mobiles (premium brands: Apple, Samsung)</td><td>7 Days Service Center
+Replacement/Repair only <ul><li>Brand assistance for device related issues is subject
+to brand warranty guidelines and service policies.</li></ul></td></tr>
+<tr><td>Furniture</td><td>10 days Replacement only</td></tr>
+</table>
+<h2>Samsung DOA</h2><p>If DOA is approved by the brand, share the approval certificate
+with Flipkart support to process the complaint for your device.</p>
+</main></body></html>"""
+
+
+def test_table_rows_stay_on_one_line():
+    from tools.policy_corpus import html_to_markdown
+
+    text, _ = html_to_markdown(FLIPKART_HTML)
+    assert "- Mobiles (non-premium brands) | 7 days Replacement only Free replacement" in text
+    assert "- Mobiles (premium brands: Apple, Samsung) | 7 Days Service Center" in text
+
+
+def test_retailers_named_in_question():
+    from tools.policy_rag import retailers_in_question
+
+    assert retailers_in_question("Can I return a phone bought on Flipkart?") == ["flipkart"]
+    assert retailers_in_question("Reliance Digital vs Croma returns") == ["croma", "reliance_digital"]
+    assert retailers_in_question("Can I return a phone?") == []
+
+
+def test_phone_question_finds_the_mobiles_row(tmp_path, monkeypatch):
+    from tools.policy_corpus import html_to_markdown
+
+    monkeypatch.setenv("POLICY_MIN_RELEVANCE", "0.1")
+    text, _ = html_to_markdown(FLIPKART_HTML)
+    index = PolicyIndex(HashEmbedder(), tmp_path / "chroma")
+    index.build([
+        PolicyDocument("fk", "flipkart", "return_policy", "https://fk", "2026-09-27", text),
+        PolicyDocument("rd", "reliance_digital", "return_policy", "https://rd", "2026-09-27",
+                       "# Returns\n\nMobile phones can be returned within 7 days at Reliance "
+                       "Digital stores for a refund if unopened."),
+    ])
+    answer = PolicyAdvisor(index, llm=None).answer("Can I return a phone bought on Flipkart?")
+    assert {hit.retailer for hit in answer.citations} == {"flipkart"}
+    assert "7 days Replacement only" in answer.citations[0].text
+    assert "keyword" in answer.citations[0].matched_by  # "phone" matched "Mobiles"
+
+
+# ------------------------------------------------------------ corpus clean-up
+def test_link_only_menus_are_dropped_but_policy_lists_kept():
+    from tools.policy_corpus import html_to_markdown
+
+    html = """<html><body><div class="menu"><ul>
+      <li><a href="/b">boAt</a></li><li><a href="/a">Apple</a></li>
+      <li><a href="/j">JBL</a></li><li><a href="/s">Sony</a></li></ul></div>
+    <main><h2>Returns</h2><ul>
+      <li>Items can be returned within 7 days.</li>
+      <li>See the <a href="/faq">FAQ</a> for pickup details.</li>
+      <li>Keep the invoice.</li><li>Keep the original box.</li></ul>
+    <ul><li><a href="#pickup">Return Pickup</a></li><li><a href="#self">Self-Ship</a></li>
+      <li><a href="#refund">Refunds</a></li><li><a href="#faq">FAQ</a></li></ul></main></body></html>"""
+    text, _ = html_to_markdown(html)
+    assert "boAt" not in text and "Self-Ship" not in text  # menu and table of contents
+    assert "- Items can be returned within 7 days." in text
+    assert "- See the FAQ for pickup details." in text  # a link inside real text stays
+
+
+def test_long_paragraph_chunks_restart_on_a_word():
+    from tools.policy_corpus import chunk_document
+
+    words = " ".join(f"word{n:03d}" for n in range(400))
+    document = PolicyDocument("s", "croma", "return_policy", "https://c", "2026-09-27", f"# T\n\n{words}")
+    for chunk in chunk_document(document, size=300, overlap=60)[1:]:
+        assert chunk.text.split("\n", 1)[1].startswith("word")
+
+
+# ------------------------------------------------------------ cut-off suggestion
+def _hit(relevance, text, matched_by):
+    from tools.policy_rag import PolicyHit
+
+    return PolicyHit(1, text, relevance, "amazon", "return_policy", "s", "https://a", "2026-09-27",
+                     matched_by=matched_by)
+
+
+class _FakeIndex:
+    """Replays hits; applies the cut-off the way PolicyIndex.search does."""
+
+    def __init__(self, hits_by_question, threshold):
+        self.hits, self.threshold = hits_by_question, threshold
+
+    def search(self, question, retailers=None, k=3, min_relevance=None):
+        cut = self.threshold if min_relevance is None else min_relevance
+        return [h for h in self.hits[question] if "keyword" in h.matched_by or h.relevance >= cut]
+
+
+def test_suggestion_counts_keyword_matches_as_safe(capsys):
+    # The reported run: a correct answer at 0.28 (also a keyword match) and a
+    # meaning-only stray at 0.33. Raising the cut-off above 0.33 is safe.
+    index = _FakeIndex({
+        "replacement window": [_hit(0.28, "Replacement within 7 days", ("semantic", "keyword"))],
+        "moon": [_hit(0.33, "Self-ship the item", ("semantic",))],
+    }, threshold=0.25)
+    result = eval_policy_questions.evaluate(index, [
+        {"question": "replacement window", "expect_text": "days"},
+        {"question": "moon", "expect": "no_match"},
+    ])
+    assert result["suggested_min_relevance"] == 0.35
+    assert "also match by keyword" in capsys.readouterr().out
+
+
+def test_no_suggestion_when_a_meaning_only_answer_is_weaker(capsys):
+    index = _FakeIndex({
+        "window": [_hit(0.28, "within 7 days", ("semantic",))],
+        "moon": [_hit(0.33, "Self-ship", ("semantic",))],
+    }, threshold=0.25)
+    result = eval_policy_questions.evaluate(index, [
+        {"question": "window", "expect_text": "days"}, {"question": "moon", "expect": "no_match"},
+    ])
+    assert result["suggested_min_relevance"] is None
+    assert "Improve that source" in capsys.readouterr().out

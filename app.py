@@ -604,6 +604,12 @@ def render_policy_tab() -> None:
             f"retrieved {stats['oldest_retrieval']} to {stats['newest_retrieval']} "
             f"({stats['embedder']} embeddings)."
         )
+        if stats.get("stale_sources"):
+            names = ", ".join(source_id for source_id, _age in stats["stale_sources"])
+            st.warning(
+                f"{len(stats['stale_sources'])} policy copies are older than the refresh limit "
+                f"and may be out of date: {names}. Re-run scripts/policies/fetch_policies.py."
+            )
     except PolicyIndexError as exc:
         advisor = None
         st.warning(str(exc))

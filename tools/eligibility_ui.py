@@ -111,6 +111,36 @@ def render_policy_answer(answer: dict, *, show_question: bool = False) -> None:
                 st.text(hit["text"][:1200])
 
 
+def render_defects(defects: dict | None) -> None:
+    if not defects:
+        return
+    total = defects.get("reviews_analyzed", 0)
+    if not total:
+        st.caption(defects.get("note", "No reviews collected for this product."))
+        return
+    sources = ", ".join(f"{name} {count}" for name, count in defects.get("by_source", {}).items())
+    st.markdown(f"**Reported defects** ({total} reviews: {sources})")
+    if not defects.get("findings"):
+        st.caption("No defect is reported by enough reviewers to count as a pattern.")
+    for finding in defects.get("findings", []):
+        recent = finding["recent_mentions"]
+        title = (
+            f"{finding['label']}: {finding['mentions']} of {total} reviews "
+            f"({finding['share']:.1%}), {recent} in the last year"
+        )
+        with st.expander(title):
+            st.caption("Seen on " + ", ".join(finding["sources"]))
+            for example in finding["examples"]:
+                meta = " · ".join(
+                    part for part in (
+                        example["source"], example.get("date"),
+                        f"{example['rating']:g}★" if example.get("rating") else None,
+                    ) if part
+                )
+                link = f" [open]({example['url']})" if example.get("url") else ""
+                st.markdown(f"> {example['snippet']}\n\n{meta}{link}")
+
+
 def render_eligibility_report(report: dict) -> None:
     if not report:
         return
@@ -129,8 +159,19 @@ def render_eligibility_report(report: dict) -> None:
     for warning in report.get("warnings", []):
         st.warning(warning)
 
+    if report.get("defect_warning"):
+        st.warning(report["defect_warning"])
+
     st.markdown("**All stored listings**")
     render_offers_table(report.get("offers", []))
+
+    windows = report.get("return_windows") or {}
+    if windows:
+        st.markdown("**Return windows (reviewed)**")
+        for row in windows.values():
+            st.markdown(
+                f"- {row['summary']} — [source]({row['source_url']}), retrieved {row['retrieved_at']}"
+            )
 
     policies = report.get("policies") or {}
     if policies:
@@ -138,6 +179,7 @@ def render_eligibility_report(report: dict) -> None:
         for retailer, answer in policies.items():
             with st.expander(RETAILER_LABELS.get(retailer, retailer.title()), expanded=len(policies) == 1):
                 render_policy_answer(answer)
+    render_defects(report.get("defects"))
     if report.get("user_policy_answer"):
         st.markdown("**Your policy question**")
         render_policy_answer(report["user_policy_answer"], show_question=True)
