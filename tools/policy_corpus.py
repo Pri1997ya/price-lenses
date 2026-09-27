@@ -25,6 +25,7 @@ import io
 import json
 import re
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,9 @@ REGULATION = "regulation"
 # A fetched page with less readable text than this is almost certainly a
 # captcha, a login wall, or a JavaScript shell rather than the policy itself.
 MIN_USEFUL_CHARS = 400
+
+# Retailers revise policies often; a copy older than this is flagged for re-fetch.
+DEFAULT_MAX_AGE_DAYS = 90
 
 
 class CorpusError(ValueError):
@@ -201,6 +205,27 @@ def load_corpus(policy_dir: Path = DEFAULT_POLICY_DIR) -> tuple[list[PolicyDocum
         documents.append(document)
     return documents, problems
 
+
+
+def stale_sources(
+    retrieved: dict[str, str], max_age_days: int = DEFAULT_MAX_AGE_DAYS, today: date | None = None
+) -> list[tuple[str, int | None]]:
+    """(source_id, age in days) for copies older than ``max_age_days``, oldest first.
+
+    ``retrieved`` maps source_id -> retrieved_at. An unreadable date counts as
+    stale with an age of None, since nobody can tell how current the text is.
+    """
+    today = today or date.today()
+    stale: list[tuple[str, int | None]] = []
+    for source_id, retrieved_at in retrieved.items():
+        try:
+            age = (today - date.fromisoformat(str(retrieved_at).strip())).days
+        except ValueError:
+            stale.append((source_id, None))
+            continue
+        if age > max_age_days:
+            stale.append((source_id, age))
+    return sorted(stale, key=lambda item: float("-inf") if item[1] is None else -item[1])
 
 # --------------------------------------------------------- text extraction ----
 _DROP_TAGS = ("script", "style", "noscript", "svg", "iframe", "form", "button", "header", "footer", "nav")

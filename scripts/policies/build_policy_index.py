@@ -17,8 +17,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from dotenv import load_dotenv  # noqa: E402
 
-from tools.policy_corpus import DEFAULT_POLICY_DIR, load_corpus  # noqa: E402
-from tools.policy_rag import DEFAULT_CHROMA_DIR, PolicyAdvisor, PolicyIndex, embedder_from_env  # noqa: E402
+from tools.policy_corpus import DEFAULT_POLICY_DIR, load_corpus, stale_sources  # noqa: E402
+from tools.policy_rag import (  # noqa: E402
+    DEFAULT_CHROMA_DIR, PolicyAdvisor, PolicyIndex, embedder_from_env, max_age_days,
+)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -48,6 +50,10 @@ def main(argv: list[str] | None = None) -> int:
     )
     for retailer, count in sorted(report.by_retailer.items()):
         print(f"  {retailer:18s} {count} chunks")
+    limit = max_age_days()
+    for source_id, age in stale_sources({d.source_id: d.retrieved_at for d in documents}, limit):
+        when = f"{age} days old" if age is not None else "unreadable retrieved_at date"
+        print(f"[stale  ] {source_id}: {when} (limit {limit}). Re-fetch it or save a fresh copy by hand.")
 
     if args.ask:
         answer = PolicyAdvisor(index).answer(args.ask, args.retailer)

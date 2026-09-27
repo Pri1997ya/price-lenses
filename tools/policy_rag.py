@@ -28,10 +28,12 @@ from pathlib import Path
 from typing import Protocol
 
 from .policy_corpus import (
+    DEFAULT_MAX_AGE_DAYS,
     REGULATION,
     REPOSITORY_ROOT,
     PolicyDocument,
     chunk_document,
+    stale_sources,
 )
 
 log = logging.getLogger(__name__)
@@ -40,6 +42,11 @@ COLLECTION_NAME = "retailer_policies"
 BUILD_COLLECTION_NAME = "retailer_policies_build"
 DEFAULT_CHROMA_DIR = REPOSITORY_ROOT / "data" / "chroma"
 DEFAULT_MIN_RELEVANCE = 0.25
+
+
+def max_age_days() -> int:
+    """POLICY_STALE_DAYS: policy copies older than this are flagged for re-fetch."""
+    return int(os.environ.get("POLICY_STALE_DAYS", DEFAULT_MAX_AGE_DAYS))
 
 
 class PolicyIndexError(RuntimeError):
@@ -245,6 +252,7 @@ class PolicyIndex:
             "retailers": {key: sorted(value) for key, value in sorted(retailers.items())},
             "oldest_retrieval": min(dates.values()) if dates else None,
             "newest_retrieval": max(dates.values()) if dates else None,
+            "stale_sources": stale_sources(dates, max_age_days()),
         }
 
     # -- keyword index --------------------------------------------------------
